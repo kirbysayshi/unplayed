@@ -42,7 +42,7 @@ function About(comment) {
 }
 
 function Edit(owner, repo) {
-  metadata.editLink = `https://github.com/${owner}/${repo}/edit/master/games.js`;
+  metadata.editLink = `https://github.com/${owner}/${repo}/edit/gh-pages/games.js`;
 }
 
 function EntryListTpl(entries) {
