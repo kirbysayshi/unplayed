@@ -34,6 +34,7 @@ UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
 UnplayedUnreleased("");
 
 Unbeaten("Legend of Zelda, Breath of the Wild", "Switch");
+Unbeaten("VA-11 Hall-A", "PSVita", "Long chapters meant putting off progress. I love the vibe and music of this game.")("2018-04-01")("");
 Unbeaten("Spiderman", "PS4")("2019-06-29");
 Unbeaten("Silent Hill 2", "PS2")("2019-06-22");
 Unbeaten("Destiny 2", "PS4")("2019-06-15")
