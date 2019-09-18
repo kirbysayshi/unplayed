@@ -39,6 +39,7 @@ Unbeaten("Spiderman", "PS4")("2019-06-29");
 Unbeaten("Silent Hill 2", "PS2")("2019-06-22");
 Unbeaten("Destiny 2", "PS4")("2019-06-15")
 Unbeaten("Final Fantasy IX", "PSVita (PSOne)")("2019-06-29");
+Unbeaten("Skies of Arcadia Legends", "GC", "Chortled when the first airship appeared! Delightful")("2019-09-15")("");
 Unbeaten("");
 
 Beaten(
