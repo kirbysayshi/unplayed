@@ -151,12 +151,12 @@ function EditPanelTpl(ghHref) {
       <input type="date" name="end-date">
     </label>
 
-    <label onclick="selectResultBox(event)">
-      Tap then Copy for Github (likely have to tap a selection edge to get "Copy" to appear)
-      <input readonly style="font-family: monospace,monospace;" type="text" name="result" value="enter items above to populate">
+    <label>
+      Tap then Copy for Github
+      <input name="result" type="text">
     </label>
 
-    <div>${GithubEditTpl(ghHref)}</div>
+    <div style="margin: 2em 0 3em;">${GithubEditTpl(ghHref)}</div>
   `;
 
   function createEntryText() {
@@ -182,34 +182,6 @@ function EditPanelTpl(ghHref) {
 
   panel.onchange = function(e) {
     setResultValue();
-  };
-
-  window.selectResultBox = function(e) {
-    e.stopPropagation();
-    // https://stackoverflow.com/a/43001673
-    const result = panel.querySelector("[name=result]");
-    var isiOSDevice = navigator.userAgent.match(/ipad|iphone/i);
-
-    if (isiOSDevice) {
-      var editable = result.contentEditable;
-      var readOnly = result.readOnly;
-
-      result.contentEditable = true;
-      result.readOnly = false;
-
-      var range = document.createRange();
-      range.selectNodeContents(result);
-
-      var selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-
-      result.setSelectionRange(0, 999999);
-      result.contentEditable = editable;
-      result.readOnly = readOnly;
-    } else {
-      result.select();
-    }
   };
 
   window.toggleCompose = function(e) {
