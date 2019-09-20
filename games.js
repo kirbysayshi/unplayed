@@ -28,6 +28,7 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Slay the Spire", "Switch");
+Unplayed("Hyper Light Drifter", "Switch", "Dev story behind is compelling")("")("");
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
