@@ -19,15 +19,9 @@ const Abandoned = createPusher(games.Abandoned);
 const Beaten = createPusher(games.Beaten);
 
 function createPusher(state) {
-  return function(name, platform, comment) {
+  return function(name, platform, comment, startDate, endDate) {
     if (!name) return;
-    const idx = state.push(Entry(...arguments)) - 1;
-    return startDate => {
-      state[idx] = Entry(name, platform, comment, startDate);
-      return endDate => {
-        state[idx] = Entry(name, platform, comment, startDate, endDate);
-      };
-    };
+    state.push(Entry(name, platform, comment, startDate, endDate));
   };
 }
 
@@ -167,8 +161,7 @@ function EditPanelTpl(ghHref) {
     const comment = escape(panel.querySelector("[name=comment]").value);
     const startDate = escape(panel.querySelector("[name=start-date]").value);
     const endDate = escape(panel.querySelector("[name=end-date]").value);
-
-    return `${status}("${gameName}", "${platform}", "${comment}")("${startDate}")("${endDate}");`;
+    return `${status}("${gameName}", "${platform}", "${comment}", "${startDate}", "${endDate}");`;
   }
 
   function setResultValue() {
