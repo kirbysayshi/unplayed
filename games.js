@@ -28,12 +28,20 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Slay the Spire", "Switch");
-Unplayed("Hyper Light Drifter", "Switch", "Dev story behind is compelling")("")(
+Unplayed(
+  "Hyper Light Drifter",
+  "Switch",
+  "Dev story behind is compelling",
+  "",
   ""
 );
-Unplayed("Link’s Awakening", "Switch", "But will it have the mysterious charm")(
+Unplayed(
+  "Celeste: Farewell (DLC)",
+  "Switch",
+  "",
+  "",
   ""
-)("");
+);
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
@@ -63,6 +71,13 @@ Unbeaten(
   "GC",
   "Chortled when the first airship appeared! Delightful",
   "2019-09-15",
+  ""
+);
+Unbeaten(
+  "Link’s Awakening",
+  "Switch",
+  "But will it have the mysterious charm",
+  "2019-09-20",
   ""
 );
 Unbeaten("");
