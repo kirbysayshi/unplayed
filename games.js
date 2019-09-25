@@ -82,6 +82,7 @@ Unbeaten(
 );
 Unbeaten("");
 
+Beaten("Mother 3", "GBA", "Used the GBA Macro + most recent translation patch! Numerous one-shot animations convey the emotions. Dark themes juxtaposed with bright graphics", "", "2019-04-12");
 Beaten(
   "Final Fantasy VI",
   "GBA",
