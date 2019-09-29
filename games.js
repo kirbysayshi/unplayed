@@ -73,13 +73,7 @@ Unbeaten(
   "2019-09-15",
   ""
 );
-Unbeaten(
-  "Link’s Awakening",
-  "Switch",
-  "But will it have the mysterious charm",
-  "2019-09-20",
-  ""
-);
+
 Unbeaten("");
 
 Beaten("Mother 3", "GBA", "Used the GBA Macro + most recent translation patch! Numerous one-shot animations convey the emotions. Dark themes juxtaposed with bright graphics", "", "2019-04-12");
@@ -103,6 +97,13 @@ Beaten(
   "Finished summit at 4AM. Finished the core the next day. An emotional wallop that left me in a mental soft spot for a week! Amazing marriage of gameplay and theme.",
   "2019-08-07",
   "2019-08-10"
+);
+Beaten(
+  "Link’s Awakening",
+  "Switch",
+  "The original seemed more surreal and mysterious to me. Something is missing here. Perhaps it's my child eyes and brain. However, small tweaks have made the dungeons a more enjoyable experience, such as map markers, maps with visible details, more teleports, and automatic item usage to prevent swapping to basics like the Power Bracelet and Pegasus Boots."
+  "2019-09-20",
+  "2019-09-29"
 );
 Beaten("");
 
