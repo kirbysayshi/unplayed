@@ -101,7 +101,7 @@ Beaten(
 Beaten(
   "Link’s Awakening",
   "Switch",
-  "The original seemed more surreal and mysterious to me. Something is missing here. Perhaps it's my child eyes and brain. However, small tweaks have made the dungeons a more enjoyable experience, such as map markers, maps with visible details, more teleports, and automatic item usage to prevent swapping to basics like the Power Bracelet and Pegasus Boots."
+  "The original seemed more surreal and mysterious to me. Something is missing here. Perhaps it's my child eyes and brain. However, small tweaks have made the dungeons a more enjoyable experience, such as map markers, maps with visible details, more teleports, and automatic item usage to prevent swapping to basics like the Power Bracelet and Pegasus Boots.",
   "2019-09-20",
   "2019-09-29"
 );
