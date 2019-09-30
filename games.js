@@ -45,7 +45,7 @@ Unbeaten(
   "VA-11 Hall-A",
   "PSVita",
   "Long chapters meant putting off progress. I love the vibe and music of this game.",
-  "2018-04-01",
+  "2018-07-04",
   ""
 );
 Unbeaten("Spiderman", "PS4", "", "2019-06-29");
