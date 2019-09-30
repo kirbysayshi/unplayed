@@ -35,13 +35,6 @@ Unplayed(
   "",
   ""
 );
-Unplayed(
-  "Celeste: Farewell (DLC)",
-  "Switch",
-  "",
-  "",
-  ""
-);
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
@@ -71,6 +64,13 @@ Unbeaten(
   "GC",
   "Chortled when the first airship appeared! Delightful",
   "2019-09-15",
+  ""
+);
+Unbeaten(
+  "Celeste: Farewell (DLC)",
+  "Switch",
+  "This appears to be beyond my skills.",
+  "2019-09-29",
   ""
 );
 
