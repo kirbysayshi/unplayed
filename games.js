@@ -50,7 +50,7 @@ Unbeaten(
 );
 Unbeaten("Spiderman", "PS4", "", "2019-06-29");
 Unbeaten("Silent Hill 2", "PS2", "", "2019-06-22");
-Unbeaten("Destiny 2", "PS4", "", "2019-06-15");
+Unbeaten("Destiny 2: Forsaken", "PS4", "Quest progress was lost once Shadowkeep was released!", "2019-06-15", "");
 Unbeaten("Final Fantasy IX", "PSVita (PSOne)", "", "2019-06-29");
 Unbeaten(
   "Fire Emblem: Three Houses",
