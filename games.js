@@ -73,6 +73,7 @@ Unbeaten(
   "2019-09-29",
   ""
 );
+Unbeaten("Control", "PS4", "Is it Warehouse 13 and R E D A C T E D Portal?", "2019-10-18", "");
 
 Unbeaten("");
 
