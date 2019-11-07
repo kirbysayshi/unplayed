@@ -74,6 +74,7 @@ Unbeaten(
   ""
 );
 Unbeaten("Control", "PS4", "Is it Warehouse 13 and R E D A C T E D Portal?", "2019-10-18", "");
+Unbeaten("Eternal Darkness: Sanity’s Requiem", "GC", "", "2019-11-06", "");
 
 Unbeaten("");
 
