@@ -28,13 +28,6 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Slay the Spire", "Switch");
-Unplayed(
-  "Hyper Light Drifter",
-  "Switch",
-  "Dev story behind is compelling",
-  "",
-  ""
-);
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
@@ -75,6 +68,13 @@ Unbeaten(
 );
 Unbeaten("Control", "PS4", "Is it Warehouse 13 and R E D A C T E D Portal?", "2019-10-18", "");
 Unbeaten("Eternal Darkness: Sanity’s Requiem", "GC", "", "2019-11-06", "");
+Unbeaten(
+  "Hyper Light Drifter",
+  "Switch",
+  "Dev story behind is compelling",
+  "2019-11-13",
+  ""
+);
 
 Unbeaten("");
 
