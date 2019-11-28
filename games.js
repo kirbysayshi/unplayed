@@ -76,8 +76,6 @@ Unbeaten(
   ""
 );
 
-Unbeaten("Star Wars Jedi: Fallen Order", "PS4", "", "2019-11-15", "");
-
 Unbeaten("");
 
 Beaten("Mother 3", "GBA", "Used the GBA Macro + most recent translation patch! Numerous one-shot animations convey the emotions. Dark themes juxtaposed with bright graphics", "", "2019-04-12");
@@ -109,6 +107,7 @@ Beaten(
   "2019-09-20",
   "2019-09-29"
 );
+Beaten("Star Wars Jedi: Fallen Order", "PS4", "Final fight took an hour of retries on Jedi Master difficulty!", "2019-11-15", "2019-11-28");
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
