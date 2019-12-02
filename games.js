@@ -108,7 +108,7 @@ Beaten(
   "2019-09-29"
 );
 Beaten("Star Wars Jedi: Fallen Order", "PS4", "Final fight took an hour of retries on Jedi Master difficulty!", "2019-11-15", "2019-11-28");
-Beaten("Final Fantasy IX", "PSVita (PSOne)", "Final save at 69h:42m. Beat Ozma and Hades. Final party: Zidane lvl74, Freya lvl67, Steiner lvl59, Eiko lvl63. Maxed Dragon's Crest + Shock proved a great combo for bosses... Summons look awesome but are rarely worth the cost. The plot was secondary to the character growth. I felt bad not being able to use all the characters all the time!", "2019-06-29", "2019-12-01");
+Beaten("Final Fantasy IX", "PSVita (PSOne)", "Final save at 69h:42m. Beat Ozma and Hades. Final party: Zidane lvl74, Freya lvl67, Steiner lvl59, Eiko lvl63. Maxed Dragon's Crest + Shock proved a great combo for bosses... Summons look awesome but are rarely worth the cost. The plot was secondary to the character growth: I felt bad not being able to use all the characters all the time! \"Is all good... You travel around the world and gain imagination. People who no have imagination no taste until they actually eat!\"", "2019-06-29", "2019-12-01");
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
