@@ -44,7 +44,6 @@ Unbeaten(
 Unbeaten("Spiderman", "PS4", "", "2019-06-29");
 Unbeaten("Silent Hill 2", "PS2", "", "2019-06-22");
 Unbeaten("Destiny 2: Forsaken", "PS4", "Quest progress was lost once Shadowkeep was released!", "2019-06-15", "");
-Unbeaten("Final Fantasy IX", "PSVita (PSOne)", "", "2019-06-29");
 Unbeaten(
   "Fire Emblem: Three Houses",
   "Switch",
@@ -109,6 +108,7 @@ Beaten(
   "2019-09-29"
 );
 Beaten("Star Wars Jedi: Fallen Order", "PS4", "Final fight took an hour of retries on Jedi Master difficulty!", "2019-11-15", "2019-11-28");
+Beaten("Final Fantasy IX", "PSVita (PSOne)", "Final Save was 69h:42m. Beat Ozma and Hades. Final party: Zidane, Freya, Steiner, Eiko. Maxed Dragon's Crest + Shock!", "2019-06-29", "2019-12-01");
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
