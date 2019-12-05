@@ -74,7 +74,8 @@ Unbeaten(
   "2019-11-13",
   ""
 );
-Unbeaten("Transistor", "Switch", "", "2019-12-01", "");
+Unbeaten("Transistor", "Switch", "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through", "2019-12-01", "");
+Unbeaten("Final Fantasy X (HD Remaster)", "PSVita", "These characters are so stilted and weird!", "2019-12-04", "");
 
 Unbeaten("");
 
