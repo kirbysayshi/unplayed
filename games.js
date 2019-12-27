@@ -28,6 +28,7 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Slay the Spire", "Switch");
+Unplayed("Disco Elysium", "PS4", "", "", "");
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
