@@ -27,6 +27,7 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
+Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed("Sayonara Wild Hearts", "Switch/PS4/iOS", "", "2019-12-23", "");
