@@ -29,7 +29,9 @@ Edit("kirbysayshi", "unplayed");
 
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
+Unplayed("Sayonara Wild Hearts", "Switch/PS4/iOS", "", "2019-12-23", "");
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
+Unplayed("Guildings", "iOS", "Apple Arcade exclusive for now. JRPG?", "2019-12-27", "");
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
