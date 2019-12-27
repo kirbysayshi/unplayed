@@ -28,7 +28,8 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Slay the Spire", "Switch");
-Unplayed("Disco Elysium", "PS4", "", "", "");
+Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
+Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
