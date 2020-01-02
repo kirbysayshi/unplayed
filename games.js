@@ -83,6 +83,7 @@ Unbeaten("Star Wars Jedi Knight 2: Jedi Outcast", "Switch", "Played this and the
 Unbeaten("Transistor", "Switch", "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through", "2019-12-01", "");
 Unbeaten("Final Fantasy X (HD Remaster)", "PSVita", "These characters are so stilted and weird!", "2019-12-04", "");
 Unbeaten("Card of Darkness", "iOS", "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.", "2019-12-16", "");
+Unbeaten("Guildlings", "iOS", "", "2020-01-01", "");
 
 Unbeaten("");
 
