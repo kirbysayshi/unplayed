@@ -49,7 +49,6 @@ Unbeaten(
 );
 Unbeaten("Spiderman", "PS4", "", "2019-06-29");
 Unbeaten("Silent Hill 2", "PS2", "", "2019-06-22");
-Unbeaten("Destiny 2: Forsaken", "PS4", "Quest progress was lost once Shadowkeep was released!", "2019-06-15", "");
 Unbeaten(
   "Fire Emblem: Three Houses",
   "Switch",
@@ -64,22 +63,8 @@ Unbeaten(
   "2019-09-15",
   ""
 );
-Unbeaten(
-  "Celeste: Farewell (DLC)",
-  "Switch",
-  "This appears to be beyond my skills.",
-  "2019-09-29",
-  ""
-);
 Unbeaten("Control", "PS4", "Is it Warehouse 13 and R E D A C T E D Portal?", "2019-10-18", "");
 Unbeaten("Eternal Darkness: Sanity’s Requiem", "GC", "", "2019-11-06", "");
-Unbeaten(
-  "Hyper Light Drifter",
-  "Switch",
-  "Dev story behind is compelling",
-  "2019-11-13",
-  ""
-);
 Unbeaten("Star Wars Jedi Knight 2: Jedi Outcast", "Switch", "Played this and the sequel originally around 2005. Save at every lull, the shooting mechanics have not aged well and the joycons do not help. Plot is silly but hopefully lightsaber mechanics are still cool.", "2019-11-30", "");
 Unbeaten("Transistor", "Switch", "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through", "2019-12-01", "");
 Unbeaten("Final Fantasy X (HD Remaster)", "PSVita", "These characters are so stilted and weird!", "2019-12-04", "");
@@ -122,4 +107,19 @@ Beaten("Final Fantasy IX", "PSVita (PSOne)", "Final save at 69h:42m. Ozma and Ha
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
+Abandoned("Destiny 2: Forsaken", "PS4", "Quest progress was lost once Shadowkeep was released!", "2019-06-15", "2020-01-09");
+Abandoned(
+  "Celeste: Farewell (DLC)",
+  "Switch",
+  "This appears to be beyond my skills.",
+  "2019-09-29",
+  "2020-01-09"
+);
+Abandoned(
+  "Hyper Light Drifter",
+  "Switch",
+  "Dev story behind is compelling. Abandoned because I could never tell if a bullet would hit me or not.",
+  "2019-11-13",
+  "2020-01-09"
+);
 Abandoned("");
