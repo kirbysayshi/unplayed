@@ -32,7 +32,8 @@ Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed("Sayonara Wild Hearts", "Switch/PS4/iOS", "", "2019-12-23", "");
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
-Unplayed("Guildings", "iOS", "Apple Arcade exclusive for now. JRPG?", "2019-12-27", "");
+Unplayed("Outer Wilds", "PS4", "I backed this in 2015! And forgot about it until now.", "2020-01-09", "");
+Unplayed("A Short Hike", "PC", "Probably wait for a PS4 release...", "2019-12-23", "");
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
@@ -83,7 +84,7 @@ Unbeaten("Star Wars Jedi Knight 2: Jedi Outcast", "Switch", "Played this and the
 Unbeaten("Transistor", "Switch", "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through", "2019-12-01", "");
 Unbeaten("Final Fantasy X (HD Remaster)", "PSVita", "These characters are so stilted and weird!", "2019-12-04", "");
 Unbeaten("Card of Darkness", "iOS", "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.", "2019-12-16", "");
-Unbeaten("Guildlings", "iOS", "", "2020-01-01", "");
+Unbeaten("Guildlings", "iOS", "Apple Arcade exclusive for now. JRPG?", "2020-01-01", "");
 
 Unbeaten("");
 
