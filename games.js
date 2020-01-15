@@ -32,8 +32,20 @@ Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed("Sayonara Wild Hearts", "Switch/PS4/iOS", "", "2019-12-23", "");
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
-Unplayed("Outer Wilds", "PS4", "I backed this in 2015! And forgot about it until now.", "2020-01-09", "");
-Unplayed("A Short Hike", "PC", "Probably wait for a PS4 release...", "2019-12-23", "");
+Unplayed(
+  "Outer Wilds",
+  "PS4",
+  "I backed this in 2015! And forgot about it until now.",
+  "2020-01-09",
+  ""
+);
+Unplayed(
+  "A Short Hike",
+  "PC",
+  "Probably wait for a PS4 release...",
+  "2019-12-23",
+  ""
+);
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
@@ -63,17 +75,59 @@ Unbeaten(
   "2019-09-15",
   ""
 );
-Unbeaten("Control", "PS4", "Is it Warehouse 13 and R E D A C T E D Portal?", "2019-10-18", "");
+Unbeaten(
+  "Control",
+  "PS4",
+  "Is it Warehouse 13 and R E D A C T E D Portal?",
+  "2019-10-18",
+  ""
+);
 Unbeaten("Eternal Darkness: Sanity’s Requiem", "GC", "", "2019-11-06", "");
-Unbeaten("Star Wars Jedi Knight 2: Jedi Outcast", "Switch", "Played this and the sequel originally around 2005. Save at every lull, the shooting mechanics have not aged well and the joycons do not help. Plot is silly but hopefully lightsaber mechanics are still cool.", "2019-11-30", "");
-Unbeaten("Transistor", "Switch", "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through", "2019-12-01", "");
-Unbeaten("Final Fantasy X (HD Remaster)", "PSVita", "These characters are so stilted and weird!", "2019-12-04", "");
-Unbeaten("Card of Darkness", "iOS", "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.", "2019-12-16", "");
-Unbeaten("Guildlings", "iOS", "Apple Arcade exclusive for now. JRPG?", "2020-01-01", "");
+Unbeaten(
+  "Star Wars Jedi Knight 2: Jedi Outcast",
+  "Switch",
+  "Played this and the sequel originally around 2005. Save at every lull, the shooting mechanics have not aged well and the joycons do not help. Plot is silly but hopefully lightsaber mechanics are still cool.",
+  "2019-11-30",
+  ""
+);
+Unbeaten(
+  "Transistor",
+  "Switch",
+  "Really jarring to have a silent woman protagonist and a very talky male narrator in 2019! But I will try to work through",
+  "2019-12-01",
+  ""
+);
+Unbeaten(
+  "Final Fantasy X (HD Remaster)",
+  "PSVita",
+  "These characters are so stilted and weird!",
+  "2019-12-04",
+  ""
+);
+Unbeaten(
+  "Card of Darkness",
+  "iOS",
+  "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.",
+  "2019-12-16",
+  ""
+);
+Unbeaten(
+  "Guildlings",
+  "iOS",
+  "Apple Arcade exclusive for now. JRPG?",
+  "2020-01-01",
+  ""
+);
 
 Unbeaten("");
 
-Beaten("Mother 3", "GBA", "Used the GBA Macro + most recent translation patch! Numerous one-shot animations convey the emotions. Dark themes juxtaposed with bright graphics", "", "2019-04-12");
+Beaten(
+  "Mother 3",
+  "GBA",
+  "Used the GBA Macro + most recent translation patch! Numerous one-shot animations convey the emotions. Dark themes juxtaposed with bright graphics",
+  "",
+  "2019-04-12"
+);
 Beaten(
   "Final Fantasy VI",
   "GBA",
@@ -102,12 +156,30 @@ Beaten(
   "2019-09-20",
   "2019-09-29"
 );
-Beaten("Star Wars Jedi: Fallen Order", "PS4", "Final fight took an hour of retries on Jedi Master difficulty!", "2019-11-15", "2019-11-28");
-Beaten("Final Fantasy IX", "PSVita (PSOne)", "Final save at 69h:42m. PSN Wrapped says 91h! Ozma and Hades. Zidane LVL74, Freya LVL67, Steiner LVL59, Eiko LVL63. Constant slowdown on Vita PS emulation produced stilted audio and animations often. Maxed Dragon's Crest + Shock proved a great combo for bosses. Summons look awesome but are rarely worth the cost late game. The plot was secondary to the themes and character growth: I felt bad not being able to use all the characters all the time! \"Is all good... You travel around the world and gain imagination. People who no have imagination no taste until they actually eat!\"", "2019-06-29", "2019-12-01");
+Beaten(
+  "Star Wars Jedi: Fallen Order",
+  "PS4",
+  "Final fight took an hour of retries on Jedi Master difficulty!",
+  "2019-11-15",
+  "2019-11-28"
+);
+Beaten(
+  "Final Fantasy IX",
+  "PSVita (PSOne)",
+  'Final save at 69h:42m. PSN Wrapped says 91h! Ozma and Hades. Zidane LVL74, Freya LVL67, Steiner LVL59, Eiko LVL63. Constant slowdown on Vita PS emulation produced stilted audio and animations often. Maxed Dragon\'s Crest + Shock proved a great combo for bosses. Summons look awesome but are rarely worth the cost late game. The plot was secondary to the themes and character growth: I felt bad not being able to use all the characters all the time! "Is all good... You travel around the world and gain imagination. People who no have imagination no taste until they actually eat!"',
+  "2019-06-29",
+  "2019-12-01"
+);
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
-Abandoned("Destiny 2: Forsaken", "PS4", "Quest progress was lost once Shadowkeep was released!", "2019-06-15", "2020-01-09");
+Abandoned(
+  "Destiny 2: Forsaken",
+  "PS4",
+  "Quest progress was lost once Shadowkeep was released!",
+  "2019-06-15",
+  "2020-01-09"
+);
 Abandoned(
   "Celeste: Farewell (DLC)",
   "Switch",
