@@ -30,7 +30,14 @@ Edit("kirbysayshi", "unplayed");
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
-Unplayed("Sayonara Wild Hearts", "Switch/PS4/iOS", "", "2019-12-23", "");
+Unplayed(
+  "Sayonara Wild Hearts",
+  "Switch/PS4/iOS",
+  "",
+  "2019-12-23",
+  "",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
+);
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
 Unplayed(
   "Outer Wilds",
@@ -44,14 +51,15 @@ Unplayed(
   "PC",
   "Probably wait for a PS4 release...",
   "2019-12-23",
-  ""
+  "",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 Unplayed("");
 
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
 UnplayedUnreleased("");
 
-Unbeaten("Legend of Zelda, Breath of the Wild", "Switch");
+Unbeaten("Legend of Zelda, Breath of the Wild", "Switch", "", "2017-03-03");
 Unbeaten(
   "VA-11 Hall-A",
   "PSVita",
@@ -80,7 +88,8 @@ Unbeaten(
   "PS4",
   "Is it Warehouse 13 and R E D A C T E D Portal?",
   "2019-10-18",
-  ""
+  "",
+  "Al"
 );
 Unbeaten("Eternal Darkness: Sanity’s Requiem", "GC", "", "2019-11-06", "");
 Unbeaten(
@@ -116,7 +125,8 @@ Unbeaten(
   "iOS",
   "Apple Arcade exclusive for now. JRPG?",
   "2020-01-01",
-  ""
+  "",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 
 Unbeaten("");
@@ -172,7 +182,7 @@ Beaten(
 );
 Beaten("");
 
-Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal");
+Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal", "", "", "Blixt");
 Abandoned(
   "Destiny 2: Forsaken",
   "PS4",

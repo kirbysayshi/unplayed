@@ -19,14 +19,21 @@ const Abandoned = createPusher(games.Abandoned);
 const Beaten = createPusher(games.Beaten);
 
 function createPusher(state) {
-  return function(name, platform, comment, startDate, endDate) {
+  return function(name, platform, comment, startDate, endDate, source) {
     if (!name) return;
-    state.push(Entry(name, platform, comment, startDate, endDate));
+    state.push(Entry(name, platform, comment, startDate, endDate, source));
   };
 }
 
-function Entry(name, platform, comment = "", startDate = "", endDate = "") {
-  return { name, platform, comment, startDate, endDate };
+function Entry(
+  name,
+  platform,
+  comment = "",
+  startDate = "",
+  endDate = "",
+  source = ""
+) {
+  return { name, platform, comment, startDate, endDate, source };
 }
 
 var metadata = { about: "", editLink: "" };
@@ -51,6 +58,11 @@ function EntryTpl(entry) {
   const start = entry.startDate && `${entry.startDate} &mdash; `;
   const end = entry.endDate;
   const dates = start || end ? `<p class="date">${start}${end}</p>` : "";
+  const source = entry.source.match(/http|www|[a-z]\.[a-z]/)
+    ? `<a href="${entry.source}">${entry.source}</a>`
+    : entry.source
+    ? `Rec: ${entry.source}`
+    : "";
   return `
     <li>
       <span class="name" data-name>${entry.name}</span>
@@ -60,6 +72,7 @@ function EntryTpl(entry) {
           ? `<p class="comment" data-comment>${entry.comment}</p>`
           : ""
       }
+      ${entry.source ? `<p class="source">${source}</p>` : ""}
       ${dates}
     </li>
   `;
@@ -144,6 +157,10 @@ function EditPanelTpl(ghHref) {
       End Date
       <input type="date" name="end-date">
     </label>
+    <label>
+      Source (can be URL or just text)
+      <input type="text" name="source">
+    </label>
 
     <label>
       Tap then Copy for Github
@@ -161,7 +178,8 @@ function EditPanelTpl(ghHref) {
     const comment = escape(panel.querySelector("[name=comment]").value);
     const startDate = escape(panel.querySelector("[name=start-date]").value);
     const endDate = escape(panel.querySelector("[name=end-date]").value);
-    return `${status}("${gameName}", "${platform}", "${comment}", "${startDate}", "${endDate}");`;
+    const source = escape(panel.querySelector("[name=source]").value);
+    return `${status}("${gameName}", "${platform}", "${comment}", "${startDate}", "${endDate}", "${source}");`;
   }
 
   function setResultValue() {

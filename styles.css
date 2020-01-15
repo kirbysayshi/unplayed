@@ -72,11 +72,22 @@ a:visited {
 }
 
 .comment,
-.date {
+.date,
+.source {
   padding: 0;
   margin: 0;
   font-size: 0.7em;
   color: #999;
+}
+
+.source {
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+.source a {
+  background-color: inherit;
 }
 
 .about {
