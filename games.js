@@ -27,6 +27,7 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
+Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
