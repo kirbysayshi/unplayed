@@ -28,6 +28,7 @@ Edit("kirbysayshi", "unplayed");
  */
 
 Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
+Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch...", "2018-05-01", "", "");
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
