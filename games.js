@@ -27,6 +27,7 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
+Unplayed("Indiana Jones and the Fate of Atlantis", "", "Should probably play one of the well-remembered point and click adventure games", "2018-12-01", "", "Tammas");
 Unplayed("Ready Player Fuck", "PC", "", "2018-01-01", "", "");
 Unplayed("Everything Is Going to Be OK", "PC", "Zine aesthetic! Emotions!", "2018-05-01", "", "https://itch.io/blog/33497/everything-is-going-to-be-oks-final-update-is-out-and-its-brilliant");
 Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
