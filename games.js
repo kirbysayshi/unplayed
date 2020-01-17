@@ -67,6 +67,7 @@ Unplayed(
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 Unplayed("For the Frog the Bell Tolls", "GB", "Translation patch! http://www.romhacking.net/translations/1623/ Uses the same engine as Link’s Awakening. Richard!", "2019-12-27", "", "https://mobile.twitter.com/waltzforluma/status/1210721896494325768");
+Unplayed("Republic Commando", "PC", "There’s a patch to make it look as good as it did at launch.", "", "", "DGC+Brett Douville");
 Unplayed("");
 
 UnplayedUnreleased("Nth Dimension[al] Hiking", "PC", "so esoteric so mysterious", "", "", "");
