@@ -36,6 +36,7 @@ Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://
 Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch...", "2018-05-01", "", "");
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Ur-Quan Masters", "PC", "aka Star Control 2! Supposedly an amazing work of world simulation.", "", "", "");
+Unplayed("Battle Chef Brigade", "Switch", "Art looks amazing! Just play it Drew", "", "", "");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed(
