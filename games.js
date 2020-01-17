@@ -37,6 +37,7 @@ Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
 Unplayed("Ur-Quan Masters", "PC", "aka Star Control 2! Supposedly an amazing work of world simulation.", "", "", "");
 Unplayed("Battle Chef Brigade", "Switch", "Art looks amazing! Just play it Drew", "", "", "");
+Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed(
