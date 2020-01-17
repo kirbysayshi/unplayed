@@ -31,6 +31,7 @@ Unplayed("Pokémon Trading Card Game 2", "GB", "Apply the patch! https://www.rom
 Unplayed("Indiana Jones and the Fate of Atlantis", "", "Should probably play one of the well-remembered point and click adventure games", "2018-12-01", "", "Tammas");
 Unplayed("Ready Player Fuck", "PC", "", "2018-01-01", "", "");
 Unplayed("Everything Is Going to Be OK", "PC", "Zine aesthetic! Emotions!", "2018-05-01", "", "https://itch.io/blog/33497/everything-is-going-to-be-oks-final-update-is-out-and-its-brilliant");
+Unplayed("Proxy Runner", "PC", "Twine! https://sites.google.com/view/ballooncogamingdivisionif/home/proxyrunner", "2019-05-10", "", "Nic Brinza");
 Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
 Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch...", "2018-05-01", "", "");
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
