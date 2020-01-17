@@ -27,6 +27,7 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
+Unplayed("Lenna’s Inception", "PC", "Procedurally-generated Zelda dungeons! +quirky setting", "2018-01-01", "", "");
 Unplayed("Pokémon Trading Card Game 2", "GB", "Apply the patch! https://www.romhacking.net/translations/1736/", "", "", "");
 Unplayed("Indiana Jones and the Fate of Atlantis", "", "Should probably play one of the well-remembered point and click adventure games", "2018-12-01", "", "Tammas");
 Unplayed("Ready Player Fuck", "PC", "", "2018-01-01", "", "");
