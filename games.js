@@ -27,6 +27,7 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
+Unplayed("Ready Player Fuck", "PC", "", "2018-01-01", "", "");
 Unplayed("Everything Is Going to Be OK", "PC", "Zine aesthetic! Emotions!", "2018-05-01", "", "https://itch.io/blog/33497/everything-is-going-to-be-oks-final-update-is-out-and-its-brilliant");
 Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
 Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch...", "2018-05-01", "", "");
