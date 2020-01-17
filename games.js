@@ -40,6 +40,7 @@ Unplayed("Battle Chef Brigade", "Switch", "Art looks amazing! Just play it Drew"
 Unplayed("ABZÛ", "Switch", "", "", "", "Janessa");
 Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
+Unplayed("Mutazione", "Switch/PS4/iOS", "It’s Doug! Also chill", "", "", "");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed(
   "Sayonara Wild Hearts",
