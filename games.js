@@ -137,14 +137,6 @@ Unbeaten(
   "2019-12-16",
   ""
 );
-Unbeaten(
-  "Guildlings",
-  "iOS",
-  "Apple Arcade exclusive for now. JRPG?",
-  "2020-01-01",
-  "",
-  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
-);
 
 Unbeaten("");
 
@@ -196,6 +188,14 @@ Beaten(
   'Final save at 69h:42m. PSN Wrapped says 91h! Ozma and Hades. Zidane LVL74, Freya LVL67, Steiner LVL59, Eiko LVL63. Constant slowdown on Vita PS emulation produced stilted audio and animations often. Maxed Dragon\'s Crest + Shock proved a great combo for bosses. Summons look awesome but are rarely worth the cost late game. The plot was secondary to the themes and character growth: I felt bad not being able to use all the characters all the time! "Is all good... You travel around the world and gain imagination. People who no have imagination no taste until they actually eat!"',
   "2019-06-29",
   "2019-12-01"
+);
+Beaten(
+  "Guildlings (Chapter 1?)",
+  "iOS",
+  "Cool but difficult-to-anticipate mood battles. I didn't realize it had chapters!",
+  "2020-01-01",
+  "2020-01-18",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 Beaten("");
 
