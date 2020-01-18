@@ -192,7 +192,7 @@ Beaten(
 Beaten(
   "Guildlings (Chapter 1?)",
   "iOS",
-  "Cool but difficult-to-anticipate mood battles. I didn't realize it had chapters!",
+  "Cool but difficult-to-anticipate mood battles. I didn't realize it had chapters! Intriguing merging of technology and magic created a surprisingly believable setting.",
   "2020-01-01",
   "2020-01-18",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
