@@ -69,7 +69,6 @@ Unplayed(
 );
 Unplayed("For the Frog the Bell Tolls", "GB", "Translation patch! http://www.romhacking.net/translations/1623/ Uses the same engine as Link’s Awakening. Richard!", "2019-12-27", "", "https://mobile.twitter.com/waltzforluma/status/1210721896494325768");
 Unplayed("Republic Commando", "PC", "There’s a patch to make it look as good as it did at launch.", "", "", "DGC+Brett Douville");
-Unplayed("Life is Strange", "iOS", "Maybe I’ll play it on the plane", "2020-01-17", "", "");
 Unplayed("");
 
 UnplayedUnreleased("Nth Dimension[al] Hiking", "PC", "so esoteric so mysterious", "", "", "");
@@ -197,6 +196,9 @@ Beaten(
   "2020-01-18",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
+
+Beaten("Life is Strange: Ch 1", "iOS", "On-screen thumb sticks are infuriating during timed moments! Even tapping to move is challenging and takes away from the immersion. Sometimes I wish it were just a list of things to interact with.", "2020-01-20", "2020-01-20", "");
+
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal", "", "", "Blixt");
