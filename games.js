@@ -53,13 +53,6 @@ Unplayed(
 );
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
 Unplayed(
-  "Outer Wilds",
-  "PS4",
-  "I backed this in 2015! And forgot about it until now.",
-  "2020-01-09",
-  ""
-);
-Unplayed(
   "A Short Hike",
   "PC",
   "Probably wait for a PS4 release...",
@@ -136,6 +129,14 @@ Unbeaten(
   "iOS",
   "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.",
   "2019-12-16",
+  ""
+);
+
+Unbeaten(
+  "Outer Wilds",
+  "PS4",
+  "I backed this in 2015! And forgot about it until now.",
+  "2020-02-09",
   ""
 );
 
