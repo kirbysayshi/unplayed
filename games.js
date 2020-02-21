@@ -43,14 +43,6 @@ Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Mutazione", "Switch/PS4/iOS", "It’s Doug! Also chill", "", "", "");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
-Unplayed(
-  "Sayonara Wild Hearts",
-  "Switch/PS4/iOS",
-  "",
-  "2019-12-23",
-  "",
-  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
-);
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
 Unplayed(
   "A Short Hike",
@@ -64,6 +56,16 @@ Unplayed("For the Frog the Bell Tolls", "GB", "Translation patch! http://www.rom
 Unplayed("Republic Commando", "PC", "There’s a patch to make it look as good as it did at launch.", "", "", "DGC+Brett Douville");
 Unplayed("Life is Strange Ch 2-5", "iOS", "", "2020-01-20", "", "");
 Unplayed("Kentucky Route Zero", "Swtich/PS4", "Waited for the final version instead of early access!", "2020-01-28", "", "");
+
+Unplayed(
+  "Sayonara Wild Hearts",
+  "Switch/PS4/ANYTHING WITH A CONTROLLER",
+  "",
+  "2020-02-20",
+  "",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
+);
+
 Unplayed("");
 
 UnplayedUnreleased("Nth Dimension[al] Hiking", "PC", "so esoteric so mysterious", "", "", "");
@@ -226,4 +228,13 @@ Abandoned(
   "2019-11-13",
   "2020-01-09"
 );
+Abandoned(
+  "Sayonara Wild Hearts",
+  "iOS",
+  "Given the music hype, I assumed iOS would be appropriate. Touch controls are horrible even on high sensitivity, and no sense of what is collidable. Imagery is ambiguous too: flashing pentagons actually seem late to the beat? My thumb is always in the way, and the layout of the scenes makes it impossible to use just one thumb, causing paralysis. So frustrating and makes me want to throw my phone across the room!",
+  "2020-02-20",
+  "",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
+);
+
 Abandoned("");
