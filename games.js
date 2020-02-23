@@ -27,17 +27,72 @@ Edit("kirbysayshi", "unplayed");
  * will be ignored.
  */
 
-Unplayed("Lenna’s Inception", "PC", "Procedurally-generated Zelda dungeons! +quirky setting", "2018-01-01", "", "");
-Unplayed("Pokémon Trading Card Game 2", "GB", "Apply the patch! https://www.romhacking.net/translations/1736/", "", "", "");
-Unplayed("Indiana Jones and the Fate of Atlantis", "", "Should probably play one of the well-remembered point and click adventure games", "2018-12-01", "", "Tammas");
+Unplayed(
+  "Lenna’s Inception",
+  "PC",
+  "Procedurally-generated Zelda dungeons! +quirky setting",
+  "2018-01-01",
+  "",
+  ""
+);
+Unplayed(
+  "Pokémon Trading Card Game 2",
+  "GB",
+  "Apply the patch! https://www.romhacking.net/translations/1736/",
+  "",
+  "",
+  ""
+);
+Unplayed(
+  "Indiana Jones and the Fate of Atlantis",
+  "",
+  "Should probably play one of the well-remembered point and click adventure games",
+  "2018-12-01",
+  "",
+  "Tammas"
+);
 Unplayed("Ready Player Fuck", "PC", "", "2018-01-01", "", "");
-Unplayed("Everything Is Going to Be OK", "PC", "Zine aesthetic! Emotions!", "2018-05-01", "", "https://itch.io/blog/33497/everything-is-going-to-be-oks-final-update-is-out-and-its-brilliant");
-Unplayed("Proxy Runner", "PC", "Twine! https://sites.google.com/view/ballooncogamingdivisionif/home/proxyrunner", "2019-05-10", "", "Nic Brinza");
-Unplayed("Fortune 499", "PC", "From the maker of Beglitched!", "", "", "https://apthomson.itch.io/fortune-499");
-Unplayed("Dicey Dungeons", "PC", "Probably won’t play until it comes to Switch...", "2018-05-01", "", "");
+Unplayed(
+  "Everything Is Going to Be OK",
+  "PC",
+  "Zine aesthetic! Emotions!",
+  "2018-05-01",
+  "",
+  "https://itch.io/blog/33497/everything-is-going-to-be-oks-final-update-is-out-and-its-brilliant"
+);
+Unplayed(
+  "Fortune 499",
+  "PC",
+  "From the maker of Beglitched!",
+  "",
+  "",
+  "https://apthomson.itch.io/fortune-499"
+);
+Unplayed(
+  "Dicey Dungeons",
+  "PC",
+  "Probably won’t play until it comes to Switch...",
+  "2018-05-01",
+  "",
+  ""
+);
 Unplayed("Hypnospace Outlaw", "PC", "", "2019-03-12", "");
-Unplayed("Ur-Quan Masters", "PC", "aka Star Control 2! Supposedly an amazing work of world simulation.", "", "", "");
-Unplayed("Battle Chef Brigade", "Switch", "Art looks amazing! Just play it Drew", "", "", "");
+Unplayed(
+  "Ur-Quan Masters",
+  "PC",
+  "aka Star Control 2! Supposedly an amazing work of world simulation.",
+  "",
+  "",
+  ""
+);
+Unplayed(
+  "Battle Chef Brigade",
+  "Switch",
+  "Art looks amazing! Just play it Drew",
+  "",
+  "",
+  ""
+);
 Unplayed("ABZÛ", "Switch", "", "", "", "Janessa");
 Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
@@ -52,10 +107,31 @@ Unplayed(
   "",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
-Unplayed("For the Frog the Bell Tolls", "GB", "Translation patch! http://www.romhacking.net/translations/1623/ Uses the same engine as Link’s Awakening. Richard!", "2019-12-27", "", "https://mobile.twitter.com/waltzforluma/status/1210721896494325768");
-Unplayed("Republic Commando", "PC", "There’s a patch to make it look as good as it did at launch.", "", "", "DGC+Brett Douville");
+Unplayed(
+  "For the Frog the Bell Tolls",
+  "GB",
+  "Translation patch! http://www.romhacking.net/translations/1623/ Uses the same engine as Link’s Awakening. Richard!",
+  "2019-12-27",
+  "",
+  "https://mobile.twitter.com/waltzforluma/status/1210721896494325768"
+);
+Unplayed(
+  "Republic Commando",
+  "PC",
+  "There’s a patch to make it look as good as it did at launch.",
+  "",
+  "",
+  "DGC+Brett Douville"
+);
 Unplayed("Life is Strange Ch 2-5", "iOS", "", "2020-01-20", "", "");
-Unplayed("Kentucky Route Zero", "Swtich/PS4", "Waited for the final version instead of early access!", "2020-01-28", "", "");
+Unplayed(
+  "Kentucky Route Zero",
+  "Swtich/PS4",
+  "Waited for the final version instead of early access!",
+  "2020-01-28",
+  "",
+  ""
+);
 
 Unplayed(
   "Sayonara Wild Hearts",
@@ -68,7 +144,14 @@ Unplayed(
 
 Unplayed("");
 
-UnplayedUnreleased("Nth Dimension[al] Hiking", "PC", "so esoteric so mysterious", "", "", "");
+UnplayedUnreleased(
+  "Nth Dimension[al] Hiking",
+  "PC",
+  "so esoteric so mysterious",
+  "",
+  "",
+  ""
+);
 UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
 UnplayedUnreleased("");
 
@@ -202,7 +285,22 @@ Beaten(
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 
-Beaten("Life is Strange: Ch 1", "iOS", "On-screen thumb sticks are infuriating during timed moments! Even tapping to move is challenging and takes away from the immersion. Sometimes I wish it were just a list of things to interact with.", "2020-01-20", "2020-01-20", "");
+Beaten(
+  "Life is Strange: Ch 1",
+  "iOS",
+  "On-screen thumb sticks are infuriating during timed moments! Even tapping to move is challenging and takes away from the immersion. Sometimes I wish it were just a list of things to interact with.",
+  "2020-01-20",
+  "2020-01-20",
+  ""
+);
+Beaten(
+  "Proxy Runner",
+  "PC",
+  "Twine! https://sites.google.com/view/ballooncogamingdivisionif/home/proxyrunner. Interesting use of different windows and physical space! Tricky to get input right...",
+  "2019-05-10",
+  "2020-02-23",
+  "Nic Brinza"
+);
 
 Beaten("");
 
