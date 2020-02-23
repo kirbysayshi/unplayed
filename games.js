@@ -330,8 +330,8 @@ Abandoned(
   "Sayonara Wild Hearts",
   "iOS",
   "Given the music hype, I assumed iOS would be appropriate. Touch controls are horrible even on high sensitivity, and no sense of what is collidable. Imagery is ambiguous too: flashing pentagons actually seem late to the beat? My thumb is always in the way, and the layout of the scenes makes it impossible to use just one thumb, causing paralysis. So frustrating and makes me want to throw my phone across the room!",
-  "2020-02-20",
   "",
+  "2020-02-20",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 
