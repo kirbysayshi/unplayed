@@ -133,14 +133,6 @@ Unplayed(
   ""
 );
 
-Unplayed(
-  "Sayonara Wild Hearts",
-  "Switch/PS4/ANYTHING WITH A CONTROLLER",
-  "",
-  "2020-02-20",
-  "",
-  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
-);
 
 Unplayed("");
 
@@ -300,6 +292,14 @@ Beaten(
   "2019-05-10",
   "2020-02-23",
   "Nic Brinza"
+);
+Beaten(
+  "Sayonara Wild Hearts",
+  "Switch",
+  "Much better with a controller! Great theme and soundtrack. Unfortunately pure memorization games are not my style, so no gold rank for me. I probably would have had more enjoyment watching someone play album mode perfectly rather than play myself. Changing perspectives are so cool! But so hard to know what is going to hit you. And each time I wasn't driving my 'flight' mind kicked in which made the flying parts extremely unenjoyable without inverted stick controls. I wanted to love this game.",
+  "",
+  "2020-02-23",
+  "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 
 Beaten("");
