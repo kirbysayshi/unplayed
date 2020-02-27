@@ -133,7 +133,6 @@ Unplayed(
   ""
 );
 
-
 Unplayed("");
 
 UnplayedUnreleased(
@@ -296,7 +295,7 @@ Beaten(
 Beaten(
   "Sayonara Wild Hearts",
   "Switch",
-  "Much better with a controller! Great theme and soundtrack. Unfortunately pure memorization games are not my style, so no gold rank for me. I probably would have had more enjoyment watching someone play album mode perfectly rather than play myself. Changing perspectives are so cool! But so hard to know what is going to hit you. And each time I wasn't driving my 'flight' mind kicked in which made the flying parts extremely unenjoyable without inverted stick controls. I wanted to love this game.",
+  "UPDATE 2020-02-27: Replayed album mode tonight and really enjoyed it while realizing that the first playthrough is not a good experience. I wanted to just enjoy the music yet be perfect immediately, which is impossible given the perspective shifts and floaty controls. This need was caused by the immediate use of RANKS and HEARTS and SCORE and DEATH. What if the first playthrough didn't have a score and only used hearts to guide you? I would have appreciated that experience, with only subsequent playthroughs introducing scores and ranks. I will try to gold rank everything, now that I don't need to be frustrated for not being perfect the first time through. ORIGINAL: Much better with a controller! Great theme and soundtrack. Unfortunately pure memorization games are not my style, so no gold rank for me. I probably would have had more enjoyment watching someone play album mode perfectly rather than play myself. Changing perspectives are so cool! But so hard to know what is going to hit you. And each time I wasn't driving my 'flight' mind kicked in which made the flying parts extremely unenjoyable without inverted stick controls. I wanted to love this game.",
   "",
   "2020-02-23",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
