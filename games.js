@@ -98,13 +98,14 @@ Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
 Unplayed("Mutazione", "Switch/PS4/iOS", "It’s Doug! Also chill", "", "", "");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
+Unplayed("Eliza", "Mac", "NARRATIVE", "", "2019-11-07", "");
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
 Unplayed(
   "A Short Hike",
   "PC",
   "Probably wait for a PS4 release...",
-  "2019-12-23",
   "",
+  "2019-12-23",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 Unplayed(
