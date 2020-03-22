@@ -201,13 +201,6 @@ Unbeaten(
   "2019-12-04",
   ""
 );
-Unbeaten(
-  "Card of Darkness",
-  "iOS",
-  "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging.",
-  "2019-12-16",
-  ""
-);
 
 Unbeaten(
   "Outer Wilds",
@@ -302,6 +295,14 @@ Beaten(
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
 Beaten("Final Fantasy VII REMAKE DEMO", "PS4", "The roll seemed like it never dodged? Battle system felt like I was meant to just stand there and take damage. What does the AI do? Wish they'd figured out a better way to portray Barret's beliefs and intensity than anger and agression. Music was awesome!", "", "2020-03-08", "");
+
+Beaten(
+  "Card of Darkness",
+  "iOS",
+  "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging. UPDATE: Finished every level, bought all the items. Some levels appeared more up to chance (e.g. getting a lucky card or scroll) than skill, but perhaps that's just my own lack of skill.",
+  "2019-12-16",
+  "2020-03-21"
+);
 
 Beaten("");
 
