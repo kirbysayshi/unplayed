@@ -96,7 +96,6 @@ Unplayed(
 Unplayed("ABZÛ", "Switch", "", "", "", "Janessa");
 Unplayed("Gris", "Switch", "", "", "", "Janessa");
 Unplayed("Slay the Spire", "Switch");
-Unplayed("Mutazione", "Switch/PS4/iOS", "It’s Doug! Also chill", "", "", "");
 Unplayed("Radiant Historia", "3DS", "", "2019-12-01", "");
 Unplayed("Eliza", "Mac", "NARRATIVE", "", "2019-11-07", "");
 Unplayed("Disco Elysium", "PS4", "", "2019-12-26", "");
@@ -209,6 +208,8 @@ Unbeaten(
   "2020-02-09",
   ""
 );
+
+Unbeaten("Mutazione", "iOS", "It’s Doug! Also chill", "2020-03-24", "", "");
 
 Unbeaten("");
 
