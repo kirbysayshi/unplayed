@@ -147,13 +147,6 @@ UnplayedUnreleased("Final Fantasy VII Remake", "PS4");
 UnplayedUnreleased("");
 
 Unbeaten("Legend of Zelda, Breath of the Wild", "Switch", "", "2017-03-03");
-Unbeaten(
-  "VA-11 Hall-A",
-  "PSVita",
-  "Long chapters meant putting off progress. I love the vibe and music of this game.",
-  "2018-07-04",
-  ""
-);
 Unbeaten("Spiderman", "PS4", "", "2019-06-29");
 Unbeaten("Silent Hill 2", "PS2", "", "2019-06-22");
 Unbeaten(
@@ -303,6 +296,14 @@ Beaten(
   "Originally resisted due to Apple Arcade, but it’s the first mobile game I’ve stuck with in a while! Accessible yet challenging. UPDATE: Finished every level, bought all the items. Some levels appeared more up to chance (e.g. getting a lucky card or scroll) than skill, but perhaps that's just my own lack of skill.",
   "2019-12-16",
   "2020-03-21"
+);
+
+Beaten(
+  "VA-11 Hall-A",
+  "PSVita",
+  "COMPLETED: apparently was ~$400 short of the "good" ending. Played through the Prologue and Anna. Apparently extra endings are gated by the good/bad major ending. Too bad, it would have been nice to know how close I was naturally! Very poignant story that I really related to. Some weird anime stuff too, unfortunately. Also, occasionally the dialog is preachy... sometimes I wondered who Jill really is: the authors or a character. 2018: Long chapters meant putting off progress. I love the vibe and music of this game.",
+  "2018-07-04",
+  "2020-03-27"
 );
 
 Beaten("");
