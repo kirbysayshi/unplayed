@@ -301,7 +301,7 @@ Beaten(
 Beaten(
   "VA-11 Hall-A",
   "PSVita",
-  "COMPLETED: apparently was ~$400 short of the "good" ending. Played through the Prologue and Anna. Apparently extra endings are gated by the good/bad major ending. Too bad, it would have been nice to know how close I was naturally! Very poignant story that I really related to. Some weird anime stuff too, unfortunately. Also, occasionally the dialog is preachy... sometimes I wondered who Jill really is: the authors or a character. 2018: Long chapters meant putting off progress. I love the vibe and music of this game.",
+  "COMPLETED: apparently was ~$400 short of the \"good\" ending. Played through the Prologue and Anna. Apparently extra endings are gated by the good/bad major ending. Too bad, it would have been nice to know how close I was naturally! Very poignant story that I really related to. Some weird anime stuff too, unfortunately. Also, occasionally the dialog is preachy... sometimes I wondered who Jill really is: the authors or a character. 2018: Long chapters meant putting off progress. I love the vibe and music of this game.",
   "2018-07-04",
   "2020-03-27"
 );
