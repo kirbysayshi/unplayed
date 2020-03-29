@@ -307,6 +307,14 @@ Beaten(
   "2020-03-27"
 );
 
+Beaten(
+  "VA-11 Hall-A KIDS!",
+  "Mac",
+  "Lol they're in school. Secrets! First Ren'py game, which as I'm typing it out, now realize that it's likely a play on words... WHY IS EVERYTHING GROSS",
+  "",
+  "2020-03-28"
+);
+
 Beaten("");
 
 Abandoned("Crypt of the Necrodancer", "PSVita", "Brutal", "", "", "Blixt");
