@@ -204,7 +204,14 @@ Unbeaten(
 
 Unbeaten("Mutazione", "iOS", "It’s Doug! Also chill", "2020-03-24", "", "");
 
-Unbeaten("Animal Crossing New Horizons", "Switch", "It took me an hour to decide on name and island name :forehead-smack:. Oh, I’m in debt!", "2020-03-28", "", "The entire internet is playing");
+Unbeaten(
+  "Animal Crossing New Horizons",
+  "Switch",
+  "It took me an hour to decide on name and island name :forehead-smack:. Oh, I’m in debt!",
+  "2020-03-28",
+  "",
+  "The entire internet is playing"
+);
 Unbeaten("");
 
 Beaten(
@@ -289,7 +296,14 @@ Beaten(
   "2020-02-23",
   "https://medium.com/@banovg/gregs-top-10-games-of-2019-c0032182a038"
 );
-Beaten("Final Fantasy VII REMAKE DEMO", "PS4", "The roll seemed like it never dodged? Battle system felt like I was meant to just stand there and take damage. What does the AI do? Wish they'd figured out a better way to portray Barret's beliefs and intensity than anger and agression. Music was awesome!", "", "2020-03-08", "");
+Beaten(
+  "Final Fantasy VII REMAKE DEMO",
+  "PS4",
+  "The roll seemed like it never dodged? Battle system felt like I was meant to just stand there and take damage. What does the AI do? Wish they'd figured out a better way to portray Barret's beliefs and intensity than anger and agression. Music was awesome!",
+  "",
+  "2020-03-08",
+  ""
+);
 
 Beaten(
   "Card of Darkness",
@@ -302,7 +316,7 @@ Beaten(
 Beaten(
   "VA-11 Hall-A",
   "PSVita",
-  "COMPLETED: apparently was ~$400 short of the \"good\" ending. Played through the Prologue and Anna. Apparently extra endings are gated by the good/bad major ending. Too bad, it would have been nice to know how close I was naturally! Very poignant story that I really related to. Some weird anime stuff too, unfortunately. Also, occasionally the dialog is preachy... sometimes I wondered who Jill really is: the authors or a character. 2018: Long chapters meant putting off progress. I love the vibe and music of this game.",
+  'COMPLETED: apparently was ~$400 short of the "good" ending. Played through the Prologue and Anna. Apparently extra endings are gated by the good/bad major ending. Too bad, it would have been nice to know how close I was naturally! Very poignant story that I really related to. Some weird anime stuff too, unfortunately. Also, occasionally the dialog is preachy... sometimes I wondered who Jill really is: the authors or a character. 2018: Long chapters meant putting off progress. I love the vibe and music of this game.',
   "2018-07-04",
   "2020-03-27"
 );
