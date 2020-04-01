@@ -15,7 +15,6 @@ function SubsectionTpl(name: string) {
   `;
 }
 
-
 function EntryListTpl(entries: GameEntity[]) {
   return stract`
     <ul>
@@ -36,12 +35,43 @@ function EntryTpl(entry: GameEntity) {
 
   const onEdit = () => {
     dispatch(Actions.EditEntity, entry.id);
-  }
+  };
 
-  // TODO: made "editing" a long press that fills the block from left-to-right on hold!
+  // TODO: I wish there were a way to make this less fiddly & verbose
+  let liRef: HTMLLIElement;
+
+  const lpDuration = 1000;
+  let toRef: undefined | number;
+  const startPress = (e: Event) => {
+    clearTimeout(toRef);
+    toRef = setTimeout(() => {
+      liRef.style.animation = '';
+      alert('EDIT');
+    }, lpDuration);
+
+    if (!liRef) return
+    liRef.style.animation = 'longpress-fill';
+    liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
+    liRef.style.animationTimingFunction = 'ease-out';
+  };
+  const endPress = (e: Event) => {
+    clearTimeout(toRef);
+    toRef = undefined;
+    liRef.style.animation = '';
+  };
 
   return stract`
-    <li>
+    <li
+      ref=${(el: HTMLLIElement) => {liRef = el}}
+      onmousedown=${startPress}
+      ontouchstart=${startPress}
+
+      onmouseup=${endPress}
+      onmouseleave=${endPress}
+      ontouchend=${endPress}
+      ontouchcancel=${endPress}
+      ontouchleave=${endPress}
+    >
       <span class="name" data-name>${entry.name}</span>
       <span class="platform" data-platform>${entry.platform}</span>
       ${
@@ -51,41 +81,39 @@ function EntryTpl(entry: GameEntity) {
       }
       ${entry.source ? `<p class="source">${source}</p>` : ""}
       ${dates}
-      <button onclick=${onEdit}>Edit</button>
     </li>
   `;
 }
 
 function UnplayedTpl() {
-
   // TODO: make these configurable externally
-  const owner = 'kirbysayshi';
-  const repo = 'unplayed';
+  const owner = "kirbysayshi";
+  const repo = "unplayed";
   const metadata = {
     about: `<a href="https://kirbysayshi.com">Drew Petersen</a> tried this around 2010 via Trello (blech!), fell off, and is trying again. <a href="https://github.com/kirbysayshi/unplayed">Make your own</a> if you'd like!`,
-    editLink: `https://github.com/${owner}/${repo}/edit/gh-pages/games.js`,
-  }
+    editLink: `https://github.com/${owner}/${repo}/edit/gh-pages/games.js`
+  };
 
   return stract`
     <div class="list-section">
     ${SectionTpl("Unplayed", "Maybe I'll play these.")}
-    ${EntryListTpl(query('status', 'Unplayed'))}
+    ${EntryListTpl(query("status", "Unplayed"))}
     ${SubsectionTpl("Rereleased")}
-    ${EntryListTpl(query('status', 'UnplayedRereleased'))}
+    ${EntryListTpl(query("status", "UnplayedRereleased"))}
     ${SubsectionTpl("Unreleased")}
-    ${EntryListTpl(query('status', 'UnplayedUnreleased'))}
+    ${EntryListTpl(query("status", "UnplayedUnreleased"))}
     ${SubsectionTpl("Miscellaneous")}
-    ${EntryListTpl(query('status', 'UnplayedMiscellaneous'))}
+    ${EntryListTpl(query("status", "UnplayedMiscellaneous"))}
     </div>
 
     <div class="list-section">
     ${SectionTpl("Unbeaten", "I tend to take a while.")}
-    ${EntryListTpl(query('status', 'Unbeaten'))}
+    ${EntryListTpl(query("status", "Unbeaten"))}
     </div>
 
     <div class="list-section">
     ${SectionTpl("Beaten", 'Or just considered "finished".')}
-    ${EntryListTpl(query('status', 'Beaten'))}
+    ${EntryListTpl(query("status", "Beaten"))}
     </div>
 
     <div class="list-section">
@@ -93,7 +121,7 @@ function UnplayedTpl() {
       "Abandoned",
       "Sometimes I get distracted, sometimes it's the game."
     )}
-    ${EntryListTpl(query('status', 'Abandoned'))}
+    ${EntryListTpl(query("status", "Abandoned"))}
     </div>
 
     <p class="about">

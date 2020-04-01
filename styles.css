@@ -38,6 +38,16 @@ li {
   list-style-type: square;
 }
 
+@keyframes longpress-fill {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+
 a,
 a:hover,
 a:active,
