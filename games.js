@@ -1,7 +1,7 @@
-About(
-  '<a href="https://kirbysayshi.com">Drew Petersen</a> tried this around 2010 via Trello (blech!), fell off, and is trying again. <a href="https://github.com/kirbysayshi/unplayed">Make your own</a> if you\'d like!'
-);
-Edit("kirbysayshi", "unplayed");
+// About(
+//   '<a href="https://kirbysayshi.com">Drew Petersen</a> tried this around 2010 via Trello (blech!), fell off, and is trying again. <a href="https://github.com/kirbysayshi/unplayed">Make your own</a> if you\'d like!'
+// );
+// Edit("kirbysayshi", "unplayed");
 
 /**
  * Cheats / Hints:
