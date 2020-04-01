@@ -152,7 +152,7 @@ export function stract(
     const attr = `on${desc.name}`;
     const selector = `[${attr}='${desc.key}']`;
     const el = content.querySelector(selector)!;
-    el.removeAttribute("onclick");
+    el.removeAttribute(attr);
     el.addEventListener(desc.name, desc.cb);
   });
 
