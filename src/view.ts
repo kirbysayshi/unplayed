@@ -107,10 +107,8 @@ function UnplayedTpl() {
 }
 
 export function render() {
-  // const data = UnplayedTpl();
   const el = document.createElement("div");
   el.className = "root";
-  // el.appendChild(data);
   el.appendChild(UnplayedTpl());
   document.body.appendChild(el);
 }

@@ -7,38 +7,78 @@ type RefCallback = {
   bivarianceHack(ref: Element): void;
 }["bivarianceHack"];
 
+type ElementLike = Element | DocumentFragment;
+
 type InterpValue =
+  // specials
   | EventHandlerCallback
   | RefCallback
+
+  // primitives for concat
   | string
-  | Element
-  | DocumentFragment
-  | Element[]
-  | DocumentFragment[]
   | null
-  | number;
+  | number
+
+  // objects w/ special handling
+  | ElementLike
+
+  // Arrays of any of the primitives or objects
+  | (string | null | number | ElementLike)[]
+
+  ;
+
+function isEvHandlerCallback(
+  match: RegExpMatchArray | null,
+  v: InterpValue
+): v is EventHandlerCallback {
+  return match !== null && typeof v === "function";
+}
+
+function isRefHandler(
+  match: RegExpMatchArray | null,
+  v: InterpValue
+): v is RefCallback {
+  return match !== null && typeof v === "function";
+}
+
+function isString(v: InterpValue): v is string {
+  return typeof v === "string";
+}
+
+function isNumber(v: InterpValue): v is number {
+  return typeof v === "number";
+}
+
+function isElementLike(v: InterpValue): v is ElementLike {
+  return (
+    v !== null &&
+    typeof v !== "string" &&
+    typeof v !== "number" &&
+    typeof v !== "function" &&
+    !Array.isArray(v) &&
+    "nodeType" in v
+  );
+}
 
 export function stract(
   strings: TemplateStringsArray,
   ...interps: InterpValue[]
 ) {
   const finals: string[] = [];
-  const refHandlers: { key: string; cb: RefCallback }[] = [];
-  const eventHandlers: {
+  const refs: { key: string; cb: RefCallback }[] = [];
+  const events: {
     key: string;
     name: string;
     cb: EventHandlerCallback;
   }[] = [];
-  const elementHandlers: {
+  const elements: {
     key: string;
-    el: Element | DocumentFragment | Element[] | DocumentFragment[];
+    el: ElementLike | ElementLike[]
   }[] = [];
 
   for (let i = 0; i < strings.length; i++) {
     const str = strings[i];
     const interp = interps[i];
-
-    // console.log(str, interp)
 
     // Look for a Ref
     const refMatch = str.match(/ref="?$/);
@@ -49,48 +89,54 @@ export function stract(
       Math.floor(Math.random() * 16).toString(16)
     );
 
-    if (refMatch && typeof interp === "function") {
-      // it's a ref!
-      refHandlers.push({ key, cb: interp as RefCallback });
+    if (interp === undefined) {
+      // interp could be undefined
+      finals.push(str);
+    } else if (isRefHandler(refMatch, interp)) {
+
+      refs.push({ key, cb: interp });
       finals.push(str, key);
-    } else if (eventMatch && typeof interp === "function") {
-      // it's an event handler!
-      // if interp is _not_ a function, it could be a true string event handler
+
+    } else if (isEvHandlerCallback(eventMatch, interp)) {
+      if (!eventMatch) throw new Error('Unreachable');
       const eventName = eventMatch[1];
-      eventHandlers.push({
+      events.push({
         key,
         name: eventName,
-        cb: interp as EventHandlerCallback
+        cb: interp
       });
       finals.push(str, key);
-    } else if (typeof interp === "string") {
-      // it's just a string...
-      finals.push(str, interp as string);
-    } else if (typeof interp === "number") {
+
+    } else if (isString(interp)) {
+      finals.push(str, interp);
+    } else if (isNumber(interp)) {
       finals.push(str, String(interp));
-    } else if (interp && "nodeType" in interp) {
-      // it's probably an element returned by another invocation of this fn.
-      elementHandlers.push({
+    } else if (isElementLike(interp)) {
+      elements.push({
         key,
         el: interp
       });
       finals.push(str, `<span data-stract=${key}></span>`);
     } else if (Array.isArray(interp)) {
-      if (Array.isArray(interp) && interp.length && "nodeType" in interp[0]) {
-        // it's an element[] or DocumentFragment[]!
-        elementHandlers.push({
-          key,
-          el: interp
-        });
-        finals.push(str, `<span data-stract=${key}></span>`);
-      } else if (
-        Array.isArray(interp) &&
-        interp.length &&
-        typeof interp[0] === "string"
-      ) {
-        // it's a string[]! Hopefully.
-        finals.push(str, ...((interp as unknown) as string[]));
+      finals.push(str);
+
+      // It's repetitious, but simpler than recursing, for now... I think.
+
+      for (let j = 0; j < interp.length; j++) {
+        const sub = interp[j];
+        if (isString(sub)) {
+          finals.push(sub);
+        } else if (isNumber(sub)) {
+          finals.push(String(sub));
+        } else if (isElementLike(sub)) {
+          elements.push({
+            key,
+            el: sub
+          });
+          finals.push(`<span data-stract=${key}></span>`);
+        }
       }
+
     } else if (interp) {
       throw new Error(`Type ${typeof interp} is not a valid interpolation!`);
     } else {
@@ -102,7 +148,7 @@ export function stract(
   frag.innerHTML = finals.join("");
   const { content } = frag;
 
-  eventHandlers.forEach(desc => {
+  events.forEach(desc => {
     const attr = `on${desc.name}`;
     const selector = `[${attr}='${desc.key}']`;
     const el = content.querySelector(selector)!;
@@ -110,9 +156,7 @@ export function stract(
     el.addEventListener(desc.name, desc.cb);
   });
 
-  // TODO: clean this up by making specific object unions for each possible interpolation value to avoid having to check for each specific type
-  
-  elementHandlers.forEach(desc => {
+  elements.forEach(desc => {
     const selector = `[data-stract='${desc.key}']`;
     const el = content.querySelector(selector)!;
     if (Array.isArray(desc.el)) {
@@ -129,7 +173,7 @@ export function stract(
     }
   });
 
-  refHandlers.forEach(desc => {
+  refs.forEach(desc => {
     const selector = `[ref='${desc.key}']`;
     const el = content.querySelector(selector)!;
     el.removeAttribute("ref");

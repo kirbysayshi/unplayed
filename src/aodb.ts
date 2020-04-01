@@ -94,7 +94,9 @@ function build() {
 let built: ReturnType<typeof build>;
 
 export function useDb() {
-  if (!built) built = build();
+  if (!built) {
+    built = build();
+  }
   return built;
 }
 
