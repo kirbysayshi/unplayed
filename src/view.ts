@@ -1,6 +1,7 @@
 import { query, GameEntity } from "./aodb.js";
-import { EntityPanel, Actions, dispatch } from "./edit.js";
+import { EntityPanel } from "./edit.js";
 import { stract } from "./stract.js";
+import { useMetadata } from "./site-data.js";
 
 function SectionTpl(name: string, desc: string) {
   return stract`
@@ -33,23 +34,14 @@ function EntryTpl(entry: GameEntity) {
     ? `Rec: ${entry.source}`
     : "";
 
-  const onEdit = () => {
-    dispatch(Actions.EditEntity, entry.id);
-  };
-
-  // TODO: I wish there were a way to make this less fiddly & verbose
   let liRef: HTMLLIElement;
 
   const lpDuration = 1000;
   let toRef: undefined | number;
   const startPress = (e: Event) => {
     clearTimeout(toRef);
-    toRef = setTimeout(() => {
-      liRef.style.animation = '';
-      alert('EDIT');
-    }, lpDuration);
+    toRef = setTimeout(showEditPanel, lpDuration);
 
-    if (!liRef) return
     liRef.style.animation = 'longpress-fill';
     liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
     liRef.style.animationTimingFunction = 'ease-out';
@@ -59,6 +51,12 @@ function EntryTpl(entry: GameEntity) {
     toRef = undefined;
     liRef.style.animation = '';
   };
+
+  function showEditPanel() {
+    liRef.style.animation = '';
+    const editPanel = EntityPanel(entry);
+    liRef.parentNode?.insertBefore(editPanel, liRef.nextSibling);
+  }
 
   return stract`
     <li
@@ -87,12 +85,6 @@ function EntryTpl(entry: GameEntity) {
 
 function UnplayedTpl() {
   // TODO: make these configurable externally
-  const owner = "kirbysayshi";
-  const repo = "unplayed";
-  const metadata = {
-    about: `<a href="https://kirbysayshi.com">Drew Petersen</a> tried this around 2010 via Trello (blech!), fell off, and is trying again. <a href="https://github.com/kirbysayshi/unplayed">Make your own</a> if you'd like!`,
-    editLink: `https://github.com/${owner}/${repo}/edit/gh-pages/games.js`
-  };
 
   return stract`
     <div class="list-section">
@@ -125,12 +117,10 @@ function UnplayedTpl() {
     </div>
 
     <p class="about">
-    ${metadata.about} This is a shameless rip-off of Shaun Inman's
+    ${useMetadata().about} This is a shameless rip-off of Shaun Inman's
       <a href="https://shauninman.com/unplayed">Unplayed</a>. The intent
       is to help anyone maintain their own list in a similar style.
     </p>
-
-    ${EntityPanel(metadata.editLink)}
   `;
 }
 

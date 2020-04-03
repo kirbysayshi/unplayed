@@ -1,11 +1,9 @@
 import { prepend } from './aodb.js';
 import { render } from './view.js';
-import { dispatch } from './edit.js';
 
 // expose the data registration to the global so games.js can register mutations
 (window as any).prepend = prepend;
 (window as any).render = render;
-(window as any).dispatch = dispatch;
 
 
 // TODO:

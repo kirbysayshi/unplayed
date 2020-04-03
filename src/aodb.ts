@@ -11,7 +11,7 @@ export const StatusKeys = [
   "UnplayedMiscellaneous",
   "Unbeaten",
   "Abandoned",
-  "Beaten",
+  "Beaten"
 ] as const;
 
 export type Status = typeof StatusKeys[number];
@@ -124,4 +124,36 @@ export function query<K extends keyof GameEntity>(
     }
     return a.insertionId.toString().localeCompare(b.insertionId.toString());
   });
+}
+
+export function diff(orig: GameEntity, next: GameEntity) {
+  const mutations: string[] = [];
+
+  // TODO: probably want to adjust this once new entities are possible
+
+  const e = JSON.stringify;
+
+  Object.keys(orig).forEach(key => {
+    switch (key as MutableGameEntityFields) {
+      case "status":
+      case "name":
+      case "platform":
+      case "startDate":
+      case "endDate":
+      case "comment":
+      case "source": {
+        const k = key as MutableGameEntityFields;
+        if (
+          orig[k] !==
+          next[k]
+        )
+          mutations.push(`prepend(${e(next.id)}, ${e(key)}, ${e(next[k])});`);
+        break;
+      }
+      default:
+        break;
+    }
+  });
+
+  return mutations;
 }
