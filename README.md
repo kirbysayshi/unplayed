@@ -1,14 +1,12 @@
 # Unplayed
 
-Keep a list of games, using only Github Pages as storage (no build!). See an example: https://kirbysayshi.com/unplayed.
+Keep a list of games, using only Github Pages as storage. The goal is to allow editing from anywhere (mobile device, laptop) in a browser, and without needing a backend. See it live: https://kirbysayshi.com/unplayed.
 
-This is a github template, so you can make your own by clicking the template button!
+Built using TypeScript-powered ESModules. So far, no bundler.
 
 ## Usage
 
-Edit games.js to add games. Also edit the `About()` call to add your own flair.
-
-There is a "Mobile Editor" at the bottom that will help prepare the calls more easily than manually typing them into Github's browser code editor. But you'll still have to copy/paste the result in manually. Anyone have a better idea? Trying to avoid servers...
+Tap and hold an entry to edit it. Or press "Add Game". Then copy/paste the data into the TOP of [games.js](./games.js) on github and hit save!
 
 ## Attribution
 
