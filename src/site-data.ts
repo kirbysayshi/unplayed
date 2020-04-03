@@ -1,3 +1,6 @@
+// Really not sure where else to put this. Trying to avoid someone needing to
+// modify the files in `src` if they fork.
+
 const owner = "kirbysayshi";
 const repo = "unplayed";
 const metadata = {

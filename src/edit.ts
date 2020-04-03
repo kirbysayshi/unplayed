@@ -142,6 +142,7 @@ export function NewEntityButton() {
     const entity: GameEntity = {
       id: nextId(),
       insertionId: -1,
+      // TODO: add a "New Game" button to each category?
       status: "Unplayed",
       name: "",
       platform: "",

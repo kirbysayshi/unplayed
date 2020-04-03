@@ -1,4 +1,5 @@
 // This is a one-time use script to take V1 data and convert to V2.
+// Keeping it in the repo just in case. But it should not be needed.
 
 import { nanoid } from "./gen-id.js";
 

@@ -128,9 +128,6 @@ export function query<K extends keyof GameEntity>(
 
 export function diff(orig: GameEntity, next: GameEntity) {
   const mutations: string[] = [];
-
-  // TODO: probably want to adjust this once new entities are possible
-
   const e = JSON.stringify;
 
   Object.keys(orig).forEach(key => {
