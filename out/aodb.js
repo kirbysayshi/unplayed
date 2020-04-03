@@ -53,8 +53,9 @@ function build() {
 }
 let built;
 export function useDb() {
-    if (!built)
+    if (!built) {
         built = build();
+    }
     return built;
 }
 export function query(searchField, searchValue, sortFields = ["endDate", "startDate", "insertionId"]) {
@@ -77,5 +78,28 @@ export function query(searchField, searchValue, sortFields = ["endDate", "startD
         }
         return a.insertionId.toString().localeCompare(b.insertionId.toString());
     });
+}
+export function diff(orig, next) {
+    const mutations = [];
+    const e = JSON.stringify;
+    Object.keys(orig).forEach((key) => {
+        switch (key) {
+            case "status":
+            case "name":
+            case "platform":
+            case "startDate":
+            case "endDate":
+            case "comment":
+            case "source": {
+                const k = key;
+                if (orig[k] !== next[k])
+                    mutations.push(`prepend(${e(next.id)}, ${e(key)}, ${e(next[k])});`);
+                break;
+            }
+            default:
+                break;
+        }
+    });
+    return mutations;
 }
 //# sourceMappingURL=aodb.js.map

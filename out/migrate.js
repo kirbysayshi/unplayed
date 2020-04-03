@@ -1,4 +1,5 @@
 // This is a one-time use script to take V1 data and convert to V2.
+// Keeping it in the repo just in case. But it should not be needed.
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {

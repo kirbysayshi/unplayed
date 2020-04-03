@@ -1,6 +1,7 @@
 import { query } from "./aodb.js";
-import { EntityPanel, Actions, dispatch } from "./edit.js";
-import { stract } from "./stract.js";
+import { EntityPanel, NewEntityButton } from "./edit.js";
+import { stract, insertAsNextSibling } from "./stract.js";
+import { useMetadata } from "./site-data.js";
 function SectionTpl(name, desc) {
     return stract `
     <h1>${name}</h1>
@@ -15,7 +16,7 @@ function SubsectionTpl(name) {
 function EntryListTpl(entries) {
     return stract `
     <ul>
-      ${entries.map(entry => EntryTpl(entry))}
+      ${entries.map((entry) => EntryTpl(entry))}
     </ul>
   `;
 }
@@ -28,12 +29,40 @@ function EntryTpl(entry) {
         : entry.source
             ? `Rec: ${entry.source}`
             : "";
-    const onEdit = () => {
-        dispatch(Actions.EditEntity, entry.id);
+    let liRef;
+    const lpDuration = 1000;
+    let toRef;
+    const startPress = (e) => {
+        clearTimeout(toRef);
+        toRef = setTimeout(showEditPanel, lpDuration);
+        liRef.style.animation = "longpress-fill";
+        liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
+        liRef.style.animationTimingFunction = "ease-out";
     };
-    // TODO: made "editing" a long press that fills the block from left-to-right on hold!
+    const endPress = (e) => {
+        clearTimeout(toRef);
+        toRef = undefined;
+        liRef.style.animation = "";
+    };
+    function showEditPanel() {
+        liRef.style.animation = "";
+        const editPanel = EntityPanel(entry);
+        insertAsNextSibling(liRef, editPanel);
+    }
     return stract `
-    <li>
+    <li
+      ref=${(el) => {
+        liRef = el;
+    }}
+      onmousedown=${startPress}
+      ontouchstart=${startPress}
+
+      onmouseup=${endPress}
+      onmouseleave=${endPress}
+      ontouchend=${endPress}
+      ontouchcancel=${endPress}
+      ontouchleave=${endPress}
+    >
       <span class="name" data-name>${entry.name}</span>
       <span class="platform" data-platform>${entry.platform}</span>
       ${entry.comment
@@ -41,59 +70,49 @@ function EntryTpl(entry) {
         : ""}
       ${entry.source ? `<p class="source">${source}</p>` : ""}
       ${dates}
-      <button onclick=${onEdit}>Edit</button>
     </li>
   `;
 }
 function UnplayedTpl() {
-    // TODO: make these configurable externally
-    const owner = 'kirbysayshi';
-    const repo = 'unplayed';
-    const metadata = {
-        about: `<a href="https://kirbysayshi.com">Drew Petersen</a> tried this around 2010 via Trello (blech!), fell off, and is trying again. <a href="https://github.com/kirbysayshi/unplayed">Make your own</a> if you'd like!`,
-        editLink: `https://github.com/${owner}/${repo}/edit/gh-pages/games.js`,
-    };
     return stract `
     <div class="list-section">
     ${SectionTpl("Unplayed", "Maybe I'll play these.")}
-    ${EntryListTpl(query('status', 'Unplayed'))}
+    ${EntryListTpl(query("status", "Unplayed"))}
     ${SubsectionTpl("Rereleased")}
-    ${EntryListTpl(query('status', 'UnplayedRereleased'))}
+    ${EntryListTpl(query("status", "UnplayedRereleased"))}
     ${SubsectionTpl("Unreleased")}
-    ${EntryListTpl(query('status', 'UnplayedUnreleased'))}
+    ${EntryListTpl(query("status", "UnplayedUnreleased"))}
     ${SubsectionTpl("Miscellaneous")}
-    ${EntryListTpl(query('status', 'UnplayedMiscellaneous'))}
+    ${EntryListTpl(query("status", "UnplayedMiscellaneous"))}
     </div>
 
     <div class="list-section">
     ${SectionTpl("Unbeaten", "I tend to take a while.")}
-    ${EntryListTpl(query('status', 'Unbeaten'))}
+    ${EntryListTpl(query("status", "Unbeaten"))}
     </div>
 
     <div class="list-section">
     ${SectionTpl("Beaten", 'Or just considered "finished".')}
-    ${EntryListTpl(query('status', 'Beaten'))}
+    ${EntryListTpl(query("status", "Beaten"))}
     </div>
 
     <div class="list-section">
     ${SectionTpl("Abandoned", "Sometimes I get distracted, sometimes it's the game.")}
-    ${EntryListTpl(query('status', 'Abandoned'))}
+    ${EntryListTpl(query("status", "Abandoned"))}
     </div>
 
+    ${NewEntityButton()}
+
     <p class="about">
-    ${metadata.about} This is a shameless rip-off of Shaun Inman's
+    ${useMetadata().about} This is a shameless rip-off of Shaun Inman's
       <a href="https://shauninman.com/unplayed">Unplayed</a>. The intent
       is to help anyone maintain their own list in a similar style.
     </p>
-
-    ${EntityPanel(metadata.editLink)}
   `;
 }
 export function render() {
-    // const data = UnplayedTpl();
     const el = document.createElement("div");
     el.className = "root";
-    // el.appendChild(data);
     el.appendChild(UnplayedTpl());
     document.body.appendChild(el);
 }
