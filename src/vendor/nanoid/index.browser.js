@@ -4,9 +4,9 @@
 // This alphabet uses `A-Za-z0-9_-` symbols. The genetic algorithm helped
 // optimize the gzip compression for this alphabet.
 let urlAlphabet =
-  'ModuleSymbhasOwnPr-0123456789ABCDEFGHNRVfgctiUvz_KqYTJkLxpZXIjQW'
+  "ModuleSymbhasOwnPr-0123456789ABCDEFGHNRVfgctiUvz_KqYTJkLxpZXIjQW";
 
-let random = bytes => crypto.getRandomValues(new Uint8Array(bytes))
+let random = (bytes) => crypto.getRandomValues(new Uint8Array(bytes));
 
 let customRandom = (alphabet, size, getRandom) => {
   // First, a bitmask is necessary to generate the ID. The bitmask makes bytes
@@ -14,7 +14,7 @@ let customRandom = (alphabet, size, getRandom) => {
   // `2^31 - 1` number, which exceeds the alphabet size.
   // For example, the bitmask for the alphabet size 30 is 31 (00011111).
   // `Math.clz32` is not used, because it is not available in browsers.
-  let mask = (2 << Math.log(alphabet.length - 1) / Math.LN2) - 1
+  let mask = (2 << (Math.log(alphabet.length - 1) / Math.LN2)) - 1;
   // Though, the bitmask solution is not perfect since the bytes exceeding
   // the alphabet size are refused. Therefore, to reliably generate the ID,
   // the random bytes redundancy has to be satisfied.
@@ -30,29 +30,29 @@ let customRandom = (alphabet, size, getRandom) => {
 
   // `-~f => Math.ceil(f)` if f is a float
   // `-~i => i + 1` if i is an integer
-  let step = -~(1.6 * mask * size / alphabet.length)
+  let step = -~((1.6 * mask * size) / alphabet.length);
 
   return () => {
-    let id = ''
+    let id = "";
     while (true) {
-      let bytes = getRandom(step)
+      let bytes = getRandom(step);
       // A compact alternative for `for (var i = 0; i < step; i++)`.
-      let j = step
+      let j = step;
       while (j--) {
         // Adding `|| ''` refuses a random byte that exceeds the alphabet size.
-        id += alphabet[bytes[j] & mask] || ''
+        id += alphabet[bytes[j] & mask] || "";
         // `id.length + 1 === size` is a more compact option.
-        if (id.length === +size) return id
+        if (id.length === +size) return id;
       }
     }
-  }
-}
+  };
+};
 
-let customAlphabet = (alphabet, size) => customRandom(alphabet, size, random)
+let customAlphabet = (alphabet, size) => customRandom(alphabet, size, random);
 
 let nanoid = (size = 21) => {
-  let id = ''
-  let bytes = crypto.getRandomValues(new Uint8Array(size))
+  let id = "";
+  let bytes = crypto.getRandomValues(new Uint8Array(size));
 
   // A compact alternative for `for (var i = 0; i < step; i++)`.
   while (size--) {
@@ -61,21 +61,21 @@ let nanoid = (size = 21) => {
     // range to the 0-63 value range. Therefore, adding hacks, such
     // as empty string fallback or magic numbers, is unneccessary because
     // the bitmask trims bytes down to the alphabet size.
-    let byte = bytes[size] & 63
+    let byte = bytes[size] & 63;
     if (byte < 36) {
       // `0-9a-z`
-      id += byte.toString(36)
+      id += byte.toString(36);
     } else if (byte < 62) {
       // `A-Z`
-      id += (byte - 26).toString(36).toUpperCase()
+      id += (byte - 26).toString(36).toUpperCase();
     } else if (byte < 63) {
-      id += '_'
+      id += "_";
     } else {
-      id += '-'
+      id += "-";
     }
   }
-  return id
-}
+  return id;
+};
 
 // Modified to be ES Modules
-export { nanoid, customAlphabet, customRandom, urlAlphabet, random }
+export { nanoid, customAlphabet, customRandom, urlAlphabet, random };

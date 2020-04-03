@@ -99,7 +99,7 @@ export function stract(
       events.push({
         key,
         name: eventName,
-        cb: interp
+        cb: interp,
       });
       finals.push(str, key);
     } else if (isString(interp)) {
@@ -109,7 +109,7 @@ export function stract(
     } else if (isElementLike(interp)) {
       elements.push({
         key,
-        el: interp
+        el: interp,
       });
       finals.push(str, `<span data-stract=${key}></span>`);
     } else if (Array.isArray(interp)) {
@@ -126,7 +126,7 @@ export function stract(
         } else if (isElementLike(sub)) {
           elements.push({
             key,
-            el: sub
+            el: sub,
           });
           finals.push(`<span data-stract=${key}></span>`);
         }
@@ -142,7 +142,7 @@ export function stract(
   frag.innerHTML = finals.join("");
   const { content } = frag;
 
-  events.forEach(desc => {
+  events.forEach((desc) => {
     const attr = `on${desc.name}`;
     const selector = `[${attr}='${desc.key}']`;
     const el = content.querySelector(selector)!;
@@ -150,7 +150,7 @@ export function stract(
     el.addEventListener(desc.name, desc.cb);
   });
 
-  elements.forEach(desc => {
+  elements.forEach((desc) => {
     const selector = `[data-stract='${desc.key}']`;
     const el = content.querySelector(selector)!;
     if (Array.isArray(desc.el)) {
@@ -164,7 +164,7 @@ export function stract(
     }
   });
 
-  refs.forEach(desc => {
+  refs.forEach((desc) => {
     const selector = `[ref='${desc.key}']`;
     const el = content.querySelector(selector)!;
     el.removeAttribute("ref");
@@ -174,6 +174,9 @@ export function stract(
   return content;
 }
 
-export function insertAsNextSibling(refNode: ElementLike, futureSibling: ElementLike) {
+export function insertAsNextSibling(
+  refNode: ElementLike,
+  futureSibling: ElementLike
+) {
   refNode.parentNode!.insertBefore(futureSibling, refNode.nextSibling);
 }

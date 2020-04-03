@@ -19,7 +19,7 @@ function SubsectionTpl(name: string) {
 function EntryListTpl(entries: GameEntity[]) {
   return stract`
     <ul>
-      ${entries.map(entry => EntryTpl(entry))}
+      ${entries.map((entry) => EntryTpl(entry))}
     </ul>
   `;
 }
@@ -42,25 +42,27 @@ function EntryTpl(entry: GameEntity) {
     clearTimeout(toRef);
     toRef = setTimeout(showEditPanel, lpDuration);
 
-    liRef.style.animation = 'longpress-fill';
+    liRef.style.animation = "longpress-fill";
     liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
-    liRef.style.animationTimingFunction = 'ease-out';
+    liRef.style.animationTimingFunction = "ease-out";
   };
   const endPress = (e: Event) => {
     clearTimeout(toRef);
     toRef = undefined;
-    liRef.style.animation = '';
+    liRef.style.animation = "";
   };
 
   function showEditPanel() {
-    liRef.style.animation = '';
+    liRef.style.animation = "";
     const editPanel = EntityPanel(entry);
     insertAsNextSibling(liRef, editPanel);
   }
 
   return stract`
     <li
-      ref=${(el: HTMLLIElement) => {liRef = el}}
+      ref=${(el: HTMLLIElement) => {
+        liRef = el;
+      }}
       onmousedown=${startPress}
       ontouchstart=${startPress}
 

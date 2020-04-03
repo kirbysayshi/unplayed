@@ -11,7 +11,7 @@ export const StatusKeys = [
   "UnplayedMiscellaneous",
   "Unbeaten",
   "Abandoned",
-  "Beaten"
+  "Beaten",
 ] as const;
 
 export type Status = typeof StatusKeys[number];
@@ -130,7 +130,7 @@ export function diff(orig: GameEntity, next: GameEntity) {
   const mutations: string[] = [];
   const e = JSON.stringify;
 
-  Object.keys(orig).forEach(key => {
+  Object.keys(orig).forEach((key) => {
     switch (key as MutableGameEntityFields) {
       case "status":
       case "name":
@@ -140,10 +140,7 @@ export function diff(orig: GameEntity, next: GameEntity) {
       case "comment":
       case "source": {
         const k = key as MutableGameEntityFields;
-        if (
-          orig[k] !==
-          next[k]
-        )
+        if (orig[k] !== next[k])
           mutations.push(`prepend(${e(next.id)}, ${e(key)}, ${e(next[k])});`);
         break;
       }

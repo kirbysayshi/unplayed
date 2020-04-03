@@ -25,5 +25,3 @@ const dom = Div();
 
 console.log(dom);
 document.body.appendChild(dom);
-
-

@@ -11,7 +11,7 @@ enum InputNames {
   startDate = "start-date",
   endDate = "end-date",
   source = "source",
-  result = "result"
+  result = "result",
 }
 
 export function EntityPanel(entity: GameEntity) {
@@ -51,7 +51,7 @@ export function EntityPanel(entity: GameEntity) {
       comment,
       startDate,
       endDate,
-      source
+      source,
     };
     const mutations = diff(orig, next);
 
@@ -73,7 +73,7 @@ export function EntityPanel(entity: GameEntity) {
         Status
         <select name="${InputNames.status}">
           ${StatusKeys.map(
-            status =>
+            (status) =>
               `<option value="${status}" ${
                 status === entity.status ? "selected" : ""
               }>${status}</option>`
@@ -90,7 +90,7 @@ export function EntityPanel(entity: GameEntity) {
           InputNames.platform
         }" list="platforms" value="${entity.platform}">
         <datalist id="platforms">
-        ${Array.from(platforms).map(p => `<option value="${p}">`)}
+        ${Array.from(platforms).map((p) => `<option value="${p}">`)}
         </datalist>
       </label>
       <label>
@@ -149,7 +149,7 @@ export function NewEntityButton() {
       comment: "",
       startDate: "",
       endDate: "",
-      source: ""
+      source: "",
     };
 
     const panel = EntityPanel(entity);

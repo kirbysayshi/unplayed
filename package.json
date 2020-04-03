@@ -8,12 +8,13 @@
   "private": true,
   "scripts": {
     "dev": "tsc -w & http-server",
-    "build": "tsc"
+    "build": "tsc",
+    "pretty": "prettier --write src/"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "http-server": "^0.12.1",
+    "prettier": "^2.0.2",
     "typescript": "^3.8.3"
   }
 }
