@@ -23,9 +23,7 @@ type InterpValue =
   | ElementLike
 
   // Arrays of any of the primitives or objects
-  | (string | null | number | ElementLike)[]
-
-  ;
+  | (string | null | number | ElementLike)[];
 
 function isEvHandlerCallback(
   match: RegExpMatchArray | null,
@@ -73,7 +71,7 @@ export function stract(
   }[] = [];
   const elements: {
     key: string;
-    el: ElementLike | ElementLike[]
+    el: ElementLike | ElementLike[];
   }[] = [];
 
   for (let i = 0; i < strings.length; i++) {
@@ -93,12 +91,10 @@ export function stract(
       // interp could be undefined
       finals.push(str);
     } else if (isRefHandler(refMatch, interp)) {
-
       refs.push({ key, cb: interp });
       finals.push(str, key);
-
     } else if (isEvHandlerCallback(eventMatch, interp)) {
-      if (!eventMatch) throw new Error('Unreachable');
+      if (!eventMatch) throw new Error("Unreachable");
       const eventName = eventMatch[1];
       events.push({
         key,
@@ -106,7 +102,6 @@ export function stract(
         cb: interp
       });
       finals.push(str, key);
-
     } else if (isString(interp)) {
       finals.push(str, interp);
     } else if (isNumber(interp)) {
@@ -136,7 +131,6 @@ export function stract(
           finals.push(`<span data-stract=${key}></span>`);
         }
       }
-
     } else if (interp) {
       throw new Error(`Type ${typeof interp} is not a valid interpolation!`);
     } else {
@@ -162,10 +156,7 @@ export function stract(
     if (Array.isArray(desc.el)) {
       let referenceNode = el;
       for (let i = 0; i < desc.el.length; i++) {
-        referenceNode.parentNode!.insertBefore(
-          desc.el[i],
-          referenceNode.nextSibling
-        );
+        insertAsNextSibling(referenceNode, desc.el[i]);
       }
       el.parentNode!.removeChild(el);
     } else {
@@ -181,4 +172,8 @@ export function stract(
   });
 
   return content;
+}
+
+export function insertAsNextSibling(refNode: ElementLike, futureSibling: ElementLike) {
+  refNode.parentNode!.insertBefore(futureSibling, refNode.nextSibling);
 }

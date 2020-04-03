@@ -1,6 +1,6 @@
 import { query, GameEntity } from "./aodb.js";
-import { EntityPanel } from "./edit.js";
-import { stract } from "./stract.js";
+import { EntityPanel, NewEntityButton } from "./edit.js";
+import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 
 function SectionTpl(name: string, desc: string) {
@@ -55,7 +55,7 @@ function EntryTpl(entry: GameEntity) {
   function showEditPanel() {
     liRef.style.animation = '';
     const editPanel = EntityPanel(entry);
-    liRef.parentNode?.insertBefore(editPanel, liRef.nextSibling);
+    insertAsNextSibling(liRef, editPanel);
   }
 
   return stract`
@@ -84,8 +84,6 @@ function EntryTpl(entry: GameEntity) {
 }
 
 function UnplayedTpl() {
-  // TODO: make these configurable externally
-
   return stract`
     <div class="list-section">
     ${SectionTpl("Unplayed", "Maybe I'll play these.")}
@@ -115,6 +113,8 @@ function UnplayedTpl() {
     )}
     ${EntryListTpl(query("status", "Abandoned"))}
     </div>
+
+    ${NewEntityButton()}
 
     <p class="about">
     ${useMetadata().about} This is a shameless rip-off of Shaun Inman's

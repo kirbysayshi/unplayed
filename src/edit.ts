@@ -1,5 +1,5 @@
-import { GameEntity, useDb, StatusKeys, Status, diff } from "./aodb.js";
-import { stract } from "./stract.js";
+import { GameEntity, useDb, StatusKeys, Status, diff, nextId } from "./aodb.js";
+import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 
 // Map a symbol to the element `name` attr
@@ -57,7 +57,7 @@ export function EntityPanel(entity: GameEntity) {
 
     // and append to output
     const result = getInput(InputNames.result) as HTMLInputElement;
-    result.value = mutations.join("\n");
+    result.value = `\n${mutations.join("\n")}\n\n`;
   };
 
   return stract`
@@ -132,6 +132,36 @@ function GithubEditTpl(href: string) {
   return `<a href="${href}" target="_blank" rel="noopener">Edit in Github</a>`;
 }
 
-export function NewEntityPanel() {
+export function NewEntityButton() {
   // generate an id, and then display prepend commands for new entity
+
+  let ref: Element;
+
+  const createNew = (ev: Event) => {
+    ev.preventDefault();
+    const entity: GameEntity = {
+      id: nextId(),
+      insertionId: -1,
+      status: "Unplayed",
+      name: "",
+      platform: "",
+      comment: "",
+      startDate: "",
+      endDate: "",
+      source: ""
+    };
+
+    const panel = EntityPanel(entity);
+    insertAsNextSibling(ref, panel);
+    window.scrollBy(0, ref.nextElementSibling!.clientHeight);
+  };
+
+  return stract`
+    <p
+      class="about"
+      ref=${(el: Element) => {
+        ref = el;
+      }}
+    ><a href="#" onclick=${createNew}>Add Game</a></p>
+  `;
 }
