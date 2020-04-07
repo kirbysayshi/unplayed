@@ -1,4 +1,13 @@
 
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "status", "Unbeaten");
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "name", "Chrono Trigger");
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "platform", "SNES");
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "comment", "Two hours in and already at 2300 AD! This game moves like a rocket if you know mostly where to go next. Hoping this playthrough to tackle some of the various endings. Not sure I’ve ever finished the SNES version, only the DS port.");
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "startDate", "2020-04-06");
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "source", "Been excited due to DGC episodes and recent anniversary!");
+
+
+
 prepend("DK6akVVCGJJS5Qd9DLmpg", "status", "Abandoned");
 prepend("DK6akVVCGJJS5Qd9DLmpg", "name", "Sayonara Wild Hearts");
 prepend("DK6akVVCGJJS5Qd9DLmpg", "platform", "iOS");
