@@ -16,6 +16,8 @@ export const StatusKeys = [
 
 export type Status = typeof StatusKeys[number];
 
+// TODO: add a "dateAdded" field so I can differentiate between the start/end date of playing and dateAdded to the board.
+
 export type GameEntity = {
   id: EntityId;
   insertionId: number;
