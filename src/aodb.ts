@@ -22,10 +22,10 @@ export type GameEntity = {
   status: Status;
   name: string;
   platform: string;
-  comment: string;
-  startDate: string;
-  endDate: string;
-  source: string;
+  comment?: string;
+  startDate?: string;
+  endDate?: string;
+  source?: string;
 };
 
 type MutableGameEntityFields = Exclude<keyof GameEntity, "id" | "insertionId">;
@@ -56,6 +56,11 @@ export function prepend<K extends MutableGameEntityFields>(
 // Build the raw keyValues into full entities
 function build() {
   const collected = new Map<EntityId, GameEntity>();
+
+  // TODO: probably want to rethink how a GameEntity is constructed. Want to
+  // ensure that non-optional properties always have a value, and that there is
+  // a source of truth, rather than a wishy contract between here and the
+  // editing view.
 
   for (let i = 0; i < entries.length; i++) {
     const entry = entries[i];
@@ -120,7 +125,7 @@ export function query<K extends keyof GameEntity>(
       const sortB = b[field];
       // Do not attempt to sort if either field is falsy (aka not-sortable)
       if (!sortA || !sortB) continue;
-      return (sortA || "").toString().localeCompare((sortB || "").toString());
+      return (sortA ?? "").toString().localeCompare((sortB ?? "").toString());
     }
     return a.insertionId.toString().localeCompare(b.insertionId.toString());
   });

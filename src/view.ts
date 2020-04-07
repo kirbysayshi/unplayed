@@ -25,14 +25,14 @@ function EntryListTpl(entries: GameEntity[]) {
 }
 
 function EntryTpl(entry: GameEntity) {
-  const start = entry.startDate && `${entry.startDate} &mdash; `;
-  const end = entry.endDate;
-  const dates = start || end ? `<p class="date">${start}${end}</p>` : "";
-  const source = entry.source.match(/http|www|[a-z]\.[a-z]/)
+  const start = entry.startDate ? `${entry.startDate} &mdash; ` : '';
+  const end = entry.endDate || '';
+  const dates = start || end ? stract`<p class="date">${start}${end}</p>` : "";
+  const source = !entry.source
+    ? ""
+    : entry.source.match(/http|www|[a-z]\.[a-z]/)
     ? `<a href="${entry.source}">${entry.source}</a>`
-    : entry.source
-    ? `Rec: ${entry.source}`
-    : "";
+    : `Rec: ${entry.source}`;
 
   let liRef: HTMLLIElement;
 

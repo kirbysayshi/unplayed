@@ -95,25 +95,25 @@ export function EntityPanel(entity: GameEntity) {
       </label>
       <label>
         Comment
-        <textarea name="${InputNames.comment}">${entity.comment}</textarea>
+        <textarea name="${InputNames.comment}">${entity.comment ?? ''}</textarea>
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${entity.startDate}">
+          value="${entity.startDate ?? ''}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${entity.endDate}">
+          value="${entity.endDate ?? ''}">
       </label>
       <label>
         Source (can be URL or just text)
-        <input type="text" name="${InputNames.source}" value="${entity.source}">
+        <input type="text" name="${InputNames.source}" value="${entity.source ?? ''}">
       </label>
 
       <label>
