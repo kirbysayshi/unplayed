@@ -15,6 +15,7 @@ var InputNames;
 })(InputNames || (InputNames = {}));
 export function EntityPanel(entity) {
     // given an entity, display prepend commands for an edit
+    var _a, _b, _c, _d;
     const { editLink } = useMetadata();
     // compute platforms
     const db = useDb();
@@ -74,25 +75,25 @@ export function EntityPanel(entity) {
       </label>
       <label>
         Comment
-        <textarea name="${InputNames.comment}">${entity.comment}</textarea>
+        <textarea name="${InputNames.comment}">${(_a = entity.comment) !== null && _a !== void 0 ? _a : ''}</textarea>
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${entity.startDate}">
+          value="${(_b = entity.startDate) !== null && _b !== void 0 ? _b : ''}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${entity.endDate}">
+          value="${(_c = entity.endDate) !== null && _c !== void 0 ? _c : ''}">
       </label>
       <label>
         Source (can be URL or just text)
-        <input type="text" name="${InputNames.source}" value="${entity.source}">
+        <input type="text" name="${InputNames.source}" value="${(_d = entity.source) !== null && _d !== void 0 ? _d : ''}">
       </label>
 
       <label>

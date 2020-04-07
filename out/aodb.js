@@ -21,6 +21,10 @@ export function prepend(id, key, value) {
 // Build the raw keyValues into full entities
 function build() {
     const collected = new Map();
+    // TODO: probably want to rethink how a GameEntity is constructed. Want to
+    // ensure that non-optional properties always have a value, and that there is
+    // a source of truth, rather than a wishy contract between here and the
+    // editing view.
     for (let i = 0; i < entries.length; i++) {
         const entry = entries[i];
         const built = collected.has(entry.id)
@@ -74,7 +78,7 @@ export function query(searchField, searchValue, sortFields = ["endDate", "startD
             // Do not attempt to sort if either field is falsy (aka not-sortable)
             if (!sortA || !sortB)
                 continue;
-            return (sortA || "").toString().localeCompare((sortB || "").toString());
+            return (sortA !== null && sortA !== void 0 ? sortA : "").toString().localeCompare((sortB !== null && sortB !== void 0 ? sortB : "").toString());
         }
         return a.insertionId.toString().localeCompare(b.insertionId.toString());
     });

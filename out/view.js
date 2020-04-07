@@ -21,14 +21,14 @@ function EntryListTpl(entries) {
   `;
 }
 function EntryTpl(entry) {
-    const start = entry.startDate && `${entry.startDate} &mdash; `;
-    const end = entry.endDate;
-    const dates = start || end ? `<p class="date">${start}${end}</p>` : "";
-    const source = entry.source.match(/http|www|[a-z]\.[a-z]/)
-        ? `<a href="${entry.source}">${entry.source}</a>`
-        : entry.source
-            ? `Rec: ${entry.source}`
-            : "";
+    const start = entry.startDate ? `${entry.startDate} &mdash; ` : '';
+    const end = entry.endDate || '';
+    const dates = start || end ? stract `<p class="date">${start}${end}</p>` : "";
+    const source = !entry.source
+        ? ""
+        : entry.source.match(/http|www|[a-z]\.[a-z]/)
+            ? `<a href="${entry.source}">${entry.source}</a>`
+            : `Rec: ${entry.source}`;
     let liRef;
     const lpDuration = 1000;
     let toRef;
