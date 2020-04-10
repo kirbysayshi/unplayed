@@ -28,6 +28,12 @@ export type GameEntity = {
   startDate?: string;
   endDate?: string;
   source?: string;
+  log?: string;
+};
+
+export type ParsedLog = {
+  date: string;
+  text: string;
 };
 
 type MutableGameEntityFields = Exclude<keyof GameEntity, "id" | "insertionId">;
@@ -85,6 +91,7 @@ function build() {
       case "endDate":
       case "comment":
       case "source":
+      case "log":
         built[entry.key] = entry.value !== undefined ? entry.value : "";
         break;
       default: {
@@ -135,23 +142,30 @@ export function query<K extends keyof GameEntity>(
 
 export function diff(orig: GameEntity, next: GameEntity) {
   const mutations: string[] = [];
+  // Need to take union of all keys to ensure we get as many as possible!
+  const keyUnion = new Set<MutableGameEntityFields>();
+  Object.keys(orig).forEach(k => keyUnion.add(k as MutableGameEntityFields));
+  Object.keys(next).forEach(k => keyUnion.add(k as MutableGameEntityFields));
+  const keys = Array.from(keyUnion);
   const e = JSON.stringify;
 
-  Object.keys(orig).forEach((key) => {
-    switch (key as MutableGameEntityFields) {
+  keys.forEach((key) => {
+    switch (key) {
       case "status":
       case "name":
       case "platform":
       case "startDate":
       case "endDate":
       case "comment":
-      case "source": {
+      case "source":
+      case "log": {
         const k = key as MutableGameEntityFields;
         if (orig[k] !== next[k])
           mutations.push(`prepend(${e(next.id)}, ${e(key)}, ${e(next[k])});`);
         break;
       }
       default:
+        const _n: never = key;
         break;
     }
   });

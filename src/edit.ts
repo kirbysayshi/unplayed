@@ -1,4 +1,12 @@
-import { GameEntity, useDb, StatusKeys, Status, diff, nextId } from "./aodb.js";
+import {
+  GameEntity,
+  useDb,
+  StatusKeys,
+  Status,
+  diff,
+  nextId,
+  ParsedLog,
+} from "./aodb.js";
 import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 
@@ -12,6 +20,8 @@ enum InputNames {
   endDate = "end-date",
   source = "source",
   result = "result",
+  logText = "log-text",
+  logDate = "log-date",
 }
 
 export function EntityPanel(entity: GameEntity) {
@@ -31,6 +41,9 @@ export function EntityPanel(entity: GameEntity) {
   const getInput = (name: InputNames) =>
     ref.querySelector(`[name="${name}"]`) as HTMLInputElement;
 
+  const getInputs = (name: InputNames) =>
+    Array.from(ref.querySelectorAll(`[name="${name}"]`)) as HTMLInputElement[];
+
   const handleChange = () => {
     // Collect the data
     const status = getInput(InputNames.status).value;
@@ -40,6 +53,13 @@ export function EntityPanel(entity: GameEntity) {
     const startDate = getInput(InputNames.startDate).value;
     const endDate = getInput(InputNames.endDate).value;
     const source = getInput(InputNames.source).value;
+
+    const logTexts = getInputs(InputNames.logText).map((el) => el.value);
+    const logDates = getInputs(InputNames.logDate).map((el) => el.value);
+    const logs: ParsedLog[] = logTexts.map((text, i) => ({
+      text,
+      date: logDates[i],
+    }));
 
     // diff previous data with new
     const orig = entity;
@@ -52,6 +72,7 @@ export function EntityPanel(entity: GameEntity) {
       startDate,
       endDate,
       source,
+      log: JSON.stringify(logs),
     };
     const mutations = diff(orig, next);
 
@@ -59,6 +80,41 @@ export function EntityPanel(entity: GameEntity) {
     const result = getInput(InputNames.result) as HTMLInputElement;
     result.value = `\n${mutations.join("\n")}\n\n`;
   };
+
+  let logSpan: HTMLSpanElement;
+  const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
+
+  const addLog = () => {
+    logs.push({ date: "", text: "" });
+    logSpan.innerHTML = "";
+    logSpan.appendChild(LogsComponent());
+    handleChange();
+  };
+
+  const removeLog = (idx: number) => {
+    logs.splice(idx, 1);
+    logSpan.innerHTML = "";
+    logSpan.appendChild(LogsComponent());
+    handleChange();
+  };
+
+  const LogsComponent = () =>
+    stract`${logs.map(({ text, date }, idx) => {
+      return stract`
+        <input
+          type="date"
+          name="${InputNames.logDate}"
+          value="${date}">
+        <input
+          type="text"
+          name="${InputNames.logText}"
+          value="${text}">
+        <button onclick=${(e: MouseEvent) => {
+          e.stopPropagation();
+          removeLog(idx);
+        }}>Remove Log</button>
+      `;
+    })}`;
 
   return stract`
     <div
@@ -86,34 +142,52 @@ export function EntityPanel(entity: GameEntity) {
       </label>
       <label>
         Platform (PSVita, Switch, PS4, PC, SNES, GBA, DS, PS2, PS3, GC, NES, etc)
-        <input type="text" name="${
-          InputNames.platform
-        }" list="platforms" value="${entity.platform}">
+        <input
+          type="text"
+          name="${InputNames.platform}"
+          list="platforms"
+          value="${entity.platform}">
         <datalist id="platforms">
         ${Array.from(platforms).map((p) => `<option value="${p}">`)}
         </datalist>
       </label>
       <label>
         Comment
-        <textarea name="${InputNames.comment}">${entity.comment ?? ''}</textarea>
+        <textarea
+          name="${InputNames.comment}"
+        >${entity.comment ?? ""}</textarea>
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${entity.startDate ?? ''}">
+          value="${entity.startDate ?? ""}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${entity.endDate ?? ''}">
+          value="${entity.endDate ?? ""}">
       </label>
       <label>
         Source (can be URL or just text)
-        <input type="text" name="${InputNames.source}" value="${entity.source ?? ''}">
+        <input
+          type="text"
+          name="${InputNames.source}"
+          value="${entity.source ?? ""}">
+      </label>
+      <label>
+        Logs <button onclick="${addLog}">Add Log</button>
+
+        <span ref="${(el: HTMLSpanElement) => {
+          logSpan = el;
+        }}">
+          ${LogsComponent()}
+        </span>
+        
+        
       </label>
 
       <label>
@@ -150,6 +224,7 @@ export function NewEntityButton() {
       startDate: "",
       endDate: "",
       source: "",
+      log: "",
     };
 
     const panel = EntityPanel(entity);
