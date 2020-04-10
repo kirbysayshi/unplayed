@@ -177,15 +177,23 @@ export function EntityPanel(orig: GameEntity) {
           value="${next.source ?? ""}">
       </label>
 
-      <label>
-        Logs
-        <button onclick="${addLog}">Add</button>
+      <fieldset>
+        <legend>
+          Logs
+          <a
+            href="#"
+            onclick="${(ev: MouseEvent) => {
+              ev.preventDefault();
+              addLog();
+            }}"
+          >Add</a>
+        </legend>
         <span ref="${(el: HTMLSpanElement) => {
           logSpan = el;
         }}">
           ${LogsComponent(next, removeLog)}
         </span>
-      </label>
+      </fieldset>
 
       <label>
         Tap then Copy for Github
@@ -206,18 +214,21 @@ const LogsComponent = (
   const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
   return stract`${logs.map(({ text, date }, idx) => {
     return stract`
+      <label>
       <input
         type="date"
         name="${InputNames.logDate}"
         value="${date}">
-      <input
-        type="text"
+      </label>
+      <label>
+      <textarea
         name="${InputNames.logText}"
-        value="${text}">
-      <button onclick=${(e: MouseEvent) => {
-        e.stopPropagation();
+      >${text}</textarea>
+      <a href="#" onclick=${(e: MouseEvent) => {
+        e.preventDefault();
         removeLog(idx);
-      }}>Remove Log</button>
+      }}>Remove Log</a>
+      </label>
     `;
   })}`;
 };

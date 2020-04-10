@@ -112,7 +112,14 @@ a:visited {
 
 [data-compose] label {
   display: block;
-  padding-bottom: 0.4em;
+  padding-bottom: 1em;
+}
+
+[data-compose] fieldset {
+  border: none;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 1em;
 }
 
 [data-compose] input,
