@@ -24,10 +24,15 @@ enum InputNames {
   logDate = "log-date",
 }
 
-export function EntityPanel(entity: GameEntity) {
+export function EntityPanel(orig: GameEntity) {
   // given an entity, display prepend commands for an edit
 
   const { editLink } = useMetadata();
+
+  // The rendered version of the entity. The source of truth
+  let next: GameEntity = {
+    ...orig,
+  };
 
   // compute platforms
   const db = useDb();
@@ -61,10 +66,9 @@ export function EntityPanel(entity: GameEntity) {
       date: logDates[i],
     }));
 
-    // diff previous data with new
-    const orig = entity;
-    const next: GameEntity = {
-      ...entity,
+    // update the component's notion of the entity
+    next = {
+      ...orig,
       status: status as Status,
       name,
       platform,
@@ -74,6 +78,7 @@ export function EntityPanel(entity: GameEntity) {
       source,
       log: JSON.stringify(logs),
     };
+    // diff previous data with new
     const mutations = diff(orig, next);
 
     // and append to output
@@ -82,39 +87,32 @@ export function EntityPanel(entity: GameEntity) {
   };
 
   let logSpan: HTMLSpanElement;
-  const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
 
   const addLog = () => {
-    logs.push({ date: "", text: "" });
+    // This order is important since we're not in react-land.
+    // update the "next" version of the entity...
+    const existing = next.log ? JSON.parse(next.log) : [];
+    existing.push({ date: "", text: "" });
+    next.log = JSON.stringify(existing);
+    // render the list since it always uses the "next"
     logSpan.innerHTML = "";
-    logSpan.appendChild(LogsComponent());
+    logSpan.appendChild(LogsComponent(next, removeLog));
+    // finally call update so the dom is up to date to be read from
     handleChange();
   };
 
   const removeLog = (idx: number) => {
-    logs.splice(idx, 1);
+    // This order is important since we're not in react-land.
+    // update the "next" version of the entity...
+    const existing = next.log ? JSON.parse(next.log) : [];
+    existing.splice(idx, 1);
+    next.log = JSON.stringify(existing);
+    // render the list since it always uses the "next"
     logSpan.innerHTML = "";
-    logSpan.appendChild(LogsComponent());
+    logSpan.appendChild(LogsComponent(next, removeLog));
+    // finally call update so the dom is up to date to be read from
     handleChange();
   };
-
-  const LogsComponent = () =>
-    stract`${logs.map(({ text, date }, idx) => {
-      return stract`
-        <input
-          type="date"
-          name="${InputNames.logDate}"
-          value="${date}">
-        <input
-          type="text"
-          name="${InputNames.logText}"
-          value="${text}">
-        <button onclick=${(e: MouseEvent) => {
-          e.stopPropagation();
-          removeLog(idx);
-        }}>Remove Log</button>
-      `;
-    })}`;
 
   return stract`
     <div
@@ -131,14 +129,14 @@ export function EntityPanel(entity: GameEntity) {
           ${StatusKeys.map(
             (status) =>
               `<option value="${status}" ${
-                status === entity.status ? "selected" : ""
+                status === next.status ? "selected" : ""
               }>${status}</option>`
           )}
         </select>
       </label>
       <label>
         Game Name
-        <input type="text" name="${InputNames.name}" value="${entity.name}">
+        <input type="text" name="${InputNames.name}" value="${next.name}">
       </label>
       <label>
         Platform (PSVita, Switch, PS4, PC, SNES, GBA, DS, PS2, PS3, GC, NES, etc)
@@ -146,7 +144,7 @@ export function EntityPanel(entity: GameEntity) {
           type="text"
           name="${InputNames.platform}"
           list="platforms"
-          value="${entity.platform}">
+          value="${next.platform}">
         <datalist id="platforms">
         ${Array.from(platforms).map((p) => `<option value="${p}">`)}
         </datalist>
@@ -155,39 +153,38 @@ export function EntityPanel(entity: GameEntity) {
         Comment
         <textarea
           name="${InputNames.comment}"
-        >${entity.comment ?? ""}</textarea>
+        >${next.comment ?? ""}</textarea>
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${entity.startDate ?? ""}">
+          value="${next.startDate ?? ""}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${entity.endDate ?? ""}">
+          value="${next.endDate ?? ""}">
       </label>
       <label>
         Source (can be URL or just text)
         <input
           type="text"
           name="${InputNames.source}"
-          value="${entity.source ?? ""}">
+          value="${next.source ?? ""}">
       </label>
-      <label>
-        Logs <button onclick="${addLog}">Add Log</button>
 
+      <label>
+        Logs
+        <button onclick="${addLog}">Add</button>
         <span ref="${(el: HTMLSpanElement) => {
           logSpan = el;
         }}">
-          ${LogsComponent()}
+          ${LogsComponent(next, removeLog)}
         </span>
-        
-        
       </label>
 
       <label>
@@ -201,6 +198,26 @@ export function EntityPanel(entity: GameEntity) {
     </div>
   `;
 }
+
+const LogsComponent = (entity: GameEntity, removeLog: (idx: number) => void) => {
+  const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
+  return stract`${logs.map(({ text, date }, idx) => {
+    return stract`
+      <input
+        type="date"
+        name="${InputNames.logDate}"
+        value="${date}">
+      <input
+        type="text"
+        name="${InputNames.logText}"
+        value="${text}">
+      <button onclick=${(e: MouseEvent) => {
+        e.stopPropagation();
+        removeLog(idx);
+      }}>Remove Log</button>
+    `;
+  })}`;
+};
 
 function GithubEditTpl(href: string) {
   return `<a href="${href}" target="_blank" rel="noopener">Edit in Github</a>`;
