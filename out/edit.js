@@ -1,4 +1,4 @@
-import { useDb, StatusKeys, diff, nextId } from "./aodb.js";
+import { useDb, StatusKeys, diff, nextId, } from "./aodb.js";
 import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 // Map a symbol to the element `name` attr
@@ -12,11 +12,15 @@ var InputNames;
     InputNames["endDate"] = "end-date";
     InputNames["source"] = "source";
     InputNames["result"] = "result";
+    InputNames["logText"] = "log-text";
+    InputNames["logDate"] = "log-date";
 })(InputNames || (InputNames = {}));
-export function EntityPanel(entity) {
+export function EntityPanel(orig) {
     // given an entity, display prepend commands for an edit
     var _a, _b, _c, _d;
     const { editLink } = useMetadata();
+    // The rendered version of the entity. The source of truth
+    let next = Object.assign({}, orig);
     // compute platforms
     const db = useDb();
     const platforms = db.reduce((all, e) => {
@@ -25,6 +29,7 @@ export function EntityPanel(entity) {
     }, new Set());
     let ref;
     const getInput = (name) => ref.querySelector(`[name="${name}"]`);
+    const getInputs = (name) => Array.from(ref.querySelectorAll(`[name="${name}"]`));
     const handleChange = () => {
         // Collect the data
         const status = getInput(InputNames.status).value;
@@ -34,18 +39,49 @@ export function EntityPanel(entity) {
         const startDate = getInput(InputNames.startDate).value;
         const endDate = getInput(InputNames.endDate).value;
         const source = getInput(InputNames.source).value;
-        // diff previous data with new
-        const orig = entity;
-        const next = Object.assign(Object.assign({}, entity), { status: status, name,
+        const logTexts = getInputs(InputNames.logText).map((el) => el.value);
+        const logDates = getInputs(InputNames.logDate).map((el) => el.value);
+        const logs = logTexts.map((text, i) => ({
+            text,
+            date: logDates[i],
+        }));
+        // update the component's notion of the entity
+        next = Object.assign(Object.assign({}, orig), { status: status, name,
             platform,
             comment,
             startDate,
             endDate,
-            source });
+            source, log: JSON.stringify(logs) });
+        // diff previous data with new
         const mutations = diff(orig, next);
         // and append to output
         const result = getInput(InputNames.result);
         result.value = `\n${mutations.join("\n")}\n\n`;
+    };
+    let logSpan;
+    const addLog = () => {
+        // This order is important since we're not in react-land.
+        // update the "next" version of the entity...
+        const existing = next.log ? JSON.parse(next.log) : [];
+        existing.push({ date: "", text: "" });
+        next.log = JSON.stringify(existing);
+        // render the list since it always uses the "next"
+        logSpan.innerHTML = "";
+        logSpan.appendChild(LogsComponent(next, removeLog));
+        // finally call update so the dom is up to date to be read from
+        handleChange();
+    };
+    const removeLog = (idx) => {
+        // This order is important since we're not in react-land.
+        // update the "next" version of the entity...
+        const existing = next.log ? JSON.parse(next.log) : [];
+        existing.splice(idx, 1);
+        next.log = JSON.stringify(existing);
+        // render the list since it always uses the "next"
+        logSpan.innerHTML = "";
+        logSpan.appendChild(LogsComponent(next, removeLog));
+        // finally call update so the dom is up to date to be read from
+        handleChange();
     };
     return stract `
     <div
@@ -59,42 +95,69 @@ export function EntityPanel(entity) {
       <label>
         Status
         <select name="${InputNames.status}">
-          ${StatusKeys.map((status) => `<option value="${status}" ${status === entity.status ? "selected" : ""}>${status}</option>`)}
+          ${StatusKeys.map((status) => `<option value="${status}" ${status === next.status ? "selected" : ""}>${status}</option>`)}
         </select>
       </label>
       <label>
         Game Name
-        <input type="text" name="${InputNames.name}" value="${entity.name}">
+        <input type="text" name="${InputNames.name}" value="${next.name}">
       </label>
       <label>
         Platform (PSVita, Switch, PS4, PC, SNES, GBA, DS, PS2, PS3, GC, NES, etc)
-        <input type="text" name="${InputNames.platform}" list="platforms" value="${entity.platform}">
+        <input
+          type="text"
+          name="${InputNames.platform}"
+          list="platforms"
+          value="${next.platform}">
         <datalist id="platforms">
         ${Array.from(platforms).map((p) => `<option value="${p}">`)}
         </datalist>
       </label>
       <label>
         Comment
-        <textarea name="${InputNames.comment}">${(_a = entity.comment) !== null && _a !== void 0 ? _a : ''}</textarea>
+        <textarea
+          name="${InputNames.comment}"
+        >${(_a = next.comment) !== null && _a !== void 0 ? _a : ""}</textarea>
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${(_b = entity.startDate) !== null && _b !== void 0 ? _b : ''}">
+          value="${(_b = next.startDate) !== null && _b !== void 0 ? _b : ""}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${(_c = entity.endDate) !== null && _c !== void 0 ? _c : ''}">
+          value="${(_c = next.endDate) !== null && _c !== void 0 ? _c : ""}">
       </label>
       <label>
         Source (can be URL or just text)
-        <input type="text" name="${InputNames.source}" value="${(_d = entity.source) !== null && _d !== void 0 ? _d : ''}">
+        <input
+          type="text"
+          name="${InputNames.source}"
+          value="${(_d = next.source) !== null && _d !== void 0 ? _d : ""}">
       </label>
+
+      <fieldset>
+        <legend>
+          Logs
+          <a
+            href="#"
+            onclick="${(ev) => {
+        ev.preventDefault();
+        addLog();
+    }}"
+          >Add</a>
+        </legend>
+        <span ref="${(el) => {
+        logSpan = el;
+    }}">
+          ${LogsComponent(next, removeLog)}
+        </span>
+      </fieldset>
 
       <label>
         Tap then Copy for Github
@@ -105,6 +168,28 @@ export function EntityPanel(entity) {
     </div>
   `;
 }
+const LogsComponent = (entity, removeLog) => {
+    const logs = entity.log ? JSON.parse(entity.log) : [];
+    return stract `${logs.map(({ text, date }, idx) => {
+        return stract `
+      <label>
+      <input
+        type="date"
+        name="${InputNames.logDate}"
+        value="${date}">
+      </label>
+      <label>
+      <textarea
+        name="${InputNames.logText}"
+      >${text}</textarea>
+      <a href="#" onclick=${(e) => {
+            e.preventDefault();
+            removeLog(idx);
+        }}>Remove Log</a>
+      </label>
+    `;
+    })}`;
+};
 function GithubEditTpl(href) {
     return `<a href="${href}" target="_blank" rel="noopener">Edit in Github</a>`;
 }
@@ -124,6 +209,7 @@ export function NewEntityButton() {
             startDate: "",
             endDate: "",
             source: "",
+            log: "",
         };
         const panel = EntityPanel(entity);
         insertAsNextSibling(ref, panel);

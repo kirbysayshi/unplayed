@@ -44,6 +44,7 @@ function build() {
             case "endDate":
             case "comment":
             case "source":
+            case "log":
                 built[entry.key] = entry.value !== undefined ? entry.value : "";
                 break;
             default: {
@@ -85,8 +86,13 @@ export function query(searchField, searchValue, sortFields = ["endDate", "startD
 }
 export function diff(orig, next) {
     const mutations = [];
+    // Need to take union of all keys to ensure we get as many as possible!
+    const keyUnion = new Set();
+    Object.keys(orig).forEach((k) => keyUnion.add(k));
+    Object.keys(next).forEach((k) => keyUnion.add(k));
+    const keys = Array.from(keyUnion);
     const e = JSON.stringify;
-    Object.keys(orig).forEach((key) => {
+    keys.forEach((key) => {
         switch (key) {
             case "status":
             case "name":
@@ -94,13 +100,15 @@ export function diff(orig, next) {
             case "startDate":
             case "endDate":
             case "comment":
-            case "source": {
+            case "source":
+            case "log": {
                 const k = key;
                 if (orig[k] !== next[k])
                     mutations.push(`prepend(${e(next.id)}, ${e(key)}, ${e(next[k])});`);
                 break;
             }
             default:
+                const _n = key;
                 break;
         }
     });
