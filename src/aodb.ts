@@ -144,8 +144,8 @@ export function diff(orig: GameEntity, next: GameEntity) {
   const mutations: string[] = [];
   // Need to take union of all keys to ensure we get as many as possible!
   const keyUnion = new Set<MutableGameEntityFields>();
-  Object.keys(orig).forEach(k => keyUnion.add(k as MutableGameEntityFields));
-  Object.keys(next).forEach(k => keyUnion.add(k as MutableGameEntityFields));
+  Object.keys(orig).forEach((k) => keyUnion.add(k as MutableGameEntityFields));
+  Object.keys(next).forEach((k) => keyUnion.add(k as MutableGameEntityFields));
   const keys = Array.from(keyUnion);
   const e = JSON.stringify;
 

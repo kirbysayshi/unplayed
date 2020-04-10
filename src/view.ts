@@ -25,8 +25,8 @@ function EntryListTpl(entries: GameEntity[]) {
 }
 
 function EntryTpl(entry: GameEntity) {
-  const start = entry.startDate ? `${entry.startDate} &mdash; ` : '';
-  const end = entry.endDate || '';
+  const start = entry.startDate ? `${entry.startDate} &mdash; ` : "";
+  const end = entry.endDate || "";
   const dates = start || end ? stract`<p class="date">${start}${end}</p>` : "";
   const source = !entry.source
     ? ""
