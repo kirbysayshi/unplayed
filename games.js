@@ -1,4 +1,6 @@
 
+prepend("B8OqC2SsxCiq1Rf1ImC6Y", "log", "[{\"text\":\"It is so liberating without random battles! Especially after playing FF9 and FF6 relatively recently. I can finally explore!\",\"date\":\"2020-04-07\"},{\"text\":\"[zeal music plays] MELCHIOR: it’s... a long story\",\"date\":\"2020-04-08\"},{\"text\":\"You can see Frog open the mountain FROM SPACE!!\",\"date\":\"2020-04-09\"}]");
+
 prepend("B8OqC2SsxCiq1Rf1ImC6Y", "comment", "Two hours in and already at 2300 AD! This game moves like a rocket if you know mostly where to go next. Hoping this playthrough to tackle some of the various endings. Not sure I’ve ever finished the SNES version, only the DS port.");
 prepend("B8OqC2SsxCiq1Rf1ImC6Y", "endDate", "");
 prepend("B8OqC2SsxCiq1Rf1ImC6Y", "log", "[{\"text\":\"It is so liberating without random battles! Especially after playing FF9 and FF6 relatively recently. I can finally explore!\",\"date\":\"2020-04-07\"},{\"text\":\"[zeal music plays] MELCHIOR: it’s... a long story\",\"date\":\"2020-04-08\"}]");
