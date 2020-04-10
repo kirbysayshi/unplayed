@@ -199,7 +199,10 @@ export function EntityPanel(orig: GameEntity) {
   `;
 }
 
-const LogsComponent = (entity: GameEntity, removeLog: (idx: number) => void) => {
+const LogsComponent = (
+  entity: GameEntity,
+  removeLog: (idx: number) => void
+) => {
   const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
   return stract`${logs.map(({ text, date }, idx) => {
     return stract`
