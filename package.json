@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "dev": "tsc -w & serve",
-    "build": "tsc",
+    "build": "rm -rf out/ && tsc",
     "pretty": "prettier --write src/"
   },
   "dependencies": {},
