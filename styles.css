@@ -83,7 +83,8 @@ a:visited {
 
 .comment,
 .date,
-.source {
+.source,
+.log {
   padding: 0;
   margin: 0;
   font-size: 0.7em;

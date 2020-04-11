@@ -1,4 +1,4 @@
-import { query, GameEntity } from "./aodb.js";
+import { query, GameEntity, ParsedLog } from "./aodb.js";
 import { EntityPanel, NewEntityButton } from "./edit.js";
 import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
@@ -33,6 +33,7 @@ function EntryTpl(entry: GameEntity) {
     : entry.source.match(/http|www|[a-z]\.[a-z]/)
     ? `<a href="${entry.source}">${entry.source}</a>`
     : `Rec: ${entry.source}`;
+  const logs = (entry.log ? JSON.parse(entry.log) : []) as ParsedLog[];
 
   let liRef: HTMLLIElement;
 
@@ -80,6 +81,7 @@ function EntryTpl(entry: GameEntity) {
           : ""
       }
       ${entry.source ? `<p class="source">${source}</p>` : ""}
+      ${logs.map(({ date, text }) => `<p class="log">${date}: ${text}</p>`)}
       ${dates}
     </li>
   `;
