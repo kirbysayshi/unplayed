@@ -29,6 +29,7 @@ function EntryTpl(entry) {
         : entry.source.match(/http|www|[a-z]\.[a-z]/)
             ? `<a href="${entry.source}">${entry.source}</a>`
             : `Rec: ${entry.source}`;
+    const logs = (entry.log ? JSON.parse(entry.log) : []);
     let liRef;
     const lpDuration = 1000;
     let toRef;
@@ -69,6 +70,7 @@ function EntryTpl(entry) {
         ? `<p class="comment" data-comment>${entry.comment}</p>`
         : ""}
       ${entry.source ? `<p class="source">${source}</p>` : ""}
+      ${logs.map(({ date, text }) => `<p class="log">${date}: ${text}</p>`)}
       ${dates}
     </li>
   `;
