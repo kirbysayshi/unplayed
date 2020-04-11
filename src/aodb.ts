@@ -25,6 +25,7 @@ export type GameEntity = {
   name: string;
   platform: string;
   comment?: string;
+  addedDate: string;
   startDate?: string;
   endDate?: string;
   source?: string;
@@ -87,12 +88,15 @@ function build() {
         break;
       case "name":
       case "platform":
+      case "addedDate":
       case "startDate":
       case "endDate":
       case "comment":
       case "source":
-      case "log":
         built[entry.key] = entry.value !== undefined ? entry.value : "";
+        break;
+      case "log":
+        built[entry.key] = entry.value !== undefined ? entry.value : "[]";
         break;
       default: {
         const _n: never = entry.key;
@@ -117,7 +121,7 @@ export function useDb() {
 export function query<K extends keyof GameEntity>(
   searchField: K,
   searchValue: GameEntity[K],
-  sortFields: K[] = ["endDate", "startDate", "insertionId"] as K[]
+  sortFields: K[] = ["endDate", "startDate", "addedDate", "insertionId"] as K[]
 ) {
   const db = useDb();
   const results = [];
@@ -154,6 +158,7 @@ export function diff(orig: GameEntity, next: GameEntity) {
       case "status":
       case "name":
       case "platform":
+      case "addedDate":
       case "startDate":
       case "endDate":
       case "comment":

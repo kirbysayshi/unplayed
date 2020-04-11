@@ -16,6 +16,7 @@ enum InputNames {
   name = "name",
   platform = "platform",
   comment = "comment",
+  addedDate = "added-date",
   startDate = "start-date",
   endDate = "end-date",
   source = "source",
@@ -41,7 +42,7 @@ export function EntityPanel(orig: GameEntity) {
     return all;
   }, new Set());
 
-  let ref: HTMLDivElement;
+  let ref: HTMLFormElement;
 
   const getInput = (name: InputNames) =>
     ref.querySelector(`[name="${name}"]`) as HTMLInputElement;
@@ -50,11 +51,14 @@ export function EntityPanel(orig: GameEntity) {
     Array.from(ref.querySelectorAll(`[name="${name}"]`)) as HTMLInputElement[];
 
   const handleChange = () => {
+    ref.reportValidity();
+
     // Collect the data
     const status = getInput(InputNames.status).value;
     const name = getInput(InputNames.name).value;
     const platform = getInput(InputNames.platform).value;
     const comment = getInput(InputNames.comment).value;
+    const addedDate = getInput(InputNames.addedDate).value;
     const startDate = getInput(InputNames.startDate).value;
     const endDate = getInput(InputNames.endDate).value;
     const source = getInput(InputNames.source).value;
@@ -73,6 +77,7 @@ export function EntityPanel(orig: GameEntity) {
       name,
       platform,
       comment,
+      addedDate,
       startDate,
       endDate,
       source,
@@ -115,8 +120,8 @@ export function EntityPanel(orig: GameEntity) {
   };
 
   return stract`
-    <div
-      ref=${(el: HTMLDivElement) => {
+    <form
+      ref=${(el: HTMLFormElement) => {
         ref = el;
       }}
       data-compose
@@ -125,7 +130,8 @@ export function EntityPanel(orig: GameEntity) {
     >
       <label>
         Status
-        <select name="${InputNames.status}">
+        <select name="${InputNames.status}" required>
+          <option value="">Choose Status</option>
           ${StatusKeys.map(
             (status) =>
               `<option value="${status}" ${
@@ -154,6 +160,13 @@ export function EntityPanel(orig: GameEntity) {
         <textarea
           name="${InputNames.comment}"
         >${next.comment ?? ""}</textarea>
+      </label>
+      <label>
+        Added Date
+        <input
+          type="date"
+          name="${InputNames.addedDate}"
+          value="${next.addedDate ?? ""}">
       </label>
       <label>
         Start Date
@@ -203,7 +216,7 @@ export function EntityPanel(orig: GameEntity) {
       </label>
 
       <div style="margin: 2em 0 3em;">${GithubEditTpl(editLink)}</div>
-    </div>
+    </form>
   `;
 }
 
@@ -248,14 +261,16 @@ export function NewEntityButton() {
       id: nextId(),
       insertionId: -1,
       // TODO: add a "New Game" button to each category?
-      status: "Unplayed",
+      // @ts-ignore Because we want the status to be unset in the UI !
+      status: "",
       name: "",
       platform: "",
       comment: "",
+      addedDate: "",
       startDate: "",
       endDate: "",
       source: "",
-      log: "",
+      log: "[]",
     };
 
     const panel = EntityPanel(entity);
