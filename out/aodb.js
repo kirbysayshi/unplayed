@@ -40,12 +40,15 @@ function build() {
                 break;
             case "name":
             case "platform":
+            case "addedDate":
             case "startDate":
             case "endDate":
             case "comment":
             case "source":
-            case "log":
                 built[entry.key] = entry.value !== undefined ? entry.value : "";
+                break;
+            case "log":
+                built[entry.key] = entry.value !== undefined ? entry.value : "[]";
                 break;
             default: {
                 const _n = entry.key;
@@ -63,7 +66,7 @@ export function useDb() {
     }
     return built;
 }
-export function query(searchField, searchValue, sortFields = ["endDate", "startDate", "insertionId"]) {
+export function query(searchField, searchValue, sortFields = ["endDate", "startDate", "addedDate", "insertionId"]) {
     const db = useDb();
     const results = [];
     for (let i = 0; i < db.length; i++) {
@@ -97,6 +100,7 @@ export function diff(orig, next) {
             case "status":
             case "name":
             case "platform":
+            case "addedDate":
             case "startDate":
             case "endDate":
             case "comment":

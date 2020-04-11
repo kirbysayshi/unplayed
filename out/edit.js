@@ -8,6 +8,7 @@ var InputNames;
     InputNames["name"] = "name";
     InputNames["platform"] = "platform";
     InputNames["comment"] = "comment";
+    InputNames["addedDate"] = "added-date";
     InputNames["startDate"] = "start-date";
     InputNames["endDate"] = "end-date";
     InputNames["source"] = "source";
@@ -17,7 +18,7 @@ var InputNames;
 })(InputNames || (InputNames = {}));
 export function EntityPanel(orig) {
     // given an entity, display prepend commands for an edit
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e;
     const { editLink } = useMetadata();
     // The rendered version of the entity. The source of truth
     let next = Object.assign({}, orig);
@@ -31,11 +32,13 @@ export function EntityPanel(orig) {
     const getInput = (name) => ref.querySelector(`[name="${name}"]`);
     const getInputs = (name) => Array.from(ref.querySelectorAll(`[name="${name}"]`));
     const handleChange = () => {
+        ref.reportValidity();
         // Collect the data
         const status = getInput(InputNames.status).value;
         const name = getInput(InputNames.name).value;
         const platform = getInput(InputNames.platform).value;
         const comment = getInput(InputNames.comment).value;
+        const addedDate = getInput(InputNames.addedDate).value;
         const startDate = getInput(InputNames.startDate).value;
         const endDate = getInput(InputNames.endDate).value;
         const source = getInput(InputNames.source).value;
@@ -49,6 +52,7 @@ export function EntityPanel(orig) {
         next = Object.assign(Object.assign({}, orig), { status: status, name,
             platform,
             comment,
+            addedDate,
             startDate,
             endDate,
             source, log: JSON.stringify(logs) });
@@ -84,7 +88,7 @@ export function EntityPanel(orig) {
         handleChange();
     };
     return stract `
-    <div
+    <form
       ref=${(el) => {
         ref = el;
     }}
@@ -94,7 +98,8 @@ export function EntityPanel(orig) {
     >
       <label>
         Status
-        <select name="${InputNames.status}">
+        <select name="${InputNames.status}" required>
+          <option value="">Choose Status</option>
           ${StatusKeys.map((status) => `<option value="${status}" ${status === next.status ? "selected" : ""}>${status}</option>`)}
         </select>
       </label>
@@ -120,25 +125,32 @@ export function EntityPanel(orig) {
         >${(_a = next.comment) !== null && _a !== void 0 ? _a : ""}</textarea>
       </label>
       <label>
+        Added Date
+        <input
+          type="date"
+          name="${InputNames.addedDate}"
+          value="${(_b = next.addedDate) !== null && _b !== void 0 ? _b : ""}">
+      </label>
+      <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${(_b = next.startDate) !== null && _b !== void 0 ? _b : ""}">
+          value="${(_c = next.startDate) !== null && _c !== void 0 ? _c : ""}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${(_c = next.endDate) !== null && _c !== void 0 ? _c : ""}">
+          value="${(_d = next.endDate) !== null && _d !== void 0 ? _d : ""}">
       </label>
       <label>
         Source (can be URL or just text)
         <input
           type="text"
           name="${InputNames.source}"
-          value="${(_d = next.source) !== null && _d !== void 0 ? _d : ""}">
+          value="${(_e = next.source) !== null && _e !== void 0 ? _e : ""}">
       </label>
 
       <fieldset>
@@ -165,7 +177,7 @@ export function EntityPanel(orig) {
       </label>
 
       <div style="margin: 2em 0 3em;">${GithubEditTpl(editLink)}</div>
-    </div>
+    </form>
   `;
 }
 const LogsComponent = (entity, removeLog) => {
@@ -202,14 +214,16 @@ export function NewEntityButton() {
             id: nextId(),
             insertionId: -1,
             // TODO: add a "New Game" button to each category?
-            status: "Unplayed",
+            // @ts-ignore Because we want the status to be unset in the UI !
+            status: "",
             name: "",
             platform: "",
             comment: "",
+            addedDate: "",
             startDate: "",
             endDate: "",
             source: "",
-            log: "",
+            log: "[]",
         };
         const panel = EntityPanel(entity);
         insertAsNextSibling(ref, panel);
