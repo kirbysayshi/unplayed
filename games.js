@@ -1,4 +1,35 @@
 
+prepend("7TJ1lNP9Ft7o9yaF5VZ1n", "status", "Unplayed");
+prepend("7TJ1lNP9Ft7o9yaF5VZ1n", "name", "Race for the Galaxy");
+prepend("7TJ1lNP9Ft7o9yaF5VZ1n", "platform", "iOS");
+prepend("7TJ1lNP9Ft7o9yaF5VZ1n", "comment", "Can’t physically play, let’s try remote instead!");
+prepend("7TJ1lNP9Ft7o9yaF5VZ1n", "addedDate", "2020-04-13");
+
+
+
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "comment", "Played the board game, what about the remote-play iPad game? Async multiplayer! Perhaps a game to play with people!");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "startDate", "");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "endDate", "");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "source", "");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "log", "[]");
+
+
+
+
+prepend("hqRi47jijxgGe4X7PxiST", "comment", "Auto chess... what if it’s my genre? Looking for a game to play with people.");
+prepend("hqRi47jijxgGe4X7PxiST", "startDate", "");
+prepend("hqRi47jijxgGe4X7PxiST", "endDate", "");
+prepend("hqRi47jijxgGe4X7PxiST", "log", "[]");
+
+
+prepend("Jr5mibZsCXRABztDMuONv", "comment", "I’ve always been intimidated by the physical game after owning it for years. Maybe the digital version is manageable? Looking for a game to play with people.");
+prepend("Jr5mibZsCXRABztDMuONv", "startDate", "");
+prepend("Jr5mibZsCXRABztDMuONv", "endDate", "");
+prepend("Jr5mibZsCXRABztDMuONv", "source", "");
+prepend("Jr5mibZsCXRABztDMuONv", "log", "[]");
+
+
+
 prepend("Ct05qogTPAIsvb9LvcNrq", "status", "Unplayed");
 prepend("Ct05qogTPAIsvb9LvcNrq", "addedDate", "");
 prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[]");
