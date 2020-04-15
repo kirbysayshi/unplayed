@@ -1,4 +1,10 @@
 
+prepend("Ct05qogTPAIsvb9LvcNrq", "status", "Unplayed");
+prepend("Ct05qogTPAIsvb9LvcNrq", "addedDate", "");
+prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[]");
+
+
+
 prepend("xW46IkB1TWirvXjJpD9fF", "status", "Unplayed");
 prepend("xW46IkB1TWirvXjJpD9fF", "name", "Neptune’s Pride");
 prepend("xW46IkB1TWirvXjJpD9fF", "platform", "Web");
