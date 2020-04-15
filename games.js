@@ -1,4 +1,12 @@
 
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "status", "Unplayed");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "name", "Terraforming Mars");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "platform", "iOS");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "comment", "Played the board game, what about the remote-play iPad game? Async multiplayer!");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "addedDate", "2020-04-14");
+
+
+
 prepend("SVuBj8deKTMA7yhxZKWDj", "addedDate", "");
 prepend("SVuBj8deKTMA7yhxZKWDj", "log", "[{\"text\":\"Please. PLEASE. No more eggs. I have enough. The sky is filled. EGGS RAIN DOWN forever, Don’t you want more, hippity hoppity?!\",\"date\":\"2020-04-12\"}]");
 
