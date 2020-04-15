@@ -1,4 +1,12 @@
 
+prepend("Jr5mibZsCXRABztDMuONv", "status", "Unplayed");
+prepend("Jr5mibZsCXRABztDMuONv", "name", "Twilight Struggle");
+prepend("Jr5mibZsCXRABztDMuONv", "platform", "iOS");
+prepend("Jr5mibZsCXRABztDMuONv", "comment", "I’ve always been intimidated by the physical game after owning it for years. Maybe the digital version is manageable? ");
+prepend("Jr5mibZsCXRABztDMuONv", "addedDate", "2020-04-13");
+
+
+
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "status", "Unplayed");
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "name", "Terraforming Mars");
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "platform", "iOS");
