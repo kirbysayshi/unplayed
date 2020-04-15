@@ -1,4 +1,13 @@
 
+prepend("hqRi47jijxgGe4X7PxiST", "status", "Unplayed");
+prepend("hqRi47jijxgGe4X7PxiST", "name", "Teamfight Tactics");
+prepend("hqRi47jijxgGe4X7PxiST", "platform", "iOS");
+prepend("hqRi47jijxgGe4X7PxiST", "comment", "Auto chess... what if it’s my genre?");
+prepend("hqRi47jijxgGe4X7PxiST", "addedDate", "2020-04-13");
+prepend("hqRi47jijxgGe4X7PxiST", "source", "Malik / Searching the App Store ");
+
+
+
 prepend("Jr5mibZsCXRABztDMuONv", "status", "Unplayed");
 prepend("Jr5mibZsCXRABztDMuONv", "name", "Twilight Struggle");
 prepend("Jr5mibZsCXRABztDMuONv", "platform", "iOS");
