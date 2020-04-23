@@ -1,4 +1,14 @@
 
+prepend("yqhTbOYedRNq7kdN89qLF", "status", "Unbeaten");
+prepend("yqhTbOYedRNq7kdN89qLF", "name", "Spec Ops: The Line");
+prepend("yqhTbOYedRNq7kdN89qLF", "platform", "PS3");
+prepend("yqhTbOYedRNq7kdN89qLF", "comment", "I heard there’s a twist.");
+prepend("yqhTbOYedRNq7kdN89qLF", "addedDate", "2019-03-29");
+prepend("yqhTbOYedRNq7kdN89qLF", "startDate", "2019-03-30");
+prepend("yqhTbOYedRNq7kdN89qLF", "source", "WOFF");
+
+
+
 prepend("B8OqC2SsxCiq1Rf1ImC6Y", "log", "[{\"text\":\"It is so liberating without random battles! Especially after playing FF9 and FF6 relatively recently. I can finally explore!\",\"date\":\"2020-04-07\"},{\"text\":\"[zeal music plays] MELCHIOR: it’s... a long story\",\"date\":\"2020-04-08\"},{\"text\":\"You can see Frog open the mountain FROM SPACE!!\",\"date\":\"2020-04-09\"},{\"text\":\"There are few more satisfying feelings that a critical hit in this game!\\n\\nThe narrative and gameplay ties between Magus and the Masamune are so strong. \",\"date\":\"2020-04-10\"},{\"text\":\"Arrived at “The Fated Hour” with around 16 hours playtime\",\"date\":\"2020-04-16\"},{\"text\":\"Defeated Queen Zeal with Magus for extra dialog and music!\",\"date\":\"2020-04-19\"},{\"text\":\"Final time was 28h:00m or so. Final party: Magus, Chrono, Frog, just because why not. This play through I learned you can steal (charm) speed tabs from panels in the Black Omen, and Gold Studs from the Flyclops as well!\",\"date\":\"2020-04-20\"},{\"text\":\"Beat Lavos for The Dream Project ending. Everyone is so tired 😓. They put everything into this work. Thank you.\",\"date\":\"2020-04-21\"}]");
 
 
