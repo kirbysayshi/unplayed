@@ -1,4 +1,9 @@
 
+prepend("yqhTbOYedRNq7kdN89qLF", "endDate", "");
+prepend("yqhTbOYedRNq7kdN89qLF", "log", "[{\"text\":\"Plugged a PS4 controller in to try and get through this game. Last time really struggled to aim with the DS3 controller! Dropped the difficulty to lowest. Apparently had stopped playing around chapter 6. Hard to get excited about so much military. Who are these people and why do I care??\",\"date\":\"2020-04-22\"}]");
+
+
+
 prepend("yqhTbOYedRNq7kdN89qLF", "status", "Unbeaten");
 prepend("yqhTbOYedRNq7kdN89qLF", "name", "Spec Ops: The Line");
 prepend("yqhTbOYedRNq7kdN89qLF", "platform", "PS3");
