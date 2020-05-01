@@ -1,4 +1,8 @@
 
+prepend("yqhTbOYedRNq7kdN89qLF", "status", "Beaten");
+
+
+
 prepend("yqhTbOYedRNq7kdN89qLF", "startDate", "2019-04-01");
 prepend("yqhTbOYedRNq7kdN89qLF", "log", "[{\"text\":\"Plugged a PS4 controller in to try and get through this game. Last time really struggled to aim with the DS3 controller! Dropped the difficulty to lowest. Apparently had stopped playing around chapter 6. Hard to get excited about so much military. Who are these people and why do I care??\",\"date\":\"2020-04-22\"},{\"text\":\"https://mobile.twitter.com/KirbySaysHi/status/1253513556231938048\",\"date\":\"2020-04-23\"},{\"text\":\"Finished. Gameplay clock said 4h:30m or so, but there’s no way it was that short. Or was it? Very glad I played this on Easy. Really appreciate what this game is trying to do but don’t think it was executed well enough. Perhaps if they’d dropped some hints earlier? Did I just miss obvious things? Maybe I was distracted by how clumsy the PS3 controller is for shooters? Can’t go into more detail without spoilers.\",\"date\":\"2020-04-23\"}]");
 prepend("yqhTbOYedRNq7kdN89qLF", "endDate", "2020-04-23");
