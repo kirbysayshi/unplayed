@@ -1,4 +1,11 @@
 
+prepend("UKGrF949f5PaX9k3gaFVB", "startDate", "2020-05-06");
+prepend("UKGrF949f5PaX9k3gaFVB", "status", "Unbeaten");
+prepend("UKGrF949f5PaX9k3gaFVB", "addedDate", "2019-12-22");
+prepend("UKGrF949f5PaX9k3gaFVB", "log", "[{\"text\":\"I’m a frog! I’m a man! So playful! I love it ❤️! Music oscillates between amazing and ear-shatteringly shrill...\",\"date\":\"2020-05-06\"}]");
+
+
+
 prepend("yqhTbOYedRNq7kdN89qLF", "status", "Beaten");
 
 
