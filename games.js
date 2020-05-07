@@ -1,4 +1,11 @@
 
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "status", "Beaten");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "log", "[{\"text\":\"Played with Sam and Edwin. I won! Hard to remember all the rules, when with the game doing a lot of upkeep work. Very faithful translation to digital. Multiplayer lobby / game starting was a nightmare though, probably took 15 minutes of reconnects and quitting before we got linked up.\",\"date\":\"2020-04-18\"}]");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "endDate", "2020-04-18");
+prepend("ZNfqxbN4JZh2VHEUzAIxk", "startDate", "2020-04-18");
+
+
+
 prepend("UKGrF949f5PaX9k3gaFVB", "startDate", "2020-05-06");
 prepend("UKGrF949f5PaX9k3gaFVB", "status", "Unbeaten");
 prepend("UKGrF949f5PaX9k3gaFVB", "addedDate", "2019-12-22");
