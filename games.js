@@ -1,4 +1,12 @@
 
+prepend("LYuEiopLIZWOzZQLAmwOO", "status", "Unbeaten");
+prepend("LYuEiopLIZWOzZQLAmwOO", "name", "Bishoujo Senshi Sailor Moon");
+prepend("LYuEiopLIZWOzZQLAmwOO", "platform", "Turbografix-CD");
+prepend("LYuEiopLIZWOzZQLAmwOO", "comment", "Translated LAST WEEK! Applied https://www.romhacking.net/translations/5506/ using `brew install xdelta`.");
+prepend("LYuEiopLIZWOzZQLAmwOO", "addedDate", "2020-05-07");
+prepend("LYuEiopLIZWOzZQLAmwOO", "startDate", "2020-05-07");
+
+
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "status", "Beaten");
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "log", "[{\"text\":\"Played with Sam and Edwin. I won! Hard to remember all the rules, when with the game doing a lot of upkeep work. Very faithful translation to digital. Multiplayer lobby / game starting was a nightmare though, probably took 15 minutes of reconnects and quitting before we got linked up.\",\"date\":\"2020-04-18\"}]");
 prepend("ZNfqxbN4JZh2VHEUzAIxk", "endDate", "2020-04-18");
