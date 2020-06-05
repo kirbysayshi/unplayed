@@ -1,4 +1,14 @@
 
+prepend("0klPQb7kF6u6R1XL6ruHJ", "status", "Unbeaten");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "name", "Cave Noire");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "platform", "Game Boy");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "comment", "It’s... a persistent roguelike!? So far, very addicting. Just one more run...");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "addedDate", "2020-06-03");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "startDate", "2020-06-03");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "source", "https://www.polygon.com/features/2019/4/19/18412987/game-boy-best-games-nintendo-pokemon-tetris");
+
+
+
 prepend("GKtEIA3InWdHscP1NfDmT", "status", "Unbeaten");
 prepend("GKtEIA3InWdHscP1NfDmT", "name", "Treachery in Beatdown City");
 prepend("GKtEIA3InWdHscP1NfDmT", "platform", "Switch");
