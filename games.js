@@ -1,4 +1,13 @@
 
+prepend("h8Afss5Hc26f644frKBXv", "status", "Unbeaten");
+prepend("h8Afss5Hc26f644frKBXv", "name", "Pokémon Card GB2: Here Comes Team GR!");
+prepend("h8Afss5Hc26f644frKBXv", "platform", "GBC");
+prepend("h8Afss5Hc26f644frKBXv", "comment", "The first one was so much fun!");
+prepend("h8Afss5Hc26f644frKBXv", "addedDate", "2020-06-08");
+prepend("h8Afss5Hc26f644frKBXv", "startDate", "2020-06-05");
+
+
+
 prepend("0klPQb7kF6u6R1XL6ruHJ", "status", "Unbeaten");
 prepend("0klPQb7kF6u6R1XL6ruHJ", "name", "Cave Noire");
 prepend("0klPQb7kF6u6R1XL6ruHJ", "platform", "Game Boy");
