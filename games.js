@@ -1,4 +1,10 @@
 
+prepend("0klPQb7kF6u6R1XL6ruHJ", "platform", "GB");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "endDate", "");
+prepend("0klPQb7kF6u6R1XL6ruHJ", "log", "[]");
+
+
+
 prepend("h8Afss5Hc26f644frKBXv", "status", "Unbeaten");
 prepend("h8Afss5Hc26f644frKBXv", "name", "Pokémon Card GB2: Here Comes Team GR!");
 prepend("h8Afss5Hc26f644frKBXv", "platform", "GBC");
