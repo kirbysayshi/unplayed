@@ -1,4 +1,13 @@
 
+prepend("qSDGwKo8vePlO24OOnjSp", "status", "Abandoned");
+prepend("qSDGwKo8vePlO24OOnjSp", "name", "Zone of the Enders: The Fist of Mars");
+prepend("qSDGwKo8vePlO24OOnjSp", "platform", "GBA");
+prepend("qSDGwKo8vePlO24OOnjSp", "comment", "Can’t remember why I didn’t stick with it. Maybe I... don’t... like tactics games?? Or just overloaded on GBA games.");
+prepend("qSDGwKo8vePlO24OOnjSp", "addedDate", "2019-04-14");
+prepend("qSDGwKo8vePlO24OOnjSp", "startDate", "2020-06-14");
+
+
+
 prepend("bBcDWXKapSdez7vopHJxS", "status", "Abandoned");
 prepend("bBcDWXKapSdez7vopHJxS", "name", "Boktai: The Sun Is in Your Hand");
 prepend("bBcDWXKapSdez7vopHJxS", "platform", "GBA");
