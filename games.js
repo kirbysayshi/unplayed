@@ -1,4 +1,13 @@
 
+prepend("bBcDWXKapSdez7vopHJxS", "status", "Abandoned");
+prepend("bBcDWXKapSdez7vopHJxS", "name", "Boktai: The Sun Is in Your Hand");
+prepend("bBcDWXKapSdez7vopHJxS", "platform", "GBA");
+prepend("bBcDWXKapSdez7vopHJxS", "comment", "Bought the cart! But never had time with the sun. Used a hacked ROM instead. Not the best commute game, so I bounced off (I think). Very very Django.");
+prepend("bBcDWXKapSdez7vopHJxS", "addedDate", "2019-04-17");
+prepend("bBcDWXKapSdez7vopHJxS", "startDate", "2019-04-17");
+
+
+
 prepend("0klPQb7kF6u6R1XL6ruHJ", "platform", "GB");
 prepend("0klPQb7kF6u6R1XL6ruHJ", "endDate", "");
 prepend("0klPQb7kF6u6R1XL6ruHJ", "log", "[]");
