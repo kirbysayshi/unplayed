@@ -1,4 +1,14 @@
 
+prepend("z5hFEBECzIsb394Xuhou8", "status", "Beaten");
+prepend("z5hFEBECzIsb394Xuhou8", "name", "Pokémon: Trading Card Game");
+prepend("z5hFEBECzIsb394Xuhou8", "platform", "GB");
+prepend("z5hFEBECzIsb394Xuhou8", "comment", "Really a joy to play. “Am I going to get the card I need?” is very similar to gambling, but actually fun and strategic. Played it on my 3DSXL. It’s a shame the sequel was never officially released in the US!");
+prepend("z5hFEBECzIsb394Xuhou8", "addedDate", "2018-02-05");
+prepend("z5hFEBECzIsb394Xuhou8", "startDate", "2018-02-20");
+prepend("z5hFEBECzIsb394Xuhou8", "endDate", "2018-03-29");
+
+
+
 prepend("C1Ri0GAeVzcOoGKF0q2K1", "status", "Abandoned");
 prepend("C1Ri0GAeVzcOoGKF0q2K1", "name", "Into the Breach");
 prepend("C1Ri0GAeVzcOoGKF0q2K1", "platform", "Switch");
