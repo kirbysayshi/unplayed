@@ -1,4 +1,12 @@
 
+prepend("GGYRYHrM1APOppr8fMW5L", "status", "Beaten");
+prepend("GGYRYHrM1APOppr8fMW5L", "name", "Mass Effect 3");
+prepend("GGYRYHrM1APOppr8fMW5L", "platform", "PS3");
+prepend("GGYRYHrM1APOppr8fMW5L", "comment", "Not as epic as 2! But I beat it in less time haha. Unfortunate that the choices are not more nuanced");
+prepend("GGYRYHrM1APOppr8fMW5L", "endDate", "2018-04-16");
+
+
+
 prepend("iVxXxG6RnPg0wtTZ55X1I", "status", "Beaten");
 prepend("iVxXxG6RnPg0wtTZ55X1I", "name", "God of War (2018)");
 prepend("iVxXxG6RnPg0wtTZ55X1I", "platform", "PS4");
