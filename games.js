@@ -1,4 +1,13 @@
 
+prepend("iVxXxG6RnPg0wtTZ55X1I", "status", "Beaten");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "name", "God of War (2018)");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "platform", "PS4");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "comment", "Beat all the valkyries on Normal!");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "addedDate", "2018-04-27");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "endDate", "2018-06-25");
+
+
+
 prepend("wxmPqjweUFnKCu465AIQz", "status", "Beaten");
 prepend("wxmPqjweUFnKCu465AIQz", "name", "Titanfall 2");
 prepend("wxmPqjweUFnKCu465AIQz", "platform", "PS4");
