@@ -1,4 +1,10 @@
 
+prepend("iVxXxG6RnPg0wtTZ55X1I", "startDate", "2020-04-27");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "source", "");
+prepend("iVxXxG6RnPg0wtTZ55X1I", "log", "[]");
+
+
+
 prepend("GGYRYHrM1APOppr8fMW5L", "status", "Beaten");
 prepend("GGYRYHrM1APOppr8fMW5L", "name", "Mass Effect 3");
 prepend("GGYRYHrM1APOppr8fMW5L", "platform", "PS3");
