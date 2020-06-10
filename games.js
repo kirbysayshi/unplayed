@@ -1,4 +1,12 @@
 
+prepend("wxmPqjweUFnKCu465AIQz", "status", "Beaten");
+prepend("wxmPqjweUFnKCu465AIQz", "name", "Titanfall 2");
+prepend("wxmPqjweUFnKCu465AIQz", "platform", "PS4");
+prepend("wxmPqjweUFnKCu465AIQz", "comment", "I want a robot buddy.");
+prepend("wxmPqjweUFnKCu465AIQz", "endDate", "2019-01-19");
+
+
+
 prepend("qSDGwKo8vePlO24OOnjSp", "endDate", "");
 prepend("qSDGwKo8vePlO24OOnjSp", "source", "https://www.funstockretro.co.uk/news/the-top-10-underrated-game-boy-advance-games/");
 prepend("qSDGwKo8vePlO24OOnjSp", "log", "[]");
