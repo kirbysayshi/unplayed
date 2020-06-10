@@ -1,4 +1,16 @@
 
+prepend("qSDGwKo8vePlO24OOnjSp", "endDate", "");
+prepend("qSDGwKo8vePlO24OOnjSp", "source", "https://www.funstockretro.co.uk/news/the-top-10-underrated-game-boy-advance-games/");
+prepend("qSDGwKo8vePlO24OOnjSp", "log", "[]");
+
+
+
+prepend("bBcDWXKapSdez7vopHJxS", "endDate", "");
+prepend("bBcDWXKapSdez7vopHJxS", "source", "https://www.funstockretro.co.uk/news/the-top-10-underrated-game-boy-advance-games/");
+prepend("bBcDWXKapSdez7vopHJxS", "log", "[]");
+
+
+
 prepend("qSDGwKo8vePlO24OOnjSp", "status", "Abandoned");
 prepend("qSDGwKo8vePlO24OOnjSp", "name", "Zone of the Enders: The Fist of Mars");
 prepend("qSDGwKo8vePlO24OOnjSp", "platform", "GBA");
