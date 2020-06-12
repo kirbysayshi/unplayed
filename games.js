@@ -1,4 +1,10 @@
 
+prepend("z5hFEBECzIsb394Xuhou8", "comment", "Really a joy to play. “Am I going to get the card I need?” is very similar to gambling, but actually fun and strategic. Played it on my 3DSXL. It’s a shame the sequel was never officially released in the US! Playtime: 20h11m");
+prepend("z5hFEBECzIsb394Xuhou8", "source", "");
+prepend("z5hFEBECzIsb394Xuhou8", "log", "[]");
+
+
+
 prepend("z5hFEBECzIsb394Xuhou8", "status", "Beaten");
 prepend("z5hFEBECzIsb394Xuhou8", "name", "Pokémon: Trading Card Game");
 prepend("z5hFEBECzIsb394Xuhou8", "platform", "GB");
