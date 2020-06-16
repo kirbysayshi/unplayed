@@ -1,4 +1,13 @@
 
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "status", "Unplayed");
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "name", "Chikyu Kaiho Gun ZAS");
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "platform", "GB");
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "comment", "Apparently some of the best visuals and music on the system. The team never made another game together.");
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "addedDate", "2020-06-16");
+prepend("BJZ5hj6A0BHt9CDLl8jU0", "source", "https://ettugamer.com/2016/09/19/a-trip-through-game-boy-history-in-15-games-chikyu-kaiho-gun-zas/");
+
+
+
 prepend("zEX39ZBxHhb6FzJlWEZmS", "status", "Unplayed");
 prepend("zEX39ZBxHhb6FzJlWEZmS", "name", "Trip World");
 prepend("zEX39ZBxHhb6FzJlWEZmS", "platform", "GB");
