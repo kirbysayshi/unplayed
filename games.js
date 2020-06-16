@@ -1,4 +1,13 @@
 
+prepend("zEX39ZBxHhb6FzJlWEZmS", "status", "Unplayed");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "name", "Trip World");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "platform", "GB");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "comment", "Apparently short but beautiful and challenging violence in games.");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "addedDate", "2020-06-16");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "source", "https://ettugamer.com/2016/09/05/a-trip-through-game-boy-history-in-15-games-trip-world/");
+
+
+
 prepend("z5hFEBECzIsb394Xuhou8", "comment", "Really a joy to play. “Am I going to get the card I need?” is very similar to gambling, but actually fun and strategic. Played it on my 3DSXL. It’s a shame the sequel was never officially released in the US! Playtime: 20h11m");
 prepend("z5hFEBECzIsb394Xuhou8", "source", "");
 prepend("z5hFEBECzIsb394Xuhou8", "log", "[]");
