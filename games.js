@@ -1,4 +1,7 @@
 
+prepend("0klPQb7kF6u6R1XL6ruHJ", "log", "[{\"text\":\"Ok, not actually persistent. Apparently the stats are hard-coded for each level! I might have hit a wall though.\",\"date\":\"2020-06-16\"}]");
+
+
 prepend("BJZ5hj6A0BHt9CDLl8jU0", "status", "Unplayed");
 prepend("BJZ5hj6A0BHt9CDLl8jU0", "name", "Chikyu Kaiho Gun ZAS");
 prepend("BJZ5hj6A0BHt9CDLl8jU0", "platform", "GB");
