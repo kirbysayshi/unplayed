@@ -1,4 +1,11 @@
 
+prepend("gYJbLNXPJRocjA7qokjLI", "status", "Unplayed");
+prepend("gYJbLNXPJRocjA7qokjLI", "name", "Untitled Goose Game");
+prepend("gYJbLNXPJRocjA7qokjLI", "platform", "Switch");
+prepend("gYJbLNXPJRocjA7qokjLI", "comment", "Why can't I just sit down and do it? I missed that weekend way back when the internet played it. Also these boxes are super cool: https://www.iam8bit.com/collections/untitled-goose-game");
+prepend("gYJbLNXPJRocjA7qokjLI", "addedDate", "2020-07-20");
+
+
 prepend("0klPQb7kF6u6R1XL6ruHJ", "log", "[{\"text\":\"Ok, not actually persistent. Apparently the stats are hard-coded for each level! I might have hit a wall though.\",\"date\":\"2020-06-16\"}]");
 
 
