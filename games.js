@@ -1,4 +1,11 @@
 
+prepend("gYJbLNXPJRocjA7qokjLI", "comment", "Why can't I just sit down and do it? I missed that weekend way back when the internet played it. These boxes are super cool: https://www.iam8bit.com/collections/untitled-goose-game");
+prepend("gYJbLNXPJRocjA7qokjLI", "startDate", "");
+prepend("gYJbLNXPJRocjA7qokjLI", "endDate", "");
+prepend("gYJbLNXPJRocjA7qokjLI", "source", "");
+prepend("gYJbLNXPJRocjA7qokjLI", "log", "[{\"text\":\"TIL that the soundtrack is dynamic, by Dan Golding, and uses Debussy!\",\"date\":\"2020-07-20\"}]");
+
+
 prepend("gYJbLNXPJRocjA7qokjLI", "status", "Unplayed");
 prepend("gYJbLNXPJRocjA7qokjLI", "name", "Untitled Goose Game");
 prepend("gYJbLNXPJRocjA7qokjLI", "platform", "Switch");
