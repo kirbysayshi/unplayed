@@ -1,4 +1,13 @@
 
+prepend("Mou5d5p4EPw6GMGF9h4IT", "status", "UnplayedUnreleased");
+prepend("Mou5d5p4EPw6GMGF9h4IT", "name", "qomp");
+prepend("Mou5d5p4EPw6GMGF9h4IT", "platform", "PC");
+prepend("Mou5d5p4EPw6GMGF9h4IT", "comment", "https://stuffedwomb.at/qomp/");
+prepend("Mou5d5p4EPw6GMGF9h4IT", "addedDate", "2020-07-28");
+prepend("Mou5d5p4EPw6GMGF9h4IT", "source", "Doougle");
+
+
+
 prepend("gYJbLNXPJRocjA7qokjLI", "comment", "Why can't I just sit down and do it? I missed that weekend way back when the internet played it. These boxes are super cool: https://www.iam8bit.com/collections/untitled-goose-game");
 prepend("gYJbLNXPJRocjA7qokjLI", "startDate", "");
 prepend("gYJbLNXPJRocjA7qokjLI", "endDate", "");
