@@ -1,4 +1,14 @@
 
+prepend("JjWVab2dcWppxO5TY5mAm", "status", "Beaten");
+prepend("JjWVab2dcWppxO5TY5mAm", "name", "Pokemon Snap");
+prepend("JjWVab2dcWppxO5TY5mAm", "platform", "N64");
+prepend("JjWVab2dcWppxO5TY5mAm", "comment", "The announcement of a sequel made me want to revisit! This game is so much fun. Very short, but so fun. Pikachu proves himself the Gandalf of the Pokemon universe here.");
+prepend("JjWVab2dcWppxO5TY5mAm", "addedDate", "2020-06-17");
+prepend("JjWVab2dcWppxO5TY5mAm", "startDate", "2020-08-01");
+prepend("JjWVab2dcWppxO5TY5mAm", "endDate", "2020-08-01");
+
+
+
 prepend("Mou5d5p4EPw6GMGF9h4IT", "status", "UnplayedUnreleased");
 prepend("Mou5d5p4EPw6GMGF9h4IT", "name", "qomp");
 prepend("Mou5d5p4EPw6GMGF9h4IT", "platform", "PC");
