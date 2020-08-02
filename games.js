@@ -1,4 +1,10 @@
 
+prepend("JjWVab2dcWppxO5TY5mAm", "comment", "The announcement of a sequel made me want to revisit! This game is so much fun. Very short, but so fun. Pikachu reinforces that he is the Gandalf of the Pokemon universe here. Finished the entire Pokemon report in about 6h.");
+prepend("JjWVab2dcWppxO5TY5mAm", "source", "");
+prepend("JjWVab2dcWppxO5TY5mAm", "log", "[]");
+
+
+
 prepend("JjWVab2dcWppxO5TY5mAm", "status", "Beaten");
 prepend("JjWVab2dcWppxO5TY5mAm", "name", "Pokemon Snap");
 prepend("JjWVab2dcWppxO5TY5mAm", "platform", "N64");
