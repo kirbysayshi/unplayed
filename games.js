@@ -1,4 +1,12 @@
 
+prepend("AeGw7BpVKrsZ49EWCK73L", "startDate", "2020-08-07");
+prepend("AeGw7BpVKrsZ49EWCK73L", "status", "Unbeaten");
+prepend("AeGw7BpVKrsZ49EWCK73L", "addedDate", "2018-12-01");
+prepend("AeGw7BpVKrsZ49EWCK73L", "log", "[{\"text\":\"Wow this intro is so cinematic\",\"date\":\"2020-08-07\"},{\"text\":\"Aww Indy, don’t interrupt the lady’s show! That’s so rude\",\"date\":\"2020-08-07\"},{\"text\":\"Wow, they change the soundtrack mid-dialogue. Very impressive, feels just like a movie!\",\"date\":\"2020-08-07\"}]");
+
+
+
+
 prepend("JjWVab2dcWppxO5TY5mAm", "comment", "The announcement of a sequel made me want to revisit! This game is so much fun. Very short, but so fun. Pikachu reinforces that he is the Gandalf of the Pokemon universe here. Finished the entire Pokemon report in about 6h.");
 prepend("JjWVab2dcWppxO5TY5mAm", "source", "");
 prepend("JjWVab2dcWppxO5TY5mAm", "log", "[]");
