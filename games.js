@@ -3,7 +3,7 @@ prepend("dgOnIY8jyWoFilVMm9ZSx", "status", "Unplayed");
 prepend("dgOnIY8jyWoFilVMm9ZSx", "name", "CrossCode");
 prepend("dgOnIY8jyWoFilVMm9ZSx", "platform", "Switch/PS4");
 prepend("dgOnIY8jyWoFilVMm9ZSx", "comment", "Been following this game since forever since it uses a highly-modified ImpactJS! THE DREAM OF HTML5 IS STILL ALIVE lol");
-prepend("dgOnIY8jyWoFilVMm9ZSx", "addedDate", "2012-03-01");
+prepend("dgOnIY8jyWoFilVMm9ZSx", "addedDate", "2012-01-01");
 
 
 
