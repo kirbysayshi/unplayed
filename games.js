@@ -1,4 +1,11 @@
 
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "status", "UnplayedUnreleased");
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "name", "Ikenfell");
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "comment", "Sound design by Aivi & Surrashu! Not sure when I first heard about it. But it’s been awhile");
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "addedDate", "2019-05-01");
+
+
+
 prepend("SVuBj8deKTMA7yhxZKWDj", "comment", "It took me an hour to decide a name and island name :forehead-smack:. Oh, I’m in debt!");
 prepend("SVuBj8deKTMA7yhxZKWDj", "status", "Abandoned");
 prepend("SVuBj8deKTMA7yhxZKWDj", "log", "[{\"text\":\"Please. PLEASE. No more eggs. I have enough. The sky is filled. EGGS RAIN DOWN forever, Don’t you want more, hippity hoppity?!\",\"date\":\"2020-04-12\"},{\"text\":\"I put this down sometime in early June. Great for pre-sleep wind down. But I’m not really motivated by decorating or manicuring. Got stuck once my goal was an island rating. Hard to start big projects when you’re just playing a bit before bed. And I wasn’t playing or reading anything else. Just doing my chores in this game, while making the tiniest incremental progress compared to the rest of the world. A microcosm of my life in digital form.\",\"date\":\"2020-08-13\"}]");
