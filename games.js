@@ -1,4 +1,11 @@
 
+prepend("gYJbLNXPJRocjA7qokjLI", "platform", "PS4");
+prepend("gYJbLNXPJRocjA7qokjLI", "status", "Unbeaten");
+prepend("gYJbLNXPJRocjA7qokjLI", "log", "[{\"text\":\"TIL that the soundtrack is dynamic, by Dan Golding, and uses Debussy!\",\"date\":\"2020-07-20\"},{\"text\":\"Finished the first two areas, along with a secret “other” task in the garden... not sure I’ll return to this. It’s so playful, and the music is great, but it requires very specific actions to advance. And most of those actions are more about hidden knowledge rather than a puzzle.\",\"date\":\"2020-08-25\"}]");
+prepend("gYJbLNXPJRocjA7qokjLI", "startDate", "2020-08-25");
+
+
+
 prepend("zoHuTuhuuWlXRQjJW5faG", "status", "UnplayedUnreleased");
 prepend("zoHuTuhuuWlXRQjJW5faG", "name", "Cryamore");
 prepend("zoHuTuhuuWlXRQjJW5faG", "comment", "Action RPG I backed in 2013, and then eventually found out Aivi Tran is doing the soundtrack! I hope this one makes it.");
