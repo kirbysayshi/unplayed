@@ -1,4 +1,13 @@
 
+prepend("A1fegKW8akSYjhfRp2yBs", "status", "Unbeaten");
+prepend("A1fegKW8akSYjhfRp2yBs", "name", "River City Girls");
+prepend("A1fegKW8akSYjhfRp2yBs", "platform", "Switch");
+prepend("A1fegKW8akSYjhfRp2yBs", "comment", "Lisa bought this, and I’ve been playing coop with her. Great animation, and an incredible soundtrack! Great pastiche of anime and beat em ups. As with all beat em ups though, it suffers from a lack of depth communication.");
+prepend("A1fegKW8akSYjhfRp2yBs", "addedDate", "2020-08-28");
+prepend("A1fegKW8akSYjhfRp2yBs", "startDate", "2020-08-28");
+
+
+
 prepend("gYJbLNXPJRocjA7qokjLI", "platform", "PS4");
 prepend("gYJbLNXPJRocjA7qokjLI", "status", "Unbeaten");
 prepend("gYJbLNXPJRocjA7qokjLI", "log", "[{\"text\":\"TIL that the soundtrack is dynamic, by Dan Golding, and uses Debussy!\",\"date\":\"2020-07-20\"},{\"text\":\"Finished the first two areas, along with a secret “other” task in the garden... not sure I’ll return to this. It’s so playful, and the music is great, but it requires very specific actions to advance. And most of those actions are more about hidden knowledge rather than a puzzle.\",\"date\":\"2020-08-25\"}]");
