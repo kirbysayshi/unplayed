@@ -1,4 +1,12 @@
 
+prepend("QkkVX30xNi9678r7WdyhZ", "status", "Unplayed");
+prepend("QkkVX30xNi9678r7WdyhZ", "name", "Ni No Kuni");
+prepend("QkkVX30xNi9678r7WdyhZ", "comment", "Been meaning to try this for forever, always intimidated by a huge RPG :) ");
+prepend("QkkVX30xNi9678r7WdyhZ", "addedDate", "2020-09-14");
+prepend("QkkVX30xNi9678r7WdyhZ", "source", "jpalmer");
+
+
+
 prepend("A1fegKW8akSYjhfRp2yBs", "status", "Unbeaten");
 prepend("A1fegKW8akSYjhfRp2yBs", "name", "River City Girls");
 prepend("A1fegKW8akSYjhfRp2yBs", "platform", "Switch");
