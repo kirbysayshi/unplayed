@@ -1,4 +1,12 @@
 
+prepend("Nctit1pxamPTbokkxMo9X", "status", "Unbeaten");
+prepend("Nctit1pxamPTbokkxMo9X", "name", "Spelunky 2");
+prepend("Nctit1pxamPTbokkxMo9X", "platform", "PS4");
+prepend("Nctit1pxamPTbokkxMo9X", "startDate", "2020-09-15");
+prepend("Nctit1pxamPTbokkxMo9X", "log", "[{\"text\":\"Ahh! Run is default!? R1 is door not L1!? My brain can’t handle change!\\n\\nI’ll never beat this game, it’s even deadlier than the first.\",\"date\":\"2020-09-15\"}]");
+
+
+
 prepend("QkkVX30xNi9678r7WdyhZ", "status", "Unplayed");
 prepend("QkkVX30xNi9678r7WdyhZ", "name", "Ni No Kuni");
 prepend("QkkVX30xNi9678r7WdyhZ", "comment", "Been meaning to try this for forever, always intimidated by a huge RPG :) ");
