@@ -1,4 +1,12 @@
 
+prepend("Ent15Hs8MluFfEf9gIiqr", "status", "Unplayed");
+prepend("Ent15Hs8MluFfEf9gIiqr", "name", "Paradise Killer");
+prepend("Ent15Hs8MluFfEf9gIiqr", "platform", "Switch");
+prepend("Ent15Hs8MluFfEf9gIiqr", "comment", "City pop soundtrack! Open world detective story!");
+prepend("Ent15Hs8MluFfEf9gIiqr", "addedDate", "2020-09-19");
+
+
+
 prepend("Nctit1pxamPTbokkxMo9X", "status", "Unbeaten");
 prepend("Nctit1pxamPTbokkxMo9X", "name", "Spelunky 2");
 prepend("Nctit1pxamPTbokkxMo9X", "platform", "PS4");
