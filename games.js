@@ -1,4 +1,13 @@
 
+prepend("zFfc2Qr8eXLzPFXubPqOK", "endDate", "");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "startDate", "2020-09-21");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "platform", "Switch");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "status", "Unbeaten");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "addedDate", "2019-12-23");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "log", "[{\"text\":\"It came out on Switch! I think I finished the story in less than an hour, but there could be more... what a lovely game.\",\"date\":\"2020-09-21\"}]");
+
+
+
 prepend("Ent15Hs8MluFfEf9gIiqr", "status", "Unplayed");
 prepend("Ent15Hs8MluFfEf9gIiqr", "name", "Paradise Killer");
 prepend("Ent15Hs8MluFfEf9gIiqr", "platform", "Switch");
