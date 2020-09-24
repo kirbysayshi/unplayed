@@ -1,4 +1,8 @@
 
+prepend("zFfc2Qr8eXLzPFXubPqOK", "log", "[{\"text\":\"It came out on Switch! I think I finished the story in less than an hour, but there could be more... what a lovely game.\",\"date\":\"2020-09-21\"},{\"text\":\"This game reminds me how bad my sense of direction is! \",\"date\":\"2020-09-23\"}]");
+
+
+
 prepend("zFfc2Qr8eXLzPFXubPqOK", "endDate", "");
 prepend("zFfc2Qr8eXLzPFXubPqOK", "startDate", "2020-09-21");
 prepend("zFfc2Qr8eXLzPFXubPqOK", "platform", "Switch");
