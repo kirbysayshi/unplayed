@@ -1,4 +1,9 @@
 
+prepend("zFfc2Qr8eXLzPFXubPqOK", "endDate", "2020-09-28");
+prepend("zFfc2Qr8eXLzPFXubPqOK", "log", "[{\"text\":\"It came out on Switch! I think I finished the story in less than an hour, but there could be more... what a lovely game.\",\"date\":\"2020-09-21\"},{\"text\":\"This game reminds me how bad my sense of direction is! \",\"date\":\"2020-09-23\"},{\"text\":\"Im so glad the extra achievements and things to do were finite. While initially the movement felt weird, by the end I felt quite nimble!\",\"date\":\"2020-09-28\"}]");
+
+
+
 prepend("zFfc2Qr8eXLzPFXubPqOK", "log", "[{\"text\":\"It came out on Switch! I think I finished the story in less than an hour, but there could be more... what a lovely game.\",\"date\":\"2020-09-21\"},{\"text\":\"This game reminds me how bad my sense of direction is! \",\"date\":\"2020-09-23\"}]");
 
 
