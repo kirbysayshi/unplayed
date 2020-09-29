@@ -1,4 +1,12 @@
 
+prepend("Ent15Hs8MluFfEf9gIiqr", "status", "Unbeaten");
+prepend("Ent15Hs8MluFfEf9gIiqr", "startDate", "2020-09-28");
+prepend("Ent15Hs8MluFfEf9gIiqr", "endDate", "");
+prepend("Ent15Hs8MluFfEf9gIiqr", "source", "");
+prepend("Ent15Hs8MluFfEf9gIiqr", "log", "[{\"text\":\"This a e s t h e t i c is great. But ooof! Typos in the first screen??\",\"date\":\"2020-09-28\"}]");
+
+
+
 prepend("zFfc2Qr8eXLzPFXubPqOK", "status", "Beaten");
 
 
