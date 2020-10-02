@@ -1,4 +1,13 @@
 
+prepend("P5MRui0jMcUCLrQwpHPw4", "status", "Unbeaten");
+prepend("P5MRui0jMcUCLrQwpHPw4", "name", "Star Wars: Squadrons");
+prepend("P5MRui0jMcUCLrQwpHPw4", "platform", "PS4");
+prepend("P5MRui0jMcUCLrQwpHPw4", "addedDate", "2020-10-01");
+prepend("P5MRui0jMcUCLrQwpHPw4", "startDate", "2020-10-01");
+prepend("P5MRui0jMcUCLrQwpHPw4", "log", "[{\"text\":\"One or two missions in. So far I have left the controls as default. My flight brain is definitely causing confusion, but using a joypad helps.\",\"date\":\"2020-10-01\"}]");
+
+
+
 prepend("Ent15Hs8MluFfEf9gIiqr", "status", "Unbeaten");
 prepend("Ent15Hs8MluFfEf9gIiqr", "startDate", "2020-09-28");
 prepend("Ent15Hs8MluFfEf9gIiqr", "endDate", "");
