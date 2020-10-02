@@ -1,4 +1,11 @@
 
+prepend("P5MRui0jMcUCLrQwpHPw4", "log", "[{\"text\":\"One or two missions in. So far I have left the controls as default. My flight brain is definitely causing confusion, but using a joypad helps. It’s obvious that the designers of this game really took the LucasArts sims to heart. There’s an instruments-only mode!\",\"date\":\"2020-10-01\"}]");
+prepend("P5MRui0jMcUCLrQwpHPw4", "comment", "");
+prepend("P5MRui0jMcUCLrQwpHPw4", "endDate", "");
+prepend("P5MRui0jMcUCLrQwpHPw4", "source", "");
+
+
+
 prepend("P5MRui0jMcUCLrQwpHPw4", "status", "Unbeaten");
 prepend("P5MRui0jMcUCLrQwpHPw4", "name", "Star Wars: Squadrons");
 prepend("P5MRui0jMcUCLrQwpHPw4", "platform", "PS4");
