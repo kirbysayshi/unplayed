@@ -1,4 +1,9 @@
 
+prepend("wJLPMgPJmJT52GQvIuwuF", "addedDate", "");
+prepend("wJLPMgPJmJT52GQvIuwuF", "log", "[{\"text\":\"9h:52m:20s\",\"date\":\"2020-10-30\"}]");
+
+
+
 prepend("P5MRui0jMcUCLrQwpHPw4", "log", "[{\"text\":\"One or two missions in. So far I have left the controls as default. My flight brain is definitely causing confusion, but using a joypad helps. It’s obvious that the designers of this game really took the LucasArts sims to heart. There’s an instruments-only mode!\",\"date\":\"2020-10-01\"},{\"text\":\"Hit the credits! Eventually turned instruments-only mode to prevent UI clutter, but that also revealed some of the difficulties of using a joypad instead of keyboard for targeting. But still, this interface is one I’ve dreamed of for x-wing vs tie fighter / alliance! \",\"date\":\"2020-10-15\"}]");
 prepend("P5MRui0jMcUCLrQwpHPw4", "endDate", "2020-10-15");
 
