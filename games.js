@@ -1,4 +1,10 @@
 
+prepend("wJLPMgPJmJT52GQvIuwuF", "endDate", "2020-10-30");
+prepend("wJLPMgPJmJT52GQvIuwuF", "status", "Beaten");
+prepend("wJLPMgPJmJT52GQvIuwuF", "log", "[{\"text\":\"Held a two day party to finally play this game for myself. 9h:52m:20s — in water\",\"date\":\"2020-10-30\"}]");
+
+
+
 prepend("wJLPMgPJmJT52GQvIuwuF", "addedDate", "");
 prepend("wJLPMgPJmJT52GQvIuwuF", "log", "[{\"text\":\"9h:52m:20s\",\"date\":\"2020-10-30\"}]");
 
