@@ -1,4 +1,12 @@
 
+prepend("kwZRF6smC7ZpwnR4yJ4wr", "status", "UnplayedUnreleased");
+prepend("kwZRF6smC7ZpwnR4yJ4wr", "name", "Way to the Woods");
+prepend("kwZRF6smC7ZpwnR4yJ4wr", "comment", "Aivi and Surrashu!");
+prepend("kwZRF6smC7ZpwnR4yJ4wr", "addedDate", "2020-10-31");
+prepend("kwZRF6smC7ZpwnR4yJ4wr", "source", "https://hardcoregamer.com/2020/10/30/interview-with-ikenfell-composers-aivi-surasshu/391106/");
+
+
+
 prepend("wJLPMgPJmJT52GQvIuwuF", "endDate", "2020-10-30");
 prepend("wJLPMgPJmJT52GQvIuwuF", "status", "Beaten");
 prepend("wJLPMgPJmJT52GQvIuwuF", "log", "[{\"text\":\"Held a two day party to finally play this game for myself. 9h:52m:20s — in water\",\"date\":\"2020-10-30\"}]");
