@@ -1,4 +1,12 @@
 
+prepend("512b0fsGRuV5MCgGtY9Ly", "status", "Unplayed");
+prepend("512b0fsGRuV5MCgGtY9Ly", "name", "13 Sentinels: Ageis Rim");
+prepend("512b0fsGRuV5MCgGtY9Ly", "comment", "Nominated for Best Narrative, next to Hades, Ghosts of Tsushima, and FF7Remake! https://thegameawards.com/nominees/best-narrative");
+prepend("512b0fsGRuV5MCgGtY9Ly", "addedDate", "2020-11-21");
+prepend("512b0fsGRuV5MCgGtY9Ly", "source", "https://www.theverge.com/21493208/13-sentinels-aegis-rim-ps4-review-vanillaware");
+
+
+
 prepend("KRDHMtGZXZLtLuq4qGOPG", "status", "Unplayed");
 prepend("KRDHMtGZXZLtLuq4qGOPG", "name", "Cloudpunk");
 prepend("KRDHMtGZXZLtLuq4qGOPG", "platform", "PS4");
