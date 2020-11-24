@@ -1,4 +1,12 @@
 
+prepend("KRDHMtGZXZLtLuq4qGOPG", "status", "Unbeaten");
+prepend("KRDHMtGZXZLtLuq4qGOPG", "comment", "Premise looks great: delivery driver with an awesome soundtrack and neon-dipped visuals!");
+prepend("KRDHMtGZXZLtLuq4qGOPG", "startDate", "");
+prepend("KRDHMtGZXZLtLuq4qGOPG", "endDate", "");
+prepend("KRDHMtGZXZLtLuq4qGOPG", "log", "[{\"text\":\"Rough start! Camera is clunky, long load times between zones, jittery frame rate (I hope I don’t get motion sickness). Sadly, the draw distance is at N64-like levels. I will try to stick with it but right now am not feeling very immersed!\",\"date\":\"2020-11-23\"}]");
+
+
+
 prepend("512b0fsGRuV5MCgGtY9Ly", "status", "Unplayed");
 prepend("512b0fsGRuV5MCgGtY9Ly", "name", "13 Sentinels: Ageis Rim");
 prepend("512b0fsGRuV5MCgGtY9Ly", "comment", "Nominated for Best Narrative, next to Hades, Ghosts of Tsushima, and FF7Remake! https://thegameawards.com/nominees/best-narrative");
