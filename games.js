@@ -1,4 +1,11 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "status", "Unplayed");
+prepend("fZo0t2OsZE8mxio3pAfZS", "name", "Hades");
+prepend("fZo0t2OsZE8mxio3pAfZS", "platform", "Switch");
+prepend("fZo0t2OsZE8mxio3pAfZS", "addedDate", "2020-11-16");
+prepend("fZo0t2OsZE8mxio3pAfZS", "source", "https://www.polygon.com/2020/11/16/21563033/hades-supergiant-games-erotic-power-play");
+
+
 prepend("dXdZ9rlhoaD1ssnMwA1yl", "status", "Unbeaten");
 prepend("dXdZ9rlhoaD1ssnMwA1yl", "platform", "");
 prepend("dXdZ9rlhoaD1ssnMwA1yl", "startDate", "2020-11-27");
