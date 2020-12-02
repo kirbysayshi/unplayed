@@ -1,4 +1,12 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "status", "Unbeaten");
+prepend("fZo0t2OsZE8mxio3pAfZS", "comment", "");
+prepend("fZo0t2OsZE8mxio3pAfZS", "startDate", "2020-12-01");
+prepend("fZo0t2OsZE8mxio3pAfZS", "endDate", "");
+prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[]");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "status", "Unplayed");
 prepend("fZo0t2OsZE8mxio3pAfZS", "name", "Hades");
 prepend("fZo0t2OsZE8mxio3pAfZS", "platform", "Switch");
