@@ -1,4 +1,9 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 60+ hours in...\",\"date\":\"2020-12-28\"}]");
+prepend("fZo0t2OsZE8mxio3pAfZS", "comment", "This game might never be “beaten”...");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "status", "Unbeaten");
 prepend("fZo0t2OsZE8mxio3pAfZS", "comment", "");
 prepend("fZo0t2OsZE8mxio3pAfZS", "startDate", "2020-12-01");
