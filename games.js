@@ -1,4 +1,13 @@
 
+prepend("dvJmdt7GWngAATmHTjyqC", "status", "UnplayedUnreleased");
+prepend("dvJmdt7GWngAATmHTjyqC", "name", "Umurangi Generation");
+prepend("dvJmdt7GWngAATmHTjyqC", "platform", "Switch");
+prepend("dvJmdt7GWngAATmHTjyqC", "comment", "Out on Steam already, Switch is coming in 2021");
+prepend("dvJmdt7GWngAATmHTjyqC", "addedDate", "2021-01-30");
+prepend("dvJmdt7GWngAATmHTjyqC", "source", "https://www.vice.com/en/article/pkdvgv/how-umurangi-generation-captured-2020s-despair-and-neoliberal-decay?utm_campaign=digest&utm_medium=email&utm_source=nuzzel");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"}]");
 
 
