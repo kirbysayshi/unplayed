@@ -1,4 +1,8 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"}]");
+
+
+
 prepend("dvJmdt7GWngAATmHTjyqC", "status", "UnplayedUnreleased");
 prepend("dvJmdt7GWngAATmHTjyqC", "name", "Umurangi Generation");
 prepend("dvJmdt7GWngAATmHTjyqC", "platform", "Switch");
