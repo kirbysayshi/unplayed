@@ -1,4 +1,8 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"},{\"text\":\"I defeated EM4! (181 attempts, 150 hours)\",\"date\":\"2021-03-04\"}]");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"}]");
 
 
