@@ -1,4 +1,15 @@
 
+prepend("3Cq05HRO54qvqL0z7GPLw", "status", "Beaten");
+prepend("3Cq05HRO54qvqL0z7GPLw", "name", "Detention");
+prepend("3Cq05HRO54qvqL0z7GPLw", "platform", "Switch");
+prepend("3Cq05HRO54qvqL0z7GPLw", "comment", "Wow. Only a few hours long. Just play it. We got the “true ending” on the first try.");
+prepend("3Cq05HRO54qvqL0z7GPLw", "addedDate", "2021-03-14");
+prepend("3Cq05HRO54qvqL0z7GPLw", "startDate", "2021-03-14");
+prepend("3Cq05HRO54qvqL0z7GPLw", "endDate", "2021-03-14");
+prepend("3Cq05HRO54qvqL0z7GPLw", "source", "Lisa via Switch Storefront");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"},{\"text\":\"I defeated EM4! (181 attempts, 150 hours)\",\"date\":\"2021-03-04\"}]");
 
 
