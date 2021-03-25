@@ -1,4 +1,8 @@
 
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "log", "[{\"text\":\"Lovely and playful, but the timing mechanic is unforgiving. You need to play perfectly or have lots of consumables to win boss fights.\",\"date\":\"2021-03-25\"}]");
+
+
+
 prepend("3Cq05HRO54qvqL0z7GPLw", "status", "Beaten");
 prepend("3Cq05HRO54qvqL0z7GPLw", "name", "Detention");
 prepend("3Cq05HRO54qvqL0z7GPLw", "platform", "Switch");
