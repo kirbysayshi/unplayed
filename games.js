@@ -1,4 +1,12 @@
 
+prepend("yW0zVtuzk2iRLFpqfqsrc", "startDate", "2020-01-01");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "comment", "Apply the patch! https://www.romhacking.net/translations/1736/ oh wait, already have it! Start date is an estimate.");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "status", "Unbeaten");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "addedDate", "2018-03-29");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "log", "[{\"text\":\"It’s the same game as before! But harder! And still fun.\",\"date\":\"2020-01-22\"}]");
+
+
+
 prepend("eMW8K2FD2XLb0IYmVhDb2", "status", "Abandoned");
 prepend("eMW8K2FD2XLb0IYmVhDb2", "addedDate", "");
 prepend("eMW8K2FD2XLb0IYmVhDb2", "log", "[{\"text\":\"Deleted to make room for FF7Remake. Never felt compelled to come back to this, since it felt inevitable that I’d finish and didn’t find the story intriguing, just obtuse.\",\"date\":\"2021-04-09\"}]");
