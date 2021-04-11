@@ -1,4 +1,7 @@
 
+prepend("UKGrF949f5PaX9k3gaFVB", "log", "[{\"text\":\"I’m a frog! I’m a man! So playful! I love it ❤️! Music oscillates between amazing and ear-shatteringly shrill...\",\"date\":\"2020-05-06\"},{\"text\":\"Apparently I was playing this game via the goomba emulator instead of on actual hardware! Might explain the music issues. Unfortunately could not port the emulator save game to a physical cart save game, even after lots of EverDrive investigation... will have to lose several hours of progress.\",\"date\":\"2020-05-08\"}]");
+
+
 prepend("yW0zVtuzk2iRLFpqfqsrc", "startDate", "2020-06-05");
 prepend("yW0zVtuzk2iRLFpqfqsrc", "comment", "The first one was so much fun! Apply the patch! https://www.romhacking.net/translations/1736/ oh wait, already have it! Start date is an estimate, might have actually already started 2020/01/22.");
 prepend("yW0zVtuzk2iRLFpqfqsrc", "platform", "GBC");
