@@ -1,4 +1,8 @@
 
+prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[{\"text\":\"I played the demo before release and was very turned off by the battle system. But playing the real game, I think the tutorial might just be overwhelming and slightly lacking: watching Cloud get hit when you switch to Barret for the first time feels horrible, like you’re not playing correctly. After playing more, I guess you just have to assume your characters are going to get hit, unlike other 3rd person action games like God of War.\",\"date\":\"2021-04-10\"},{\"text\":\"Strong dissonance between AVALANCHE’s steampunk attire and the typical Midgar people’s suits, dresses, and slacks (maybe even in the slums, we’ll see). The setting is so detailed and realized, yet these background character models are as if from a completely different PS3-era game.\",\"date\":\"2021-04-11\"}]");
+
+
+
 prepend("dXdZ9rlhoaD1ssnMwA1yl", "log", "[{\"text\":\"Lovely and playful, but the timing mechanic is unforgiving. You need to play perfectly or have lots of consumables to win boss fights.\",\"date\":\"2021-03-25\"},{\"text\":\"Came back to this. The story and setting are delightful! That showtime song though... too short of a loop and jarring to hear vocals in an voiceless game. The slight amount of TV lag also drastically changes attack and defense timing, so this has to remain a handheld-only game.\",\"date\":\"2021-03-23\"}]");
 
 
