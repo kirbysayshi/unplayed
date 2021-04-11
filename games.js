@@ -1,4 +1,10 @@
 
+prepend("eMW8K2FD2XLb0IYmVhDb2", "status", "Abandoned");
+prepend("eMW8K2FD2XLb0IYmVhDb2", "addedDate", "");
+prepend("eMW8K2FD2XLb0IYmVhDb2", "log", "[{\"text\":\"Deleted to make room for FF7Remake. Never felt compelled to come back to this, since it felt inevitable that I’d finish and didn’t find the story intriguing, just obtuse.\",\"date\":\"2021-04-09\"}]");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"},{\"text\":\"I defeated EM4! (181 attempts, 150 hours)\",\"date\":\"2021-03-04\"},{\"text\":\"Going to call it. I could go for higher and higher heat, but this game has consumed me for too long simply because there was always a more perfect play through to achieve. Not that I ever got to that point.\",\"date\":\"2021-04-10\"}]");
 
 
