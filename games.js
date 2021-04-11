@@ -1,4 +1,11 @@
 
+prepend("yW0zVtuzk2iRLFpqfqsrc", "startDate", "2020-06-05");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "comment", "The first one was so much fun! Apply the patch! https://www.romhacking.net/translations/1736/ oh wait, already have it! Start date is an estimate, might have actually already started 2020/01/22.");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "platform", "GBC");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "name", "Pokémon Card GB2: Here Comes Team GR!");
+prepend("yW0zVtuzk2iRLFpqfqsrc", "addedDate", "2020-01-16");
+
+
 prepend("Nctit1pxamPTbokkxMo9X", "log", "[{\"text\":\"Ahh! Run is default!? R1 is door not L1!? My brain can’t handle change!\\n\\nI’ll never beat this game, it’s even deadlier than the first.\",\"date\":\"2020-09-15\"},{\"text\":\"OLMEC can [REDACTED]!?\",\"date\":\"2021-04-09\"}]");
 prepend("Nctit1pxamPTbokkxMo9X", "comment", "");
 prepend("Nctit1pxamPTbokkxMo9X", "addedDate", "");
