@@ -1,4 +1,8 @@
 
+prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"},{\"text\":\"I defeated EM4! (181 attempts, 150 hours)\",\"date\":\"2021-03-04\"},{\"text\":\"Going to call it. I could go for higher and higher heat, but this game has consumed me for too long simply because there was always a more perfect play through to achieve. Not that I ever got to that point.\",\"date\":\"2021-04-10\"}]");
+
+
+
 prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[{\"text\":\"I played the demo before release and was very turned off by the battle system. But playing the real game, I think the tutorial might just be overwhelming and slightly lacking: watching Cloud get hit when you switch to Barret for the first time feels horrible, like you’re not playing correctly. After playing more, I guess you just have to assume your characters are going to get hit, unlike other 3rd person action games like God of War.\",\"date\":\"2021-04-10\"},{\"text\":\"Strong dissonance between AVALANCHE’s steampunk attire and the typical Midgar people’s suits, dresses, and slacks (maybe even in the slums, we’ll see). The setting is so detailed and realized, yet these background character models are as if from a completely different PS3-era game.\",\"date\":\"2021-04-11\"}]");
 
 
