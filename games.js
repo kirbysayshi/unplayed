@@ -1,4 +1,8 @@
 
+prepend("UKGrF949f5PaX9k3gaFVB", "log", "[{\"text\":\"I’m a frog! I’m a man! So playful! I love it ❤️! Music oscillates between amazing and ear-shatteringly shrill...\",\"date\":\"2020-05-06\"},{\"text\":\"Apparently I was playing this game via the goomba emulator instead of on actual hardware! Might explain the music issues. Unfortunately could not port the emulator save game to a physical cart save game, even after lots of EverDrive investigation... will have to lose several hours of progress.\",\"date\":\"2020-05-08\"},{\"text\":\"Came back to this on real hardware! The music and sound fx are slightly less shrill. Restarting wasn’t even that bad, this entire experience so far is delightful. IMA SNAKE!\",\"date\":\"2021-04-26\"}]");
+
+
+
 prepend("UKGrF949f5PaX9k3gaFVB", "log", "[{\"text\":\"I’m a frog! I’m a man! So playful! I love it ❤️! Music oscillates between amazing and ear-shatteringly shrill...\",\"date\":\"2020-05-06\"},{\"text\":\"Apparently I was playing this game via the goomba emulator instead of on actual hardware! Might explain the music issues. Unfortunately could not port the emulator save game to a physical cart save game, even after lots of EverDrive investigation... will have to lose several hours of progress.\",\"date\":\"2020-05-08\"}]");
 
 
