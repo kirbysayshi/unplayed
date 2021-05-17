@@ -1,4 +1,8 @@
 
+prepend("zEX39ZBxHhb6FzJlWEZmS", "status", "Unbeaten");
+
+
+
 prepend("zEX39ZBxHhb6FzJlWEZmS", "startDate", "2021-05-16");
 prepend("zEX39ZBxHhb6FzJlWEZmS", "endDate", "");
 prepend("zEX39ZBxHhb6FzJlWEZmS", "log", "[{\"text\":\"I swear the title screen has color in it??? But this is a gameboy game. How? Is it an artifact of playing on the gameboy advance? Maybe Super Gameboy support?\",\"date\":\"2021-05-16\"}]");
