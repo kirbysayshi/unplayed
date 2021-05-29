@@ -1,4 +1,13 @@
 
+prepend("GypVtNnTrp2JzJdzjiVoZ", "status", "Unbeaten");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "name", "Mario Tennis");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "platform", "GBC");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "comment", "Wow it’s 2d Mario Tennis! With an RPG on top! ");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "addedDate", "2021-05-29");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "startDate", "2021-05-29");
+
+
+
 prepend("SowJ5t0yZT1lGrp0oyyOm", "comment", "Sometimes I just want to dig. This game is cute!");
 prepend("SowJ5t0yZT1lGrp0oyyOm", "name", "Mr. Driller");
 prepend("SowJ5t0yZT1lGrp0oyyOm", "source", "");
