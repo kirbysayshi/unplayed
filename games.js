@@ -1,4 +1,14 @@
 
+prepend("SowJ5t0yZT1lGrp0oyyOm", "status", "Abandoned");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "name", "Dr Driller");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "platform", "GBC");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "comment", "Sometimes I just want to dig");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "addedDate", "2021-05-28");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "startDate", "2021-05-28");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "endDate", "2021-05-28");
+
+
+
 prepend("dXdZ9rlhoaD1ssnMwA1yl", "platform", "Switch");
 
 
