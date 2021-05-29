@@ -1,4 +1,11 @@
 
+prepend("SowJ5t0yZT1lGrp0oyyOm", "comment", "Sometimes I just want to dig. This game is cute!");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "name", "Mr. Driller");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "source", "");
+prepend("SowJ5t0yZT1lGrp0oyyOm", "log", "[]");
+
+
+
 prepend("SowJ5t0yZT1lGrp0oyyOm", "status", "Abandoned");
 prepend("SowJ5t0yZT1lGrp0oyyOm", "name", "Dr Driller");
 prepend("SowJ5t0yZT1lGrp0oyyOm", "platform", "GBC");
