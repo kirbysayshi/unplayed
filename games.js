@@ -1,4 +1,9 @@
 
+prepend("zEX39ZBxHhb6FzJlWEZmS", "status", "Abandoned");
+prepend("zEX39ZBxHhb6FzJlWEZmS", "log", "[{\"text\":\"I swear the title screen has color in it??? But this is a gameboy game. How? Is it an artifact of playing on the gameboy advance? Maybe Super Gameboy support?\",\"date\":\"2021-05-16\"},{\"text\":\"I got stuck on a flying saucer\",\"date\":\"2021-05-28\"}]");
+
+
+
 prepend("zEX39ZBxHhb6FzJlWEZmS", "status", "Unbeaten");
 
 
