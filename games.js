@@ -1,4 +1,12 @@
 
+prepend("1zVZoyPcBvLvlVuvp1BZy", "startDate", "2021-06-04");
+prepend("1zVZoyPcBvLvlVuvp1BZy", "platform", "Switch");
+prepend("1zVZoyPcBvLvlVuvp1BZy", "status", "Unbeaten");
+prepend("1zVZoyPcBvLvlVuvp1BZy", "addedDate", "2018-05-01");
+prepend("1zVZoyPcBvLvlVuvp1BZy", "log", "[{\"text\":\"Wow this inventory system is genius, like resident evil. NO NUMBERS!!!\",\"date\":\"2021-06-04\"}]");
+
+
+
 prepend("GypVtNnTrp2JzJdzjiVoZ", "status", "Unbeaten");
 prepend("GypVtNnTrp2JzJdzjiVoZ", "name", "Mario Tennis");
 prepend("GypVtNnTrp2JzJdzjiVoZ", "platform", "GBC");
