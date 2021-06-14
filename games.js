@@ -1,4 +1,13 @@
 
+prepend("9InopV8vJUuXrpeBgkVSm", "status", "Unplayed");
+prepend("9InopV8vJUuXrpeBgkVSm", "name", "Slipways");
+prepend("9InopV8vJUuXrpeBgkVSm", "platform", "PC");
+prepend("9InopV8vJUuXrpeBgkVSm", "comment", "https://mobile.twitter.com/krajzeg/status/1398672245078233093\n\nStarted as a Pico-8 prototype! Space 4x-ish. Looks really fun.");
+prepend("9InopV8vJUuXrpeBgkVSm", "addedDate", "2021-06-11");
+prepend("9InopV8vJUuXrpeBgkVSm", "source", "Falcon");
+
+
+
 prepend("1zVZoyPcBvLvlVuvp1BZy", "startDate", "2021-06-04");
 prepend("1zVZoyPcBvLvlVuvp1BZy", "platform", "Switch");
 prepend("1zVZoyPcBvLvlVuvp1BZy", "status", "Unbeaten");
