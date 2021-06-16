@@ -1,4 +1,13 @@
 
+prepend("l2dRMfpTqSsaoxBHUL1BX", "status", "Unplayed");
+prepend("l2dRMfpTqSsaoxBHUL1BX", "name", "Children of Morta");
+prepend("l2dRMfpTqSsaoxBHUL1BX", "platform", "Switch");
+prepend("l2dRMfpTqSsaoxBHUL1BX", "comment", "Story-driven run-based? Art looks great.");
+prepend("l2dRMfpTqSsaoxBHUL1BX", "addedDate", "2021-06-16");
+prepend("l2dRMfpTqSsaoxBHUL1BX", "source", "Al");
+
+
+
 prepend("9InopV8vJUuXrpeBgkVSm", "status", "Unplayed");
 prepend("9InopV8vJUuXrpeBgkVSm", "name", "Slipways");
 prepend("9InopV8vJUuXrpeBgkVSm", "platform", "PC");
