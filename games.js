@@ -1,4 +1,11 @@
 
+prepend("4Xr2aFXqv0HMSMsTqX25I", "status", "Unplayed");
+prepend("4Xr2aFXqv0HMSMsTqX25I", "name", "Devotion");
+prepend("4Xr2aFXqv0HMSMsTqX25I", "comment", "From the same studio as Detention. Maybe even better? It was banned by the CCP");
+prepend("4Xr2aFXqv0HMSMsTqX25I", "addedDate", "2021-06-14");
+
+
+
 prepend("l2dRMfpTqSsaoxBHUL1BX", "status", "Unplayed");
 prepend("l2dRMfpTqSsaoxBHUL1BX", "name", "Children of Morta");
 prepend("l2dRMfpTqSsaoxBHUL1BX", "platform", "Switch");
