@@ -1,4 +1,21 @@
 
+prepend("NwQQ0zvSjCFWaAout44So", "status", "Unplayed");
+prepend("NwQQ0zvSjCFWaAout44So", "name", "The Pathless");
+prepend("NwQQ0zvSjCFWaAout44So", "platform", "PS4");
+prepend("NwQQ0zvSjCFWaAout44So", "comment", "Reviews are somewhat mixed but EAGLE BUDDY");
+prepend("NwQQ0zvSjCFWaAout44So", "addedDate", "2021-07-03");
+prepend("NwQQ0zvSjCFWaAout44So", "source", "PS4 Store");
+
+
+
+prepend("6t439ww67VLS2yZQfaJDA", "status", "Unplayed");
+prepend("6t439ww67VLS2yZQfaJDA", "name", "Scarlet Nexus");
+prepend("6t439ww67VLS2yZQfaJDA", "platform", "PS4");
+prepend("6t439ww67VLS2yZQfaJDA", "addedDate", "2021-07-03");
+prepend("6t439ww67VLS2yZQfaJDA", "source", "Phoebe");
+
+
+
 prepend("4Xr2aFXqv0HMSMsTqX25I", "status", "Unplayed");
 prepend("4Xr2aFXqv0HMSMsTqX25I", "name", "Devotion");
 prepend("4Xr2aFXqv0HMSMsTqX25I", "comment", "From the same studio as Detention. Maybe even better? It was banned by the CCP");
