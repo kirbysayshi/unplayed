@@ -1,4 +1,13 @@
 
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "status", "Unplayed");
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "name", "Phantasy Star");
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "platform", "Switch");
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "comment", "Apparently the Sega Ages version is the best way to play and appreciate this Sega Master System sci-fi JRPG! ");
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "addedDate", "2021-07-05");
+prepend("AoRU6mnaOcg5Qh3GDYTOy", "source", "Retronauts");
+
+
+
 prepend("6t439ww67VLS2yZQfaJDA", "status", "Unbeaten");
 prepend("6t439ww67VLS2yZQfaJDA", "comment", "");
 prepend("6t439ww67VLS2yZQfaJDA", "startDate", "2021-07-04");
