@@ -1,4 +1,12 @@
 
+prepend("6t439ww67VLS2yZQfaJDA", "status", "Unbeaten");
+prepend("6t439ww67VLS2yZQfaJDA", "comment", "");
+prepend("6t439ww67VLS2yZQfaJDA", "startDate", "2021-07-04");
+prepend("6t439ww67VLS2yZQfaJDA", "endDate", "");
+prepend("6t439ww67VLS2yZQfaJDA", "log", "[{\"text\":\"Done with phase 1! Combat tutorial was a little overwhelming but I think I’m slowly getting it. This game has charm.\",\"date\":\"2021-07-04\"}]");
+
+
+
 prepend("NwQQ0zvSjCFWaAout44So", "status", "Unplayed");
 prepend("NwQQ0zvSjCFWaAout44So", "name", "The Pathless");
 prepend("NwQQ0zvSjCFWaAout44So", "platform", "PS4");
