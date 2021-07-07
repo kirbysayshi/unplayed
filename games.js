@@ -1,4 +1,13 @@
 
+prepend("y4igPt1iy76y8zzRF63GO", "status", "Unbeaten");
+prepend("y4igPt1iy76y8zzRF63GO", "name", "Final Fantasy Tactics: War of the Lions");
+prepend("y4igPt1iy76y8zzRF63GO", "platform", "PSVita");
+prepend("y4igPt1iy76y8zzRF63GO", "comment", "I have tried playing this several times. It’s brutal, and since the battles are long, difficult to play in short commute-chunks. But seeing it mentioned positively by the developer of Ikenfell (ChevyRay, account deactivated for now) makes me want to give it another try! Last time I tried, likely back in 2012, I gave up at a battle I could not win with no alternative save point.");
+prepend("y4igPt1iy76y8zzRF63GO", "addedDate", "2021-07-07");
+prepend("y4igPt1iy76y8zzRF63GO", "source", "https://mobile.twitter.com/RabTom/status/1412019839670046721");
+
+
+
 prepend("AoRU6mnaOcg5Qh3GDYTOy", "status", "Unplayed");
 prepend("AoRU6mnaOcg5Qh3GDYTOy", "name", "Phantasy Star");
 prepend("AoRU6mnaOcg5Qh3GDYTOy", "platform", "Switch");
