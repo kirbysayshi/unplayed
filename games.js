@@ -1,4 +1,13 @@
 
+prepend("oKaXXj50A8R6GEm5VDMOJ", "status", "Unbeaten");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "name", "NEO: The World Ends with You");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "platform", "Switch");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "comment", "Trailer 1: what is this, a battle royale?\nTrailer 2: whoa look at those visuals\nRelease: ho boy I underestimated this game :)");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "addedDate", "2021-07-31");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "startDate", "2021-07-31");
+
+
+
 prepend("y4igPt1iy76y8zzRF63GO", "status", "Unbeaten");
 prepend("y4igPt1iy76y8zzRF63GO", "name", "Final Fantasy Tactics: War of the Lions");
 prepend("y4igPt1iy76y8zzRF63GO", "platform", "PSVita");
