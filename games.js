@@ -1,4 +1,14 @@
 
+prepend("HUs6bIySOlCIYhmpDga1v", "status", "Unbeaten");
+prepend("HUs6bIySOlCIYhmpDga1v", "name", "Sonic Mania");
+prepend("HUs6bIySOlCIYhmpDga1v", "platform", "Switch");
+prepend("HUs6bIySOlCIYhmpDga1v", "comment", "I was humming the soundtrack to Sonic 3 today when I realized: maybe I’ve never given sonic games enough patience? Had Sonic 2 growing up but could never manage wanting to go fast with being careful!");
+prepend("HUs6bIySOlCIYhmpDga1v", "addedDate", "2021-08-05");
+prepend("HUs6bIySOlCIYhmpDga1v", "startDate", "2021-08-05");
+prepend("HUs6bIySOlCIYhmpDga1v", "log", "[{\"text\":\"So far, this game is AWESOME! The aesthetic, music, pacing, skill is exactly what I always wanted a sonic game to be. And it keeps surprising me with new mechanics, level dynamics, and more!\",\"date\":\"2021-08-05\"}]");
+
+
+
 prepend("oKaXXj50A8R6GEm5VDMOJ", "status", "Unbeaten");
 prepend("oKaXXj50A8R6GEm5VDMOJ", "name", "NEO: The World Ends with You");
 prepend("oKaXXj50A8R6GEm5VDMOJ", "platform", "Switch");
