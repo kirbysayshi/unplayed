@@ -1,4 +1,8 @@
 
+prepend("HUs6bIySOlCIYhmpDga1v", "log", "[{\"text\":\"So far, this game is AWESOME! The aesthetic, music, pacing, skill is exactly what I always wanted a sonic game to be. And it keeps surprising me with new mechanics, level dynamics, and more!\",\"date\":\"2021-08-05\"},{\"text\":\"CREDITS! Only one chaos emerald lol. This is probably the greatest sonic game ever made. Excellent blend of exploration, speed, precision, and forgiveness. Animation is top-notch and playful. Music is of course amazing. Special stages are so so hard and headache inducing due to the focus required!\\n\\nThis game is a summer day from 1994.\",\"date\":\"2021-08-14\"},{\"text\":\"I’m not sure I’m capable of the spatial mapping required to succeed at the special UFO stages. Really wish I could get those chaos emeralds though!\",\"date\":\"2021-08-24\"}]");
+
+
+
 prepend("HUs6bIySOlCIYhmpDga1v", "log", "[{\"text\":\"So far, this game is AWESOME! The aesthetic, music, pacing, skill is exactly what I always wanted a sonic game to be. And it keeps surprising me with new mechanics, level dynamics, and more!\",\"date\":\"2021-08-05\"},{\"text\":\"CREDITS! Only one chaos emerald lol. This is probably the greatest sonic game ever made. Excellent blend of exploration, speed, precision, and forgiveness. Animation is top-notch and playful. Music is of course amazing. Special stages are so so hard and headache inducing due to the focus required!\\n\\nThis game is a summer day from 1994.\",\"date\":\"2021-08-14\"}]");
 prepend("HUs6bIySOlCIYhmpDga1v", "status", "Beaten");
 prepend("HUs6bIySOlCIYhmpDga1v", "endDate", "2021-08-14");
