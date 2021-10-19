@@ -1,4 +1,10 @@
 
+prepend("oKaXXj50A8R6GEm5VDMOJ", "status", "Beaten");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "log", "[{\"text\":\"Week 3: Day 1\",\"date\":\"2021-10-02\"},{\"text\":\"“We’re finally friends”\\n\\nEND CREDITS!\",\"date\":\"2021-10-18\"}]");
+prepend("oKaXXj50A8R6GEm5VDMOJ", "endDate", "2021-10-18");
+
+
+
 prepend("oKaXXj50A8R6GEm5VDMOJ", "endDate", "");
 prepend("oKaXXj50A8R6GEm5VDMOJ", "source", "");
 prepend("oKaXXj50A8R6GEm5VDMOJ", "log", "[{\"text\":\"Week 3: Day 1\",\"date\":\"2021-10-02\"}]");
