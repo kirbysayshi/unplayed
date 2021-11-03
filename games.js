@@ -1,4 +1,27 @@
 
+prepend("A1fegKW8akSYjhfRp2yBs", "status", "Abandoned");
+prepend("A1fegKW8akSYjhfRp2yBs", "endDate", "");
+prepend("A1fegKW8akSYjhfRp2yBs", "source", "");
+prepend("A1fegKW8akSYjhfRp2yBs", "log", "[]");
+
+
+
+prepend("KRDHMtGZXZLtLuq4qGOPG", "status", "Abandoned");
+
+
+
+prepend("Ent15Hs8MluFfEf9gIiqr", "status", "Abandoned");
+
+
+
+prepend("gYJbLNXPJRocjA7qokjLI", "status", "Abandoned");
+
+
+
+prepend("dgOnIY8jyWoFilVMm9ZSx", "status", "Abandoned");
+
+
+
 prepend("cTwNXUUahKF65Th0bmZaT", "status", "Unbeaten");
 prepend("cTwNXUUahKF65Th0bmZaT", "name", "Metroid Dread");
 prepend("cTwNXUUahKF65Th0bmZaT", "platform", "Switch");
