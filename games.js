@@ -1,4 +1,14 @@
 
+prepend("cTwNXUUahKF65Th0bmZaT", "status", "Unbeaten");
+prepend("cTwNXUUahKF65Th0bmZaT", "name", "Metroid Dread");
+prepend("cTwNXUUahKF65Th0bmZaT", "platform", "Switch");
+prepend("cTwNXUUahKF65Th0bmZaT", "comment", "[screaming intensifies]");
+prepend("cTwNXUUahKF65Th0bmZaT", "addedDate", "2021-11-02");
+prepend("cTwNXUUahKF65Th0bmZaT", "startDate", "2021-11-02");
+prepend("cTwNXUUahKF65Th0bmZaT", "log", "[{\"text\":\"Samus looks awesome, this soundtrack is great, and I’m terrified of hallways. Excellent.\",\"date\":\"2021-11-02\"}]");
+
+
+
 prepend("oKaXXj50A8R6GEm5VDMOJ", "log", "[{\"text\":\"Week 3: Day 1\",\"date\":\"2021-10-02\"},{\"text\":\"“We’re finally friends”\\n\\nEND CREDITS!\",\"date\":\"2021-10-18\"},{\"text\":\"100% Social Network!\",\"date\":\"2021-10-29\"}]");
 
 
