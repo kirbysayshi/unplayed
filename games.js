@@ -1,4 +1,10 @@
 
+prepend("cTwNXUUahKF65Th0bmZaT", "log", "[{\"text\":\"Samus looks awesome, this soundtrack is great, and I’m terrified of hallways. Excellent.\",\"date\":\"2021-11-02\"},{\"text\":\"I’ve gotten stuck several times so far! Which is a good, but frustrating experience. The EMMI sections are heart-pounding, but slightly annoying to be exploring a space under pressure…\\n\\nBut the sound design is excellent.\\n\\nI have found the grossest door.\",\"date\":\"\"}]");
+prepend("cTwNXUUahKF65Th0bmZaT", "endDate", "");
+prepend("cTwNXUUahKF65Th0bmZaT", "source", "");
+
+
+
 prepend("A1fegKW8akSYjhfRp2yBs", "status", "Abandoned");
 prepend("A1fegKW8akSYjhfRp2yBs", "endDate", "");
 prepend("A1fegKW8akSYjhfRp2yBs", "source", "");
