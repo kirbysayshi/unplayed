@@ -1,4 +1,12 @@
 
+prepend("mdzAcambfD7tj77c53ON8", "status", "Unplayed");
+prepend("mdzAcambfD7tj77c53ON8", "name", "Neo Cab");
+prepend("mdzAcambfD7tj77c53ON8", "platform", "Apple Arcade");
+prepend("mdzAcambfD7tj77c53ON8", "comment", "Continuing the trend of cyberpunk + cab/delivery drivers");
+prepend("mdzAcambfD7tj77c53ON8", "addedDate", "2021-11-30");
+
+
+
 prepend("cCdtWk4JlwrbNHDvHIo5a", "status", "Beaten");
 prepend("cCdtWk4JlwrbNHDvHIo5a", "name", "Rocket League Sideswipe");
 prepend("cCdtWk4JlwrbNHDvHIo5a", "platform", "iOS");
