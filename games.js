@@ -1,4 +1,13 @@
 
+prepend("cCdtWk4JlwrbNHDvHIo5a", "status", "Beaten");
+prepend("cCdtWk4JlwrbNHDvHIo5a", "name", "Rocket League Sideswipe");
+prepend("cCdtWk4JlwrbNHDvHIo5a", "platform", "iOS");
+prepend("cCdtWk4JlwrbNHDvHIo5a", "comment", "Thumbs on a touchscreen are hard! But a few matches in and I’m having fun. Going to call it “beaten” because it’s a forever game");
+prepend("cCdtWk4JlwrbNHDvHIo5a", "addedDate", "2021-11-30");
+prepend("cCdtWk4JlwrbNHDvHIo5a", "startDate", "2021-11-30");
+
+
+
 prepend("cTwNXUUahKF65Th0bmZaT", "log", "[{\"text\":\"Samus looks awesome, this soundtrack is great, and I’m terrified of hallways. Excellent.\",\"date\":\"2021-11-02\"},{\"text\":\"I’ve gotten stuck several times so far! Which is a good, but frustrating experience. The EMMI sections are heart-pounding, but slightly annoying to be exploring a space under pressure…\\n\\nBut the sound design is excellent.\\n\\nI have found the grossest door.\",\"date\":\"2021-11-02\"},{\"text\":\"GRAVITY SUIT LOOKS LIKE AN EVA\",\"date\":\"2021-11-14\"},{\"text\":\"100% in 13h40m17s. I doubt that includes deaths though\",\"date\":\"2021-11-25\"}]");
 
 
