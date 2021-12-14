@@ -1,4 +1,11 @@
 
+prepend("fk4trbmTeZZmOrO6KmNUu", "startDate", "2021-12-14");
+prepend("fk4trbmTeZZmOrO6KmNUu", "endDate", "");
+prepend("fk4trbmTeZZmOrO6KmNUu", "source", "");
+prepend("fk4trbmTeZZmOrO6KmNUu", "log", "[]");
+
+
+
 prepend("fk4trbmTeZZmOrO6KmNUu", "status", "Unplayed");
 prepend("fk4trbmTeZZmOrO6KmNUu", "name", "Another Eden");
 prepend("fk4trbmTeZZmOrO6KmNUu", "platform", "iOS");
