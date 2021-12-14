@@ -1,4 +1,12 @@
 
+prepend("fk4trbmTeZZmOrO6KmNUu", "status", "Unplayed");
+prepend("fk4trbmTeZZmOrO6KmNUu", "name", "Another Eden");
+prepend("fk4trbmTeZZmOrO6KmNUu", "platform", "iOS");
+prepend("fk4trbmTeZZmOrO6KmNUu", "comment", "Oh gawd they used the Chrono Cross music in the promo");
+prepend("fk4trbmTeZZmOrO6KmNUu", "addedDate", "2021-12-10");
+
+
+
 prepend("mdzAcambfD7tj77c53ON8", "status", "Unplayed");
 prepend("mdzAcambfD7tj77c53ON8", "name", "Neo Cab");
 prepend("mdzAcambfD7tj77c53ON8", "platform", "Apple Arcade");
