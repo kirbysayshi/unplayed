@@ -1,4 +1,8 @@
 
+prepend("A1fegKW8akSYjhfRp2yBs", "log", "[{\"text\":\"Got through two bosses!\",\"date\":\"2021-12-19\"}]");
+
+
+
 prepend("fk4trbmTeZZmOrO6KmNUu", "startDate", "2021-12-14");
 prepend("fk4trbmTeZZmOrO6KmNUu", "endDate", "");
 prepend("fk4trbmTeZZmOrO6KmNUu", "source", "");
