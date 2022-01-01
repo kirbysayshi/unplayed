@@ -1,4 +1,8 @@
 
+prepend("fk4trbmTeZZmOrO6KmNUu", "status", "Unbeaten");
+
+
+
 prepend("A1fegKW8akSYjhfRp2yBs", "log", "[{\"text\":\"Got through two bosses!\",\"date\":\"2021-12-19\"}]");
 
 
