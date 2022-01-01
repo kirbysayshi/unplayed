@@ -1,4 +1,12 @@
 
+prepend("OzwScTieQBSznhpQQpVvY", "status", "Unplayed");
+prepend("OzwScTieQBSznhpQQpVvY", "name", "Inscryption");
+prepend("OzwScTieQBSznhpQQpVvY", "platform", "PC");
+prepend("OzwScTieQBSznhpQQpVvY", "addedDate", "2021-12-30");
+prepend("OzwScTieQBSznhpQQpVvY", "source", "BDG top 5 games of 2021");
+
+
+
 prepend("fk4trbmTeZZmOrO6KmNUu", "status", "Unbeaten");
 
 
