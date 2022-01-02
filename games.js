@@ -1,4 +1,8 @@
 
+prepend("oKaXXj50A8R6GEm5VDMOJ", "log", "[{\"text\":\"Week 3: Day 1\",\"date\":\"2021-10-02\"},{\"text\":\"“We’re finally friends”\\n\\nEND CREDITS!\",\"date\":\"2021-10-18\"},{\"text\":\"100% Social Network!\",\"date\":\"2021-10-29\"},{\"text\":\"Randomly checked today: played for more than 60 hours.\",\"date\":\"2022-01-02\"}]");
+
+
+
 prepend("cTwNXUUahKF65Th0bmZaT", "log", "[{\"text\":\"Samus looks awesome, this soundtrack is great, and I’m terrified of hallways. Excellent.\",\"date\":\"2021-11-02\"},{\"text\":\"I’ve gotten stuck several times so far! Which is a good, but frustrating experience. The EMMI sections are heart-pounding, but slightly annoying to be exploring a space under pressure…\\n\\nBut the sound design is excellent.\\n\\nI have found the grossest door.\",\"date\":\"2021-11-02\"},{\"text\":\"GRAVITY SUIT LOOKS LIKE AN EVA\",\"date\":\"2021-11-14\"},{\"text\":\"100% in 13h40m17s. I doubt that includes deaths though\",\"date\":\"2021-11-25\"},{\"text\":\"According to Switch profile, it was more than 20 hours.\",\"date\":\"2022-01-02\"}]");
 
 
