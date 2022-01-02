@@ -1,4 +1,14 @@
 
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "status", "Unbeaten");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "name", "Death’s Door");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "platform", "Switch");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "comment", "Oof I didn’t know this was a souls-zelda-like…");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "addedDate", "2021-12-30");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "startDate", "2022-01-01");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "source", "BDG Top 5 of 2021");
+
+
+
 prepend("OzwScTieQBSznhpQQpVvY", "comment", "");
 prepend("OzwScTieQBSznhpQQpVvY", "startDate", "2022-01-01");
 prepend("OzwScTieQBSznhpQQpVvY", "endDate", "");
