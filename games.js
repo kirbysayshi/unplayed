@@ -1,4 +1,8 @@
 
+prepend("SVuBj8deKTMA7yhxZKWDj", "log", "[{\"text\":\"Please. PLEASE. No more eggs. I have enough. The sky is filled. EGGS RAIN DOWN forever, Don’t you want more, hippity hoppity?!\",\"date\":\"2020-04-12\"},{\"text\":\"I put this down sometime in early June. Great for pre-sleep wind down. But I’m not really motivated by decorating or manicuring. Got stuck once my goal was an island rating. Hard to start big projects when you’re just playing a bit before bed. And I wasn’t playing or reading anything else. Just doing my chores in this game, while making the tiniest incremental progress compared to the rest of the world. A 55 hour microcosm of my life in digital form\",\"date\":\"2020-08-13\"}]");
+
+
+
 prepend("oKaXXj50A8R6GEm5VDMOJ", "log", "[{\"text\":\"Week 3: Day 1\",\"date\":\"2021-10-02\"},{\"text\":\"“We’re finally friends”\\n\\nEND CREDITS!\",\"date\":\"2021-10-18\"},{\"text\":\"100% Social Network!\",\"date\":\"2021-10-29\"},{\"text\":\"Randomly checked today: played for more than 60 hours.\",\"date\":\"2022-01-02\"}]");
 
 
