@@ -1,4 +1,9 @@
 
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "endDate", "");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "log", "[{\"text\":\"I have no patience for sluggish controls and slowly telegraphed attacks. Getting a Dexterity and Haste upgrade have helped though. This game is brutal.\",\"date\":\"2022-01-01\"}]");
+
+
+
 prepend("OzwScTieQBSznhpQQpVvY", "status", "Unbeaten");
 
 
