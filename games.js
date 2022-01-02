@@ -1,4 +1,11 @@
 
+prepend("OzwScTieQBSznhpQQpVvY", "comment", "");
+prepend("OzwScTieQBSznhpQQpVvY", "startDate", "2022-01-01");
+prepend("OzwScTieQBSznhpQQpVvY", "endDate", "");
+prepend("OzwScTieQBSznhpQQpVvY", "log", "[]");
+
+
+
 prepend("OzwScTieQBSznhpQQpVvY", "status", "Unplayed");
 prepend("OzwScTieQBSznhpQQpVvY", "name", "Inscryption");
 prepend("OzwScTieQBSznhpQQpVvY", "platform", "PC");
