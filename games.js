@@ -1,4 +1,8 @@
 
+prepend("cTwNXUUahKF65Th0bmZaT", "log", "[{\"text\":\"Samus looks awesome, this soundtrack is great, and I’m terrified of hallways. Excellent.\",\"date\":\"2021-11-02\"},{\"text\":\"I’ve gotten stuck several times so far! Which is a good, but frustrating experience. The EMMI sections are heart-pounding, but slightly annoying to be exploring a space under pressure…\\n\\nBut the sound design is excellent.\\n\\nI have found the grossest door.\",\"date\":\"2021-11-02\"},{\"text\":\"GRAVITY SUIT LOOKS LIKE AN EVA\",\"date\":\"2021-11-14\"},{\"text\":\"100% in 13h40m17s. I doubt that includes deaths though\",\"date\":\"2021-11-25\"},{\"text\":\"According to Switch profile, it was more than 20 hours.\",\"date\":\"2022-01-02\"}]");
+
+
+
 prepend("fZo0t2OsZE8mxio3pAfZS", "log", "[{\"text\":\"I made it out of Hades! 70+ hours in...\",\"date\":\"2020-12-28\"},{\"text\":\"Credits! 115 hours, 141 attempts, 36805 enemies slain...\",\"date\":\"2021-02-01\"},{\"text\":\"FAMILY REUNITED (157 attempts, 125 hours)\",\"date\":\"2021-02-17\"},{\"text\":\"I defeated EM4! (181 attempts, 150 hours)\",\"date\":\"2021-03-04\"},{\"text\":\"Going to call it. I could go for higher and higher heat, but this game has consumed me for too long simply because there was always a more perfect play through to achieve. Not that I ever got to that point. Over 155 hours at this point.\",\"date\":\"2021-04-10\"}]");
 
 
