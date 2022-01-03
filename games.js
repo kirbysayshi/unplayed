@@ -1,4 +1,8 @@
 
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "log", "[{\"text\":\"I have no patience for sluggish controls and slowly telegraphed attacks. Getting a Dexterity and Haste upgrade have helped though. This game is brutal.\",\"date\":\"2022-01-01\"},{\"text\":\"I have one large soul, a burning upgrade, and still this game isn’t clicking for me. I wish boss fights took half as long? Everything except exploration is so tedious.\",\"date\":\"2022-01-02\"}]");
+
+
+
 prepend("SVuBj8deKTMA7yhxZKWDj", "log", "[{\"text\":\"Please. PLEASE. No more eggs. I have enough. The sky is filled. EGGS RAIN DOWN forever, Don’t you want more, hippity hoppity?!\",\"date\":\"2020-04-12\"},{\"text\":\"I put this down sometime in early June. Great for pre-sleep wind down. But I’m not really motivated by decorating or manicuring. Got stuck once my goal was an island rating. Hard to start big projects when you’re just playing a bit before bed. And I wasn’t playing or reading anything else. Just doing my chores in this game, while making the tiniest incremental progress compared to the rest of the world. A 55 hour microcosm of my life in digital form\",\"date\":\"2020-08-13\"}]");
 
 
