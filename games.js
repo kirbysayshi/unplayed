@@ -1,4 +1,14 @@
 
+prepend("D4EDlmrnTC2qOkaSL1Vip", "status", "Unbeaten");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "name", "Shadowrun");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "platform", "Genesis");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "comment", "Probably found this from Critical Distance after Cyberpunk (2020) was released.");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "addedDate", "2020-12-10");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "startDate", "2022-01-09");
+prepend("D4EDlmrnTC2qOkaSL1Vip", "source", "https://www.pastemagazine.com/games/shadowrun/shadowrun-review/");
+
+
+
 prepend("mIZ4YZTMlmB4lXUaDjo8f", "log", "[{\"text\":\"I have no patience for sluggish controls and slowly telegraphed attacks. Getting a Dexterity and Haste upgrade have helped though. This game is brutal.\",\"date\":\"2022-01-01\"},{\"text\":\"I have one large soul, a burning upgrade, and still this game isn’t clicking for me. I wish boss fights took half as long? Everything except exploration is so tedious.\",\"date\":\"2022-01-02\"}]");
 
 
