@@ -1,4 +1,14 @@
 
+prepend("caAVZR7wym3mvGlM7kAYl", "status", "Beaten");
+prepend("caAVZR7wym3mvGlM7kAYl", "name", "Mario Tennis Aces");
+prepend("caAVZR7wym3mvGlM7kAYl", "platform", "Switch");
+prepend("caAVZR7wym3mvGlM7kAYl", "comment", "Dropped off at level 43, in the Ruins of Trials. Don’t even remember what that was… but do remember the high difficulty of creating “combos”. This game was fun and fluid, but somewhat of a slog due to a high degree of required precision but extreme difficulty to execute said precision. It’s still tennis. Played for ~10h, can’t imagine playing online.");
+prepend("caAVZR7wym3mvGlM7kAYl", "addedDate", "2018-06-22");
+prepend("caAVZR7wym3mvGlM7kAYl", "startDate", "2018-06-22");
+prepend("caAVZR7wym3mvGlM7kAYl", "endDate", "2018-07-31");
+
+
+
 prepend("UV063llt5bhpVvwNC9vxZ", "status", "Unplayed");
 prepend("UV063llt5bhpVvwNC9vxZ", "name", "Extreme Meatpunks Forever");
 prepend("UV063llt5bhpVvwNC9vxZ", "platform", "PC");
