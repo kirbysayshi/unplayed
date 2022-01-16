@@ -1,4 +1,9 @@
 
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "status", "Beaten");
+prepend("mIZ4YZTMlmB4lXUaDjo8f", "log", "[{\"text\":\"I have no patience for sluggish controls and slowly telegraphed attacks. Getting a Dexterity and Haste upgrade have helped though. This game is brutal.\",\"date\":\"2022-01-01\"},{\"text\":\"I have one large soul, a burning upgrade, and still this game isn’t clicking for me. I wish boss fights took half as long? Everything except exploration is so tedious.\",\"date\":\"2022-01-02\"},{\"text\":\"Second Giant Soul. Max magic. Combat challenges always grind this game to a halt.\",\"date\":\"2022-01-15\"},{\"text\":\"Credits\",\"date\":\"2022-01-16\"}]");
+
+
+
 prepend("mIZ4YZTMlmB4lXUaDjo8f", "log", "[{\"text\":\"I have no patience for sluggish controls and slowly telegraphed attacks. Getting a Dexterity and Haste upgrade have helped though. This game is brutal.\",\"date\":\"2022-01-01\"},{\"text\":\"I have one large soul, a burning upgrade, and still this game isn’t clicking for me. I wish boss fights took half as long? Everything except exploration is so tedious.\",\"date\":\"2022-01-02\"},{\"text\":\"Second Giant Soul. Max magic. Combat challenges always grind this game to a halt.\",\"date\":\"2022-01-15\"}]");
 
 
