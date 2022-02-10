@@ -1,4 +1,12 @@
 
+prepend("ZtH351LeoUML4X40qKQyD", "status", "Unplayed");
+prepend("ZtH351LeoUML4X40qKQyD", "name", "Bitburner");
+prepend("ZtH351LeoUML4X40qKQyD", "platform", "PC");
+prepend("ZtH351LeoUML4X40qKQyD", "addedDate", "2022-02-10");
+prepend("ZtH351LeoUML4X40qKQyD", "source", "https://twitter.com/sugarpirate_/status/1472769216453521409");
+
+
+
 prepend("4GSLsnaekctXLdh2Yu9R3", "status", "Unbeaten");
 prepend("4GSLsnaekctXLdh2Yu9R3", "name", "Psychonauts 2");
 prepend("4GSLsnaekctXLdh2Yu9R3", "platform", "PS4");
