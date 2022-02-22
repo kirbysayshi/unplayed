@@ -1,4 +1,14 @@
 
+prepend("XwYZ428xCMaDvBLeLexYT", "status", "Unbeaten");
+prepend("XwYZ428xCMaDvBLeLexYT", "name", "Kingdom Hearts III");
+prepend("XwYZ428xCMaDvBLeLexYT", "platform", "PS4");
+prepend("XwYZ428xCMaDvBLeLexYT", "comment", "What is even happening in this game why am I playing it");
+prepend("XwYZ428xCMaDvBLeLexYT", "addedDate", "2019-01-29");
+prepend("XwYZ428xCMaDvBLeLexYT", "startDate", "2019-01-29");
+prepend("XwYZ428xCMaDvBLeLexYT", "log", "[{\"text\":\"Can you believe the buttons cannot be remapped!?\",\"date\":\"2022-02-22\"}]");
+
+
+
 prepend("ZtH351LeoUML4X40qKQyD", "status", "Unplayed");
 prepend("ZtH351LeoUML4X40qKQyD", "name", "Bitburner");
 prepend("ZtH351LeoUML4X40qKQyD", "platform", "PC");
