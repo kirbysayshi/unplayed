@@ -1,4 +1,13 @@
 
+prepend("VGBIWDHVXykAaKZSoZero", "status", "Unplayed");
+prepend("VGBIWDHVXykAaKZSoZero", "name", "Perfect Tides");
+prepend("VGBIWDHVXykAaKZSoZero", "platform", "Mac");
+prepend("VGBIWDHVXykAaKZSoZero", "comment", "Point and click adventure about a young teen in 2000. Is it about me");
+prepend("VGBIWDHVXykAaKZSoZero", "addedDate", "2022-02-22");
+prepend("VGBIWDHVXykAaKZSoZero", "source", "https://twitter.com/waxpancake/status/1496136606746562568");
+
+
+
 prepend("XwYZ428xCMaDvBLeLexYT", "status", "Unbeaten");
 prepend("XwYZ428xCMaDvBLeLexYT", "name", "Kingdom Hearts III");
 prepend("XwYZ428xCMaDvBLeLexYT", "platform", "PS4");
