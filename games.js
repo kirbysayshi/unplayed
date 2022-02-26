@@ -1,4 +1,14 @@
 
+prepend("H1mRxxmgSAqahHeWOhdXm", "status", "Unbeaten");
+prepend("H1mRxxmgSAqahHeWOhdXm", "name", "Destiny 2: The Witch Queen");
+prepend("H1mRxxmgSAqahHeWOhdXm", "platform", "PC");
+prepend("H1mRxxmgSAqahHeWOhdXm", "comment", "Trying PC with a controller this time. Will we regret Legendary campaign difficulty?");
+prepend("H1mRxxmgSAqahHeWOhdXm", "addedDate", "2022-02-23");
+prepend("H1mRxxmgSAqahHeWOhdXm", "startDate", "2022-02-25");
+prepend("H1mRxxmgSAqahHeWOhdXm", "source", "Al");
+
+
+
 prepend("VGBIWDHVXykAaKZSoZero", "status", "Unplayed");
 prepend("VGBIWDHVXykAaKZSoZero", "name", "Perfect Tides");
 prepend("VGBIWDHVXykAaKZSoZero", "platform", "Mac");
