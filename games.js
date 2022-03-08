@@ -1,4 +1,7 @@
 
+prepend("512b0fsGRuV5MCgGtY9Ly", "comment", "Nominated for Best Narrative, next to Hades, Ghosts of Tsushima, and FF7Remake! https://thegameawards.com/nominees/best-narrative\n\nNow available for Switch, too! Made several best of 2021 lists as well. “13 sci-fi stories and mech action.”");
+
+
 prepend("512b0fsGRuV5MCgGtY9Ly", "comment", "Nominated for Best Narrative, next to Hades, Ghosts of Tsushima, and FF7Remake! https://thegameawards.com/nominees/best-narrative\n\nNow available for Switch, too! Made lots of peoples best of 2021 list as well. “13 sci-fi stories and mech action.”");
 prepend("512b0fsGRuV5MCgGtY9Ly", "platform", "");
 prepend("512b0fsGRuV5MCgGtY9Ly", "startDate", "");
