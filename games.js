@@ -1,4 +1,14 @@
 
+prepend("PAo16TEG74SmkUdOrEaex", "status", "Beaten");
+prepend("PAo16TEG74SmkUdOrEaex", "name", "Kirby and the Forgotten Lands DEMO");
+prepend("PAo16TEG74SmkUdOrEaex", "platform", "Switch");
+prepend("PAo16TEG74SmkUdOrEaex", "comment", "Delightful");
+prepend("PAo16TEG74SmkUdOrEaex", "addedDate", "2022-03-13");
+prepend("PAo16TEG74SmkUdOrEaex", "startDate", "2022-03-18");
+prepend("PAo16TEG74SmkUdOrEaex", "endDate", "2022-03-18");
+
+
+
 prepend("512b0fsGRuV5MCgGtY9Ly", "comment", "Nominated for Best Narrative, next to Hades, Ghosts of Tsushima, and FF7Remake! https://thegameawards.com/nominees/best-narrative\n\nNow available for Switch, too! Made several best of 2021 lists as well. “13 sci-fi stories and mech action.”");
 
 
