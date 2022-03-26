@@ -1,4 +1,11 @@
 
+prepend("dvJmdt7GWngAATmHTjyqC", "status", "Unplayed");
+prepend("dvJmdt7GWngAATmHTjyqC", "startDate", "");
+prepend("dvJmdt7GWngAATmHTjyqC", "endDate", "");
+prepend("dvJmdt7GWngAATmHTjyqC", "log", "[{\"text\":\"This vinyl has great art https://www.stumpyfrog.com/\",\"date\":\"2022-03-26\"}]");
+
+
+
 prepend("PAo16TEG74SmkUdOrEaex", "status", "Beaten");
 prepend("PAo16TEG74SmkUdOrEaex", "name", "Kirby and the Forgotten Lands DEMO");
 prepend("PAo16TEG74SmkUdOrEaex", "platform", "Switch");
