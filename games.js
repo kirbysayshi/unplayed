@@ -1,4 +1,14 @@
 
+prepend("4AQyIa3y1q00JHzfrClM8", "status", "Unbeaten");
+prepend("4AQyIa3y1q00JHzfrClM8", "name", "Ghostwire: Tokyo");
+prepend("4AQyIa3y1q00JHzfrClM8", "platform", "PS5");
+prepend("4AQyIa3y1q00JHzfrClM8", "comment", "Hello Sailor Mars: The Video Game.");
+prepend("4AQyIa3y1q00JHzfrClM8", "addedDate", "2022-04-03");
+prepend("4AQyIa3y1q00JHzfrClM8", "startDate", "2022-04-03");
+prepend("4AQyIa3y1q00JHzfrClM8", "log", "[{\"text\":\"4 hours in, and combat is a little stodgy. But atmosphere and visuals are impressive! Not sure this plot is going anywhere\",\"date\":\"2022-04-03\"}]");
+
+
+
 prepend("dvJmdt7GWngAATmHTjyqC", "status", "Unplayed");
 prepend("dvJmdt7GWngAATmHTjyqC", "startDate", "");
 prepend("dvJmdt7GWngAATmHTjyqC", "endDate", "");
