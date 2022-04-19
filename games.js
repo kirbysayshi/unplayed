@@ -1,4 +1,12 @@
 
+prepend("6fgCcfDiIc2n1VNk72lKg", "status", "UnplayedUnreleased");
+prepend("6fgCcfDiIc2n1VNk72lKg", "name", "Citizen Sleeper");
+prepend("6fgCcfDiIc2n1VNk72lKg", "platform", "Switch");
+prepend("6fgCcfDiIc2n1VNk72lKg", "comment", "Like Tharsis but more forgiving with RPG elements????");
+prepend("6fgCcfDiIc2n1VNk72lKg", "addedDate", "2022-04-19");
+prepend("6fgCcfDiIc2n1VNk72lKg", "source", "Lisa");
+
+
 prepend("4AQyIa3y1q00JHzfrClM8", "status", "Unbeaten");
 prepend("4AQyIa3y1q00JHzfrClM8", "name", "Ghostwire: Tokyo");
 prepend("4AQyIa3y1q00JHzfrClM8", "platform", "PS5");
