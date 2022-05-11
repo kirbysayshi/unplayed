@@ -1,4 +1,9 @@
 
+prepend("eoAMHJ8QSsKXEswznRjmV", "addedDate", "");
+prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"}]");
+
+
+
 prepend("6fgCcfDiIc2n1VNk72lKg", "status", "UnplayedUnreleased");
 prepend("6fgCcfDiIc2n1VNk72lKg", "name", "Citizen Sleeper");
 prepend("6fgCcfDiIc2n1VNk72lKg", "platform", "Switch");
