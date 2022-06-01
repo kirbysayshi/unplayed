@@ -1,4 +1,8 @@
 
+prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"},{\"text\":\"I think… I have two shrines left.\",\"date\":\"2022-05-31\"}]");
+
+
+
 prepend("eoAMHJ8QSsKXEswznRjmV", "addedDate", "");
 prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"}]");
 
