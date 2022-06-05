@@ -1,4 +1,8 @@
 
+prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"},{\"text\":\"I think… I have two shrines left.\",\"date\":\"2022-05-31\"},{\"text\":\"All 120 shrines complete\",\"date\":\"2022-06-04\"},{\"text\":\"After over 145 hours, Ganon didn’t stand a chance. The EX Champions content made the final scenes hit even harder, I finally felt like I knew the champions. Using the health bar to reinforce the story is incredible! Zelda spoke broad but timeless sentiment that moving on requires everyone working together. Her story is the arc of the game. Tears when she gave Link the REDACTED and REDACTED REDACTED. Maybe the best moment of the entire game is Ganon’s expression of surprise at the appearance of REDACTED! \",\"date\":\"2022-06-05\"}]");
+
+
+
 prepend("eoAMHJ8QSsKXEswznRjmV", "endDate", "2022-06-05");
 prepend("eoAMHJ8QSsKXEswznRjmV", "status", "Beaten");
 prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"},{\"text\":\"I think… I have two shrines left.\",\"date\":\"2022-05-31\"},{\"text\":\"All 120 shrines complete\",\"date\":\"2022-06-04\"},{\"text\":\"After over 145 hours, Ganon didn’t stand a chance. The EX Champions content made the final scenes hit even harder, I finally felt like I knew the champions. Zelda spoke broad but timeless sentiment that moving on requires everyone working together. Her story is the arc of the game. Tears when she gave Link the REDACTED and REDACTED REDACTED. Maybe the best moment of the entire game is Ganon’s expression of surprise at the appearance of REDACTED! \",\"date\":\"2022-06-05\"}]");
