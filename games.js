@@ -1,4 +1,12 @@
 
+prepend("TAp5ttPnkhxQOgRDXwz5w", "status", "UnplayedUnreleased");
+prepend("TAp5ttPnkhxQOgRDXwz5w", "name", "I Was a Teenaged Exocolonist");
+prepend("TAp5ttPnkhxQOgRDXwz5w", "comment", "“Time-looping narrative RPG” releases Aug 25th");
+prepend("TAp5ttPnkhxQOgRDXwz5w", "addedDate", "2022-06-14");
+prepend("TAp5ttPnkhxQOgRDXwz5w", "source", "https://twitter.com/SmoleculeTV/status/1536781076927893505");
+
+
+
 prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"},{\"text\":\"I think… I have two shrines left.\",\"date\":\"2022-05-31\"},{\"text\":\"All 120 shrines complete\",\"date\":\"2022-06-04\"},{\"text\":\"After over 145 hours, Ganon didn’t stand a chance. The EX Champions content made the final scenes hit even harder, I finally felt like I knew the champions. Using the health bar to reinforce the story is incredible! Zelda spoke broad but timeless sentiment that moving on requires everyone working together. Her story is the arc of the game. Tears when she gave Link the REDACTED and REDACTED REDACTED. Maybe the best moment of the entire game is Ganon’s expression of surprise at the appearance of REDACTED! Satoru Iwata is in the credits as an Executive Producer…\",\"date\":\"2022-06-05\"}]");
 
 
