@@ -1,4 +1,14 @@
 
+prepend("oj5EkCdf5DDv3YaT7cJT3", "status", "Unbeaten");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "name", "Teenage Mutant Ninja Turtles: Shredder’s Revenge");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "platform", "Switch");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "comment", "THE MUSIC! THE GRAPHICS! THE DODGE ROLL! This is the Turtles game I’ve always dreamed of. This game is more radical 90s than the Turtles have ever been and it’s awesome.");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "addedDate", "2022-06-16");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "startDate", "2022-06-16");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "source", "Jialin");
+
+
+
 prepend("TAp5ttPnkhxQOgRDXwz5w", "status", "UnplayedUnreleased");
 prepend("TAp5ttPnkhxQOgRDXwz5w", "name", "I Was a Teenaged Exocolonist");
 prepend("TAp5ttPnkhxQOgRDXwz5w", "comment", "“Time-looping narrative RPG” releases Aug 25th");
