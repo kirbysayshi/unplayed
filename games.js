@@ -1,4 +1,13 @@
 
+prepend("JYdm6dkGnx55LKYrcdT9h", "status", "Beaten");
+prepend("JYdm6dkGnx55LKYrcdT9h", "name", "Super Smash Bros Ultimate");
+prepend("JYdm6dkGnx55LKYrcdT9h", "platform", "Switch");
+prepend("JYdm6dkGnx55LKYrcdT9h", "comment", "This game can never truly be “beaten”. But let’s just say I played it a lot");
+prepend("JYdm6dkGnx55LKYrcdT9h", "addedDate", "2018-12-07");
+prepend("JYdm6dkGnx55LKYrcdT9h", "log", "[{\"text\":\"Completed the mural! INTENSITY 9.9 with Rosalina! Total score: 1,707,100. Mural: 999,990 points\",\"date\":\"2019-01-06\"}]");
+
+
+
 prepend("oj5EkCdf5DDv3YaT7cJT3", "status", "Beaten");
 prepend("oj5EkCdf5DDv3YaT7cJT3", "endDate", "2022-06-19");
 prepend("oj5EkCdf5DDv3YaT7cJT3", "log", "[{\"text\":\"Credits! Collectibles @ 100%\",\"date\":\"2022-06-18\"}]");
