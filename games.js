@@ -1,4 +1,8 @@
 
+prepend("oj5EkCdf5DDv3YaT7cJT3", "log", "[{\"text\":\"Credits! Collectibles @ 100%. D-pad from the 8bitdo Pro2 controller was key!\",\"date\":\"2022-06-18\"}]");
+
+
+
 prepend("JYdm6dkGnx55LKYrcdT9h", "status", "Beaten");
 prepend("JYdm6dkGnx55LKYrcdT9h", "name", "Super Smash Bros Ultimate");
 prepend("JYdm6dkGnx55LKYrcdT9h", "platform", "Switch");
