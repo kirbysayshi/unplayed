@@ -1,4 +1,10 @@
 
+prepend("oj5EkCdf5DDv3YaT7cJT3", "status", "Beaten");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "endDate", "2022-06-19");
+prepend("oj5EkCdf5DDv3YaT7cJT3", "log", "[{\"text\":\"Credits! Collectibles @ 100%\",\"date\":\"2022-06-18\"}]");
+
+
+
 prepend("oj5EkCdf5DDv3YaT7cJT3", "status", "Unbeaten");
 prepend("oj5EkCdf5DDv3YaT7cJT3", "name", "Teenage Mutant Ninja Turtles: Shredder’s Revenge");
 prepend("oj5EkCdf5DDv3YaT7cJT3", "platform", "Switch");
