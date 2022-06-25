@@ -1,4 +1,12 @@
 
+prepend("Seiadonv1sxiqOn948A1R", "status", "Unbeaten");
+prepend("Seiadonv1sxiqOn948A1R", "name", "Unpacking");
+prepend("Seiadonv1sxiqOn948A1R", "platform", "Switch");
+prepend("Seiadonv1sxiqOn948A1R", "addedDate", "2022-01-01");
+prepend("Seiadonv1sxiqOn948A1R", "startDate", "2022-06-25");
+
+
+
 prepend("Nctit1pxamPTbokkxMo9X", "log", "[{\"text\":\"Ahh! Run is default!? R1 is door not L1!? My brain can’t handle change!\\n\\nI’ll never beat this game, it’s even deadlier than the first.\",\"date\":\"2020-09-15\"},{\"text\":\"OLMEC can [REDACTED]!?\",\"date\":\"2021-04-09\"},{\"text\":\"I found a crown and a red cape\",\"date\":\"2022-06-25\"}]");
 
 
