@@ -1,4 +1,8 @@
 
+prepend("Nctit1pxamPTbokkxMo9X", "log", "[{\"text\":\"Ahh! Run is default!? R1 is door not L1!? My brain can’t handle change!\\n\\nI’ll never beat this game, it’s even deadlier than the first.\",\"date\":\"2020-09-15\"},{\"text\":\"OLMEC can [REDACTED]!?\",\"date\":\"2021-04-09\"},{\"text\":\"I found a crown and a red cape\",\"date\":\"2022-06-25\"}]");
+
+
+
 prepend("oj5EkCdf5DDv3YaT7cJT3", "log", "[{\"text\":\"Credits! Collectibles @ 100%. D-pad from the 8bitdo Pro2 controller was key!\",\"date\":\"2022-06-18\"}]");
 
 
