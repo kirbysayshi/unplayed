@@ -1,4 +1,12 @@
 
+prepend("Seiadonv1sxiqOn948A1R", "status", "Beaten");
+prepend("Seiadonv1sxiqOn948A1R", "comment", "This game is exactly my age. An intensely poignant emotional journey amplified by your own life experiences.");
+prepend("Seiadonv1sxiqOn948A1R", "endDate", "2022-06-25");
+prepend("Seiadonv1sxiqOn948A1R", "source", "");
+prepend("Seiadonv1sxiqOn948A1R", "log", "[]");
+
+
+
 prepend("Seiadonv1sxiqOn948A1R", "status", "Unbeaten");
 prepend("Seiadonv1sxiqOn948A1R", "name", "Unpacking");
 prepend("Seiadonv1sxiqOn948A1R", "platform", "Switch");
