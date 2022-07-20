@@ -1,4 +1,13 @@
 
+prepend("js1sTU7vSJ49kIuJeKtKL", "status", "Unbeaten");
+prepend("js1sTU7vSJ49kIuJeKtKL", "name", "Stray");
+prepend("js1sTU7vSJ49kIuJeKtKL", "platform", "PS5");
+prepend("js1sTU7vSJ49kIuJeKtKL", "comment", "Wow the haptics! Please don’t die, kitty");
+prepend("js1sTU7vSJ49kIuJeKtKL", "addedDate", "2022-07-19");
+prepend("js1sTU7vSJ49kIuJeKtKL", "startDate", "2022-07-19");
+
+
+
 prepend("Seiadonv1sxiqOn948A1R", "status", "Beaten");
 prepend("Seiadonv1sxiqOn948A1R", "comment", "This game is exactly my age. An intensely poignant emotional journey amplified by your own life experiences.");
 prepend("Seiadonv1sxiqOn948A1R", "endDate", "2022-06-25");
