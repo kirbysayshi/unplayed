@@ -1,4 +1,12 @@
 
+prepend("js1sTU7vSJ49kIuJeKtKL", "comment", "Wow the haptics! Please don’t die, kitty.");
+prepend("js1sTU7vSJ49kIuJeKtKL", "status", "Beaten");
+prepend("js1sTU7vSJ49kIuJeKtKL", "endDate", "2022-07-23");
+prepend("js1sTU7vSJ49kIuJeKtKL", "source", "");
+prepend("js1sTU7vSJ49kIuJeKtKL", "log", "[{\"text\":\"“I remember everything now!” Lovely, wistful.\",\"date\":\"2022-07-24\"}]");
+
+
+
 prepend("js1sTU7vSJ49kIuJeKtKL", "status", "Unbeaten");
 prepend("js1sTU7vSJ49kIuJeKtKL", "name", "Stray");
 prepend("js1sTU7vSJ49kIuJeKtKL", "platform", "PS5");
