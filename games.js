@@ -1,4 +1,13 @@
 
+prepend("XjejDQjinWtQwSRuY1PEX", "status", "Unbeaten");
+prepend("XjejDQjinWtQwSRuY1PEX", "name", "Neon White");
+prepend("XjejDQjinWtQwSRuY1PEX", "platform", "Switch");
+prepend("XjejDQjinWtQwSRuY1PEX", "comment", "Wow this is unexpectedly… anime");
+prepend("XjejDQjinWtQwSRuY1PEX", "addedDate", "2022-07-16");
+prepend("XjejDQjinWtQwSRuY1PEX", "startDate", "2022-07-26");
+
+
+
 prepend("js1sTU7vSJ49kIuJeKtKL", "comment", "Wow the haptics! Please don’t die, kitty.");
 prepend("js1sTU7vSJ49kIuJeKtKL", "status", "Beaten");
 prepend("js1sTU7vSJ49kIuJeKtKL", "endDate", "2022-07-23");
