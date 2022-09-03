@@ -1,4 +1,12 @@
 
+prepend("NhGqazoxN74W4jEULMVWv", "status", "Unplayed");
+prepend("NhGqazoxN74W4jEULMVWv", "name", "Elden Ring");
+prepend("NhGqazoxN74W4jEULMVWv", "platform", "PS5");
+prepend("NhGqazoxN74W4jEULMVWv", "comment", "If I’m going to play a souls game, it will probably be this?");
+prepend("NhGqazoxN74W4jEULMVWv", "addedDate", "2022-07-01");
+
+
+
 prepend("XjejDQjinWtQwSRuY1PEX", "status", "Unbeaten");
 prepend("XjejDQjinWtQwSRuY1PEX", "name", "Neon White");
 prepend("XjejDQjinWtQwSRuY1PEX", "platform", "Switch");
