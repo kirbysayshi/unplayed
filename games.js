@@ -1,4 +1,8 @@
 
+prepend("OzwScTieQBSznhpQQpVvY", "log", "[{\"text\":\"Came back to this after 9 months! The choices are daunting during this middle of the game. Feels more like a chore than an adventure sometimes \",\"date\":\"2022-09-04\"}]");
+
+
+
 prepend("NhGqazoxN74W4jEULMVWv", "status", "Unplayed");
 prepend("NhGqazoxN74W4jEULMVWv", "name", "Elden Ring");
 prepend("NhGqazoxN74W4jEULMVWv", "platform", "PS5");
