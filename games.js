@@ -1,4 +1,13 @@
 
+prepend("IQFNAlEeAvAI3s2fYX5fN", "status", "Unbeaten");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "name", "Wario Land 4");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "platform", "GBA");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "comment", "R is run, there at shops between levels, the physics are boxy, there is a dash jump: there’s a lot of wario land in Spelunky and Celeste!\n\nDid you know if you jump then hold jump while still in the air, Wario will jump again once he lands? It removes the need for extreme precision, so neat!");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "addedDate", "2022-09-17");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "startDate", "2022-09-17");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "source", "“The Best Worst Mechanic in Gaming” (Daryl Talks Games)  and Lisa");
+
+
 prepend("OzwScTieQBSznhpQQpVvY", "log", "[{\"text\":\"Came back to this after 9 months! The choices are daunting during this middle of the game. Feels more like a chore than an adventure sometimes \",\"date\":\"2022-09-04\"}]");
 
 
