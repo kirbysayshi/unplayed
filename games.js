@@ -1,4 +1,12 @@
 
+prepend("xJDbfEDvUPhr50Lgslxnm", "status", "Unplayed");
+prepend("xJDbfEDvUPhr50Lgslxnm", "name", "Divinity: Original Sin 2 Definitive Edition");
+prepend("xJDbfEDvUPhr50Lgslxnm", "platform", "Switch");
+prepend("xJDbfEDvUPhr50Lgslxnm", "comment", "Maybe this time will be better");
+prepend("xJDbfEDvUPhr50Lgslxnm", "addedDate", "2022-11-02");
+prepend("xJDbfEDvUPhr50Lgslxnm", "source", "Shelby");
+
+
 prepend("u6VQqnyt0RkgMnaGBqQrp", "status", "Unbeaten");
 prepend("u6VQqnyt0RkgMnaGBqQrp", "name", "Gotham Knights");
 prepend("u6VQqnyt0RkgMnaGBqQrp", "platform", "PS5");
