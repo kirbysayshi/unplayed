@@ -1,4 +1,31 @@
 
+prepend("u6VQqnyt0RkgMnaGBqQrp", "status", "Unbeaten");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "name", "Gotham Knights");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "platform", "PS5");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "comment", "Oddly feels like an old game, the crowd character models feel like PS3-era. Hopefully the story is good?");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "addedDate", "2022-10-21");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "startDate", "2022-10-22");
+
+
+prepend("qUaIEr2GUmd9nrotuwTDs", "status", "Unbeaten");
+prepend("qUaIEr2GUmd9nrotuwTDs", "name", "Luigi's Mansion 3");
+prepend("qUaIEr2GUmd9nrotuwTDs", "platform", "Switch");
+prepend("qUaIEr2GUmd9nrotuwTDs", "addedDate", "2022-10-30");
+prepend("qUaIEr2GUmd9nrotuwTDs", "startDate", "2022-10-30");
+prepend("qUaIEr2GUmd9nrotuwTDs", "source", "Lisa");
+
+
+
+prepend("8HbFOY8zXBYf4mq6GdHPN", "status", "Abandoned");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "name", "Divinity: Original Sin 2");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "platform", "PC");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "addedDate", "2017-12-25");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "startDate", "2017-12-30");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "source", "Blixt");
+prepend("8HbFOY8zXBYf4mq6GdHPN", "log", "[{\"text\":\"Abandoned after Lvl 6, Day 4. My save game says 17h21m, but my STEAM time says 30 hours. Tried coming back to this recently, can't remember a thing about how to play or what was going on! And save game is incompatible with Definitive Edition.\",\"date\":\"2018-01-13\"}]");
+
+
+
 prepend("IQFNAlEeAvAI3s2fYX5fN", "status", "Unbeaten");
 prepend("IQFNAlEeAvAI3s2fYX5fN", "name", "Wario Land 4");
 prepend("IQFNAlEeAvAI3s2fYX5fN", "platform", "GBA");
