@@ -1,4 +1,10 @@
 
+prepend("xJDbfEDvUPhr50Lgslxnm", "status", "Unbeaten");
+prepend("xJDbfEDvUPhr50Lgslxnm", "startDate", "2022-11-03");
+prepend("xJDbfEDvUPhr50Lgslxnm", "endDate", "");
+prepend("xJDbfEDvUPhr50Lgslxnm", "log", "[]");
+
+
 prepend("xJDbfEDvUPhr50Lgslxnm", "status", "Unplayed");
 prepend("xJDbfEDvUPhr50Lgslxnm", "name", "Divinity: Original Sin 2 Definitive Edition");
 prepend("xJDbfEDvUPhr50Lgslxnm", "platform", "Switch");
