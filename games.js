@@ -1,4 +1,12 @@
 
+prepend("4N5X9Fi202ItvYqWxTGkW", "status", "Unbeaten");
+prepend("4N5X9Fi202ItvYqWxTGkW", "name", "God of War: Ragnarok");
+prepend("4N5X9Fi202ItvYqWxTGkW", "platform", "PS5");
+prepend("4N5X9Fi202ItvYqWxTGkW", "comment", "Here we go again");
+prepend("4N5X9Fi202ItvYqWxTGkW", "addedDate", "2022-11-18");
+prepend("4N5X9Fi202ItvYqWxTGkW", "startDate", "2022-11-18");
+
+
 prepend("xJDbfEDvUPhr50Lgslxnm", "status", "Unbeaten");
 prepend("xJDbfEDvUPhr50Lgslxnm", "startDate", "2022-11-03");
 prepend("xJDbfEDvUPhr50Lgslxnm", "endDate", "");
