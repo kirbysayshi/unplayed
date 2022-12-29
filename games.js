@@ -1,4 +1,11 @@
 
+prepend("l5jrgSCY4jaTgQWODFtdt", "status", "Unbeaten");
+prepend("l5jrgSCY4jaTgQWODFtdt", "name", "Crankin’s Time Travel Adventure");
+prepend("l5jrgSCY4jaTgQWODFtdt", "platform", "Playdate");
+prepend("l5jrgSCY4jaTgQWODFtdt", "addedDate", "2022-12-29");
+prepend("l5jrgSCY4jaTgQWODFtdt", "startDate", "2022-12-29");
+
+
 prepend("MBn6p9y97bttW48VNDSPH", "status", "Beaten");
 prepend("MBn6p9y97bttW48VNDSPH", "name", "Casual Birder");
 prepend("MBn6p9y97bttW48VNDSPH", "platform", "Playdate");
