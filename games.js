@@ -1,4 +1,13 @@
 
+prepend("MBn6p9y97bttW48VNDSPH", "status", "Beaten");
+prepend("MBn6p9y97bttW48VNDSPH", "name", "Casual Birder");
+prepend("MBn6p9y97bttW48VNDSPH", "platform", "Playdate");
+prepend("MBn6p9y97bttW48VNDSPH", "comment", "The music is rad, and it was fun!");
+prepend("MBn6p9y97bttW48VNDSPH", "addedDate", "2022-12-20");
+prepend("MBn6p9y97bttW48VNDSPH", "startDate", "2022-12-20");
+prepend("MBn6p9y97bttW48VNDSPH", "endDate", "2022-12-28");
+
+
 prepend("4N5X9Fi202ItvYqWxTGkW", "status", "Unbeaten");
 prepend("4N5X9Fi202ItvYqWxTGkW", "name", "God of War: Ragnarok");
 prepend("4N5X9Fi202ItvYqWxTGkW", "platform", "PS5");
