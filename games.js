@@ -1,4 +1,9 @@
 
+prepend("dvJmdt7GWngAATmHTjyqC", "status", "Unbeaten");
+prepend("dvJmdt7GWngAATmHTjyqC", "log", "[{\"text\":\"This vinyl has great art https://www.stumpyfrog.com/\",\"date\":\"2022-03-26\"},{\"text\":\"There’s a Minidisc soundtrack! Neat vibe, I wish the controls were a little less finicky.\",\"date\":\"2023-01-14\"}]");
+prepend("dvJmdt7GWngAATmHTjyqC", "startDate", "2023-01-14");
+
+
 prepend("l5jrgSCY4jaTgQWODFtdt", "status", "Unbeaten");
 prepend("l5jrgSCY4jaTgQWODFtdt", "name", "Crankin’s Time Travel Adventure");
 prepend("l5jrgSCY4jaTgQWODFtdt", "platform", "Playdate");
