@@ -1,4 +1,12 @@
 
+prepend("PUy7V1cd1PCbj10qzZegy", "status", "Unplayed");
+prepend("PUy7V1cd1PCbj10qzZegy", "name", "Avenging Spirit");
+prepend("PUy7V1cd1PCbj10qzZegy", "platform", "GB");
+prepend("PUy7V1cd1PCbj10qzZegy", "comment", "Supposedly quite short. There is a limited edition physical release with restored / translated endings! https://castlemaniagames.com/products/avenging-spirit-gameboy");
+prepend("PUy7V1cd1PCbj10qzZegy", "addedDate", "2023-01-13");
+prepend("PUy7V1cd1PCbj10qzZegy", "source", "https://mobile.twitter.com/siegarettes/status/1610827907437367297");
+
+
 prepend("dvJmdt7GWngAATmHTjyqC", "status", "Unbeaten");
 prepend("dvJmdt7GWngAATmHTjyqC", "log", "[{\"text\":\"This vinyl has great art https://www.stumpyfrog.com/\",\"date\":\"2022-03-26\"},{\"text\":\"There’s a Minidisc soundtrack! Neat vibe, I wish the controls were a little less finicky.\",\"date\":\"2023-01-14\"}]");
 prepend("dvJmdt7GWngAATmHTjyqC", "startDate", "2023-01-14");
