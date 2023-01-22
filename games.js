@@ -1,4 +1,12 @@
 
+prepend("rCsnRA0jygPrtrM8NhSqy", "status", "Unbeaten");
+prepend("rCsnRA0jygPrtrM8NhSqy", "name", "Tetris Effect: Connected");
+prepend("rCsnRA0jygPrtrM8NhSqy", "platform", "Switch");
+prepend("rCsnRA0jygPrtrM8NhSqy", "comment", "SO BEAUTIFUL AND MEDITATIVE except lv9 speed. Will I ever be able? I think I have a fundamental limit to spatial reasoning ");
+prepend("rCsnRA0jygPrtrM8NhSqy", "addedDate", "2023-01-21");
+prepend("rCsnRA0jygPrtrM8NhSqy", "startDate", "2023-01-21");
+
+
 prepend("PUy7V1cd1PCbj10qzZegy", "status", "Unplayed");
 prepend("PUy7V1cd1PCbj10qzZegy", "name", "Avenging Spirit");
 prepend("PUy7V1cd1PCbj10qzZegy", "platform", "GB");
