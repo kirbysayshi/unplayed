@@ -1,4 +1,7 @@
 
+prepend("dvJmdt7GWngAATmHTjyqC", "log", "[{\"text\":\"This vinyl has great art https://www.stumpyfrog.com/\",\"date\":\"2022-03-26\"},{\"text\":\"There’s a Minidisc soundtrack! Neat vibe, I wish the controls were a little less finicky.\",\"date\":\"2023-01-14\"},{\"text\":\"Finished the main game. I wish I hadn’t taken that last photo so quickly \",\"date\":\"2023-01-25\"}]");
+
+
 prepend("rCsnRA0jygPrtrM8NhSqy", "status", "Unbeaten");
 prepend("rCsnRA0jygPrtrM8NhSqy", "name", "Tetris Effect: Connected");
 prepend("rCsnRA0jygPrtrM8NhSqy", "platform", "Switch");
