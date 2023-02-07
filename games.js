@@ -1,4 +1,13 @@
 
+prepend("36k1lCHtD7UYttUDG53yZ", "status", "Abandoned");
+prepend("36k1lCHtD7UYttUDG53yZ", "name", "Little King’s Story");
+prepend("36k1lCHtD7UYttUDG53yZ", "platform", "Wii");
+prepend("36k1lCHtD7UYttUDG53yZ", "comment", "Pretty neat Pikmin-like strategy game. Played for nearly 2 hours. Unfortunately the music detracted from the game for me: felt like I was waiting in line at Disneyland");
+prepend("36k1lCHtD7UYttUDG53yZ", "addedDate", "2023-02-05");
+prepend("36k1lCHtD7UYttUDG53yZ", "startDate", "2023-02-05");
+prepend("36k1lCHtD7UYttUDG53yZ", "endDate", "2023-02-05");
+
+
 prepend("dvJmdt7GWngAATmHTjyqC", "name", "Umurangi Generation Special Edition");
 prepend("dvJmdt7GWngAATmHTjyqC", "status", "Beaten");
 prepend("dvJmdt7GWngAATmHTjyqC", "endDate", "2023-01-26");
