@@ -1,4 +1,12 @@
 
+prepend("3QykEh6my58mf8sHA1g0p", "status", "Unbeaten");
+prepend("3QykEh6my58mf8sHA1g0p", "name", "Metroid Prime Remastered");
+prepend("3QykEh6my58mf8sHA1g0p", "platform", "Switch");
+prepend("3QykEh6my58mf8sHA1g0p", "comment", "I’ve started this game at least 3 times before, will this be the fourth ");
+prepend("3QykEh6my58mf8sHA1g0p", "addedDate", "2023-02-08");
+prepend("3QykEh6my58mf8sHA1g0p", "startDate", "2023-02-08");
+
+
 prepend("K8bgkPBEaf9Wp7oE6yL0x", "status", "Abandoned");
 prepend("K8bgkPBEaf9Wp7oE6yL0x", "name", "Muramasa: The Demon Blade");
 prepend("K8bgkPBEaf9Wp7oE6yL0x", "platform", "Wii");
