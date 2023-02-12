@@ -1,4 +1,13 @@
 
+prepend("FnVQGxEPBv2lZTFWLaxEB", "status", "Unbeaten");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "name", "Shadow of the Colossus");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "platform", "PS2");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "comment", "First ever playthrough. I can already tell this game is going to make me sad.");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "addedDate", "2023-02-07");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "startDate", "2023-02-11");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "log", "[{\"text\":\"TECH NOTES:: PS2 -> retro vision component cable -> Retrotink 2x Pro-M -> HDMI OLED. SotC supports “480p+” native (not stretched or downscaled) widescreen resolution, accessible in the menu. It’s basically 480p but with more horizontal pixels.\",\"date\":\"2023-02-11\"},{\"text\":\"Three colossi have been felled after 2 hours :sadness:\",\"date\":\"2023-02-11\"},{\"text\":\"My eyes and head hurt from fighting the camera \",\"date\":\"2023-02-11\"}]");
+
+
 prepend("3QykEh6my58mf8sHA1g0p", "status", "Unbeaten");
 prepend("3QykEh6my58mf8sHA1g0p", "name", "Metroid Prime Remastered");
 prepend("3QykEh6my58mf8sHA1g0p", "platform", "Switch");
