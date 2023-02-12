@@ -1,4 +1,11 @@
 
+prepend("1IbQFLnQuhXj5ANmobPYd", "status", "Unplayed");
+prepend("1IbQFLnQuhXj5ANmobPYd", "name", "Tails Adventure");
+prepend("1IbQFLnQuhXj5ANmobPYd", "platform", "Game Gear");
+prepend("1IbQFLnQuhXj5ANmobPYd", "comment", "It’s apparently a game-gear-exclusive Metroidvania?");
+prepend("1IbQFLnQuhXj5ANmobPYd", "addedDate", "2022-11-28");
+
+
 prepend("FnVQGxEPBv2lZTFWLaxEB", "status", "Unbeaten");
 prepend("FnVQGxEPBv2lZTFWLaxEB", "name", "Shadow of the Colossus");
 prepend("FnVQGxEPBv2lZTFWLaxEB", "platform", "PS2");
