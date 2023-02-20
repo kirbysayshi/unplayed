@@ -1,4 +1,12 @@
 
+prepend("oNMF8NXKC1cD5aiM1BFaC", "status", "Unbeaten");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "name", "Silent Hill: Shattered Memories");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "platform", "Wii");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "comment", "A re-imagining of Silent Hill 1, written by the same person as the first game! Apparently meant as a personal “redo” by the author after not liking the narrative of Silen Hill 3. No combat.");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "addedDate", "2023-02-13");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "startDate", "2023-02-19");
+
+
 prepend("1IbQFLnQuhXj5ANmobPYd", "status", "Unplayed");
 prepend("1IbQFLnQuhXj5ANmobPYd", "name", "Tails Adventure");
 prepend("1IbQFLnQuhXj5ANmobPYd", "platform", "Game Gear");
