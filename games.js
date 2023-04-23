@@ -1,4 +1,10 @@
 
+prepend("3QykEh6my58mf8sHA1g0p", "status", "Beaten");
+prepend("3QykEh6my58mf8sHA1g0p", "endDate", "2023-04-22");
+prepend("3QykEh6my58mf8sHA1g0p", "source", "");
+prepend("3QykEh6my58mf8sHA1g0p", "log", "[{\"text\":\"16h30m, 89%\\nA great game, but those boss fights at the end are painful with the limited control scheme!\",\"date\":\"2023-04-22\"}]");
+
+
 prepend("oNMF8NXKC1cD5aiM1BFaC", "status", "Unbeaten");
 prepend("oNMF8NXKC1cD5aiM1BFaC", "name", "Silent Hill: Shattered Memories");
 prepend("oNMF8NXKC1cD5aiM1BFaC", "platform", "Wii");
