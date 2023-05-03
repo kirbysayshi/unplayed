@@ -1,4 +1,11 @@
 
+prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Unplayed");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "name", "Dredge");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "platform", "Switch");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "addedDate", "2023-05-02");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "source", "Al");
+
+
 prepend("3QykEh6my58mf8sHA1g0p", "status", "Beaten");
 prepend("3QykEh6my58mf8sHA1g0p", "endDate", "2023-04-22");
 prepend("3QykEh6my58mf8sHA1g0p", "source", "");
