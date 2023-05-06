@@ -1,4 +1,15 @@
 
+prepend("zb8u5zXVmOUgZgVAoAUor", "status", "Beaten");
+prepend("zb8u5zXVmOUgZgVAoAUor", "name", "Drift Mine Satelite");
+prepend("zb8u5zXVmOUgZgVAoAUor", "platform", "Web");
+prepend("zb8u5zXVmOUgZgVAoAUor", "comment", "Part of a web platform that is hosted by solar-powered servers. Which ever has the most sunlight is the \"dominant\" server for traffic. http://solarprotocol.net/. Wow!");
+prepend("zb8u5zXVmOUgZgVAoAUor", "addedDate", "2023-04-23");
+prepend("zb8u5zXVmOUgZgVAoAUor", "startDate", "2023-05-06");
+prepend("zb8u5zXVmOUgZgVAoAUor", "endDate", "2023-05-06");
+prepend("zb8u5zXVmOUgZgVAoAUor", "source", "https://twitter.com/doougle/status/1650136803037569024");
+
+
+
 prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Unplayed");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "name", "Dredge");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "platform", "Switch");
