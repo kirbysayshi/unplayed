@@ -1,4 +1,8 @@
 
+prepend("zb8u5zXVmOUgZgVAoAUor", "comment", "Part of a web platform hosted by solar-powered servers. Whichever has the most sunlight is the \"dominant\" server for traffic. Wow! http://solarprotocol.net/");
+prepend("zb8u5zXVmOUgZgVAoAUor", "log", "[]");
+
+
 prepend("zb8u5zXVmOUgZgVAoAUor", "status", "Beaten");
 prepend("zb8u5zXVmOUgZgVAoAUor", "name", "Drift Mine Satelite by Everest Pipkin");
 prepend("zb8u5zXVmOUgZgVAoAUor", "platform", "Web");
