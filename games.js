@@ -1,6 +1,6 @@
 
 prepend("zb8u5zXVmOUgZgVAoAUor", "status", "Beaten");
-prepend("zb8u5zXVmOUgZgVAoAUor", "name", "Drift Mine Satelite");
+prepend("zb8u5zXVmOUgZgVAoAUor", "name", "Drift Mine Satelite by Everest Pipkin");
 prepend("zb8u5zXVmOUgZgVAoAUor", "platform", "Web");
 prepend("zb8u5zXVmOUgZgVAoAUor", "comment", "Part of a web platform that is hosted by solar-powered servers. Which ever has the most sunlight is the \"dominant\" server for traffic. http://solarprotocol.net/. Wow!");
 prepend("zb8u5zXVmOUgZgVAoAUor", "addedDate", "2023-04-23");
