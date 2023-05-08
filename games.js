@@ -1,4 +1,12 @@
 
+prepend("6DShN0AhhIMPzVadJekeF", "status", "Unbeaten");
+prepend("6DShN0AhhIMPzVadJekeF", "name", "Star Wars: Jedi Survivor");
+prepend("6DShN0AhhIMPzVadJekeF", "platform", "PS5");
+prepend("6DShN0AhhIMPzVadJekeF", "comment", "Was the first one this janky?");
+prepend("6DShN0AhhIMPzVadJekeF", "addedDate", "2023-05-07");
+prepend("6DShN0AhhIMPzVadJekeF", "startDate", "2023-05-07");
+
+
 prepend("zb8u5zXVmOUgZgVAoAUor", "comment", "Part of a web platform hosted by solar-powered servers. Whichever has the most sunlight is the \"dominant\" server for traffic. Wow! http://solarprotocol.net/");
 prepend("zb8u5zXVmOUgZgVAoAUor", "log", "[]");
 
