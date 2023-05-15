@@ -1,4 +1,11 @@
 
+prepend("intLFNXROMfeWUZk25PFH", "status", "Unbeaten");
+prepend("intLFNXROMfeWUZk25PFH", "name", "Legend of Zelda, Tears of the Kingdom");
+prepend("intLFNXROMfeWUZk25PFH", "platform", "Switch");
+prepend("intLFNXROMfeWUZk25PFH", "addedDate", "2023-05-12");
+prepend("intLFNXROMfeWUZk25PFH", "startDate", "2023-05-14");
+
+
 prepend("6DShN0AhhIMPzVadJekeF", "status", "Unbeaten");
 prepend("6DShN0AhhIMPzVadJekeF", "name", "Star Wars: Jedi Survivor");
 prepend("6DShN0AhhIMPzVadJekeF", "platform", "PS5");
