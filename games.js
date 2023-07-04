@@ -1,4 +1,7 @@
 
+prepend("IQFNAlEeAvAI3s2fYX5fN", "log", "[{\"text\":\"Gave up on the final boss after losing with only two hits left. Good enough, that’s a tedious fight! Lisa and I got all the CDs\",\"date\":\"2023-07-03\"}]");
+
+
 prepend("oNMF8NXKC1cD5aiM1BFaC", "status", "Abandoned");
 prepend("oNMF8NXKC1cD5aiM1BFaC", "endDate", "2023-06-17");
 prepend("oNMF8NXKC1cD5aiM1BFaC", "source", "");
