@@ -1,4 +1,13 @@
 
+prepend("ZqRKIIC90AkRcyVwcyOHB", "status", "Abandoned");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "name", "Jack Bros");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "platform", "Virtual Boy");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "comment", "Wow it’s a twin stick shooter with d-pads! Nearly a dungeon crawler.");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "addedDate", "2023-07-04");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "startDate", "2023-07-04");
+prepend("ZqRKIIC90AkRcyVwcyOHB", "endDate", "2023-07-04");
+
+
 prepend("IQFNAlEeAvAI3s2fYX5fN", "log", "[{\"text\":\"Gave up on the final boss after losing with only two hits left. Good enough, that’s a tedious fight! Lisa and I got all the CDs\",\"date\":\"2023-07-03\"}]");
 
 
