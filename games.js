@@ -1,4 +1,13 @@
 
+prepend("MzRztkSkrVllVYE3JGoGr", "status", "Abandoned");
+prepend("MzRztkSkrVllVYE3JGoGr", "name", "Mario’s Tennis");
+prepend("MzRztkSkrVllVYE3JGoGr", "platform", "Virtual Boy");
+prepend("MzRztkSkrVllVYE3JGoGr", "comment", "I remember playing this at the kiosk at Blockbuster. Most people say this is playable even without the stereoscopic effect, but it’s extremely difficult without shadows below the ball.");
+prepend("MzRztkSkrVllVYE3JGoGr", "addedDate", "2023-07-04");
+prepend("MzRztkSkrVllVYE3JGoGr", "startDate", "2023-07-04");
+prepend("MzRztkSkrVllVYE3JGoGr", "endDate", "2023-07-04");
+
+
 prepend("ZqRKIIC90AkRcyVwcyOHB", "status", "Abandoned");
 prepend("ZqRKIIC90AkRcyVwcyOHB", "name", "Jack Bros");
 prepend("ZqRKIIC90AkRcyVwcyOHB", "platform", "Virtual Boy");
