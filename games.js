@@ -1,4 +1,9 @@
 
+prepend("IQFNAlEeAvAI3s2fYX5fN", "status", "Beaten");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "endDate", "2023-07-03");
+prepend("IQFNAlEeAvAI3s2fYX5fN", "log", "[{\"text\":\"Gave up on the final boss after losing with only two hits left. Good enough, that’s a tedious fight!\",\"date\":\"2023-07-03\"}]");
+
+
 prepend("intLFNXROMfeWUZk25PFH", "status", "Unbeaten");
 prepend("intLFNXROMfeWUZk25PFH", "name", "Legend of Zelda, Tears of the Kingdom");
 prepend("intLFNXROMfeWUZk25PFH", "platform", "Switch");
