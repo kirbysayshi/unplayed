@@ -1,4 +1,10 @@
 
+prepend("oNMF8NXKC1cD5aiM1BFaC", "status", "Abandoned");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "endDate", "2023-06-17");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "source", "");
+prepend("oNMF8NXKC1cD5aiM1BFaC", "log", "[{\"text\":\"The running sections are memorization, unfortunately. But the exploration and psychology segments are fascinating and weird!\",\"date\":\"2023-07-03\"}]");
+
+
 prepend("IQFNAlEeAvAI3s2fYX5fN", "status", "Beaten");
 prepend("IQFNAlEeAvAI3s2fYX5fN", "endDate", "2023-07-03");
 prepend("IQFNAlEeAvAI3s2fYX5fN", "log", "[{\"text\":\"Gave up on the final boss after losing with only two hits left. Good enough, that’s a tedious fight!\",\"date\":\"2023-07-03\"}]");
