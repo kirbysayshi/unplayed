@@ -1,4 +1,11 @@
 
+prepend("1IbQFLnQuhXj5ANmobPYd", "status", "Abandoned");
+prepend("1IbQFLnQuhXj5ANmobPYd", "startDate", "2023-07-08");
+prepend("1IbQFLnQuhXj5ANmobPYd", "endDate", "");
+prepend("1IbQFLnQuhXj5ANmobPYd", "source", "");
+prepend("1IbQFLnQuhXj5ANmobPYd", "log", "[{\"text\":\"Pretty tough when there’s no obvious way to see the password, and no battery backup! Neat obvious features: metered abilities, ledge grab.\",\"date\":\"2023-07-08\"}]");
+
+
 prepend("ZqRKIIC90AkRcyVwcyOHB", "source", "");
 prepend("ZqRKIIC90AkRcyVwcyOHB", "log", "[{\"text\":\"Time as a resource, instead of health.\",\"date\":\"2023-07-04\"}]");
 
