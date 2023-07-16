@@ -1,4 +1,13 @@
 
+prepend("Vq6qTZsbiGANY43Of7U9w", "status", "Unbeaten");
+prepend("Vq6qTZsbiGANY43Of7U9w", "name", "Ridiculous Fishing EX");
+prepend("Vq6qTZsbiGANY43Of7U9w", "platform", "iOS");
+prepend("Vq6qTZsbiGANY43Of7U9w", "comment", "It’s back! I forgot how tough the motion controls are. Unfortunately this version has a very unsteady frame rate, even with all the visuals turned down. Sadly I didn’t even know this released! Twitter is dead and I am unsocial these days");
+prepend("Vq6qTZsbiGANY43Of7U9w", "addedDate", "2023-07-15");
+prepend("Vq6qTZsbiGANY43Of7U9w", "startDate", "2023-07-15");
+prepend("Vq6qTZsbiGANY43Of7U9w", "source", "Studio Neat Newsletter");
+
+
 prepend("1IbQFLnQuhXj5ANmobPYd", "status", "Abandoned");
 prepend("1IbQFLnQuhXj5ANmobPYd", "startDate", "2023-07-08");
 prepend("1IbQFLnQuhXj5ANmobPYd", "endDate", "");
