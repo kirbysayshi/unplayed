@@ -1,4 +1,11 @@
 
+prepend("FpMLcLDuR2k0TZXevAVae", "status", "Unplayed");
+prepend("FpMLcLDuR2k0TZXevAVae", "name", "Howling Dogs");
+prepend("FpMLcLDuR2k0TZXevAVae", "platform", "Twine");
+prepend("FpMLcLDuR2k0TZXevAVae", "addedDate", "2023-03-08");
+prepend("FpMLcLDuR2k0TZXevAVae", "source", "DGC episode about Plundered Hearts");
+
+
 prepend("l5jrgSCY4jaTgQWODFtdt", "status", "Abandoned");
 prepend("l5jrgSCY4jaTgQWODFtdt", "comment", "Gave up on the 19th date! Tight controls but wow is it hard. Extreme precision.");
 prepend("l5jrgSCY4jaTgQWODFtdt", "endDate", "2023-07-23");
