@@ -1,4 +1,13 @@
 
+prepend("etNMwSMESBBwf7FTutAtH", "status", "Beaten");
+prepend("etNMwSMESBBwf7FTutAtH", "name", "Lost Your Marbles");
+prepend("etNMwSMESBBwf7FTutAtH", "platform", "Playdate");
+prepend("etNMwSMESBBwf7FTutAtH", "comment", "Really tough controls. 1h15m clear time? Came back to it months and months later due to how effectively random the controls felt.");
+prepend("etNMwSMESBBwf7FTutAtH", "addedDate", "2023-01-02");
+prepend("etNMwSMESBBwf7FTutAtH", "startDate", "2023-01-02");
+prepend("etNMwSMESBBwf7FTutAtH", "endDate", "2023-07-23");
+
+
 prepend("xGSfaFcpZpn30FBl0L9YK", "status", "Unbeaten");
 prepend("xGSfaFcpZpn30FBl0L9YK", "name", "Dave the Diver");
 prepend("xGSfaFcpZpn30FBl0L9YK", "platform", "PC");
