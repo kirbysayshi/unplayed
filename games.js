@@ -1,4 +1,11 @@
 
+prepend("l5jrgSCY4jaTgQWODFtdt", "status", "Abandoned");
+prepend("l5jrgSCY4jaTgQWODFtdt", "comment", "Gave up on the 19th date! Tight controls but wow is it hard. Extreme precision.");
+prepend("l5jrgSCY4jaTgQWODFtdt", "endDate", "2023-07-23");
+prepend("l5jrgSCY4jaTgQWODFtdt", "source", "");
+prepend("l5jrgSCY4jaTgQWODFtdt", "log", "[]");
+
+
 prepend("etNMwSMESBBwf7FTutAtH", "status", "Beaten");
 prepend("etNMwSMESBBwf7FTutAtH", "name", "Lost Your Marbles");
 prepend("etNMwSMESBBwf7FTutAtH", "platform", "Playdate");
