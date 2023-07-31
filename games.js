@@ -1,4 +1,11 @@
 
+prepend("NgEWNGrUW6BSMsNHkYSAq", "status", "Unbeaten");
+prepend("NgEWNGrUW6BSMsNHkYSAq", "name", "Pick Pack Pup");
+prepend("NgEWNGrUW6BSMsNHkYSAq", "platform", "Playdate");
+prepend("NgEWNGrUW6BSMsNHkYSAq", "addedDate", "2023-07-24");
+prepend("NgEWNGrUW6BSMsNHkYSAq", "startDate", "2023-07-24");
+
+
 prepend("FpMLcLDuR2k0TZXevAVae", "status", "Unplayed");
 prepend("FpMLcLDuR2k0TZXevAVae", "name", "Howling Dogs");
 prepend("FpMLcLDuR2k0TZXevAVae", "platform", "Twine");
