@@ -1,4 +1,10 @@
 
+prepend("intLFNXROMfeWUZk25PFH", "comment", "");
+prepend("intLFNXROMfeWUZk25PFH", "endDate", "");
+prepend("intLFNXROMfeWUZk25PFH", "source", "");
+prepend("intLFNXROMfeWUZk25PFH", "log", "[{\"text\":\"Dropped off due to surgery\",\"date\":\"2023-06-23\"}]");
+
+
 prepend("NgEWNGrUW6BSMsNHkYSAq", "status", "Unbeaten");
 prepend("NgEWNGrUW6BSMsNHkYSAq", "name", "Pick Pack Pup");
 prepend("NgEWNGrUW6BSMsNHkYSAq", "platform", "Playdate");
