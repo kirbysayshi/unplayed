@@ -1,4 +1,13 @@
 
+prepend("zEqdj3MgaLxhzKnRC1XoC", "status", "Unbeaten");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "name", "Baldur’s Gate 3");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "platform", "PS5");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "comment", "Why do keep starting these impossibly long games");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "addedDate", "2023-09-03");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "startDate", "2023-09-03");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "source", "Al");
+
+
 prepend("intLFNXROMfeWUZk25PFH", "comment", "");
 prepend("intLFNXROMfeWUZk25PFH", "endDate", "");
 prepend("intLFNXROMfeWUZk25PFH", "source", "");
