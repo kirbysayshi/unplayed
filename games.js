@@ -1,4 +1,8 @@
 
+prepend("6t439ww67VLS2yZQfaJDA", "status", "Abandoned");
+prepend("6t439ww67VLS2yZQfaJDA", "log", "[{\"text\":\"Done with phase 1! Combat tutorial was a little overwhelming but I think I’m slowly getting it. This game has charm.\",\"date\":\"2021-07-04\"},{\"text\":\"Got distracted by something else, considering this abandoned.\",\"date\":\"2023-09-10\"}]");
+
+
 prepend("zEqdj3MgaLxhzKnRC1XoC", "status", "Unbeaten");
 prepend("zEqdj3MgaLxhzKnRC1XoC", "name", "Baldur’s Gate 3");
 prepend("zEqdj3MgaLxhzKnRC1XoC", "platform", "PS5");
