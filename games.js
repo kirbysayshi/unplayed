@@ -1,4 +1,8 @@
 
+prepend("zEqdj3MgaLxhzKnRC1XoC", "endDate", "");
+prepend("zEqdj3MgaLxhzKnRC1XoC", "log", "[{\"text\":\"After 20 hours trying an origin character, I restarted with a custom character. This game needs a warning: “WE STRONGLY RECOMMEND A CUSTOM CHARACTER.” I thought an origin character would be fun, but you don’t get a sense of who they are without their voice and reactions when you inhabit them.\",\"date\":\"2023-09-10\"}]");
+
+
 prepend("6t439ww67VLS2yZQfaJDA", "status", "Abandoned");
 prepend("6t439ww67VLS2yZQfaJDA", "log", "[{\"text\":\"Done with phase 1! Combat tutorial was a little overwhelming but I think I’m slowly getting it. This game has charm.\",\"date\":\"2021-07-04\"},{\"text\":\"Got distracted by something else, considering this abandoned.\",\"date\":\"2023-09-10\"}]");
 
