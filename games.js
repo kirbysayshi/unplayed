@@ -1,4 +1,12 @@
 
+prepend("hxlRytmL9xjvjuLBb6oDc", "status", "Unbeaten");
+prepend("hxlRytmL9xjvjuLBb6oDc", "name", "Super Mario Wonder");
+prepend("hxlRytmL9xjvjuLBb6oDc", "platform", "Switch");
+prepend("hxlRytmL9xjvjuLBb6oDc", "comment", "Bought in Taipei. I hope it’s joyful!");
+prepend("hxlRytmL9xjvjuLBb6oDc", "addedDate", "2023-11-12");
+prepend("hxlRytmL9xjvjuLBb6oDc", "startDate", "2023-11-12");
+
+
 prepend("zEqdj3MgaLxhzKnRC1XoC", "endDate", "");
 prepend("zEqdj3MgaLxhzKnRC1XoC", "log", "[{\"text\":\"After 20 hours trying an origin character, I restarted with a custom character. This game needs a warning: “WE STRONGLY RECOMMEND A CUSTOM CHARACTER.” I thought an origin character would be fun, but you don’t get a sense of who they are without their voice and reactions when you inhabit them.\",\"date\":\"2023-09-10\"}]");
 
