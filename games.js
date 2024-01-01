@@ -1,4 +1,12 @@
 
+prepend("FE0erFxZzlbxfS6ULOYf6", "status", "Unbeaten");
+prepend("FE0erFxZzlbxfS6ULOYf6", "name", "Super Mario Odyssey");
+prepend("FE0erFxZzlbxfS6ULOYf6", "platform", "Switch");
+prepend("FE0erFxZzlbxfS6ULOYf6", "comment", "I forgot how joyful Mario games can be until I played Wonder. I hope this one stays that way instead of becoming a chore by the end.");
+prepend("FE0erFxZzlbxfS6ULOYf6", "addedDate", "2024-01-01");
+prepend("FE0erFxZzlbxfS6ULOYf6", "startDate", "2024-01-01");
+
+
 prepend("hxlRytmL9xjvjuLBb6oDc", "status", "Beaten");
 prepend("hxlRytmL9xjvjuLBb6oDc", "endDate", "2023-12-31");
 prepend("hxlRytmL9xjvjuLBb6oDc", "source", "");
