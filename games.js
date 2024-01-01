@@ -1,4 +1,10 @@
 
+prepend("hxlRytmL9xjvjuLBb6oDc", "status", "Beaten");
+prepend("hxlRytmL9xjvjuLBb6oDc", "endDate", "2023-12-31");
+prepend("hxlRytmL9xjvjuLBb6oDc", "source", "");
+prepend("hxlRytmL9xjvjuLBb6oDc", "log", "[{\"text\":\"“Finished” by completing the final test in Special World, but did not unlock the final final badge test by getting all flag poles and flower coins. Definitely not looking forward to revisiting some of these levels! So I’m done. 20+ hours, probably a third of that alone spent on Fluff-Puff Peaks Special Climb to the Beat (at least 200 lives on that single level…)!\",\"date\":\"2024-01-01\"}]");
+
+
 prepend("hxlRytmL9xjvjuLBb6oDc", "status", "Unbeaten");
 prepend("hxlRytmL9xjvjuLBb6oDc", "name", "Super Mario Wonder");
 prepend("hxlRytmL9xjvjuLBb6oDc", "platform", "Switch");
