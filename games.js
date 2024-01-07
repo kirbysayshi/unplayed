@@ -1,4 +1,12 @@
 
+prepend("ykt7xp4Ge2MCc81jbZOyj", "platform", "PS5");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Unbeaten");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "comment", "Enjoying the atmosphere and loop so far");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "startDate", "2024-01-06");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "endDate", "");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "log", "[]");
+
+
 prepend("FE0erFxZzlbxfS6ULOYf6", "status", "Unbeaten");
 prepend("FE0erFxZzlbxfS6ULOYf6", "name", "Super Mario Odyssey");
 prepend("FE0erFxZzlbxfS6ULOYf6", "platform", "Switch");
