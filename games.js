@@ -1,4 +1,7 @@
 
+prepend("ykt7xp4Ge2MCc81jbZOyj", "log", "[{\"text\":\"Credits\",\"date\":\"2024-01-20\"}]");
+
+
 prepend("ykt7xp4Ge2MCc81jbZOyj", "platform", "PS5");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Unbeaten");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "comment", "Enjoying the atmosphere and loop so far");
