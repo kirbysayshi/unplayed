@@ -1,4 +1,9 @@
 
+prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Beaten");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "log", "[{\"text\":\"Credits\",\"date\":\"2024-01-20\"},{\"text\":\"I have chosen my fate. Pity that the fact that the choice was there wasn’t more obvious.\",\"date\":\"2024-01-20\"}]");
+prepend("ykt7xp4Ge2MCc81jbZOyj", "endDate", "2024-01-20");
+
+
 prepend("ykt7xp4Ge2MCc81jbZOyj", "log", "[{\"text\":\"Credits\",\"date\":\"2024-01-20\"}]");
 
 
