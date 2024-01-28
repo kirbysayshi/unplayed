@@ -1,4 +1,7 @@
 
+prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[{\"text\":\"I played the demo before release and was very turned off by the battle system. But playing the real game, I think the tutorial might just be overwhelming and slightly lacking: watching Cloud get hit when you switch to Barret for the first time feels horrible, like you’re not playing correctly. After playing more, I guess you just have to assume your characters are going to get hit, unlike other 3rd person action games like God of War.\",\"date\":\"2021-04-10\"},{\"text\":\"Strong dissonance between AVALANCHE’s steampunk attire and the typical Midgar people’s suits, dresses, and slacks (maybe even in the slums, we’ll see). The setting is so detailed and realized, yet these background character models are as if from a completely different PS3-era game.\",\"date\":\"2021-04-11\"},{\"text\":\"Let’s try to get back into this\",\"date\":\"2024-01-28\"}]");
+
+
 prepend("49e98nrYVmfZ2RXmdSFGk", "status", "Beaten");
 prepend("49e98nrYVmfZ2RXmdSFGk", "name", "Firewatch ");
 prepend("49e98nrYVmfZ2RXmdSFGk", "platform", "PS5");
