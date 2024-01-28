@@ -1,4 +1,13 @@
 
+prepend("49e98nrYVmfZ2RXmdSFGk", "status", "Beaten");
+prepend("49e98nrYVmfZ2RXmdSFGk", "name", "Firewatch ");
+prepend("49e98nrYVmfZ2RXmdSFGk", "platform", "PS5");
+prepend("49e98nrYVmfZ2RXmdSFGk", "comment", "Tried this back in 2016 but got distracted by my own bad habits in games: go where they don't want you to go, search for secrets. This is not that game!\n\nI didn’t quite believe the characters during the central mystery, but appreciated the emotions they were trying to portray. I’m glad this game exists and appreciate the boundaries it pushed.");
+prepend("49e98nrYVmfZ2RXmdSFGk", "addedDate", "2016-02-09");
+prepend("49e98nrYVmfZ2RXmdSFGk", "startDate", "2024-01-27");
+prepend("49e98nrYVmfZ2RXmdSFGk", "endDate", "2024-01-27");
+
+
 prepend("ykt7xp4Ge2MCc81jbZOyj", "status", "Beaten");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "log", "[{\"text\":\"Credits\",\"date\":\"2024-01-20\"},{\"text\":\"I have chosen my fate. Pity that the fact that the choice was there wasn’t more obvious.\",\"date\":\"2024-01-20\"}]");
 prepend("ykt7xp4Ge2MCc81jbZOyj", "endDate", "2024-01-20");
