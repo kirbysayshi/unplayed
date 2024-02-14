@@ -1,4 +1,7 @@
 
+prepend("yW0zVtuzk2iRLFpqfqsrc", "log", "[{\"text\":\"It’s the same game as before! But harder! And still fun.\",\"date\":\"2020-01-22\"},{\"text\":\"Came back after a long hiatus. I'd gotten stuck on a water trainer that required all Water energy in the deck. Finally beat them! Stall until you get Magicarp -> Gyrados by stacking your deck with so many of them haha\",\"date\":\"2024-02-08\"}]");
+
+
 prepend("Ct05qogTPAIsvb9LvcNrq", "log", "[{\"text\":\"I played the demo before release and was very turned off by the battle system. But playing the real game, I think the tutorial might just be overwhelming and slightly lacking: watching Cloud get hit when you switch to Barret for the first time feels horrible, like you’re not playing correctly. After playing more, I guess you just have to assume your characters are going to get hit, unlike other 3rd person action games like God of War.\",\"date\":\"2021-04-10\"},{\"text\":\"Strong dissonance between AVALANCHE’s steampunk attire and the typical Midgar people’s suits, dresses, and slacks (maybe even in the slums, we’ll see). The setting is so detailed and realized, yet these background character models are as if from a completely different PS3-era game.\",\"date\":\"2021-04-11\"},{\"text\":\"Let’s try to get back into this via PS5\",\"date\":\"2024-01-28\"}]");
 
 
