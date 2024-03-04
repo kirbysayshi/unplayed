@@ -1,4 +1,12 @@
 
+prepend("nSkKWRaAeEryC7W0lWye3", "status", "Unplayed");
+prepend("nSkKWRaAeEryC7W0lWye3", "name", "Goodboy Galaxy");
+prepend("nSkKWRaAeEryC7W0lWye3", "platform", "GBA");
+prepend("nSkKWRaAeEryC7W0lWye3", "addedDate", "2021-08-27");
+prepend("nSkKWRaAeEryC7W0lWye3", "startDate", "2024-03-04");
+prepend("nSkKWRaAeEryC7W0lWye3", "source", "https://www.kickstarter.com/projects/penguinrik/goodboy-galaxy-exploration-platform-game-gba-pc-and-switch");
+
+
 prepend("yW0zVtuzk2iRLFpqfqsrc", "log", "[{\"text\":\"It’s the same game as before! But harder! And still fun.\",\"date\":\"2020-01-22\"},{\"text\":\"Came back after a long hiatus. I'd gotten stuck on a water trainer that required all Water energy in the deck. Finally beat them! Stall until you get Magicarp -> Gyrados by stacking your deck with so many of them haha\",\"date\":\"2024-02-08\"}]");
 
 
