@@ -1,4 +1,10 @@
 
+prepend("nSkKWRaAeEryC7W0lWye3", "status", "Unbeaten");
+prepend("nSkKWRaAeEryC7W0lWye3", "comment", "");
+prepend("nSkKWRaAeEryC7W0lWye3", "endDate", "");
+prepend("nSkKWRaAeEryC7W0lWye3", "log", "[]");
+
+
 prepend("nSkKWRaAeEryC7W0lWye3", "status", "Unplayed");
 prepend("nSkKWRaAeEryC7W0lWye3", "name", "Goodboy Galaxy");
 prepend("nSkKWRaAeEryC7W0lWye3", "platform", "GBA");
