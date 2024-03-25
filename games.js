@@ -1,4 +1,9 @@
 
+prepend("BMKbWjQVUoovm6REkEota", "status", "Beaten");
+prepend("BMKbWjQVUoovm6REkEota", "endDate", "2024-03-24");
+prepend("BMKbWjQVUoovm6REkEota", "log", "[{\"text\":\"I have finished this game legitimately after nearly 30 years! Glad I played it on Easy difficulty. The high resolution graphics make the level geometry legible and allow the level design to shine. There weren’t actually as many instances of “what did that switch do?” as I expected. Only a few. And even the few puzzles were interesting. But if I’d played on medium or hard I think the difficulty of the last few levels would have stopped me. I was very impressed with the last level: it had a zelda/metroid-style loop for each objective (where you don’t need to backtrack after completing, you are led back to the critical path)! Very impressive for 1995. I inadvertently Platinum-ed this game! PS5 says ~8h but I bet it was a little longer…\",\"date\":\"2024-03-25\"}]");
+
+
 prepend("BMKbWjQVUoovm6REkEota", "status", "Unbeaten");
 prepend("BMKbWjQVUoovm6REkEota", "name", "Dark Forces Remastered");
 prepend("BMKbWjQVUoovm6REkEota", "platform", "PS5");
