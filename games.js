@@ -1,4 +1,13 @@
 
+prepend("jbkWhr8leQ8Isi4nUYstH", "status", "Unbeaten");
+prepend("jbkWhr8leQ8Isi4nUYstH", "name", "Shining Force: Resurrection of the Dark Dragon");
+prepend("jbkWhr8leQ8Isi4nUYstH", "platform", "GBA");
+prepend("jbkWhr8leQ8Isi4nUYstH", "comment", "It’s fun that you can undo your move! And this is a remake of a game from 1992. Why don’t other games allow this?");
+prepend("jbkWhr8leQ8Isi4nUYstH", "addedDate", "2024-05-04");
+prepend("jbkWhr8leQ8Isi4nUYstH", "startDate", "2024-05-04");
+prepend("jbkWhr8leQ8Isi4nUYstH", "source", "Lost Decade Games always talk about this");
+
+
 prepend("WhqopBBbhxXqhwQJP2gL7", "status", "Abandoned");
 prepend("WhqopBBbhxXqhwQJP2gL7", "name", "Shining Soul II");
 prepend("WhqopBBbhxXqhwQJP2gL7", "platform", "GBA");
