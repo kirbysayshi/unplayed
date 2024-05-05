@@ -1,4 +1,13 @@
 
+prepend("WhqopBBbhxXqhwQJP2gL7", "status", "Abandoned");
+prepend("WhqopBBbhxXqhwQJP2gL7", "name", "Shining Soul II");
+prepend("WhqopBBbhxXqhwQJP2gL7", "platform", "GBA");
+prepend("WhqopBBbhxXqhwQJP2gL7", "comment", "This feels quite deep! I can't get passed the text sound and how slow it scrolls though. Lots of forced \"cutscenes\".");
+prepend("WhqopBBbhxXqhwQJP2gL7", "addedDate", "2024-05-03");
+prepend("WhqopBBbhxXqhwQJP2gL7", "startDate", "2024-05-04");
+prepend("WhqopBBbhxXqhwQJP2gL7", "source", "Jialin");
+
+
 prepend("eoAMHJ8QSsKXEswznRjmV", "log", "[{\"text\":\"I have forgotten how to play. But I got the last memory\",\"date\":\"2022-05-07\"},{\"text\":\"I think… I have two shrines left.\",\"date\":\"2022-05-31\"},{\"text\":\"All 120 shrines complete\",\"date\":\"2022-06-04\"},{\"text\":\"After over 145 hours, Ganon didn’t stand a chance. The EX Champions content made the final scenes hit even harder, I finally felt like I knew the champions. Using the health bar to reinforce the story is incredible! Zelda spoke broad but timeless sentiment that moving on requires everyone working together. Her story is the arc of the game and hit especially hard due to starting the game years before, and ending the game after the pandemic. Tears when she gave Link the REDACTED and REDACTED REDACTED. Maybe the best moment of the entire game is Ganon’s expression of surprise at the appearance of REDACTED! Satoru Iwata is in the credits as an Executive Producer…\",\"date\":\"2022-06-05\"}]");
 
 
