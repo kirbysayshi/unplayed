@@ -1,4 +1,11 @@
 
+prepend("iX4igR0Y3lCpFlOwkY6jw", "status", "Unbeaten");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "name", "Pokemon Black");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "platform", "DS");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "addedDate", "2011-03-18");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "startDate", "2011-03-18");
+
+
 prepend("jbkWhr8leQ8Isi4nUYstH", "status", "Unbeaten");
 prepend("jbkWhr8leQ8Isi4nUYstH", "name", "Shining Force: Resurrection of the Dark Dragon");
 prepend("jbkWhr8leQ8Isi4nUYstH", "platform", "GBA");
