@@ -1,4 +1,10 @@
 
+prepend("iX4igR0Y3lCpFlOwkY6jw", "comment", "");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "endDate", "");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "source", "");
+prepend("iX4igR0Y3lCpFlOwkY6jw", "log", "[{\"text\":\"Probably when I stopped for the first time?\",\"date\":\"2011-10-01\"},{\"text\":\"I guess I tried again\",\"date\":\"2012-10-23\"}]");
+
+
 prepend("iX4igR0Y3lCpFlOwkY6jw", "status", "Unbeaten");
 prepend("iX4igR0Y3lCpFlOwkY6jw", "name", "Pokemon Black");
 prepend("iX4igR0Y3lCpFlOwkY6jw", "platform", "DS");
