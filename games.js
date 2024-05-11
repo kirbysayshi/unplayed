@@ -1,4 +1,11 @@
 
+prepend("Dd9BIUL2NAflyUn5G2uuo", "status", "Unbeaten");
+prepend("Dd9BIUL2NAflyUn5G2uuo", "name", "Final Fantasy VII Remastered");
+prepend("Dd9BIUL2NAflyUn5G2uuo", "platform", "Switch");
+prepend("Dd9BIUL2NAflyUn5G2uuo", "addedDate", "2024-05-09");
+prepend("Dd9BIUL2NAflyUn5G2uuo", "startDate", "2024-05-10");
+
+
 prepend("iX4igR0Y3lCpFlOwkY6jw", "comment", "");
 prepend("iX4igR0Y3lCpFlOwkY6jw", "endDate", "");
 prepend("iX4igR0Y3lCpFlOwkY6jw", "source", "");
