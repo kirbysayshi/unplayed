@@ -1,4 +1,12 @@
 
+prepend("gmUSuKYltpKTEYJ3PgMw8", "status", "Unbeaten");
+prepend("gmUSuKYltpKTEYJ3PgMw8", "name", "Pokemon HeartGold");
+prepend("gmUSuKYltpKTEYJ3PgMw8", "platform", "DS");
+prepend("gmUSuKYltpKTEYJ3PgMw8", "comment", "Trying this on a 2DS!");
+prepend("gmUSuKYltpKTEYJ3PgMw8", "addedDate", "2024-05-01");
+prepend("gmUSuKYltpKTEYJ3PgMw8", "startDate", "2024-05-14");
+
+
 prepend("Dd9BIUL2NAflyUn5G2uuo", "status", "Unbeaten");
 prepend("Dd9BIUL2NAflyUn5G2uuo", "name", "Final Fantasy VII Remastered");
 prepend("Dd9BIUL2NAflyUn5G2uuo", "platform", "Switch");
