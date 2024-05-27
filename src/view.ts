@@ -37,22 +37,6 @@ function EntryTpl(entry: GameEntity) {
 
   let liRef: HTMLLIElement;
 
-  const lpDuration = 1000;
-  let toRef: undefined | number;
-  const startPress = (e: Event) => {
-    clearTimeout(toRef);
-    toRef = setTimeout(showEditPanel, lpDuration);
-
-    liRef.style.animation = "longpress-fill";
-    liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
-    liRef.style.animationTimingFunction = "ease-out";
-  };
-  const endPress = (e: Event) => {
-    clearTimeout(toRef);
-    toRef = undefined;
-    liRef.style.animation = "";
-  };
-
   function showEditPanel() {
     liRef.style.animation = "";
     const editPanel = EntityPanel(entry);
@@ -64,16 +48,13 @@ function EntryTpl(entry: GameEntity) {
       ref=${(el: HTMLLIElement) => {
         liRef = el;
       }}
-      onmousedown=${startPress}
-      ontouchstart=${startPress}
-
-      onmouseup=${endPress}
-      onmouseleave=${endPress}
-      ontouchend=${endPress}
-      ontouchcancel=${endPress}
-      ontouchleave=${endPress}
     >
-      <span class="name" data-name>${entry.name}</span>
+      <button
+        class="name"
+        data-name
+        type="button"
+        onclick=${showEditPanel}
+      >${entry.name}</button>
       <span class="platform" data-platform>${entry.platform}</span>
       ${
         entry.comment

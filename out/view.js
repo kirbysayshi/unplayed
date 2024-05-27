@@ -31,20 +31,6 @@ function EntryTpl(entry) {
             : `Rec: ${entry.source}`;
     const logs = (entry.log ? JSON.parse(entry.log) : []);
     let liRef;
-    const lpDuration = 1000;
-    let toRef;
-    const startPress = (e) => {
-        clearTimeout(toRef);
-        toRef = setTimeout(showEditPanel, lpDuration);
-        liRef.style.animation = "longpress-fill";
-        liRef.style.animationDuration = `${String(lpDuration / 1000)}s`;
-        liRef.style.animationTimingFunction = "ease-out";
-    };
-    const endPress = (e) => {
-        clearTimeout(toRef);
-        toRef = undefined;
-        liRef.style.animation = "";
-    };
     function showEditPanel() {
         liRef.style.animation = "";
         const editPanel = EntityPanel(entry);
@@ -55,16 +41,13 @@ function EntryTpl(entry) {
       ref=${(el) => {
         liRef = el;
     }}
-      onmousedown=${startPress}
-      ontouchstart=${startPress}
-
-      onmouseup=${endPress}
-      onmouseleave=${endPress}
-      ontouchend=${endPress}
-      ontouchcancel=${endPress}
-      ontouchleave=${endPress}
     >
-      <span class="name" data-name>${entry.name}</span>
+      <button
+        class="name"
+        data-name
+        type="button"
+        onclick=${showEditPanel}
+      >${entry.name}</button>
       <span class="platform" data-platform>${entry.platform}</span>
       ${entry.comment
         ? `<p class="comment" data-comment>${entry.comment}</p>`

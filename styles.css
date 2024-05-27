@@ -75,6 +75,15 @@ a:visited {
   color: blue;
 }
 
+button.name {
+  /* reset style to not be a button */
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .platform {
   font-size: 0.7em;
   color: #999;
