@@ -301,7 +301,7 @@ function createStagingForEntity(entity: GameEntity) {
   const existing = getStagingForEntity(entity);
   if (existing) return;
 
-  const area = StagedChange(entity).firstChild as HTMLTextAreaElement;
+  const area = StagedChange(entity).children[0] as HTMLTextAreaElement;
   const staging = document.getElementById(DOMIds.EditStaging);
   if (!staging) return;
   staging.appendChild(area);

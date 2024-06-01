@@ -256,7 +256,7 @@ function createStagingForEntity(entity) {
     const existing = getStagingForEntity(entity);
     if (existing)
         return;
-    const area = StagedChange(entity).firstChild;
+    const area = StagedChange(entity).children[0];
     const staging = document.getElementById(DOMIds.EditStaging);
     if (!staging)
         return;
