@@ -82,7 +82,7 @@ export function query(searchField, searchValue, sortFields = ["endDate", "startD
             // Do not attempt to sort if either field is falsy (aka not-sortable)
             if (!sortA || !sortB)
                 continue;
-            return (sortA !== null && sortA !== void 0 ? sortA : "").toString().localeCompare((sortB !== null && sortB !== void 0 ? sortB : "").toString());
+            return (sortA ?? "").toString().localeCompare((sortB ?? "").toString());
         }
         return a.insertionId.toString().localeCompare(b.insertionId.toString());
     });

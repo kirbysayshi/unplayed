@@ -16,12 +16,16 @@ var InputNames;
     InputNames["logText"] = "log-text";
     InputNames["logDate"] = "log-date";
 })(InputNames || (InputNames = {}));
+var DOMIds;
+(function (DOMIds) {
+    DOMIds["EditStaging"] = "edit-staging";
+})(DOMIds || (DOMIds = {}));
 export function EntityPanel(orig) {
     // given an entity, display prepend commands for an edit
-    var _a, _b, _c, _d, _e;
-    const { editLink } = useMetadata();
     // The rendered version of the entity. The source of truth
-    let next = Object.assign({}, orig);
+    let next = {
+        ...orig,
+    };
     // compute platforms
     const db = useDb();
     const platforms = db.reduce((all, e) => {
@@ -49,18 +53,22 @@ export function EntityPanel(orig) {
             date: logDates[i],
         }));
         // update the component's notion of the entity
-        next = Object.assign(Object.assign({}, orig), { status: status, name,
+        next = {
+            ...orig,
+            status: status,
+            name,
             platform,
             comment,
             addedDate,
             startDate,
             endDate,
-            source, log: JSON.stringify(logs) });
+            source,
+            log: JSON.stringify(logs),
+        };
         // diff previous data with new
         const mutations = diff(orig, next);
         // and append to output
-        const result = getInput(InputNames.result);
-        result.value = `\n${mutations.join("\n")}\n\n`;
+        setStagingForEntity(next, mutations.join("\n"));
     };
     let logSpan;
     const addLog = () => {
@@ -122,35 +130,35 @@ export function EntityPanel(orig) {
         Comment
         <textarea
           name="${InputNames.comment}"
-        >${(_a = next.comment) !== null && _a !== void 0 ? _a : ""}</textarea>
+        >${next.comment ?? ""}</textarea>
       </label>
       <label>
         Added Date
         <input
           type="date"
           name="${InputNames.addedDate}"
-          value="${(_b = next.addedDate) !== null && _b !== void 0 ? _b : ""}">
+          value="${next.addedDate ?? ""}">
       </label>
       <label>
         Start Date
         <input
           type="date"
           name="${InputNames.startDate}"
-          value="${(_c = next.startDate) !== null && _c !== void 0 ? _c : ""}">
+          value="${next.startDate ?? ""}">
       </label>
       <label>
         End Date
         <input
           type="date"
           name="${InputNames.endDate}"
-          value="${(_d = next.endDate) !== null && _d !== void 0 ? _d : ""}">
+          value="${next.endDate ?? ""}">
       </label>
       <label>
         Source (can be URL or just text)
         <input
           type="text"
           name="${InputNames.source}"
-          value="${(_e = next.source) !== null && _e !== void 0 ? _e : ""}">
+          value="${next.source ?? ""}">
       </label>
 
       <fieldset>
@@ -170,13 +178,6 @@ export function EntityPanel(orig) {
           ${LogsComponent(next, removeLog)}
         </span>
       </fieldset>
-
-      <label>
-        Tap then Copy for Github
-        <textarea onclick="this.select()" name="${InputNames.result}"></textarea>
-      </label>
-
-      <div style="margin: 2em 0 3em;">${GithubEditTpl(editLink)}</div>
     </form>
   `;
 }
@@ -185,16 +186,16 @@ const LogsComponent = (entity, removeLog) => {
     return stract `${logs.map(({ text, date }, idx) => {
         return stract `
       <label>
-      <input
-        type="date"
-        name="${InputNames.logDate}"
-        value="${date}">
+        <input
+          type="date"
+          name="${InputNames.logDate}"
+          value="${date}">
       </label>
       <label>
-      <textarea
-        name="${InputNames.logText}"
-      >${text}</textarea>
-      <a href="#" onclick=${(e) => {
+        <textarea
+          name="${InputNames.logText}"
+        >${text}</textarea>
+        <a href="#" onclick=${(e) => {
             e.preventDefault();
             removeLog(idx);
         }}>Remove Log</a>
@@ -227,6 +228,7 @@ export function NewEntityButton() {
         };
         const panel = EntityPanel(entity);
         insertAsNextSibling(ref, panel);
+        createStagingForEntity(entity);
         window.scrollBy(0, ref.nextElementSibling.clientHeight);
     };
     return stract `
@@ -236,6 +238,89 @@ export function NewEntityButton() {
         ref = el;
     }}
     ><a href="#" onclick=${createNew}>Add Game</a></p>
+  `;
+}
+function StagedChange(entity) {
+    return stract `
+    <textarea data-entityid="${entity.id}"></textarea>
+  `;
+}
+function getStagingForEntity(entity) {
+    const existing = document.querySelector(`textarea[data-entityid="${entity.id}"]`);
+    if (!existing)
+        return null;
+    const area = existing;
+    return area;
+}
+function createStagingForEntity(entity) {
+    const existing = getStagingForEntity(entity);
+    if (existing)
+        return;
+    const area = StagedChange(entity).firstChild;
+    const staging = document.getElementById(DOMIds.EditStaging);
+    if (!staging)
+        return;
+    staging.appendChild(area);
+}
+function setStagingForEntity(entity, changes) {
+    const existing = getStagingForEntity(entity);
+    if (!existing)
+        return;
+    const area = existing;
+    area.value = changes;
+    // manually setting the value does not trigger change events, so do that
+    // manually.
+    const evt = new Event("change", { bubbles: true });
+    area.dispatchEvent(evt);
+}
+/**
+ * Editing works by ensuring there is a hidden textarea for each entity. Then
+ * when a change occurs, all the textarea values are collected into the single
+ * "results" area. This avoids needing complex join/diffing of the final
+ * results.
+ */
+export function EditInfo(existing) {
+    const { editLink } = useMetadata();
+    let stagingRef;
+    let resultRef;
+    function handleStagingChange() {
+        const staged = Array.from(stagingRef.children);
+        const result = staged
+            .map((el) => el.value)
+            .filter((v) => !!v)
+            .join("\n\n");
+        resultRef.value = `\n${result}\n\n`;
+    }
+    return stract `
+    <div class="flex flex-col gap-0.5">
+      <h1>Edit Summary</h1>
+
+      <div data-compose class="flex flex-col gap-0.25">
+
+        <form
+          style="display: none"
+          id="${DOMIds.EditStaging}"
+          ref=${(el) => {
+        stagingRef = el;
+    }}
+          onchange=${handleStagingChange}
+        >
+          ${existing.map((entity) => StagedChange(entity))}
+        </form>
+
+        <label for="${InputNames.result}">
+          Tap then Copy for Github
+          <textarea
+            onclick="this.select()"
+            name="${InputNames.result}"
+            ref=${(el) => {
+        resultRef = el;
+    }}
+          ></textarea>
+        </label>
+        <div>${GithubEditTpl(editLink)}</div>
+      </div>
+    </div>
   `;
 }
 //# sourceMappingURL=edit.js.map

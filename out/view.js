@@ -1,5 +1,5 @@
-import { query } from "./aodb.js";
-import { EntityPanel, NewEntityButton } from "./edit.js";
+import { query, useDb } from "./aodb.js";
+import { EditInfo, EntityPanel, NewEntityButton } from "./edit.js";
 import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 function SectionTpl(name, desc) {
@@ -31,7 +31,11 @@ function EntryTpl(entry) {
             : `Rec: ${entry.source}`;
     const logs = (entry.log ? JSON.parse(entry.log) : []);
     let liRef;
+    let editing = false;
     function showEditPanel() {
+        if (editing)
+            return;
+        editing = true;
         liRef.style.animation = "";
         const editPanel = EntityPanel(entry);
         insertAsNextSibling(liRef, editPanel);
@@ -88,6 +92,9 @@ function UnplayedTpl() {
 
     ${NewEntityButton()}
 
+    ${EditInfo(useDb())}
+
+    <h1>What!?</h1>
     <p class="about">
     ${useMetadata().about} This is a shameless rip-off of Shaun Inman's
       <a href="https://shauninman.com/unplayed">Unplayed</a>. The intent
