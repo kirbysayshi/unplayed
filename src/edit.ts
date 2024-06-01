@@ -25,10 +25,12 @@ enum InputNames {
   logDate = "log-date",
 }
 
+enum DOMIds {
+  EditStaging = "edit-staging",
+}
+
 export function EntityPanel(orig: GameEntity) {
   // given an entity, display prepend commands for an edit
-
-  const { editLink } = useMetadata();
 
   // The rendered version of the entity. The source of truth
   let next: GameEntity = {
@@ -40,7 +42,7 @@ export function EntityPanel(orig: GameEntity) {
   const platforms = db.reduce((all, e) => {
     all.add(e.platform);
     return all;
-  }, new Set());
+  }, new Set<string>());
 
   let ref: HTMLFormElement;
 
@@ -87,8 +89,7 @@ export function EntityPanel(orig: GameEntity) {
     const mutations = diff(orig, next);
 
     // and append to output
-    const result = getInput(InputNames.result) as HTMLInputElement;
-    result.value = `\n${mutations.join("\n")}\n\n`;
+    setStagingForEntity(next, mutations.join("\n"));
   };
 
   let logSpan: HTMLSpanElement;
@@ -136,7 +137,7 @@ export function EntityPanel(orig: GameEntity) {
             (status) =>
               `<option value="${status}" ${
                 status === next.status ? "selected" : ""
-              }>${status}</option>`
+              }>${status}</option>`,
           )}
         </select>
       </label>
@@ -207,40 +208,31 @@ export function EntityPanel(orig: GameEntity) {
           ${LogsComponent(next, removeLog)}
         </span>
       </fieldset>
-
-      <label>
-        Tap then Copy for Github
-        <textarea onclick="this.select()" name="${
-          InputNames.result
-        }"></textarea>
-      </label>
-
-      <div style="margin: 2em 0 3em;">${GithubEditTpl(editLink)}</div>
     </form>
   `;
 }
 
 const LogsComponent = (
   entity: GameEntity,
-  removeLog: (idx: number) => void
+  removeLog: (idx: number) => void,
 ) => {
   const logs: ParsedLog[] = entity.log ? JSON.parse(entity.log) : [];
   return stract`${logs.map(({ text, date }, idx) => {
     return stract`
       <label>
-      <input
-        type="date"
-        name="${InputNames.logDate}"
-        value="${date}">
+        <input
+          type="date"
+          name="${InputNames.logDate}"
+          value="${date}">
       </label>
       <label>
-      <textarea
-        name="${InputNames.logText}"
-      >${text}</textarea>
-      <a href="#" onclick=${(e: MouseEvent) => {
-        e.preventDefault();
-        removeLog(idx);
-      }}>Remove Log</a>
+        <textarea
+          name="${InputNames.logText}"
+        >${text}</textarea>
+        <a href="#" onclick=${(e: MouseEvent) => {
+          e.preventDefault();
+          removeLog(idx);
+        }}>Remove Log</a>
       </label>
     `;
   })}`;
@@ -275,6 +267,7 @@ export function NewEntityButton() {
 
     const panel = EntityPanel(entity);
     insertAsNextSibling(ref, panel);
+    createStagingForEntity(entity);
     window.scrollBy(0, ref.nextElementSibling!.clientHeight);
   };
 
@@ -285,5 +278,98 @@ export function NewEntityButton() {
         ref = el;
       }}
     ><a href="#" onclick=${createNew}>Add Game</a></p>
+  `;
+}
+
+function StagedChange(entity: GameEntity) {
+  return stract`
+    <textarea data-entityid="${entity.id}"></textarea>
+  `;
+}
+
+function getStagingForEntity(entity: GameEntity) {
+  const existing = document.querySelector(
+    `textarea[data-entityid="${entity.id}"]`,
+  );
+  if (!existing) return null;
+
+  const area = existing as HTMLTextAreaElement;
+  return area;
+}
+
+function createStagingForEntity(entity: GameEntity) {
+  const existing = getStagingForEntity(entity);
+  if (existing) return;
+
+  const area = StagedChange(entity).firstChild as HTMLTextAreaElement;
+  const staging = document.getElementById(DOMIds.EditStaging);
+  if (!staging) return;
+  staging.appendChild(area);
+}
+
+function setStagingForEntity(entity: GameEntity, changes: string) {
+  const existing = getStagingForEntity(entity);
+  if (!existing) return;
+
+  const area = existing as HTMLTextAreaElement;
+  area.value = changes;
+
+  // manually setting the value does not trigger change events, so do that
+  // manually.
+  const evt = new Event("change", { bubbles: true });
+  area.dispatchEvent(evt);
+}
+
+/**
+ * Editing works by ensuring there is a hidden textarea for each entity. Then
+ * when a change occurs, all the textarea values are collected into the single
+ * "results" area. This avoids needing complex join/diffing of the final
+ * results.
+ */
+export function EditInfo(existing: GameEntity[]) {
+  const { editLink } = useMetadata();
+
+  let stagingRef: HTMLDivElement;
+  let resultRef: HTMLTextAreaElement;
+
+  function handleStagingChange() {
+    const staged = Array.from(stagingRef.children) as HTMLTextAreaElement[];
+    const result = staged
+      .map((el) => el.value)
+      .filter((v) => !!v)
+      .join("\n\n");
+    resultRef.value = `\n${result}\n\n`;
+  }
+
+  return stract`
+    <div class="flex flex-col gap-0.5">
+      <h1>Edit Summary</h1>
+
+      <div data-compose class="flex flex-col gap-0.25">
+
+        <form
+          style="display: none"
+          id="${DOMIds.EditStaging}"
+          ref=${(el: HTMLDivElement) => {
+            stagingRef = el;
+          }}
+          onchange=${handleStagingChange}
+        >
+          ${existing.map((entity) => StagedChange(entity))}
+        </form>
+
+        <label for="${InputNames.result}">
+          Tap then Copy for Github
+          <textarea
+            onclick="this.select()"
+            name="${InputNames.result}"
+            ref=${(el: HTMLTextAreaElement) => {
+              resultRef = el;
+            }}
+          ></textarea>
+        </label>
+        <div>${GithubEditTpl(editLink)}</div>
+      </div>
+    </div>
   `;
 }

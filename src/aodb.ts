@@ -14,7 +14,7 @@ export const StatusKeys = [
   "Beaten",
 ] as const;
 
-export type Status = typeof StatusKeys[number];
+export type Status = (typeof StatusKeys)[number];
 
 // TODO: add a "dateAdded" field so I can differentiate between the start/end date of playing and dateAdded to the board.
 
@@ -55,7 +55,7 @@ export const nextId = () => nanoid() as EntityId;
 export function prepend<K extends MutableGameEntityFields>(
   id: EntityId,
   key: K,
-  value: GameEntity[K]
+  value: GameEntity[K],
 ) {
   const entry = { id, key, value };
   entries.unshift(entry);
@@ -121,7 +121,7 @@ export function useDb() {
 export function query<K extends keyof GameEntity>(
   searchField: K,
   searchValue: GameEntity[K],
-  sortFields: K[] = ["endDate", "startDate", "addedDate", "insertionId"] as K[]
+  sortFields: K[] = ["endDate", "startDate", "addedDate", "insertionId"] as K[],
 ) {
   const db = useDb();
   const results = [];

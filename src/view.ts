@@ -1,5 +1,5 @@
-import { query, GameEntity, ParsedLog } from "./aodb.js";
-import { EntityPanel, NewEntityButton } from "./edit.js";
+import { query, GameEntity, ParsedLog, useDb } from "./aodb.js";
+import { EditInfo, EntityPanel, NewEntityButton } from "./edit.js";
 import { stract, insertAsNextSibling } from "./stract.js";
 import { useMetadata } from "./site-data.js";
 
@@ -31,13 +31,17 @@ function EntryTpl(entry: GameEntity) {
   const source = !entry.source
     ? ""
     : entry.source.match(/http|www|[a-z]\.[a-z]/)
-    ? `<a href="${entry.source}">${entry.source}</a>`
-    : `Rec: ${entry.source}`;
+      ? `<a href="${entry.source}">${entry.source}</a>`
+      : `Rec: ${entry.source}`;
   const logs = (entry.log ? JSON.parse(entry.log) : []) as ParsedLog[];
 
   let liRef: HTMLLIElement;
 
+  let editing = false;
+
   function showEditPanel() {
+    if (editing) return;
+    editing = true;
     liRef.style.animation = "";
     const editPanel = EntityPanel(entry);
     insertAsNextSibling(liRef, editPanel);
@@ -94,13 +98,16 @@ function UnplayedTpl() {
     <div class="list-section">
     ${SectionTpl(
       "Abandoned",
-      "Sometimes I get distracted, sometimes it's the game."
+      "Sometimes I get distracted, sometimes it's the game.",
     )}
     ${EntryListTpl(query("status", "Abandoned"))}
     </div>
 
     ${NewEntityButton()}
 
+    ${EditInfo(useDb())}
+
+    <h1>What!?</h1>
     <p class="about">
     ${useMetadata().about} This is a shameless rip-off of Shaun Inman's
       <a href="https://shauninman.com/unplayed">Unplayed</a>. The intent
