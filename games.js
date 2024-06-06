@@ -1,4 +1,13 @@
 
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "status", "Beaten");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "name", "Star Wars: Hunters");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "platform", "Switch");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "comment", "This interface is just madness. Zero visual hierarchy, everything is loud! Seems fun though, if you can avoid the microtransactions.");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "addedDate", "2024-06-05");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "startDate", "2024-06-05");
+prepend("pMGc2JnEgNLRxdvrm3Jfc", "endDate", "2024-06-05");
+
+
 prepend("gmUSuKYltpKTEYJ3PgMw8", "status", "Unbeaten");
 prepend("gmUSuKYltpKTEYJ3PgMw8", "name", "Pokemon HeartGold");
 prepend("gmUSuKYltpKTEYJ3PgMw8", "platform", "DS");
