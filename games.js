@@ -1,4 +1,12 @@
 
+prepend("g798udfyPpwGwlwrChunU", "status", "Unbeaten");
+prepend("g798udfyPpwGwlwrChunU", "name", "Final Fantasy XII: The Zodiac Age");
+prepend("g798udfyPpwGwlwrChunU", "platform", "Switch");
+prepend("g798udfyPpwGwlwrChunU", "addedDate", "2024-05-09");
+prepend("g798udfyPpwGwlwrChunU", "startDate", "2024-05-09");
+prepend("g798udfyPpwGwlwrChunU", "log", "[{\"text\":\"20 hours in. Fleet go boom\",\"date\":\"2024-06-09\"}]");
+
+
 prepend("pMGc2JnEgNLRxdvrm3Jfc", "status", "Beaten");
 prepend("pMGc2JnEgNLRxdvrm3Jfc", "name", "Star Wars: Hunters");
 prepend("pMGc2JnEgNLRxdvrm3Jfc", "platform", "Switch");
