@@ -1,4 +1,12 @@
 
+prepend("9CTehj7HtIVKvROUEOTTm", "status", "Unbeaten");
+prepend("9CTehj7HtIVKvROUEOTTm", "name", "Persona 5 Royal");
+prepend("9CTehj7HtIVKvROUEOTTm", "platform", "Switch");
+prepend("9CTehj7HtIVKvROUEOTTm", "addedDate", "2024-07-05");
+prepend("9CTehj7HtIVKvROUEOTTm", "startDate", "2024-07-05");
+prepend("9CTehj7HtIVKvROUEOTTm", "log", "[{\"text\":\"The visual style of this game is unbelievable\",\"date\":\"2024-07-05\"}]");
+
+
 prepend("24YnodxeWpFmqE6Sz8wca", "status", "Beaten");
 prepend("24YnodxeWpFmqE6Sz8wca", "name", "Captain Toad Treasure Tracker DEMO");
 prepend("24YnodxeWpFmqE6Sz8wca", "platform", "Switch");
