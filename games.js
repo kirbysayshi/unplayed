@@ -1,4 +1,14 @@
 
+prepend("24YnodxeWpFmqE6Sz8wca", "status", "Beaten");
+prepend("24YnodxeWpFmqE6Sz8wca", "name", "Captain Toad Treasure Tracker DEMO");
+prepend("24YnodxeWpFmqE6Sz8wca", "platform", "Switch");
+prepend("24YnodxeWpFmqE6Sz8wca", "comment", "Delightful");
+prepend("24YnodxeWpFmqE6Sz8wca", "addedDate", "2024-07-04");
+prepend("24YnodxeWpFmqE6Sz8wca", "startDate", "2024-07-04");
+prepend("24YnodxeWpFmqE6Sz8wca", "endDate", "2024-07-04");
+prepend("24YnodxeWpFmqE6Sz8wca", "source", "Ari, back when it released");
+
+
 prepend("g798udfyPpwGwlwrChunU", "status", "Unbeaten");
 prepend("g798udfyPpwGwlwrChunU", "name", "Final Fantasy XII: The Zodiac Age");
 prepend("g798udfyPpwGwlwrChunU", "platform", "Switch");
