@@ -1,4 +1,10 @@
 
+prepend("vmJukcjaXqO02alGL8FUD", "log", "[{\"text\":\"Going with expert controls and Normal difficulty!\",\"date\":\"2024-07-13\"},{\"text\":\"Might have to bail after spending so much time on Mission 5 that Mission 6 is very tiring. Hearing the same chatter during every mission attempt gets old very quickly!\",\"date\":\"2024-07-14\"}]");
+prepend("vmJukcjaXqO02alGL8FUD", "comment", "");
+prepend("vmJukcjaXqO02alGL8FUD", "endDate", "");
+prepend("vmJukcjaXqO02alGL8FUD", "source", "");
+
+
 prepend("vmJukcjaXqO02alGL8FUD", "status", "Unbeaten");
 prepend("vmJukcjaXqO02alGL8FUD", "name", "Ace Combat 7");
 prepend("vmJukcjaXqO02alGL8FUD", "platform", "PS5");
