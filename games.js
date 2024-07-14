@@ -1,4 +1,12 @@
 
+prepend("vmJukcjaXqO02alGL8FUD", "status", "Unbeaten");
+prepend("vmJukcjaXqO02alGL8FUD", "name", "Ace Combat 7");
+prepend("vmJukcjaXqO02alGL8FUD", "platform", "PS5");
+prepend("vmJukcjaXqO02alGL8FUD", "addedDate", "2024-07-13");
+prepend("vmJukcjaXqO02alGL8FUD", "startDate", "2024-07-13");
+prepend("vmJukcjaXqO02alGL8FUD", "log", "[{\"text\":\"Going with expert controls!\",\"date\":\"2024-07-13\"}]");
+
+
 prepend("9CTehj7HtIVKvROUEOTTm", "status", "Unbeaten");
 prepend("9CTehj7HtIVKvROUEOTTm", "name", "Persona 5 Royal");
 prepend("9CTehj7HtIVKvROUEOTTm", "platform", "Switch");
