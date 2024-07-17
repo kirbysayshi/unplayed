@@ -1,4 +1,13 @@
 
+prepend("NH8ikndgpNwvLToNpK44C", "status", "Beaten");
+prepend("NH8ikndgpNwvLToNpK44C", "name", "Pokémon Unbound");
+prepend("NH8ikndgpNwvLToNpK44C", "platform", "GBA");
+prepend("NH8ikndgpNwvLToNpK44C", "addedDate", "2024-05-14");
+prepend("NH8ikndgpNwvLToNpK44C", "startDate", "2024-05-14");
+prepend("NH8ikndgpNwvLToNpK44C", "endDate", "2024-07-17");
+prepend("NH8ikndgpNwvLToNpK44C", "log", "[{\"text\":\"I am the Pokémon league champion! 39h04m Several of the puzzles were hateful but the battle challenge level was a nice increase from the usual Pokemon formula.\",\"date\":\"2024-07-17\"}]");
+
+
 prepend("vmJukcjaXqO02alGL8FUD", "log", "[{\"text\":\"Going with expert controls and Normal difficulty!\",\"date\":\"2024-07-13\"},{\"text\":\"Might have to bail after spending so much time on Mission 5 that Mission 6 is very tiring. Hearing the same chatter during every mission attempt gets old very quickly!\",\"date\":\"2024-07-14\"}]");
 prepend("vmJukcjaXqO02alGL8FUD", "comment", "");
 prepend("vmJukcjaXqO02alGL8FUD", "endDate", "");
