@@ -1,4 +1,12 @@
 
+prepend("Xg2kgFMETmjTzWuOWAXzs", "status", "Unbeaten");
+prepend("Xg2kgFMETmjTzWuOWAXzs", "name", "Shadow of the Colossus");
+prepend("Xg2kgFMETmjTzWuOWAXzs", "platform", "PS5");
+prepend("Xg2kgFMETmjTzWuOWAXzs", "addedDate", "2024-07-26");
+prepend("Xg2kgFMETmjTzWuOWAXzs", "startDate", "2024-07-27");
+prepend("Xg2kgFMETmjTzWuOWAXzs", "log", "[{\"text\":\"Last time I tried playing, the camera was tough on the original PS2. Consistent framerate and better controller does help!\",\"date\":\"2024-07-27\"}]");
+
+
 prepend("NH8ikndgpNwvLToNpK44C", "status", "Beaten");
 prepend("NH8ikndgpNwvLToNpK44C", "name", "Pokémon Unbound");
 prepend("NH8ikndgpNwvLToNpK44C", "platform", "GBA");
