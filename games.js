@@ -1,4 +1,7 @@
 
+prepend("nSkKWRaAeEryC7W0lWye3", "log", "[{\"text\":\"I have a blaster now!\",\"date\":\"2024-07-27\"}]");
+
+
 prepend("Xg2kgFMETmjTzWuOWAXzs", "status", "Unbeaten");
 prepend("Xg2kgFMETmjTzWuOWAXzs", "name", "Shadow of the Colossus");
 prepend("Xg2kgFMETmjTzWuOWAXzs", "platform", "PS5");
