@@ -1,4 +1,12 @@
 
+prepend("OJE4nyGM0J9Jr4WDtubM2", "status", "Abandoned");
+prepend("OJE4nyGM0J9Jr4WDtubM2", "name", "Hotel Dusk: Room 215");
+prepend("OJE4nyGM0J9Jr4WDtubM2", "platform", "NDS");
+prepend("OJE4nyGM0J9Jr4WDtubM2", "comment", "Played for about 2h30m and got stuck! Art is great but I don’t like the main character so it was difficult to become immersed. BUT I LOVE HOLDING MY DS XL LIKE A BOOK");
+prepend("OJE4nyGM0J9Jr4WDtubM2", "addedDate", "2024-07-23");
+prepend("OJE4nyGM0J9Jr4WDtubM2", "startDate", "2024-07-30");
+
+
 prepend("nSkKWRaAeEryC7W0lWye3", "log", "[{\"text\":\"I have a blaster now!\",\"date\":\"2024-07-27\"}]");
 
 
