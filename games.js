@@ -1,4 +1,13 @@
 
+prepend("9aIFxD2TdI1lK38Nd69qK", "status", "Unbeaten");
+prepend("9aIFxD2TdI1lK38Nd69qK", "name", "Final Fantasy Tactics War of the Lion Tweak");
+prepend("9aIFxD2TdI1lK38Nd69qK", "platform", "PSP");
+prepend("9aIFxD2TdI1lK38Nd69qK", "addedDate", "2024-08-03");
+prepend("9aIFxD2TdI1lK38Nd69qK", "startDate", "2024-08-03");
+prepend("9aIFxD2TdI1lK38Nd69qK", "source", "https://www.romhacking.net/hacks/916/");
+prepend("9aIFxD2TdI1lK38Nd69qK", "log", "[{\"text\":\"Finished Dorter after 5+ tries. Used one chemist and the rest squires. Everyone had Items. I sent Delita, Argath, and Ramsa off to rush the Knight and Mage, and two squires up to take on the archer. My Chemist delivered the fatal blow to the knight! I am already probably 2 hours over my stated save game duration.\",\"date\":\"2024-08-04\"}]");
+
+
 prepend("h5VjGwDV3oRP0oKdQi5Yh", "status", "Unbeaten");
 prepend("h5VjGwDV3oRP0oKdQi5Yh", "name", "Deep Rock Galactic");
 prepend("h5VjGwDV3oRP0oKdQi5Yh", "platform", "PS5");
