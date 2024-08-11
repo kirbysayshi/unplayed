@@ -1,4 +1,9 @@
 
+prepend("9aIFxD2TdI1lK38Nd69qK", "log", "[{\"text\":\"Finished Dorter after 5+ tries. Used one chemist and the rest squires. Everyone had Items. I sent Delita, Argath, and Ramsa off to rush the Knight and Mage, and two squires up to take on the archer. My Chemist delivered the fatal blow to the knight! I am already probably +2h over my stated save game duration.\",\"date\":\"2024-08-04\"},{\"text\":\"Still working on Zaland, trying a team of mages now. Another +3h over save game time! Overall though I do feel I can actually experiment: it only takes a battle or two to have enough JP to buy skills and money is plentiful for equipment!\",\"date\":\"2024-08-11\"}]");
+prepend("9aIFxD2TdI1lK38Nd69qK", "comment", "");
+prepend("9aIFxD2TdI1lK38Nd69qK", "endDate", "");
+
+
 prepend("9aIFxD2TdI1lK38Nd69qK", "status", "Unbeaten");
 prepend("9aIFxD2TdI1lK38Nd69qK", "name", "Final Fantasy Tactics War of the Lion Tweak");
 prepend("9aIFxD2TdI1lK38Nd69qK", "platform", "PSP");
