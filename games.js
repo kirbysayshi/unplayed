@@ -1,4 +1,13 @@
 
+prepend("6j6yZCMFRZkrctlHarMbN", "status", "Unbeaten");
+prepend("6j6yZCMFRZkrctlHarMbN", "name", "1000xRESIST");
+prepend("6j6yZCMFRZkrctlHarMbN", "platform", "Switch");
+prepend("6j6yZCMFRZkrctlHarMbN", "addedDate", "2024-08-14");
+prepend("6j6yZCMFRZkrctlHarMbN", "startDate", "2024-08-19");
+prepend("6j6yZCMFRZkrctlHarMbN", "source", "https://www.metafilter.com/205091/Delivery-will-take-more-than-30-minutes#8611118");
+prepend("6j6yZCMFRZkrctlHarMbN", "log", "[{\"text\":\"Chapter 1: wow\",\"date\":\"2024-08-20\"}]");
+
+
 prepend("9aIFxD2TdI1lK38Nd69qK", "log", "[{\"text\":\"Finished Dorter after 5+ tries. Used one chemist and the rest squires. Everyone had Items. I sent Delita, Argath, and Ramsa off to rush the Knight and Mage, and two squires up to take on the archer. My Chemist delivered the fatal blow to the knight! I am already probably +2h over my stated save game duration.\",\"date\":\"2024-08-04\"},{\"text\":\"Still working on Zaland, trying a team of mages now. Another +3h over save game time! Overall though I do feel I can actually experiment: it only takes a battle or two to have enough JP to buy skills and money is plentiful for equipment!\",\"date\":\"2024-08-11\"}]");
 prepend("9aIFxD2TdI1lK38Nd69qK", "comment", "");
 prepend("9aIFxD2TdI1lK38Nd69qK", "endDate", "");
