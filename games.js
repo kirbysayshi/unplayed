@@ -1,4 +1,12 @@
 
+prepend("qzc37LTY8aOH554NvE6bp", "status", "Unbeaten");
+prepend("qzc37LTY8aOH554NvE6bp", "name", "Black Myth Wukong");
+prepend("qzc37LTY8aOH554NvE6bp", "platform", "PS5");
+prepend("qzc37LTY8aOH554NvE6bp", "comment", "This might be beyond my skill ceiling…");
+prepend("qzc37LTY8aOH554NvE6bp", "addedDate", "2024-08-20");
+prepend("qzc37LTY8aOH554NvE6bp", "startDate", "2024-08-20");
+
+
 prepend("9aIFxD2TdI1lK38Nd69qK", "log", "[{\"text\":\"Finished Dorter after 5+ tries. Used one chemist and the rest squires. Everyone had Items. I sent Delita, Argath, and Ramsa off to rush the Knight and Mage, and two squires up to take on the archer. My Chemist delivered the fatal blow to the knight! I am already probably +2h over my stated save game duration.\",\"date\":\"2024-08-04\"},{\"text\":\"Still working on Zaland, trying a team of mages now. Another +3h over save game time! Overall though I do feel I can actually experiment: it only takes a battle or two to have enough JP to buy skills and money is plentiful for equipment!\",\"date\":\"2024-08-11\"},{\"text\":\"Stuck on Golgollada Gallows… +2h\",\"date\":\"2024-08-19\"}]");
 
 
