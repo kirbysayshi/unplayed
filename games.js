@@ -1,4 +1,10 @@
 
+prepend("6j6yZCMFRZkrctlHarMbN", "log", "[{\"text\":\"Chapter 1: wow\",\"date\":\"2024-08-20\"},{\"text\":\"This game… choice-driven gameplay done right. The voice acting was incredible. WHAT DID I JUST EXPERIENCE!?\",\"date\":\"2024-09-01\"}]");
+prepend("6j6yZCMFRZkrctlHarMbN", "status", "Beaten");
+prepend("6j6yZCMFRZkrctlHarMbN", "comment", "");
+prepend("6j6yZCMFRZkrctlHarMbN", "endDate", "2024-09-01");
+
+
 prepend("qzc37LTY8aOH554NvE6bp", "status", "Unbeaten");
 prepend("qzc37LTY8aOH554NvE6bp", "name", "Black Myth Wukong");
 prepend("qzc37LTY8aOH554NvE6bp", "platform", "PS5");
