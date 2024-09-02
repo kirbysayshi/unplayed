@@ -1,4 +1,9 @@
 
+prepend("qzc37LTY8aOH554NvE6bp", "endDate", "");
+prepend("qzc37LTY8aOH554NvE6bp", "source", "");
+prepend("qzc37LTY8aOH554NvE6bp", "log", "[{\"text\":\"Game became a but easier once it turned off motion blur and switched to “Balance” graphics mode. Seems like the game internally runs at 45fps then, so you have a better chance of your inputs mattering.\",\"date\":\"2024-09-02\"}]");
+
+
 prepend("AeGw7BpVKrsZ49EWCK73L", "status", "Abandoned");
 
 prepend("1zVZoyPcBvLvlVuvp1BZy", "status", "Abandoned");
