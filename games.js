@@ -1,4 +1,97 @@
 
+prepend("AeGw7BpVKrsZ49EWCK73L", "status", "Abandoned");
+
+prepend("1zVZoyPcBvLvlVuvp1BZy", "status", "Abandoned");
+
+prepend("JhQSQVQFFXlvRqdrF7rqS", "platform", "Switch/PS4");
+prepend("JhQSQVQFFXlvRqdrF7rqS", "addedDate", "");
+prepend("JhQSQVQFFXlvRqdrF7rqS", "log", "[]");
+
+prepend("0ekEwXkeQ9LIQ2zyXX72q", "status", "Abandoned");
+prepend("0ekEwXkeQ9LIQ2zyXX72q", "addedDate", "");
+prepend("0ekEwXkeQ9LIQ2zyXX72q", "log", "[]");
+
+prepend("jo0oZ3LoQ7htbH2PGacnR", "status", "Abandoned");
+prepend("jo0oZ3LoQ7htbH2PGacnR", "addedDate", "");
+prepend("jo0oZ3LoQ7htbH2PGacnR", "log", "[]");
+
+prepend("AbamEOOUmw0txlknWkXlo", "status", "Abandoned");
+prepend("AbamEOOUmw0txlknWkXlo", "addedDate", "");
+prepend("AbamEOOUmw0txlknWkXlo", "log", "[]");
+
+prepend("FFu611sCEREcOCqgK6vvO", "status", "Abandoned");
+prepend("FFu611sCEREcOCqgK6vvO", "addedDate", "");
+prepend("FFu611sCEREcOCqgK6vvO", "log", "[]");
+
+prepend("LYuEiopLIZWOzZQLAmwOO", "status", "Abandoned");
+prepend("LYuEiopLIZWOzZQLAmwOO", "endDate", "");
+prepend("LYuEiopLIZWOzZQLAmwOO", "source", "");
+prepend("LYuEiopLIZWOzZQLAmwOO", "log", "[]");
+
+prepend("GKtEIA3InWdHscP1NfDmT", "status", "Abandoned");
+prepend("GKtEIA3InWdHscP1NfDmT", "endDate", "");
+prepend("GKtEIA3InWdHscP1NfDmT", "source", "");
+prepend("GKtEIA3InWdHscP1NfDmT", "log", "[]");
+
+prepend("0klPQb7kF6u6R1XL6ruHJ", "status", "Abandoned");
+
+prepend("dXdZ9rlhoaD1ssnMwA1yl", "status", "Abandoned");
+
+prepend("GypVtNnTrp2JzJdzjiVoZ", "status", "Abandoned");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "endDate", "");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "source", "");
+prepend("GypVtNnTrp2JzJdzjiVoZ", "log", "[]");
+
+prepend("y4igPt1iy76y8zzRF63GO", "status", "Abandoned");
+prepend("y4igPt1iy76y8zzRF63GO", "startDate", "");
+prepend("y4igPt1iy76y8zzRF63GO", "endDate", "");
+prepend("y4igPt1iy76y8zzRF63GO", "log", "[]");
+
+prepend("fk4trbmTeZZmOrO6KmNUu", "status", "Abandoned");
+
+prepend("XwYZ428xCMaDvBLeLexYT", "status", "Abandoned");
+prepend("XwYZ428xCMaDvBLeLexYT", "endDate", "");
+prepend("XwYZ428xCMaDvBLeLexYT", "source", "");
+
+prepend("4AQyIa3y1q00JHzfrClM8", "status", "Abandoned");
+prepend("4AQyIa3y1q00JHzfrClM8", "endDate", "");
+prepend("4AQyIa3y1q00JHzfrClM8", "source", "");
+
+prepend("6fgCcfDiIc2n1VNk72lKg", "status", "Unplayed");
+prepend("6fgCcfDiIc2n1VNk72lKg", "startDate", "");
+prepend("6fgCcfDiIc2n1VNk72lKg", "endDate", "");
+prepend("6fgCcfDiIc2n1VNk72lKg", "log", "[]");
+
+prepend("u6VQqnyt0RkgMnaGBqQrp", "status", "Abandoned");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "endDate", "");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "source", "");
+prepend("u6VQqnyt0RkgMnaGBqQrp", "log", "[]");
+
+prepend("xJDbfEDvUPhr50Lgslxnm", "status", "Abandoned");
+
+prepend("FnVQGxEPBv2lZTFWLaxEB", "status", "Abandoned");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "endDate", "");
+prepend("FnVQGxEPBv2lZTFWLaxEB", "source", "");
+
+prepend("Vq6qTZsbiGANY43Of7U9w", "status", "Abandoned");
+prepend("Vq6qTZsbiGANY43Of7U9w", "endDate", "");
+prepend("Vq6qTZsbiGANY43Of7U9w", "log", "[]");
+
+prepend("xGSfaFcpZpn30FBl0L9YK", "status", "Abandoned");
+prepend("xGSfaFcpZpn30FBl0L9YK", "endDate", "");
+prepend("xGSfaFcpZpn30FBl0L9YK", "log", "[]");
+
+prepend("zEqdj3MgaLxhzKnRC1XoC", "comment", "Why do I keep starting these impossibly long games");
+
+prepend("nSkKWRaAeEryC7W0lWye3", "status", "Abandoned");
+
+prepend("jbkWhr8leQ8Isi4nUYstH", "status", "Abandoned");
+prepend("jbkWhr8leQ8Isi4nUYstH", "endDate", "");
+prepend("jbkWhr8leQ8Isi4nUYstH", "log", "[]");
+
+prepend("iX4igR0Y3lCpFlOwkY6jw", "status", "Abandoned");
+
+
 prepend("6j6yZCMFRZkrctlHarMbN", "log", "[{\"text\":\"Chapter 1: wow\",\"date\":\"2024-08-20\"},{\"text\":\"This game… choice-driven gameplay done right. The voice acting was incredible. WHAT DID I JUST EXPERIENCE!?\",\"date\":\"2024-09-01\"}]");
 prepend("6j6yZCMFRZkrctlHarMbN", "status", "Beaten");
 prepend("6j6yZCMFRZkrctlHarMbN", "comment", "");
