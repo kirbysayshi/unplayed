@@ -1,4 +1,13 @@
 
+prepend("gh9Ee1kZdw66CwRaDobdW", "status", "Unbeaten");
+prepend("gh9Ee1kZdw66CwRaDobdW", "name", "Animal Crossing");
+prepend("gh9Ee1kZdw66CwRaDobdW", "platform", "GC");
+prepend("gh9Ee1kZdw66CwRaDobdW", "comment", "Let’s try the OG!");
+prepend("gh9Ee1kZdw66CwRaDobdW", "addedDate", "2024-09-14");
+prepend("gh9Ee1kZdw66CwRaDobdW", "startDate", "2024-09-14");
+prepend("gh9Ee1kZdw66CwRaDobdW", "source", "The Animal Crossing Boss Fight Book");
+
+
 prepend("qzc37LTY8aOH554NvE6bp", "endDate", "");
 prepend("qzc37LTY8aOH554NvE6bp", "source", "");
 prepend("qzc37LTY8aOH554NvE6bp", "log", "[{\"text\":\"Game became a bit easier once it turned off motion blur and switched to “Balance” graphics mode. Seems like the game internally runs at 45fps then, so you have a better chance of your inputs mattering.\",\"date\":\"2024-09-02\"}]");
