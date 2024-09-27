@@ -1,4 +1,12 @@
 
+prepend("kNplpb7TWk2che1ISv6ik", "status", "Unbeaten");
+prepend("kNplpb7TWk2che1ISv6ik", "name", "The Legend of Zelda: Echoes of Wisdom");
+prepend("kNplpb7TWk2che1ISv6ik", "platform", "Switch");
+prepend("kNplpb7TWk2che1ISv6ik", "addedDate", "2024-09-26");
+prepend("kNplpb7TWk2che1ISv6ik", "startDate", "2024-09-26");
+prepend("kNplpb7TWk2che1ISv6ik", "log", "[{\"text\":\"Wow they ported the BOTW elemental system!\",\"date\":\"2024-09-26\"}]");
+
+
 prepend("gh9Ee1kZdw66CwRaDobdW", "status", "Unbeaten");
 prepend("gh9Ee1kZdw66CwRaDobdW", "name", "Animal Crossing");
 prepend("gh9Ee1kZdw66CwRaDobdW", "platform", "GC");
