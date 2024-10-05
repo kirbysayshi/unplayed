@@ -1,4 +1,12 @@
 
+prepend("VIhhuTRfvmpr651cBXMOG", "status", "Unbeaten");
+prepend("VIhhuTRfvmpr651cBXMOG", "name", "Fatal Frame 2: Crimson Butterfly");
+prepend("VIhhuTRfvmpr651cBXMOG", "platform", "PS2");
+prepend("VIhhuTRfvmpr651cBXMOG", "comment", "Its spooky season!");
+prepend("VIhhuTRfvmpr651cBXMOG", "addedDate", "2024-10-03");
+prepend("VIhhuTRfvmpr651cBXMOG", "startDate", "2024-10-03");
+
+
 prepend("kNplpb7TWk2che1ISv6ik", "status", "Unbeaten");
 prepend("kNplpb7TWk2che1ISv6ik", "name", "The Legend of Zelda: Echoes of Wisdom");
 prepend("kNplpb7TWk2che1ISv6ik", "platform", "Switch");
