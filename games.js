@@ -1,4 +1,11 @@
 
+prepend("kNplpb7TWk2che1ISv6ik", "log", "[{\"text\":\"Wow they ported the BOTW elemental system!\",\"date\":\"2024-09-26\"},{\"text\":\"Super cute! Felt a lot of tension between wanting to solve via combat vs puzzles\",\"date\":\"2024-10-13\"}]");
+prepend("kNplpb7TWk2che1ISv6ik", "status", "Beaten");
+prepend("kNplpb7TWk2che1ISv6ik", "comment", "");
+prepend("kNplpb7TWk2che1ISv6ik", "endDate", "2024-10-13");
+prepend("kNplpb7TWk2che1ISv6ik", "source", "");
+
+
 prepend("VIhhuTRfvmpr651cBXMOG", "status", "Unbeaten");
 prepend("VIhhuTRfvmpr651cBXMOG", "name", "Fatal Frame 2: Crimson Butterfly");
 prepend("VIhhuTRfvmpr651cBXMOG", "platform", "PS2");
