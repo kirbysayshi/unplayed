@@ -1,4 +1,12 @@
 
+prepend("XXXPYXb7a14awtnc7NKvV", "status", "Unbeaten");
+prepend("XXXPYXb7a14awtnc7NKvV", "name", "Tomb Raider Definitive Edition");
+prepend("XXXPYXb7a14awtnc7NKvV", "platform", "PS5");
+prepend("XXXPYXb7a14awtnc7NKvV", "comment", "Technically PS4 edition. Feels appropriate for spooky season and because I’m watching the animated show.");
+prepend("XXXPYXb7a14awtnc7NKvV", "addedDate", "2024-10-16");
+prepend("XXXPYXb7a14awtnc7NKvV", "startDate", "2024-10-16");
+
+
 prepend("kNplpb7TWk2che1ISv6ik", "log", "[{\"text\":\"Wow they ported the BOTW elemental system!\",\"date\":\"2024-09-26\"},{\"text\":\"Super cute! Felt a lot of tension between wanting to solve via combat vs puzzles\",\"date\":\"2024-10-13\"}]");
 prepend("kNplpb7TWk2che1ISv6ik", "status", "Beaten");
 prepend("kNplpb7TWk2che1ISv6ik", "comment", "");
