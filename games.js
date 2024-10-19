@@ -1,4 +1,10 @@
 
+prepend("XXXPYXb7a14awtnc7NKvV", "status", "Beaten");
+prepend("XXXPYXb7a14awtnc7NKvV", "endDate", "");
+prepend("XXXPYXb7a14awtnc7NKvV", "source", "");
+prepend("XXXPYXb7a14awtnc7NKvV", "log", "[]");
+
+
 prepend("XXXPYXb7a14awtnc7NKvV", "status", "Unbeaten");
 prepend("XXXPYXb7a14awtnc7NKvV", "name", "Tomb Raider Definitive Edition");
 prepend("XXXPYXb7a14awtnc7NKvV", "platform", "PS5");
