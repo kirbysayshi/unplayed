@@ -1,4 +1,11 @@
 
+prepend("hUSYgTEYpu5MFW4RgHuo1", "status", "Unbeaten");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "name", "Fear the Spotlight");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "platform", "Switch");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "addedDate", "2024-10-28");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "startDate", "2024-11-01");
+
+
 prepend("XXXPYXb7a14awtnc7NKvV", "status", "Beaten");
 prepend("XXXPYXb7a14awtnc7NKvV", "endDate", "");
 prepend("XXXPYXb7a14awtnc7NKvV", "source", "");
