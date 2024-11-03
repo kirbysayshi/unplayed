@@ -1,4 +1,11 @@
 
+prepend("hUSYgTEYpu5MFW4RgHuo1", "status", "Beaten");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "comment", "The coziest scary game I’ve ever played");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "endDate", "");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "source", "");
+prepend("hUSYgTEYpu5MFW4RgHuo1", "log", "[]");
+
+
 prepend("hUSYgTEYpu5MFW4RgHuo1", "status", "Unbeaten");
 prepend("hUSYgTEYpu5MFW4RgHuo1", "name", "Fear the Spotlight");
 prepend("hUSYgTEYpu5MFW4RgHuo1", "platform", "Switch");
