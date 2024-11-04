@@ -1,4 +1,13 @@
 
+prepend("fhglcIpaHl4v7HikTQxW1", "status", "Beaten");
+prepend("fhglcIpaHl4v7HikTQxW1", "name", "Oxenfree");
+prepend("fhglcIpaHl4v7HikTQxW1", "platform", "Switch");
+prepend("fhglcIpaHl4v7HikTQxW1", "comment", "Finally played this 8 years after release for spooky season.");
+prepend("fhglcIpaHl4v7HikTQxW1", "addedDate", "2024-11-03");
+prepend("fhglcIpaHl4v7HikTQxW1", "startDate", "2024-11-03");
+prepend("fhglcIpaHl4v7HikTQxW1", "endDate", "2024-11-03");
+
+
 prepend("hUSYgTEYpu5MFW4RgHuo1", "status", "Beaten");
 prepend("hUSYgTEYpu5MFW4RgHuo1", "comment", "The coziest scary game I’ve ever played");
 prepend("hUSYgTEYpu5MFW4RgHuo1", "endDate", "");
