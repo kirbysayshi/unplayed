@@ -1,4 +1,14 @@
 
+prepend("4xgqmE1L1BtZ2YZA10G9S", "status", "Beaten");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "name", "Portal");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "platform", "Switch");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "comment", "Decided to replay after reading A Profound Waste of Time’s Portal 2 feature. Finished in about 3.5h. First played this in probably 2007 when the Orange Box released. It blew my mind then with its subtle world building, tenuous ties to the Half-Life universe, and the incredible surprise of the ending! It’s still amazing today. It’s a master class of mechanical complexity and tutorialization stripped down to its most bare. Yet somehow it’s still fun. I still laughed at GladOS! Incredible.");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "addedDate", "2024-11-26");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "startDate", "2024-11-29");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "endDate", "2024-11-29");
+prepend("4xgqmE1L1BtZ2YZA10G9S", "log", "[{\"text\":\"Notes for playing on Switch: set horizontal sensitivity to 26, vertical to 22. Thankfully the Switch port seems to perform fairly well, with only minor judder due to rockets exploding. Of course the analog sticks are wonky because of some strange acceleration curves, but I was still able to adapt alright.\",\"date\":\"2024-11-30\"}]");
+
+
 prepend("fhglcIpaHl4v7HikTQxW1", "status", "Beaten");
 prepend("fhglcIpaHl4v7HikTQxW1", "name", "Oxenfree");
 prepend("fhglcIpaHl4v7HikTQxW1", "platform", "Switch");
