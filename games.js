@@ -1,4 +1,12 @@
 
+prepend("Glq0Jp3CHjQInAYWDRgLw", "status", "Unbeaten");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "name", "Portal 2");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "platform", "Switch");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "comment", "I first played this when it released, on PS3!");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "addedDate", "2024-11-30");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "startDate", "2024-11-30");
+
+
 prepend("4xgqmE1L1BtZ2YZA10G9S", "status", "Beaten");
 prepend("4xgqmE1L1BtZ2YZA10G9S", "name", "Portal");
 prepend("4xgqmE1L1BtZ2YZA10G9S", "platform", "Switch");
