@@ -1,4 +1,10 @@
 
+prepend("Glq0Jp3CHjQInAYWDRgLw", "status", "Beaten");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "endDate", "2024-12-08");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "source", "");
+prepend("Glq0Jp3CHjQInAYWDRgLw", "log", "[{\"text\":\"Unfortunately I encountered a bug where none of the 1980s voice lines played! So I missed crucial Caroline character building. It also undermined the ending emotions.\\n\\nI love the innovation of this game, as well as the storytelling techniques used to express the history of Cave Johnson, Caroline, and Aperture Science. But I think as a game I appreciate the first more! Towards the end of this game there’s a disconnect between the plot urgency and need to slow down and solve the puzzle rooms. This reduces the excitement, emotion, and action of the plot. Both times that I’ve played this game I have encountered the same feeling towards the end of being tired of the puzzles and just wanting to experience the energy of the story.\",\"date\":\"2024-12-09\"}]");
+
+
 prepend("XXXPYXb7a14awtnc7NKvV", "endDate", "2024-10-19");
 
 prepend("hUSYgTEYpu5MFW4RgHuo1", "endDate", "2024-11-02");
