@@ -1,4 +1,13 @@
 
+prepend("JDSC6Ik5uWgi306lCjbHX", "status", "Unbeaten");
+prepend("JDSC6Ik5uWgi306lCjbHX", "name", "Nine Sols");
+prepend("JDSC6Ik5uWgi306lCjbHX", "platform", "Switch");
+prepend("JDSC6Ik5uWgi306lCjbHX", "comment", "Backed this, since it’s the same studio as Devotion and Detention.");
+prepend("JDSC6Ik5uWgi306lCjbHX", "addedDate", "2024-12-16");
+prepend("JDSC6Ik5uWgi306lCjbHX", "startDate", "2024-12-19");
+prepend("JDSC6Ik5uWgi306lCjbHX", "log", "[{\"text\":\"Uh oh, it’s a technical souls-like! I am currently lost\",\"date\":\"2024-12-27\"}]");
+
+
 prepend("Glq0Jp3CHjQInAYWDRgLw", "status", "Beaten");
 prepend("Glq0Jp3CHjQInAYWDRgLw", "endDate", "2024-12-08");
 prepend("Glq0Jp3CHjQInAYWDRgLw", "source", "");
