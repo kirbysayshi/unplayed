@@ -1,4 +1,12 @@
 
+prepend("NnzaPSvz5yereju4cPlUq", "status", "Unbeaten");
+prepend("NnzaPSvz5yereju4cPlUq", "name", "Mass Effect Legendary Edition");
+prepend("NnzaPSvz5yereju4cPlUq", "platform", "PS5");
+prepend("NnzaPSvz5yereju4cPlUq", "addedDate", "2024-12-28");
+prepend("NnzaPSvz5yereju4cPlUq", "startDate", "2024-12-28");
+prepend("NnzaPSvz5yereju4cPlUq", "log", "[{\"text\":\"Aiming to just play ME1 but we’ll see what happens.\",\"date\":\"2024-12-28\"}]");
+
+
 prepend("JDSC6Ik5uWgi306lCjbHX", "status", "Unbeaten");
 prepend("JDSC6Ik5uWgi306lCjbHX", "name", "Nine Sols");
 prepend("JDSC6Ik5uWgi306lCjbHX", "platform", "Switch");
