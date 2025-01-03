@@ -1,4 +1,10 @@
 
+prepend("NnzaPSvz5yereju4cPlUq", "log", "[{\"text\":\"Aiming to just play ME1 but we’ll see what happens.\",\"date\":\"2024-12-28\"},{\"text\":\"Finished ME1 in 29h36m! Paragon run, saved the council.\",\"date\":\"2025-01-02\"}]");
+prepend("NnzaPSvz5yereju4cPlUq", "comment", "");
+prepend("NnzaPSvz5yereju4cPlUq", "endDate", "");
+prepend("NnzaPSvz5yereju4cPlUq", "source", "");
+
+
 prepend("NnzaPSvz5yereju4cPlUq", "status", "Unbeaten");
 prepend("NnzaPSvz5yereju4cPlUq", "name", "Mass Effect Legendary Edition");
 prepend("NnzaPSvz5yereju4cPlUq", "platform", "PS5");
