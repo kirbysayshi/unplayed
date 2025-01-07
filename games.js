@@ -1,4 +1,14 @@
 
+prepend("22mWpwtbhSV9Y5gMmZyRh", "status", "Beaten");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "name", "Stimulation Clicker");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "platform", "PC");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "comment", "The amount of anxiety this produced in me was incredible.");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "addedDate", "2025-01-06");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "startDate", "2025-01-06");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "endDate", "2025-01-07");
+prepend("22mWpwtbhSV9Y5gMmZyRh", "source", "https://neal.fun/stimulation-clicker/");
+
+
 prepend("NnzaPSvz5yereju4cPlUq", "log", "[{\"text\":\"Aiming to just play ME1 but we’ll see what happens.\",\"date\":\"2024-12-28\"},{\"text\":\"Finished ME1 in 29h36m! Paragon run, saved the council.\",\"date\":\"2025-01-02\"},{\"text\":\"Oops I’m a ME2 space miner again! I chose Sentinel… is that the same as my first playthrough on PS3? I can’t remember!\",\"date\":\"2025-01-03\"}]");
 
 
