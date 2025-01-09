@@ -1,4 +1,14 @@
 
+prepend("7MFV7Slo36wZN01M2gOsb", "status", "Beaten");
+prepend("7MFV7Slo36wZN01M2gOsb", "name", "Universal Paperclips");
+prepend("7MFV7Slo36wZN01M2gOsb", "platform", "PC");
+prepend("7MFV7Slo36wZN01M2gOsb", "comment", "Finally I have played it! I lost the exact times but this probably took me around 6 hours...");
+prepend("7MFV7Slo36wZN01M2gOsb", "addedDate", "2025-01-07");
+prepend("7MFV7Slo36wZN01M2gOsb", "startDate", "2025-01-07");
+prepend("7MFV7Slo36wZN01M2gOsb", "endDate", "2025-01-09");
+prepend("7MFV7Slo36wZN01M2gOsb", "source", "https://decisionproblem.com/paperclips/");
+
+
 prepend("22mWpwtbhSV9Y5gMmZyRh", "status", "Beaten");
 prepend("22mWpwtbhSV9Y5gMmZyRh", "name", "Stimulation Clicker");
 prepend("22mWpwtbhSV9Y5gMmZyRh", "platform", "PC");
