@@ -1,4 +1,7 @@
 
+prepend("NnzaPSvz5yereju4cPlUq", "log", "[{\"text\":\"Aiming to just play ME1 but we’ll see what happens.\",\"date\":\"2024-12-28\"},{\"text\":\"Finished ME1 in 29h36m! Paragon run, saved the council.\",\"date\":\"2025-01-02\"},{\"text\":\"Oops I’m a ME2 space miner again! I chose Sentinel… is that the same as my first playthrough on PS3? I can’t remember!\",\"date\":\"2025-01-03\"},{\"text\":\"Credits on ME2, skipped some of the N7 DLC. Everybody lived!\",\"date\":\"2025-01-26\"},{\"text\":\"Finished Arrival DLC. Final time: 46h31m\",\"date\":\"2025-01-27\"}]");
+
+
 prepend("NnzaPSvz5yereju4cPlUq", "log", "[{\"text\":\"Aiming to just play ME1 but we’ll see what happens.\",\"date\":\"2024-12-28\"},{\"text\":\"Finished ME1 in 29h36m! Paragon run, saved the council.\",\"date\":\"2025-01-02\"},{\"text\":\"Oops I’m a ME2 space miner again! I chose Sentinel… is that the same as my first playthrough on PS3? I can’t remember!\",\"date\":\"2025-01-03\"},{\"text\":\"Credits on ME2, skipped some of the N7 DLC. Everybody lived!\",\"date\":\"2025-01-26\"}]");
 
 
