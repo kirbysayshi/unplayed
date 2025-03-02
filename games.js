@@ -1,4 +1,10 @@
 
+prepend("bWOFhsO1jhFxiI3U17crK", "log", "[{\"text\":\"Vibe check: starfleet. So far this does feel like a serious Lower Decks scenario: _some_ of the best of the best among those unproven or on their second or third chance to do better, all on a fragile ship. Choices are interesting since they connote influence with characters (maybe?) instead of binary big decisions (mostly). But the gameplay is tedious and annoying: sleepy. Tricorder scanning has extremely high sensitivity. Cover shoot scenes don’t let you pre-aim while in cover and actively slow down your pointer at the edges of your aiming field! Flying the shuttle just takes time. Transporter controls… kinda cool. But one UI crime they keep committing is putting an onscreen quicktime event notification on the left side of the screen for a control on the right! So putting a notif for the right trigger on the left side of the screen! These buttons do noy have recognizable shapes, so one must rely on a single letter to discern the button.\",\"date\":\"2025-02-23\"},{\"text\":\"The gameplay of this is outright bad: I definitely wish for a plain choices only story mode. The final “act” was also plagued with poor pacing (characters under time pressure still taking their time?? and a lack of polish around dialog timing) as well as plot issues (why are we flying in front of the giant front-facing beam? Who is in charge of the fleet? Why are we have two crewman with no leadership experience on the critical away mission?). Still though, I enjoyed it and how well it (mostly) felt like an actual Star Trek episode.\",\"date\":\"2025-03-01\"}]");
+prepend("bWOFhsO1jhFxiI3U17crK", "comment", "");
+prepend("bWOFhsO1jhFxiI3U17crK", "endDate", "2025-03-01");
+prepend("bWOFhsO1jhFxiI3U17crK", "source", "");
+
+
 prepend("bWOFhsO1jhFxiI3U17crK", "status", "Unbeaten");
 prepend("bWOFhsO1jhFxiI3U17crK", "name", "Star Trek Resurgence");
 prepend("bWOFhsO1jhFxiI3U17crK", "platform", "PS5");
