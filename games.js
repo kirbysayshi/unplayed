@@ -1,4 +1,11 @@
 
+prepend("76xgyOwjM8dltL0nrXHZW", "status", "Beaten");
+prepend("76xgyOwjM8dltL0nrXHZW", "comment", "Beautiful and compact!");
+prepend("76xgyOwjM8dltL0nrXHZW", "endDate", "2025-03-02");
+prepend("76xgyOwjM8dltL0nrXHZW", "source", "Lisa");
+prepend("76xgyOwjM8dltL0nrXHZW", "log", "[]");
+
+
 prepend("76xgyOwjM8dltL0nrXHZW", "status", "Unbeaten");
 prepend("76xgyOwjM8dltL0nrXHZW", "name", "Opus: The Day We Found Earth ");
 prepend("76xgyOwjM8dltL0nrXHZW", "platform", "Switch");
