@@ -1,4 +1,12 @@
 
+prepend("ujCsOJ6MHk9hpGkIALc7u", "status", "Unbeaten");
+prepend("ujCsOJ6MHk9hpGkIALc7u", "name", "Split Fiction");
+prepend("ujCsOJ6MHk9hpGkIALc7u", "platform", "PS5");
+prepend("ujCsOJ6MHk9hpGkIALc7u", "addedDate", "2025-03-06");
+prepend("ujCsOJ6MHk9hpGkIALc7u", "startDate", "2025-03-08");
+prepend("ujCsOJ6MHk9hpGkIALc7u", "log", "[{\"text\":\"Thankfully mostly low stakes. It seems like they planned for all skill level pairs in this game! Very impressive.\",\"date\":\"2025-03-08\"}]");
+
+
 prepend("qzc37LTY8aOH554NvE6bp", "status", "Abandoned");
 prepend("qzc37LTY8aOH554NvE6bp", "log", "[{\"text\":\"Game became a bit easier once it turned off motion blur and switched to “Balance” graphics mode. Seems like the game internally runs at 45fps then, so you have a better chance of your inputs mattering.\",\"date\":\"2024-09-02\"},{\"text\":\"Abandoned. Just not fun. Never really a sense of growth or accomplishment, just another super hard boss to memorize. Seems like everyone was able to proceed with this game besides me…\",\"date\":\"2025-03-08\"}]");
 prepend("qzc37LTY8aOH554NvE6bp", "endDate", "2024-11-17");
