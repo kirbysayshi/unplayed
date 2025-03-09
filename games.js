@@ -1,4 +1,9 @@
 
+prepend("qzc37LTY8aOH554NvE6bp", "status", "Abandoned");
+prepend("qzc37LTY8aOH554NvE6bp", "log", "[{\"text\":\"Game became a bit easier once it turned off motion blur and switched to “Balance” graphics mode. Seems like the game internally runs at 45fps then, so you have a better chance of your inputs mattering.\",\"date\":\"2024-09-02\"},{\"text\":\"Abandoned. Just not fun. Never really a sense of growth or accomplishment, just another super hard boss to memorize. Seems like everyone was able to proceed with this game besides me…\",\"date\":\"2025-03-08\"}]");
+prepend("qzc37LTY8aOH554NvE6bp", "endDate", "2024-11-17");
+
+
 prepend("76xgyOwjM8dltL0nrXHZW", "status", "Beaten");
 prepend("76xgyOwjM8dltL0nrXHZW", "comment", "Beautiful and compact!");
 prepend("76xgyOwjM8dltL0nrXHZW", "endDate", "2025-03-02");
