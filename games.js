@@ -1,4 +1,12 @@
 
+prepend("sFAGiRlYSX7wc376glcQU", "status", "Unbeaten");
+prepend("sFAGiRlYSX7wc376glcQU", "name", "Command & Conquer Remastered Collection");
+prepend("sFAGiRlYSX7wc376glcQU", "platform", "PC");
+prepend("sFAGiRlYSX7wc376glcQU", "comment", "Still awesome. Wish they hadn’t AI-upscaled the videos though, they’re jelly! Like most RTS games, I don’t really possess the agility with a mouse nor the multitasking for this. I got it working, finally, using Whisky and Steam! Had to disable DXVK.");
+prepend("sFAGiRlYSX7wc376glcQU", "addedDate", "2025-03-10");
+prepend("sFAGiRlYSX7wc376glcQU", "startDate", "2025-03-10");
+
+
 prepend("ujCsOJ6MHk9hpGkIALc7u", "status", "Unbeaten");
 prepend("ujCsOJ6MHk9hpGkIALc7u", "name", "Split Fiction");
 prepend("ujCsOJ6MHk9hpGkIALc7u", "platform", "PS5");
