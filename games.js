@@ -1,4 +1,13 @@
 
+prepend("5OqVVvoqX5LAznxkaTBLZ", "status", "Beaten");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "name", "Flipper Lifter");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "platform", "Playdate");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "comment", "Penguins! Elevator problem!");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "addedDate", "2025-03-29");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "startDate", "2025-03-29");
+prepend("5OqVVvoqX5LAznxkaTBLZ", "endDate", "2025-03-29");
+
+
 prepend("sFAGiRlYSX7wc376glcQU", "status", "Unbeaten");
 prepend("sFAGiRlYSX7wc376glcQU", "name", "Command & Conquer Remastered Collection");
 prepend("sFAGiRlYSX7wc376glcQU", "platform", "PC");
