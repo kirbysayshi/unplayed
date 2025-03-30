@@ -1,4 +1,12 @@
 
+prepend("5nGmxyl3sYzmlhN6As0aB", "status", "Unbeaten");
+prepend("5nGmxyl3sYzmlhN6As0aB", "name", "Echoic Memory");
+prepend("5nGmxyl3sYzmlhN6As0aB", "platform", "Playdate");
+prepend("5nGmxyl3sYzmlhN6As0aB", "comment", "The hardest match for me seems to be those that are massively sped up or slowed down! Fascinating study in how adept the brain is to patterns; but maybe I have some training advantages here??? I love how the story is gradually unfolding!");
+prepend("5nGmxyl3sYzmlhN6As0aB", "addedDate", "2025-03-29");
+prepend("5nGmxyl3sYzmlhN6As0aB", "startDate", "2025-03-29");
+
+
 prepend("5OqVVvoqX5LAznxkaTBLZ", "status", "Beaten");
 prepend("5OqVVvoqX5LAznxkaTBLZ", "name", "Flipper Lifter");
 prepend("5OqVVvoqX5LAznxkaTBLZ", "platform", "Playdate");
