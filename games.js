@@ -1,4 +1,12 @@
 
+prepend("4muIxdRW9hzbr8qVSTEwb", "status", "Unbeaten");
+prepend("4muIxdRW9hzbr8qVSTEwb", "name", "The Legend of Zelda: The Minish Cap");
+prepend("4muIxdRW9hzbr8qVSTEwb", "platform", "GBA");
+prepend("4muIxdRW9hzbr8qVSTEwb", "comment", "At some point in the past, likely a year or more ago, I started and got stuck at Mt Crenel. Probably because I was playing in short bursts where continuity is difficult. Resuming from there!");
+prepend("4muIxdRW9hzbr8qVSTEwb", "addedDate", "2025-04-05");
+prepend("4muIxdRW9hzbr8qVSTEwb", "startDate", "2025-04-05");
+
+
 prepend("5nGmxyl3sYzmlhN6As0aB", "status", "Unbeaten");
 prepend("5nGmxyl3sYzmlhN6As0aB", "name", "Echoic Memory");
 prepend("5nGmxyl3sYzmlhN6As0aB", "platform", "Playdate");
