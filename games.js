@@ -1,4 +1,13 @@
 
+prepend("pcQtfWb3OJuxqYdd7il8j", "status", "Beaten");
+prepend("pcQtfWb3OJuxqYdd7il8j", "name", "ChuChu Rocket!");
+prepend("pcQtfWb3OJuxqYdd7il8j", "platform", "GBA");
+prepend("pcQtfWb3OJuxqYdd7il8j", "comment", "Credits! Lots more to do but Normal was fun");
+prepend("pcQtfWb3OJuxqYdd7il8j", "addedDate", "2025-04-09");
+prepend("pcQtfWb3OJuxqYdd7il8j", "startDate", "2025-04-09");
+prepend("pcQtfWb3OJuxqYdd7il8j", "endDate", "2025-04-09");
+
+
 prepend("4muIxdRW9hzbr8qVSTEwb", "status", "Unbeaten");
 prepend("4muIxdRW9hzbr8qVSTEwb", "name", "The Legend of Zelda: The Minish Cap");
 prepend("4muIxdRW9hzbr8qVSTEwb", "platform", "GBA");
