@@ -1,4 +1,13 @@
 
+prepend("Y6xwfDtxYtt9tSNug7ivn", "status", "Abandoned");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "name", "Zipper by Bennet Foddy");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "platform", "Playdate");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "comment", "Tedious, boring, unpredictable, unnecessarily harsh. The crank-prediction exists, but just adds to the tedium. Bailed after a few screens. No fun nor invitation to continue.");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "addedDate", "2025-04-12");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "startDate", "2025-04-12");
+prepend("Y6xwfDtxYtt9tSNug7ivn", "endDate", "2025-04-12");
+
+
 prepend("QNbKpNDC3gZrxJuZApt59", "status", "Beaten");
 prepend("QNbKpNDC3gZrxJuZApt59", "name", "Hyper Meteor");
 prepend("QNbKpNDC3gZrxJuZApt59", "platform", "Playdate");
