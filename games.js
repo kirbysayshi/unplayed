@@ -1,4 +1,14 @@
 
+prepend("1Re7pauy3eRLuWfSdNWJ4", "status", "Abandoned");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "name", "Kuru Kuru Kururin");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "platform", "GBA");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "comment", "Bailed at Jungle!");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "addedDate", "2025-04-12");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "startDate", "2025-04-12");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "endDate", "2025-04-12");
+prepend("1Re7pauy3eRLuWfSdNWJ4", "source", "https://www.nintendolife.com/games/browse?system=gba&genre=puzzle&sort=score");
+
+
 prepend("pcQtfWb3OJuxqYdd7il8j", "status", "Beaten");
 prepend("pcQtfWb3OJuxqYdd7il8j", "name", "ChuChu Rocket!");
 prepend("pcQtfWb3OJuxqYdd7il8j", "platform", "GBA");
