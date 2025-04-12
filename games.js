@@ -1,4 +1,9 @@
 
+prepend("5nGmxyl3sYzmlhN6As0aB", "endDate", "2025-04-12");
+prepend("5nGmxyl3sYzmlhN6As0aB", "source", "");
+prepend("5nGmxyl3sYzmlhN6As0aB", "log", "[{\"text\":\"Unfortunately became tiring by the end. I kept wait in for an opening up and return to the DJ scene at the beginning where skill would be required to keep the crowd going (or at least a brief return during the conclusion). I liked the theme, but boy was I sick of these loops and cranking by the end! Logic Loop Library The Game TM. Great pixel art.\",\"date\":\"2025-04-12\"}]");
+
+
 prepend("carDaaDhcAwpvqQLE7L9p", "status", "Unbeaten");
 prepend("carDaaDhcAwpvqQLE7L9p", "name", "Polariun Advance");
 prepend("carDaaDhcAwpvqQLE7L9p", "platform", "GBA");
