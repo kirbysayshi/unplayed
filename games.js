@@ -1,4 +1,13 @@
 
+prepend("QNbKpNDC3gZrxJuZApt59", "status", "Beaten");
+prepend("QNbKpNDC3gZrxJuZApt59", "name", "Hyper Meteor");
+prepend("QNbKpNDC3gZrxJuZApt59", "platform", "Playdate");
+prepend("QNbKpNDC3gZrxJuZApt59", "comment", "Probably the first time I’ve ever felt in control of an Asteroids-like, all due to the crank!");
+prepend("QNbKpNDC3gZrxJuZApt59", "addedDate", "2025-04-12");
+prepend("QNbKpNDC3gZrxJuZApt59", "startDate", "2025-04-12");
+prepend("QNbKpNDC3gZrxJuZApt59", "endDate", "2025-04-12");
+
+
 prepend("5nGmxyl3sYzmlhN6As0aB", "endDate", "2025-04-12");
 prepend("5nGmxyl3sYzmlhN6As0aB", "source", "");
 prepend("5nGmxyl3sYzmlhN6As0aB", "log", "[{\"text\":\"Unfortunately became tiring by the end. I kept wait in for an opening up and return to the DJ scene at the beginning where skill would be required to keep the crowd going (or at least a brief return during the conclusion). I liked the theme, but boy was I sick of these loops and cranking by the end! Logic Loop Library The Game TM. Great pixel art.\",\"date\":\"2025-04-12\"}]");
