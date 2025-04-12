@@ -1,4 +1,12 @@
 
+prepend("carDaaDhcAwpvqQLE7L9p", "status", "Unbeaten");
+prepend("carDaaDhcAwpvqQLE7L9p", "name", "Polariun Advance");
+prepend("carDaaDhcAwpvqQLE7L9p", "platform", "GBA");
+prepend("carDaaDhcAwpvqQLE7L9p", "comment", "It has a daily challenge!");
+prepend("carDaaDhcAwpvqQLE7L9p", "addedDate", "2025-04-11");
+prepend("carDaaDhcAwpvqQLE7L9p", "startDate", "2025-04-11");
+
+
 prepend("1Re7pauy3eRLuWfSdNWJ4", "status", "Abandoned");
 prepend("1Re7pauy3eRLuWfSdNWJ4", "name", "Kuru Kuru Kururin");
 prepend("1Re7pauy3eRLuWfSdNWJ4", "platform", "GBA");
