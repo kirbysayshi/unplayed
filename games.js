@@ -1,4 +1,13 @@
 
+prepend("2p34jogK1TewfcAubK3zh", "status", "Beaten");
+prepend("2p34jogK1TewfcAubK3zh", "name", "Executive Golf DX");
+prepend("2p34jogK1TewfcAubK3zh", "platform", "Playdate");
+prepend("2p34jogK1TewfcAubK3zh", "comment", "HOSTILE TAKEOVER!");
+prepend("2p34jogK1TewfcAubK3zh", "addedDate", "2025-04-12");
+prepend("2p34jogK1TewfcAubK3zh", "startDate", "2025-04-12");
+prepend("2p34jogK1TewfcAubK3zh", "endDate", "2025-04-12");
+
+
 prepend("Y6xwfDtxYtt9tSNug7ivn", "status", "Abandoned");
 prepend("Y6xwfDtxYtt9tSNug7ivn", "name", "Zipper by Bennet Foddy");
 prepend("Y6xwfDtxYtt9tSNug7ivn", "platform", "Playdate");
