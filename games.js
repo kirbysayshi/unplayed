@@ -1,4 +1,13 @@
 
+prepend("gcUXFuSpBsjajCo9riCb6", "status", "Unbeaten");
+prepend("gcUXFuSpBsjajCo9riCb6", "name", "Ace Combat 3: Electrosphere (Japanese version)");
+prepend("gcUXFuSpBsjajCo9riCb6", "platform", "PSX");
+prepend("gcUXFuSpBsjajCo9riCb6", "comment", "The YouTube video comments referenced this game. Im using the recently-completed translation! https://loadwordteam.com/projects/ace-combat-3-electrosphere-a-complete-fan-translation/ Spent too much time trying to convert it to run on the Vita using ChovySign. Eventually gave up and used adrenaline. Still wish I were on a TV");
+prepend("gcUXFuSpBsjajCo9riCb6", "addedDate", "2025-04-20");
+prepend("gcUXFuSpBsjajCo9riCb6", "startDate", "2025-04-22");
+prepend("gcUXFuSpBsjajCo9riCb6", "source", "https://youtu.be/6nGITYREWF4?si=rIwu5KT17h2Fneva");
+
+
 prepend("dqrAyUZQ7Bn3z61CnjdrX", "status", "Unbeaten");
 prepend("dqrAyUZQ7Bn3z61CnjdrX", "name", "You Must Build a Boat");
 prepend("dqrAyUZQ7Bn3z61CnjdrX", "platform", "iOS");
