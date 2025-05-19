@@ -1,4 +1,9 @@
 
+prepend("gcUXFuSpBsjajCo9riCb6", "status", "Beaten");
+prepend("gcUXFuSpBsjajCo9riCb6", "endDate", "2025-05-18");
+prepend("gcUXFuSpBsjajCo9riCb6", "log", "[{\"text\":\"Finished every path through the game to get TRUE ENDING. Used a diagram to cut down on replay time. Mission simulator unlocked! Very cool. I didn’t anticipate that the multiple paths would have an effect on the overall story… By the end, I felt much more confident in my flying skills, but it was on easy. This game doesn’t allow you you adjust roll and pitch at the same time, so d-pad ends up being supreme due to precise inputs. Still quite difficult to be fluid due to the time it takes to roll then pitch then roll then pitch etc. Still pretty fun by the end!\",\"date\":\"2025-05-18\"}]");
+
+
 prepend("gcUXFuSpBsjajCo9riCb6", "status", "Unbeaten");
 prepend("gcUXFuSpBsjajCo9riCb6", "name", "Ace Combat 3: Electrosphere (Japanese version)");
 prepend("gcUXFuSpBsjajCo9riCb6", "platform", "PSX");
