@@ -1,4 +1,11 @@
 
+prepend("4OQnPGWGEZfbUXLw9oGhz", "status", "Unbeaten");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "name", "Blue Prince");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "platform", "PS5");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "addedDate", "2025-05-21");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "startDate", "2025-05-21");
+
+
 prepend("gcUXFuSpBsjajCo9riCb6", "log", "[{\"text\":\"Finished every path through the game to get TRUE ENDING. Used a diagram to cut down on replay time. Mission simulator unlocked! Very cool. I didn’t anticipate that the multiple paths would have an effect on the overall story… By the end, I felt much more confident in my flying skills, but it was on easy. This game doesn’t allow you you adjust roll and pitch at the same time, so d-pad ends up being supreme due to precise inputs. Still quite difficult to be fluid due to the time it takes to roll then pitch then roll then pitch etc. Still pretty fun by the end!\",\"date\":\"2025-05-18\"},{\"text\":\"If I ever play again, some reminders. 1) Save system works where to complete the game, you have to have a single profile with a final auto-save for each ending. 2) Mission ratings don’t matter, mostly. D generally means you didn’t accomplish the mission. Side effects will either be alternate mission at worst or chastising from your squad. But the major branches nor true ending are dependent on the ratings. 3) I found using the analog stick cumbersome due to aforementioned limitations, even on expert mode. Therefore I remapped controls. Dpad: pitch/roll. Left stick horizontal: yaw. Left stick vertical: none. L/R (vita) air brake/afterburner. Right stick: look (I think this is the default) I disabled the rear touchpad. I generally found playing in 3rd person drastically easier than first due to a better view of the physics (the planes have actual weight and take time to change their velocity vector). 4) Early missions have planes that handle horribly. It gets better.\",\"date\":\"2025-05-19\"}]");
 
 
