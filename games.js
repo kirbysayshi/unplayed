@@ -1,4 +1,7 @@
 
+prepend("5nGmxyl3sYzmlhN6As0aB", "status", "Beaten");
+
+
 prepend("4OQnPGWGEZfbUXLw9oGhz", "status", "Unbeaten");
 prepend("4OQnPGWGEZfbUXLw9oGhz", "name", "Blue Prince");
 prepend("4OQnPGWGEZfbUXLw9oGhz", "platform", "PS5");
