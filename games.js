@@ -1,4 +1,10 @@
 
+prepend("4OQnPGWGEZfbUXLw9oGhz", "comment", "");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "endDate", "");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "source", "");
+prepend("4OQnPGWGEZfbUXLw9oGhz", "log", "[{\"text\":\"First time reaching the Antechamber!\",\"date\":\"2025-05-24\"}]");
+
+
 prepend("5nGmxyl3sYzmlhN6As0aB", "status", "Beaten");
 
 
