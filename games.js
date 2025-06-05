@@ -1,4 +1,13 @@
 
+prepend("soTOb5WdEaDlIP2c0xdSG", "status", "Unbeaten");
+prepend("soTOb5WdEaDlIP2c0xdSG", "name", "Star Wars Rogue Squadron II: Rogue Leader");
+prepend("soTOb5WdEaDlIP2c0xdSG", "platform", "GC");
+prepend("soTOb5WdEaDlIP2c0xdSG", "comment", "Tried it via Swiss, eventually bought a real copy! I loved the N64 version, even if I found it nigh impossible.");
+prepend("soTOb5WdEaDlIP2c0xdSG", "addedDate", "2019-09-15");
+prepend("soTOb5WdEaDlIP2c0xdSG", "startDate", "2019-09-19");
+prepend("soTOb5WdEaDlIP2c0xdSG", "log", "[{\"text\":\"Installed the FlippyDrive into my GameCube and decided to resume this. Back in 2019 I stopped after hitting a wall of sorts in the early Star Destroyer mission.\",\"date\":\"2025-06-01\"},{\"text\":\"Wait, there are hidden tech upgrades? Also, on Bespin: YOU CAN SHOOT THE AIR BALLOON JETS AND THE ENTIRE PLATFORM EXPLODES. Sometimes I think I’m playing this game completely wrong. I tried playing for awhile with auto roll and auto level turned off, but horizontal stick still does a turn + bank and the camera is still wonky and trying to autocorrect. Might be contextual, as making precise aiming changes seems more difficult too.\",\"date\":\"2025-06-04\"}]");
+
+
 prepend("4OQnPGWGEZfbUXLw9oGhz", "log", "[{\"text\":\"First time reaching the Antechamber!\",\"date\":\"2025-05-24\"},{\"text\":\"Credits: Day 31. 23h40m\",\"date\":\"2025-05-24\"}]");
 
 
