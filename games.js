@@ -1,4 +1,9 @@
 
+prepend("4muIxdRW9hzbr8qVSTEwb", "endDate", "");
+prepend("4muIxdRW9hzbr8qVSTEwb", "source", "");
+prepend("4muIxdRW9hzbr8qVSTEwb", "log", "[{\"text\":\"Droplet Temple and talked to the ghost king!\",\"date\":\"2025-06-28\"}]");
+
+
 prepend("soTOb5WdEaDlIP2c0xdSG", "status", "Unbeaten");
 prepend("soTOb5WdEaDlIP2c0xdSG", "name", "Star Wars Rogue Squadron II: Rogue Leader");
 prepend("soTOb5WdEaDlIP2c0xdSG", "platform", "GC");
