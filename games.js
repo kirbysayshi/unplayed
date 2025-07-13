@@ -1,4 +1,9 @@
 
+prepend("4muIxdRW9hzbr8qVSTEwb", "status", "Beaten");
+prepend("4muIxdRW9hzbr8qVSTEwb", "log", "[{\"text\":\"Droplet Temple and talked to the ghost king! To the source of the flow…\",\"date\":\"2025-06-28\"},{\"text\":\"The four sword is complete!\",\"date\":\"2025-07-05\"},{\"text\":\"Journey, complete! I heart piece short of 19 full pieces (I bailed on the cuccos!). Also bailed on figurines, what a time sink! Ended up finishing on my Analogue Pocket; not particularly comfortable, and the dpad often does not activate reliably due to how raised it is (same with the buttons). Only advantage compared to my SP is that it has a headphone jack. I hope Biggoron enjoys my shield\",\"date\":\"2025-07-13\"}]");
+prepend("4muIxdRW9hzbr8qVSTEwb", "endDate", "2025-07-13");
+
+
 prepend("4muIxdRW9hzbr8qVSTEwb", "log", "[{\"text\":\"Droplet Temple and talked to the ghost king! To the source of the flow…\",\"date\":\"2025-06-28\"},{\"text\":\"The four sword is complete!\",\"date\":\"2025-07-05\"}]");
 
 
