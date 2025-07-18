@@ -1,4 +1,13 @@
 
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "status", "Unbeaten");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "name", "Pokémon Odyssey");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "platform", "GBA");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "comment", "v4.1");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "addedDate", "2024-05-07");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "startDate", "2025-07-15");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "source", "https://x.com/Ayreiiii/status/1786414337940164929 (Maybe)");
+
+
 prepend("1CpJYvqUiYBGks5iRHNwc", "status", "Unbeaten");
 prepend("1CpJYvqUiYBGks5iRHNwc", "name", "Zone of the Enders");
 prepend("1CpJYvqUiYBGks5iRHNwc", "platform", "PS2");
