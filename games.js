@@ -1,4 +1,13 @@
 
+prepend("gWGm4vN6QAhXH592wXhkc", "status", "Unbeaten");
+prepend("gWGm4vN6QAhXH592wXhkc", "name", "Spelunky");
+prepend("gWGm4vN6QAhXH592wXhkc", "platform", "PS5");
+prepend("gWGm4vN6QAhXH592wXhkc", "comment", "I’ve owned this game on PS3, PSVita, PS4, Nintendo Switch, and PS5. I think the PS controller is best for this game");
+prepend("gWGm4vN6QAhXH592wXhkc", "addedDate", "2013-08-27");
+prepend("gWGm4vN6QAhXH592wXhkc", "startDate", "2013-08-27");
+prepend("gWGm4vN6QAhXH592wXhkc", "log", "[{\"text\":\"PS5: I think today was the first time I ever made it to Yama by myself. On my first solo play in years. \",\"date\":\"2025-08-05\"}]");
+
+
 prepend("et1BZZ4SqUS2w8ZXEoWQL", "status", "Unbeaten");
 prepend("et1BZZ4SqUS2w8ZXEoWQL", "name", "Pokémon Odyssey");
 prepend("et1BZZ4SqUS2w8ZXEoWQL", "platform", "GBA");
