@@ -1,4 +1,11 @@
 
+prepend("bYi0nnRLikTZvgpTAXmbk", "status", "Unbeaten");
+prepend("bYi0nnRLikTZvgpTAXmbk", "name", "UFO 50");
+prepend("bYi0nnRLikTZvgpTAXmbk", "platform", "Switch 2");
+prepend("bYi0nnRLikTZvgpTAXmbk", "addedDate", "2025-08-07");
+prepend("bYi0nnRLikTZvgpTAXmbk", "startDate", "2025-08-07");
+
+
 prepend("gWGm4vN6QAhXH592wXhkc", "startDate", "2012-07-04");
 prepend("gWGm4vN6QAhXH592wXhkc", "addedDate", "2012-07-04");
 prepend("gWGm4vN6QAhXH592wXhkc", "comment", "I’ve owned this game on Xbox, PS3, PSVita, PS4, Nintendo Switch, and PS5. I think the PS controller with dpad is best for this game");
