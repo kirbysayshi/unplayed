@@ -1,4 +1,13 @@
 
+prepend("JWDKYJVGHUzIhr63aHk6n", "status", "Beaten");
+prepend("JWDKYJVGHUzIhr63aHk6n", "name", "Cave Story+");
+prepend("JWDKYJVGHUzIhr63aHk6n", "platform", "Switch");
+prepend("JWDKYJVGHUzIhr63aHk6n", "comment", "Second playthrough. First time was on 3DS sometime around 2011. Finished this run without getting the final weapon.");
+prepend("JWDKYJVGHUzIhr63aHk6n", "addedDate", "2017-06-10");
+prepend("JWDKYJVGHUzIhr63aHk6n", "startDate", "2017-06-10");
+prepend("JWDKYJVGHUzIhr63aHk6n", "endDate", "2017-07-25");
+
+
 prepend("bYi0nnRLikTZvgpTAXmbk", "status", "Unbeaten");
 prepend("bYi0nnRLikTZvgpTAXmbk", "name", "UFO 50");
 prepend("bYi0nnRLikTZvgpTAXmbk", "platform", "Switch 2");
