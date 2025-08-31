@@ -1,4 +1,12 @@
 
+prepend("C2iFFDmbya0VC4Lu82HvS", "status", "Unbeaten");
+prepend("C2iFFDmbya0VC4Lu82HvS", "name", "Earthbound");
+prepend("C2iFFDmbya0VC4Lu82HvS", "platform", "SNES");
+prepend("C2iFFDmbya0VC4Lu82HvS", "comment", "Via the Analogue Pocket");
+prepend("C2iFFDmbya0VC4Lu82HvS", "addedDate", "2025-08-11");
+prepend("C2iFFDmbya0VC4Lu82HvS", "startDate", "2025-08-29");
+
+
 prepend("JWDKYJVGHUzIhr63aHk6n", "status", "Beaten");
 prepend("JWDKYJVGHUzIhr63aHk6n", "name", "Cave Story+");
 prepend("JWDKYJVGHUzIhr63aHk6n", "platform", "Switch");
