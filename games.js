@@ -1,4 +1,12 @@
 
+prepend("bWOFhsO1jhFxiI3U17crK", "status", "Beaten");
+
+prepend("carDaaDhcAwpvqQLE7L9p", "name", "Polarium Advance");
+prepend("carDaaDhcAwpvqQLE7L9p", "endDate", "");
+prepend("carDaaDhcAwpvqQLE7L9p", "source", "");
+prepend("carDaaDhcAwpvqQLE7L9p", "log", "[]");
+
+
 prepend("C2iFFDmbya0VC4Lu82HvS", "status", "Unbeaten");
 prepend("C2iFFDmbya0VC4Lu82HvS", "name", "Earthbound");
 prepend("C2iFFDmbya0VC4Lu82HvS", "platform", "SNES");
