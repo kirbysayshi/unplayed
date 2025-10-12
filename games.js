@@ -1,4 +1,16 @@
 
+prepend("C2iFFDmbya0VC4Lu82HvS", "endDate", "");
+prepend("C2iFFDmbya0VC4Lu82HvS", "source", "");
+prepend("C2iFFDmbya0VC4Lu82HvS", "log", "[{\"text\":\"Hello, Jeff!\",\"date\":\"2025-09-30\"}]");
+
+prepend("ozBrYKzZItr3aJEn2hIc6", "status", "Unbeaten");
+prepend("ozBrYKzZItr3aJEn2hIc6", "name", "Hades 2");
+prepend("ozBrYKzZItr3aJEn2hIc6", "platform", "Switch 2");
+prepend("ozBrYKzZItr3aJEn2hIc6", "comment", "Death to Chronos.");
+prepend("ozBrYKzZItr3aJEn2hIc6", "addedDate", "2025-10-11");
+prepend("ozBrYKzZItr3aJEn2hIc6", "startDate", "2025-10-11");
+
+
 prepend("bWOFhsO1jhFxiI3U17crK", "status", "Beaten");
 
 prepend("carDaaDhcAwpvqQLE7L9p", "name", "Polarium Advance");
