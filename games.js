@@ -1,4 +1,9 @@
 
+prepend("ozBrYKzZItr3aJEn2hIc6", "endDate", "");
+prepend("ozBrYKzZItr3aJEn2hIc6", "source", "");
+prepend("ozBrYKzZItr3aJEn2hIc6", "log", "[{\"text\":\"Defeated Scylla and Eris for the first time!\",\"date\":\"2025-10-19\"},{\"text\":\"Defeated Chronos' first stage!\",\"date\":\"2025-10-20\"}]");
+
+
 prepend("C2iFFDmbya0VC4Lu82HvS", "endDate", "");
 prepend("C2iFFDmbya0VC4Lu82HvS", "source", "");
 prepend("C2iFFDmbya0VC4Lu82HvS", "log", "[{\"text\":\"Hello, Jeff!\",\"date\":\"2025-09-30\"}]");
