@@ -1,4 +1,14 @@
 
+prepend("Gp3li8L1vSE1aSja206qM", "status", "Abandoned");
+prepend("Gp3li8L1vSE1aSja206qM", "name", "Super Dodge Ball");
+prepend("Gp3li8L1vSE1aSja206qM", "platform", "NES");
+prepend("Gp3li8L1vSE1aSja206qM", "comment", "Fun! I didn't know this existed, my first introduction was an SD Gundam variant for SNES!");
+prepend("Gp3li8L1vSE1aSja206qM", "addedDate", "2025-10-04");
+prepend("Gp3li8L1vSE1aSja206qM", "startDate", "2025-10-23");
+prepend("Gp3li8L1vSE1aSja206qM", "endDate", "2025-10-23");
+prepend("Gp3li8L1vSE1aSja206qM", "source", "James Wu");
+
+
 prepend("ozBrYKzZItr3aJEn2hIc6", "endDate", "");
 prepend("ozBrYKzZItr3aJEn2hIc6", "source", "");
 prepend("ozBrYKzZItr3aJEn2hIc6", "log", "[{\"text\":\"Defeated Scylla and Eris for the first time!\",\"date\":\"2025-10-19\"},{\"text\":\"Defeated Chronos' first stage!\",\"date\":\"2025-10-20\"}]");
