@@ -1,4 +1,13 @@
 
+prepend("EKJnKOjvjjM5Rm8movw5W", "status", "Beaten");
+prepend("EKJnKOjvjjM5Rm8movw5W", "name", "Metroid");
+prepend("EKJnKOjvjjM5Rm8movw5W", "platform", "NES");
+prepend("EKJnKOjvjjM5Rm8movw5W", "comment", "The SNES recompilation! https://retrorgb.com/metroid-snes-port-complete.html");
+prepend("EKJnKOjvjjM5Rm8movw5W", "addedDate", "2025-11-07");
+prepend("EKJnKOjvjjM5Rm8movw5W", "startDate", "2025-11-07");
+prepend("EKJnKOjvjjM5Rm8movw5W", "endDate", "2025-11-27");
+
+
 prepend("ozBrYKzZItr3aJEn2hIc6", "log", "[{\"text\":\"Defeated Scylla and Eris for the first time!\",\"date\":\"2025-10-19\"},{\"text\":\"Defeated Chronos' first stage!\",\"date\":\"2025-10-20\"},{\"text\":\"Night 44: Chronos overpowered!\",\"date\":\"2025-10-24\"},{\"text\":\"Night 86: Credits!\",\"date\":\"2025-11-13\"},{\"text\":\"Night 116: I am Night’s Champion!\",\"date\":\"2025-11-19\"}]");
 
 
