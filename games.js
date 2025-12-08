@@ -1,4 +1,13 @@
 
+prepend("GagFvrgphgRHvfc2c1YrD", "status", "Unbeaten");
+prepend("GagFvrgphgRHvfc2c1YrD", "name", "Pokemon Yellow");
+prepend("GagFvrgphgRHvfc2c1YrD", "platform", "GBC");
+prepend("GagFvrgphgRHvfc2c1YrD", "comment", "I received this with the special GBC Pikachu edition for Christmas, 1999.");
+prepend("GagFvrgphgRHvfc2c1YrD", "addedDate", "1999-10-18");
+prepend("GagFvrgphgRHvfc2c1YrD", "startDate", "1999-12-25");
+prepend("GagFvrgphgRHvfc2c1YrD", "log", "[{\"text\":\"Resuming my game from 1999! Three badges to go!\",\"date\":\"2025-12-01\"}]");
+
+
 prepend("EKJnKOjvjjM5Rm8movw5W", "status", "Beaten");
 prepend("EKJnKOjvjjM5Rm8movw5W", "name", "Metroid");
 prepend("EKJnKOjvjjM5Rm8movw5W", "platform", "NES");
