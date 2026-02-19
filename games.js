@@ -1,4 +1,18 @@
 
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "endDate", "");
+prepend("et1BZZ4SqUS2w8ZXEoWQL", "log", "[{\"text\":\"Picking this back up...\",\"date\":\"2025-12-26\"}]");
+
+prepend("ozBrYKzZItr3aJEn2hIc6", "log", "[{\"text\":\"Defeated Scylla and Eris for the first time!\",\"date\":\"2025-10-19\"},{\"text\":\"Defeated Chronos' first stage!\",\"date\":\"2025-10-20\"},{\"text\":\"Night 44: Chronos overpowered!\",\"date\":\"2025-10-24\"},{\"text\":\"Night 86: Credits!\",\"date\":\"2025-11-13\"},{\"text\":\"Night 116: I am Night’s Champion!\",\"date\":\"2025-11-19\"},{\"text\":\"Echo & Narcissus. Defeated Hecate, Scylla, Eris, Polyphemus via Rivals pact. Hecate has revealed REDACTED. I have found the Three Fates!\",\"date\":\"2026-01-02\"},{\"text\":\"Defeated Prometheus and Cerebus via Rivals pact!\",\"date\":\"2026-01-04\"},{\"text\":\"Defeated Typhon, but failed at Chronos via Rivals pact!\",\"date\":\"2026-01-05\"}]");
+
+prepend("5MOOArsXnXw3HgST6Ia2M", "status", "Unbeaten");
+prepend("5MOOArsXnXw3HgST6Ia2M", "name", "Pokemon Rogue Emerald v2.0.1a");
+prepend("5MOOArsXnXw3HgST6Ia2M", "platform", "GBA");
+prepend("5MOOArsXnXw3HgST6Ia2M", "comment", "Hm, this is basically what Al, Phoebe, and I brainstormed during our car ride!");
+prepend("5MOOArsXnXw3HgST6Ia2M", "addedDate", "2026-01-07");
+prepend("5MOOArsXnXw3HgST6Ia2M", "startDate", "2026-01-09");
+prepend("5MOOArsXnXw3HgST6Ia2M", "source", "https://www.pokecommunity.com/threads/pokemon-emerald-rogue.479406/");
+
+
 prepend("ZhdAMPtL6m8oxNDMztmg4", "status", "Beaten");
 prepend("ZhdAMPtL6m8oxNDMztmg4", "name", "Pokemon Stadium");
 prepend("ZhdAMPtL6m8oxNDMztmg4", "platform", "N64");
