@@ -1,4 +1,13 @@
 
+prepend("Juo77Mz1V69VzqrlmNOBJ", "status", "Unbeaten");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "name", "Pokemon Crystal Legacy");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "platform", "GBC");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "comment", "Been trying to play Gold for forever, kept getting hung up on whether to play HeartGold via rom or replace the battery in the Gold cart (apparently it only lasts a few years due to inefficient RTC! Bye bye save). Instead, bought a custom cart + shell to play this hack.");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "addedDate", "2026-01-22");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "startDate", "2026-02-02");
+prepend("Juo77Mz1V69VzqrlmNOBJ", "source", "https://www.romhacking.net/hacks/8134/");
+
+
 prepend("0E67YtwpKOBFdmoH0MIhO", "status", "Unbeaten");
 prepend("0E67YtwpKOBFdmoH0MIhO", "name", "Metal Gear Solid 2");
 prepend("0E67YtwpKOBFdmoH0MIhO", "platform", " PS2");
