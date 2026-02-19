@@ -1,4 +1,14 @@
 
+prepend("88bpBOCJh5BixWCYPGu9q", "status", "Unbeaten");
+prepend("88bpBOCJh5BixWCYPGu9q", "name", "Dragon Warrior IV");
+prepend("88bpBOCJh5BixWCYPGu9q", "platform", "NES");
+prepend("88bpBOCJh5BixWCYPGu9q", "comment", "Playing via Analogue Pocket.");
+prepend("88bpBOCJh5BixWCYPGu9q", "addedDate", "2026-01-15");
+prepend("88bpBOCJh5BixWCYPGu9q", "startDate", "2026-01-15");
+prepend("88bpBOCJh5BixWCYPGu9q", "source", "Zach Gage via Games of 2025 Eggplant episode");
+prepend("88bpBOCJh5BixWCYPGu9q", "log", "[{\"text\":\"Chapter 1: Into the secret woods entrace\",\"date\":\"2026-01-22\"},{\"text\":\"I have the flying shoes!\",\"date\":\"2026-02-05\"},{\"text\":\"Died twice on Chapter 1 boss and had to take a break. Remember: boss usually attacks first so it takes two turns to get a heal item off.\",\"date\":\"2026-02-14\"},{\"text\":\"A healing herb to Healie brough victory! End of Chapter 1.\",\"date\":\"2026-02-15\"},{\"text\":\"Start of Chapter 2! There is a kitty on the roof.\",\"date\":\"2026-02-17\"}]");
+
+
 prepend("Juo77Mz1V69VzqrlmNOBJ", "status", "Unbeaten");
 prepend("Juo77Mz1V69VzqrlmNOBJ", "name", "Pokemon Crystal Legacy");
 prepend("Juo77Mz1V69VzqrlmNOBJ", "platform", "GBC");
