@@ -1,4 +1,14 @@
 
+prepend("ZhdAMPtL6m8oxNDMztmg4", "status", "Beaten");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "name", "Pokemon Stadium");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "platform", "N64");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "comment", "Our original cartridge. We discovered that your Pokemon Yellow Pikachu can learn surf if you beat this game. It is time to hit the beach!");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "addedDate", "2025-12-21");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "startDate", "2025-12-21");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "endDate", "2025-12-27");
+prepend("ZhdAMPtL6m8oxNDMztmg4", "log", "[{\"text\":\"Using our original DMG-001s, my Pokemon Yellow game from 1999, and my Everdrive, Al and I are creating a reasonable team of Pokemon using https://pkmds.app/ (save editor). We have limited time due to the holiday, and defeating all the cups will in itself take lots of time.\",\"date\":\"2025-12-22\"},{\"text\":\"We have defeated all the gym leaders and rival! And finished the Great Ball Cup.\",\"date\":\"2025-12-23\"},{\"text\":\"Finished the Master Ball Cup.\",\"date\":\"2025-12-25\"},{\"text\":\"\\\"Round 1\\\" is complete! Mewtwo has arrived and been defeated!\",\"date\":\"2025-12-26\"},{\"text\":\"Mission accomplished! \\\"Round 2\\\" Master Ball Cup was defeated thanks to TooMew (Mewtwo) and BillBulmn (Tauros). The animation when Pikachu learns surf is incredibly cute and rad.\",\"date\":\"2025-12-27\"}]");
+
+
 prepend("GagFvrgphgRHvfc2c1YrD", "log", "[{\"text\":\"Resuming my game from 1999! Three badges to go!\",\"date\":\"2025-12-01\"},{\"text\":\"Articuno!\",\"date\":\"2025-12-09\"},{\"text\":\"I have reached the Elite Four\",\"date\":\"2025-12-20\"},{\"text\":\"I am the Pokemon Champion!\",\"date\":\"2025-12-21\"},{\"text\":\"My Pikachu can surf! Thank you, Pokemon Stadium. Especially TooMew (Mewtwo) and BillBulmn (Tauros)!\",\"date\":\"2025-12-27\"}]");
 prepend("GagFvrgphgRHvfc2c1YrD", "status", "Beaten");
 prepend("GagFvrgphgRHvfc2c1YrD", "endDate", "");
