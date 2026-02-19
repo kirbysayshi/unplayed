@@ -1,4 +1,9 @@
 
+prepend("0E67YtwpKOBFdmoH0MIhO", "log", "[{\"text\":\"PS2 DualShock2 pressure sensitivity is quite cool, actually. Combat / eluding still stinks though. Once seen, easier to die and continue instead of hiding or fighting. The misdirection of, \\\"Do you remember the tanker accident two years ago, Snake?\\\" is awesome. Hated it as a kid, now it's just cool and challenging.\",\"date\":\"2026-01-31\"},{\"text\":\"Raiden: I've had lots of training!\\nGame: shows PS1 VR training footage\\n\\nRaiden: But nothing seems real! [...] Rose why are you even here?\\n\\nDiffused all the bombs and defeated Fatman\",\"date\":\"2026-02-03\"}]");
+prepend("0E67YtwpKOBFdmoH0MIhO", "endDate", "");
+prepend("0E67YtwpKOBFdmoH0MIhO", "source", "");
+
+
 prepend("88bpBOCJh5BixWCYPGu9q", "status", "Unbeaten");
 prepend("88bpBOCJh5BixWCYPGu9q", "name", "Dragon Warrior IV");
 prepend("88bpBOCJh5BixWCYPGu9q", "platform", "NES");
