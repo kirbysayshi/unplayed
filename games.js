@@ -1,4 +1,10 @@
 
+prepend("GagFvrgphgRHvfc2c1YrD", "log", "[{\"text\":\"Resuming my game from 1999! Three badges to go!\",\"date\":\"2025-12-01\"},{\"text\":\"Articuno!\",\"date\":\"2025-12-09\"},{\"text\":\"I have reached the Elite Four\",\"date\":\"2025-12-20\"},{\"text\":\"I am the Pokemon Champion!\",\"date\":\"2025-12-21\"},{\"text\":\"My Pikachu can surf! Thank you, Pokemon Stadium. Especially TooMew (Mewtwo) and BillBulmn (Tauros)!\",\"date\":\"2025-12-27\"}]");
+prepend("GagFvrgphgRHvfc2c1YrD", "status", "Beaten");
+prepend("GagFvrgphgRHvfc2c1YrD", "endDate", "");
+prepend("GagFvrgphgRHvfc2c1YrD", "source", "");
+
+
 prepend("GagFvrgphgRHvfc2c1YrD", "status", "Unbeaten");
 prepend("GagFvrgphgRHvfc2c1YrD", "name", "Pokemon Yellow");
 prepend("GagFvrgphgRHvfc2c1YrD", "platform", "GBC");
