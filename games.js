@@ -1,4 +1,13 @@
 
+prepend("0E67YtwpKOBFdmoH0MIhO", "status", "Unbeaten");
+prepend("0E67YtwpKOBFdmoH0MIhO", "name", "Metal Gear Solid 2");
+prepend("0E67YtwpKOBFdmoH0MIhO", "platform", " PS2");
+prepend("0E67YtwpKOBFdmoH0MIhO", "comment", "This game feels prescient and relevant given the collapse and manipulation of objective truth.");
+prepend("0E67YtwpKOBFdmoH0MIhO", "addedDate", "2026-01-30");
+prepend("0E67YtwpKOBFdmoH0MIhO", "startDate", "2026-01-31");
+prepend("0E67YtwpKOBFdmoH0MIhO", "log", "[{\"text\":\"PS2 DualShock2 pressure sensitivity is quite cool, actually. Combat / eluding still stinks though. Once seen, easier to die and continue instead of hiding or fighting. The misdirection of, \\\"Do you remember the tanker accident two years ago, Snake?\\\" is awesome. Hated it as a kid, now it's just cool and challenging.\",\"date\":\"2026-01-31\"},{\"text\":\"Raiden: I've had lots of training!\\nGame: shows PS1 VR training footage\\n\\nRaiden: But nothing seems real! [...] Rose why are you even here?\",\"date\":\"2026-02-03\"}]");
+
+
 prepend("et1BZZ4SqUS2w8ZXEoWQL", "endDate", "");
 prepend("et1BZZ4SqUS2w8ZXEoWQL", "log", "[{\"text\":\"Picking this back up...\",\"date\":\"2025-12-26\"}]");
 
