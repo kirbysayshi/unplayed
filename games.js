@@ -1,4 +1,12 @@
 
+prepend("HyXZjLfp1HsD3HcSxP6zh", "status", "Unbeaten");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "name", "Racheteer DX");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "platform", "Switch");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "comment", "Shaun Inman + Panic!");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "addedDate", "2026-03-07");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "startDate", "2026-03-07");
+
+
 prepend("IZzSXF4eCtw6JEf18i1fx", "status", "Unbeaten");
 prepend("IZzSXF4eCtw6JEf18i1fx", "name", "Pokemon Legends Arceus");
 prepend("IZzSXF4eCtw6JEf18i1fx", "platform", "Switch 2");
