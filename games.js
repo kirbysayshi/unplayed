@@ -1,4 +1,10 @@
 
+prepend("HyXZjLfp1HsD3HcSxP6zh", "status", "Beaten");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "endDate", "2026-03-15");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "source", "");
+prepend("HyXZjLfp1HsD3HcSxP6zh", "log", "[{\"text\":\"4h10m but it felt a lot longer… greatest damage dealer: falling! Jumping in a 2d Link’s Awakening style game will always be tedious. But such a cute game, loved the theme, and very tight with its world/map design. I unfortunately only have 24 runes. Oh well!\",\"date\":\"2026-03-15\"}]");
+
+
 prepend("HyXZjLfp1HsD3HcSxP6zh", "status", "Unbeaten");
 prepend("HyXZjLfp1HsD3HcSxP6zh", "name", "Racheteer DX");
 prepend("HyXZjLfp1HsD3HcSxP6zh", "platform", "Switch");
