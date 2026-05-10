@@ -1,4 +1,12 @@
 
+prepend("o58fHudAI9LIMEWteueIe", "status", "Unbeaten");
+prepend("o58fHudAI9LIMEWteueIe", "name", "Wanderstop");
+prepend("o58fHudAI9LIMEWteueIe", "platform", "PS5");
+prepend("o58fHudAI9LIMEWteueIe", "addedDate", "2026-05-09");
+prepend("o58fHudAI9LIMEWteueIe", "startDate", "2026-05-09");
+prepend("o58fHudAI9LIMEWteueIe", "source", "https://kat-pixeladay.medium.com/transcript-wanderstop-celeste-and-the-power-of-radical-self-acceptance-0d19e9f3b810");
+
+
 prepend("GagFvrgphgRHvfc2c1YrD", "endDate", "2025-12-21");
 
 
