@@ -1,4 +1,14 @@
 
+prepend("1FDCcsGyc0VKPULn0qTIa", "status", "Beaten");
+prepend("1FDCcsGyc0VKPULn0qTIa", "name", "Star Fox (2026)");
+prepend("1FDCcsGyc0VKPULn0qTIa", "platform", "Switch 2");
+prepend("1FDCcsGyc0VKPULn0qTIa", "comment", "Never give up, trust your instincts");
+prepend("1FDCcsGyc0VKPULn0qTIa", "addedDate", "2026-06-25");
+prepend("1FDCcsGyc0VKPULn0qTIa", "startDate", "2026-06-25");
+prepend("1FDCcsGyc0VKPULn0qTIa", "endDate", "2026-06-26");
+prepend("1FDCcsGyc0VKPULn0qTIa", "log", "[{\"text\":\"Completed the \\\"hard\\\" path during my first campaign. Seven continues!!! Will probably continue to earn medals, unlock routes, complete challenges. But right now my shooting thumb needs a break!\",\"date\":\"2026-06-26\"}]");
+
+
 prepend("o58fHudAI9LIMEWteueIe", "status", "Unbeaten");
 prepend("o58fHudAI9LIMEWteueIe", "name", "Wanderstop");
 prepend("o58fHudAI9LIMEWteueIe", "platform", "PS5");
