@@ -1,4 +1,8 @@
 
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "log", "[{\"text\":\"Credits on BUST-A-MOVE2X Player vs CPU Normal difficulty! But I did use infinite continues :D\",\"date\":\"2026-07-05\"},{\"text\":\"Credits on BUST-A-MOVE2X Puzzle Mode Normal! 1.4m points! … with infinite continues.\",\"date\":\"\"}]");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "source", "");
+
+
 prepend("CbbvQtmCuRn4jMMyC6Hb3", "status", "Beaten");
 prepend("CbbvQtmCuRn4jMMyC6Hb3", "name", "Bust-a-Move 2 Arcade Edition");
 prepend("CbbvQtmCuRn4jMMyC6Hb3", "platform", "PS5");
