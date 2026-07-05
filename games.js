@@ -1,4 +1,14 @@
 
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "status", "Beaten");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "name", "Bust-a-Move 2 Arcade Edition");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "platform", "PS5");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "comment", "We played the arcade version in Beacon (Lisa defeated all)! This was originally released for PS1, collected in “Puzzle Bobble S-Tribute” for PS5z");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "addedDate", "2026-06-30");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "startDate", "2026-07-04");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "endDate", "2026-07-05");
+prepend("CbbvQtmCuRn4jMMyC6Hb3", "log", "[{\"text\":\"Credits on BUST-A-MOVE2X Normal difficulty! But I did use infinite continues :D\",\"date\":\"2026-07-05\"}]");
+
+
 prepend("1FDCcsGyc0VKPULn0qTIa", "status", "Beaten");
 prepend("1FDCcsGyc0VKPULn0qTIa", "name", "Star Fox (2026)");
 prepend("1FDCcsGyc0VKPULn0qTIa", "platform", "Switch 2");
