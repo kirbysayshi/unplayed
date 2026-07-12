@@ -1,4 +1,12 @@
 
+prepend("AE08SvDgR2MOcCWMSx0Gp", "status", "Unbeaten");
+prepend("AE08SvDgR2MOcCWMSx0Gp", "name", "Assassin’s Creed Odyssey");
+prepend("AE08SvDgR2MOcCWMSx0Gp", "platform", "PS5");
+prepend("AE08SvDgR2MOcCWMSx0Gp", "comment", "80% off, let’s get ready for The Odyssey in IMAX!");
+prepend("AE08SvDgR2MOcCWMSx0Gp", "addedDate", "2026-07-11");
+prepend("AE08SvDgR2MOcCWMSx0Gp", "startDate", "2026-07-11");
+
+
 prepend("CbbvQtmCuRn4jMMyC6Hb3", "log", "[{\"text\":\"Credits on BUST-A-MOVE2X Player vs CPU Normal difficulty! But I did use infinite continues :D\",\"date\":\"2026-07-05\"},{\"text\":\"Credits on BUST-A-MOVE2X Puzzle Mode Normal! 1.4m points! … with infinite continues.\",\"date\":\"\"}]");
 prepend("CbbvQtmCuRn4jMMyC6Hb3", "source", "");
 
