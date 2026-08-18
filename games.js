@@ -1,4 +1,12 @@
 
+prepend("uZqMRt6Luvhtz3DEFigvm", "status", "Unbeaten");
+prepend("uZqMRt6Luvhtz3DEFigvm", "name", "Advance Wars");
+prepend("uZqMRt6Luvhtz3DEFigvm", "platform", "GBA");
+prepend("uZqMRt6Luvhtz3DEFigvm", "comment", "I bought this cart years and years ago! Probably due to nerdsherpa mentioning it. Time to finally play after seeing it mentioned in a thumbnail for a video about “dad games”.");
+prepend("uZqMRt6Luvhtz3DEFigvm", "addedDate", "2026-08-15");
+prepend("uZqMRt6Luvhtz3DEFigvm", "startDate", "2026-08-15");
+
+
 prepend("AE08SvDgR2MOcCWMSx0Gp", "status", "Unbeaten");
 prepend("AE08SvDgR2MOcCWMSx0Gp", "name", "Assassin’s Creed Odyssey");
 prepend("AE08SvDgR2MOcCWMSx0Gp", "platform", "PS5");
