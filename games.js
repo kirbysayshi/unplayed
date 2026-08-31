@@ -1,4 +1,13 @@
 
+prepend("7aCaeQFY1vcWXj9FSH39v", "status", "Unbeaten");
+prepend("7aCaeQFY1vcWXj9FSH39v", "name", "Dragon Age 2");
+prepend("7aCaeQFY1vcWXj9FSH39v", "platform", "PS3");
+prepend("7aCaeQFY1vcWXj9FSH39v", "comment", "Let’s boot the old PS3 up, the master of loading screens. I was motivated to try this due to reading about how the “writers’ pit” was the driving force. Added CFW to the PS3, and having a nice time using the Retrofighters Defender Pro (my DualShock3s work well, but it’s fun trying something new).");
+prepend("7aCaeQFY1vcWXj9FSH39v", "addedDate", "2026-08-27");
+prepend("7aCaeQFY1vcWXj9FSH39v", "startDate", "2026-08-31");
+prepend("7aCaeQFY1vcWXj9FSH39v", "source", "https://aftermath.site/boss-fight-dragon-age/");
+
+
 prepend("uZqMRt6Luvhtz3DEFigvm", "status", "Unbeaten");
 prepend("uZqMRt6Luvhtz3DEFigvm", "name", "Advance Wars");
 prepend("uZqMRt6Luvhtz3DEFigvm", "platform", "GBA");
