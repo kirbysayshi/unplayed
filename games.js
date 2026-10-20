@@ -1,4 +1,12 @@
 
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "status", "Unbeaten");
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "name", "Star Wars Galactic Racer");
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "platform", "PS5");
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "comment", "It’s a new lap record!");
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "addedDate", "2026-10-19");
+prepend("Wrv3GMcSvzVlw5x6XHEdp", "startDate", "2026-10-19");
+
+
 prepend("DFXIalpp085QPJmwvLrME", "status", "Unbeaten");
 prepend("DFXIalpp085QPJmwvLrME", "name", "Silent Hill: Townfall");
 prepend("DFXIalpp085QPJmwvLrME", "platform", "PS5");
